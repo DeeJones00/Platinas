@@ -8,10 +8,12 @@ PWA to read game guides and strike items off while playing. Plain HTML/CSS/JS, n
 - `> text` is a note (not strikeable)
 - any other line is an item you tap to strike
 
-## Deploy on Cloudflare Pages
+## Deploy on GitHub Pages
 
-Connect this repo in Cloudflare Pages (Workers & Pages > Create > Pages > Connect to Git). Framework preset: none. Build command: empty. Output directory: `/`.
+Repo Settings > Pages > Source: "Deploy from a branch". Pick the branch (for example `main`) and folder `/ (root)`. The site goes live at `https://<user>.github.io/platinas/`.
 
-Or from the CLI: `npx wrangler pages deploy . --project-name platinas`.
+## Deploy on Cloudflare Pages (alternative)
+
+Connect the repo in Cloudflare Pages. Framework preset: none. Build command: empty. Output directory: `/`.
 
 When changing cached files, bump `CACHE` in `sw.js`.

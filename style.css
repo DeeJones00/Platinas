@@ -1,0 +1,25 @@
+:root{--bg:#12141c;--card:#1e2230;--fg:#e8eaf2;--mute:#8b90a5;--acc:#7c5cff;--ok:#3ecf8e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.5 system-ui,sans-serif;padding-bottom:env(safe-area-inset-bottom)}
+header{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:8px;padding:10px 14px;padding-top:calc(10px + env(safe-area-inset-top));background:var(--bg);border-bottom:1px solid #2a2f42}
+header h1{flex:1;margin:0;font-size:1.1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+button,input,textarea{font:inherit;color:inherit}
+button{background:var(--card);border:1px solid #2a2f42;border-radius:10px;padding:8px 12px;cursor:pointer}
+button.primary{background:var(--acc);border-color:var(--acc);color:#fff}
+button.danger{color:#ff6b6b}
+main{max-width:720px;margin:0 auto;padding:14px}
+input,textarea{width:100%;background:var(--card);border:1px solid #2a2f42;border-radius:10px;padding:10px;margin:6px 0}
+textarea{min-height:50vh;font-family:ui-monospace,monospace;font-size:15px}
+.row{display:flex;gap:8px;align-items:center}
+.card{background:var(--card);border-radius:12px;padding:14px;margin:10px 0;display:flex;justify-content:space-between;align-items:center;gap:10px;cursor:pointer}
+.card small{color:var(--mute);display:block}
+.bar{height:6px;background:#2a2f42;border-radius:3px;overflow:hidden;margin-top:6px;min-width:120px}
+.bar i{display:block;height:100%;background:var(--ok)}
+.empty{color:var(--mute);text-align:center;margin-top:30vh}
+h2.sec{font-size:1rem;color:var(--acc);margin:22px 0 6px;border-bottom:1px solid #2a2f42}
+.item{display:flex;gap:12px;padding:12px 6px;border-bottom:1px solid #20243a;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}
+.item .box{flex:none;width:22px;height:22px;border:2px solid var(--mute);border-radius:6px;margin-top:2px}
+.item.done{color:var(--mute);text-decoration:line-through}
+.item.done .box{background:var(--ok);border-color:var(--ok)}
+.note{color:var(--mute);padding:4px 6px}
+.hint{color:var(--mute);font-size:.85rem}

@@ -113,7 +113,6 @@ h2.sec{font-size:1rem;color:var(--gold);margin:22px 0 6px}
 .sqrow{display:flex;align-items:center;gap:10px;margin-top:8px;flex-wrap:wrap}
 .sqs{display:flex;gap:6px;flex-wrap:wrap}
 .sq{width:34px;height:34px;padding:0;border-radius:8px;border:2px solid #5a6870;background:#0f1417;color:var(--mute);font-weight:700;font-size:.9rem}
-.sq.free{border-style:dashed}
 .sq.on{background:var(--ok);border-color:var(--ok);color:#0d1013}
 .owned{color:var(--mute);font-size:.85rem;font-variant-numeric:tabular-nums}
 .cardrow.partial .owned{color:var(--gold)}

@@ -20,7 +20,7 @@ Use "Importar" to load a `.txt` guide or a `.json` backup. "Backup" downloads ev
 
 ## Gwent card guide
 
-`tools/build_gwent_guide.py` builds `guides/gwent.txt` (cards by faction, with art) from `guides/witcher3.txt`. Card art is loaded at runtime from the Witcher wiki (Fandom) and cached on the device; it is not stored in this repo. Cards link to their entry in the main guide (`> @link guide:n`), so ticking one ticks the other. Item art is set with `> @img <url>`. Every game card is one row with a square per copy (`> @grp` marks the items that are copies of one card). Copies the main guide lists are linked to it; other copies, and cards outside the guide, are tracked only here. Links also carry the main guide item title (`> @lt`), so they survive edits that move items.
+The Gwent cards and players are not in the main guide: `tools/strip_gwent.py` removes the "Cartas de Gwent" groups from the full converted guide, and `tools/build_gwent_guide.py` builds `guides/gwent.txt` (cards by faction, with art) from the full text (kept in the git-ignored `private/witcher3-full.txt`). Card art is loaded at runtime from the Witcher wiki (Fandom) and cached on the device; it is not stored in this repo. Cards link to their entry in the main guide (`> @link guide:n`), so ticking one ticks the other. Item art is set with `> @img <url>`. Every game card is one row with a square per copy (`> @grp` marks the items that are copies of one card). Cards are tracked only here; the Gwent quests and achievements stay in the main guide and are linked to it. Links also carry the main guide item title (`> @lt`), so they survive edits that move items.
 
 ## Bundled guides
 

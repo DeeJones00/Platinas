@@ -6,7 +6,10 @@ images from there at runtime. Every card of the game appears once; it has one it
 per copy under the card. Copies the main guide lists link back to it ("@link lib-witcher3.txt:<item number>") so
 ticks stay in sync; the other copies, and cards outside the guide, are only tracked here.
 
-Usage: build_gwent_guide.py [guides/witcher3.txt] [guides/gwent.txt]
+The Gwent cards and players are no longer in the main guide (see strip_gwent.py), so the cards are tracked only
+here. Gwent quests and achievements stay in the main guide and keep their link.
+
+Usage: build_gwent_guide.py [private/witcher3-full.txt] [guides/gwent.txt] [guides/witcher3.txt]
 """
 import json
 import re
@@ -190,13 +193,25 @@ def read_main(src):
     return cards, others
 
 
+def align(full_titles, main_titles):
+    """Map item ordinals of the full guide to the main guide (the main guide is the full one minus some items)."""
+    out, j = {}, 0
+    for i, t in enumerate(full_titles):
+        if j < len(main_titles) and t == main_titles[j]:
+            out[i] = j
+            j += 1
+    return out if j == len(main_titles) else {}
+
+
 def slug(name):
     return norm(name) or 'card'
 
 
-def main(src, dst):
+def main(src, dst, main_path='guides/witcher3.txt'):
     imgs, data = images(), card_data()
     cards, others = read_main(src)
+    titles = lambda path: [re.sub(r'^(\[x\]|-) ', '', l) for l in open(path, encoding='utf8').read().split('\n') if re.match(r'^(\[x\]|-) ', l)]
+    to_main = align(titles(src), titles(main_path))
     for c in cards:
         c['info'] = card_info(c['name'], data)
     title_of = {c['n']: c['title'] for c in cards}
@@ -238,8 +253,8 @@ def main(src, dst):
     n_entries = sum(len(r['entries']) for r in recs.values())
     n_copies = sum(r['total'] for r in recs.values())
     out = ['> Baralho de Gwent completo, por facção. Cada carta mostra um quadradinho por cópia que existe no jogo: marque as que você já tem.',
-           '> As cópias que o guia principal lista são ligadas a ele (marcar aqui marca lá e vice-versa). As outras, e as cartas fora do guia, ficam só aqui e não contam para o Card Collector.',
-           '> %d cartas, %d cópias no total (%d delas estão no guia).' % (len(recs), n_copies, n_entries)]
+           '> Cartas e jogadores de Gwent são controlados só aqui (foram tirados do guia principal). Quests e conquistas de Gwent continuam no guia principal e estão ligadas a ele.',
+           '> %d cartas, %d cópias no total (%d delas estão no guia original; as outras não contam para o Card Collector).' % (len(recs), n_copies, n_entries)]
     for fac in order:
         lst = groups.get(fac)
         if not lst:
@@ -255,9 +270,6 @@ def main(src, dst):
                 out.append('> @grp ' + g)
                 if r['img']:
                     out.append('> @img ' + r['img'])
-                if e:
-                    out.append('> @link %s:%d' % (MAIN_ID, e['n']))
-                    out.append('> @lt ' + title_of[e['n']])
                 if inf:
                     if inf['pow']:
                         out.append('> @pow ' + inf['pow'])
@@ -271,18 +283,19 @@ def main(src, dst):
                 if e:
                     out += ['> ' + d for d in e['detail']]
                 else:
-                    out.append('> Cópia que não está no guia principal: só controle aqui.')
+                    out.append('> Cópia que não está no guia original.')
     # jogadores, quests e conquistas de Gwent (ligados ao guia principal)
     out.append('# Jogadores e quests de Gwent')
-    out.append('> Quem enfrentar, quests e conquistas de Gwent. Ligados ao guia principal.')
+    out.append('> Quem enfrentar, quests e conquistas de Gwent. Quests e conquistas estão ligadas ao guia principal; jogadores são controlados só aqui.')
     seq = None
     for o in others:
         if o['seq'] != seq:
             seq = o['seq']
             out.append('## ' + seq)
         out.append(('[x] ' if o['done'] else '- ') + o['title'])
-        out.append('> @link %s:%d' % (MAIN_ID, o['n']))
-        out.append('> @lt ' + o['title'])
+        if o['n'] in to_main:
+            out.append('> @link %s:%d' % (MAIN_ID, to_main[o['n']]))
+            out.append('> @lt ' + o['title'])
         out += ['> ' + d for d in o['detail']]
     open(dst, 'w', encoding='utf8').write('\n'.join(out) + '\n')
     print(len(recs), 'cards,', n_copies, 'copies,', n_entries, 'in the guide;', len(wiki_only), 'wiki-only;', len(others), 'players/quests;',
@@ -293,4 +306,4 @@ def main(src, dst):
 
 
 if __name__ == '__main__':
-    main(*(sys.argv[1:3] or ['guides/witcher3.txt', 'guides/gwent.txt']))
+    main(*(sys.argv[1:4] or ['private/witcher3-full.txt', 'guides/gwent.txt', 'guides/witcher3.txt']))

@@ -58,7 +58,10 @@ function parse(text) {
       stack.push({ depth, node: g });
       last = g;
     } else if ((m = line.match(/^>\s*(.*)/))) {
-      (last || root).d.push(m[1]);
+      let k;
+      if (last && !last.g && (k = m[1].match(/^@img\s+(\S+)/))) last.i = k[1];
+      else if (last && !last.g && (k = m[1].match(/^@link\s+(\S+)/))) last.l = k[1];
+      else (last || root).d.push(m[1]);
     } else {
       const it = { x: line.replace(/^([-*+]|\d+[.)])\s+/, '').replace(/^\[[ xX]?\]\s*/, ''), n: n++, d: [] };
       if (/^(?:[-*+]\s+)?\[[xX]\]/.test(line)) done[it.n] = 1;
@@ -77,6 +80,8 @@ const toText = (tree, notes = [], done = {}) => {
       walk(x.c, depth + 1);
     } else {
       out.push((done[x.n] ? '[x] ' : '- ') + x.x);
+      if (x.i) out.push('> @img ' + x.i);
+      if (x.l) out.push('> @link ' + x.l);
       x.d.forEach((d) => out.push('> ' + d));
     }
   });
@@ -98,6 +103,41 @@ const guideStats = (g) => {
   return { d, t, pct: t ? Math.round((d / t) * 100) : 0 };
 };
 
+// Itens ligados entre guias ("@link guia:n"): marcar um marca o outro, nos dois sentidos.
+let linkAdj = {};
+function buildLinks() {
+  linkAdj = {};
+  const walk = (gid, nodes) => nodes.forEach((x) => {
+    if (x.g) return walk(gid, x.c);
+    if (!x.l) return;
+    const a = gid + ':' + x.n;
+    (linkAdj[a] ||= []).push(x.l);
+    (linkAdj[x.l] ||= []).push(a);
+  });
+  Object.values(guides).forEach((g) => walk(g.id, g.tree));
+}
+async function propagate(gid, n, val) {
+  for (const t of linkAdj[gid + ':' + n] || []) {
+    const [tg, tn] = [t.slice(0, t.lastIndexOf(':')), t.slice(t.lastIndexOf(':') + 1)];
+    if (!guides[tg]) continue;
+    const pr = (progress[tg] ||= { done: {}, open: {} });
+    if (val) pr.done[tn] = 1; else delete pr.done[tn];
+    await saveProgress(tg);
+  }
+}
+// Ao importar um guia ligado, herda o que ja estava marcado no outro lado.
+async function pullLinks(gid) {
+  const g = guides[gid], pr = (progress[gid] ||= { done: {}, open: {} });
+  const walk = (nodes) => nodes.forEach((x) => {
+    if (x.g) return walk(x.c);
+    if (!x.l) return;
+    const i = x.l.lastIndexOf(':');
+    if (progress[x.l.slice(0, i)]?.done[x.l.slice(i + 1)]) pr.done[x.n] = 1;
+  });
+  walk(g.tree);
+  await saveProgress(gid);
+}
+
 async function saveGuide(g) { await put('guides', g.id, g); }
 const saveProgress = (id) => put('progress', id, progress[id]);
 const saveGames = () => put('meta', 'games', games);
@@ -108,12 +148,14 @@ async function init() {
   games = (await get('meta', 'games')) || [];
   await migrateOld();
   await syncLibrary();
+  buildLinks();
   Object.values(guides).forEach((g) => g.game && !games.includes(g.game) && games.push(g.game));
   render();
 }
 
 // Guias da pasta guides/ entram sozinhos na primeira abertura. Guia excluido pelo usuario nao volta.
 async function syncLibrary() {
+  const libNew = [];
   let list;
   try { list = await (await fetch('guides/index.json')).json(); } catch { return; }
   const skip = (await get('meta', 'libSkip')) || [];
@@ -140,8 +182,10 @@ async function syncLibrary() {
       progress[id] = { done: p.done, open: {} };
       if (!games.includes(e.game)) { games.push(e.game); await saveGames(); }
       await saveGuide(g); await saveProgress(id);
+      libNew.push(id);
     } catch { /* sem rede: tenta na proxima abertura */ }
   }
+  if (libNew.length) { buildLinks(); for (const id of libNew) await pullLinks(id); }
 }
 
 // Guias do formato antigo (localStorage) viram guias novos uma unica vez.
@@ -263,6 +307,7 @@ function edit() {
     guides[rec.id] = rec;
     progress[rec.id] ||= { done: p.done, open: {} };
     await saveGuide(rec); await saveProgress(rec.id);
+    buildLinks();
     go({ name: 'read', id: rec.id });
   };
   if (g) $('#del').onclick = async () => {
@@ -315,12 +360,19 @@ function read() {
     const el = document.createElement('div');
     el.className = 'item' + (pr.done[it.n] ? ' done' : '');
     const hasD = it.d && it.d.length;
-    el.innerHTML = `<span class="box"></span><span class="ico">${itemIcon(it.x)}</span><div class="txt"><div class="ttl">${esc(it.x)}</div>${hasD ? '<div class="detail" hidden>' + noteHtml(it.d) + '</div>' : ''}</div>${hasD ? '<span class="more">ⓘ</span>' : ''}`;
+    const thumb = it.i ? `<img class="thumb" loading="lazy" crossorigin="anonymous" alt="" src="${esc(it.i)}">` : `<span class="ico">${itemIcon(it.x)}</span>`;
+    el.innerHTML = `<span class="box"></span>${thumb}<div class="txt"><div class="ttl">${esc(it.x)}</div>${hasD ? '<div class="detail" hidden>' + noteHtml(it.d) + '</div>' : ''}</div>${hasD ? '<span class="more">ⓘ</span>' : ''}`;
     el.querySelector('.box').onclick = () => {
       if (pr.done[it.n]) delete pr.done[it.n]; else pr.done[it.n] = 1;
       el.classList.toggle('done', !!pr.done[it.n]);
       el.classList.add('just'); // nao some na hora, mesmo com "Ocultar feitos" ligado
       saveProgress(g.id); refreshCounts();
+      propagate(g.id, it.n, !!pr.done[it.n]);
+    };
+    const im = el.querySelector('.thumb');
+    if (im) im.onclick = () => {
+      const big = el.classList.toggle('bigimg');
+      im.src = big ? it.i.replace('/scale-to-width-down/200', '/scale-to-width-down/480') : it.i;
     };
     if (hasD) el.querySelectorAll('.txt, .more').forEach((x) => (x.onclick = () => { const dt = el.querySelector('.detail'); dt.hidden = !dt.hidden; }));
     return el;

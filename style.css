@@ -75,3 +75,9 @@ h2.sec{font-size:1rem;color:var(--gold);margin:22px 0 6px}
 .detail p,.note p{margin:6px 0}
 .note{color:var(--mute);font-size:.92rem;padding:4px 8px}
 #view.hidedone .item.done:not(.just){display:none}
+
+/* cartas com arte */
+.thumb{flex:none;width:64px;height:auto;min-height:88px;border-radius:6px;border:1px solid var(--line);background:#0a0d10 center/cover;object-fit:cover;cursor:zoom-in}
+.item.bigimg{flex-wrap:wrap}
+.item.bigimg .thumb{width:100%;max-width:300px;order:5;cursor:zoom-out;margin:8px auto 0}
+.item.done .thumb{opacity:.55;border-color:#2f6b43}

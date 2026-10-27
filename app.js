@@ -107,8 +107,28 @@ async function init() {
   progress = await all('progress');
   games = (await get('meta', 'games')) || [];
   await migrateOld();
+  await syncLibrary();
   Object.values(guides).forEach((g) => g.game && !games.includes(g.game) && games.push(g.game));
   render();
+}
+
+// Guias da pasta guides/ entram sozinhos na primeira abertura. Guia excluido pelo usuario nao volta.
+async function syncLibrary() {
+  let list;
+  try { list = await (await fetch('guides/index.json')).json(); } catch { return; }
+  const skip = (await get('meta', 'libSkip')) || [];
+  for (const e of list) {
+    const id = 'lib-' + e.file;
+    if (guides[id] || skip.includes(id)) continue;
+    try {
+      const p = parse(await (await fetch('guides/' + e.file)).text());
+      const g = { id, game: e.game, name: e.name, tree: p.tree, notes: p.notes, total: p.total };
+      guides[id] = g;
+      progress[id] = { done: p.done, open: {} };
+      if (!games.includes(e.game)) { games.push(e.game); await saveGames(); }
+      await saveGuide(g); await saveProgress(id);
+    } catch { /* sem rede: tenta na proxima abertura */ }
+  }
 }
 
 // Guias do formato antigo (localStorage) viram guias novos uma unica vez.
@@ -220,6 +240,7 @@ function edit() {
   if (g) $('#del').onclick = async () => {
     if (!confirm('Excluir este guia?')) return;
     await del('guides', g.id); await del('progress', g.id);
+    if (g.id.startsWith('lib-')) await put('meta', 'libSkip', [...((await get('meta', 'libSkip')) || []), g.id]);
     delete guides[g.id]; delete progress[g.id];
     go({ name: 'game', game: g.game });
   };

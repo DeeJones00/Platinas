@@ -371,7 +371,7 @@ function read() {
   if (!g) return go({ name: 'home' });
   const pr = (progress[g.id] ||= { done: {}, open: {} });
   title.textContent = g.name;
-  actions.innerHTML = '<button id="hide">Ocultar feitos</button><button id="clr">Limpar</button><button id="ed">Editar</button>';
+  actions.innerHTML = '<button id="srch" aria-label="Buscar">🔍</button><button id="hide">Ocultar feitos</button><button id="clr">Limpar</button><button id="ed">Editar</button>';
   $('#ed').onclick = () => go({ name: 'edit', id: g.id });
   // Limpar selecao: desmarca todos os itens deste guia (e os ligados em outros guias). Grupos abertos continuam.
   $('#clr').onclick = async () => {
@@ -391,7 +391,7 @@ function read() {
     view.querySelectorAll('.item.just').forEach((x) => x.classList.remove('just'));
   };
 
-  view.innerHTML = '<div id="links"></div><div id="tree"></div>';
+  view.innerHTML = '<div id="sbar" hidden><input id="q" type="search" placeholder="Buscar neste guia (nome, texto, carta, facção…)" autocomplete="off"><div id="qinfo" class="hint"></div></div><div id="results" hidden></div><div id="links"></div><div id="tree"></div>';
   // Atalhos para guias ligados (ex.: guia principal <-> Cartas de Gwent): abrir e limpar so os itens ligados.
   const linked = {};
   Object.keys(linkAdj).filter((k) => k.startsWith(g.id + ':')).forEach((k) =>
@@ -430,6 +430,7 @@ function read() {
   const itemEl = (it) => {
     const el = document.createElement('div');
     el.className = 'item' + (pr.done[it.n] ? ' done' : '');
+    el.dataset.n = it.n;
     const hasD = it.d && it.d.length;
     const img = it.i ? `<img class="thumb" loading="lazy" crossorigin="anonymous" alt="" src="${esc(it.i)}">` : '';
     const thumb = it.i ? `<div class="tw">${img}${it.p ? `<b class="pow" title="Poder">${esc(it.p)}</b>` : ''}</div>` : `<span class="ico">${itemIcon(it.x)}</span>`;
@@ -477,7 +478,65 @@ function read() {
     return el;
   };
 
+  // ---- Busca: procura em titulo, detalhe, etiquetas e nome dos grupos, mesmo com os grupos recolhidos ----
+  const fold = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  let flat = null;
+  const buildFlat = () => {
+    flat = [];
+    const walk = (nodes, path) => nodes.forEach((x) => {
+      if (x.g) return walk(x.c, [...path, x]);
+      flat.push({ it: x, path, hay: fold([x.x, ...(x.d || []), ...(x.t || []), x.c2 || '', ...path.map((p) => p.x)].join(' \n ')) });
+    });
+    walk(g.tree, []);
+  };
+  const sbar = $('#sbar'), q = $('#q'), resEl = $('#results');
+  const closeSearch = () => {
+    sbar.hidden = resEl.hidden = true;
+    tree.hidden = false; $('#links').hidden = false;
+    q.value = '';
+  };
+  const runSearch = () => {
+    const terms = fold(q.value).split(/\s+/).filter(Boolean);
+    if (!terms.length) { resEl.hidden = true; tree.hidden = false; $('#links').hidden = false; $('#qinfo').textContent = ''; return; }
+    flat ||= (buildFlat(), flat);
+    const hits = flat.filter((f) => terms.every((t) => f.hay.includes(t)));
+    tree.hidden = true; $('#links').hidden = true; resEl.hidden = false;
+    $('#qinfo').textContent = `${hits.length} resultado(s)` + (hits.length > 100 ? ' (mostrando 100)' : '');
+    resEl.innerHTML = '';
+    hits.slice(0, 100).forEach((f) => {
+      const wrap = document.createElement('div');
+      wrap.className = 'hit';
+      const el = itemEl(f.it);
+      const where = f.path.map((p) => p.x).join(' › ');
+      const inTitle = terms.every((t) => fold(f.it.x).includes(t));
+      const snip = !inTitle && (f.it.d || []).find((l) => terms.some((t) => fold(l).includes(t)));
+      wrap.innerHTML = `<div class="where">${esc(where)}</div>`;
+      wrap.appendChild(el);
+      if (snip) el.querySelector('.txt').insertAdjacentHTML('beforeend', `<div class="snip">${esc(snip.length > 140 ? snip.slice(0, 140) + '…' : snip)}</div>`);
+      const go2 = document.createElement('button');
+      go2.className = 'chip'; go2.textContent = 'Ir ao item ↘';
+      go2.onclick = async () => {
+        f.path.forEach((p) => (pr.open[p.id] = 1));
+        await saveProgress(g.id);
+        go({ name: 'read', id: g.id, jump: f.it.n });
+      };
+      wrap.appendChild(go2);
+      resEl.appendChild(wrap);
+    });
+  };
+  $('#srch').onclick = () => {
+    if (sbar.hidden) { sbar.hidden = false; q.focus(); } else closeSearch();
+  };
+  let timer;
+  q.oninput = () => { clearTimeout(timer); timer = setTimeout(runSearch, 150); };
+  q.onkeydown = (e) => { if (e.key === 'Escape') closeSearch(); };
+
   g.tree.forEach((c) => tree.appendChild(c.g ? groupEl(c, 1) : itemEl(c)));
+  if (route.jump != null) {
+    const target = tree.querySelector(`.item[data-n="${route.jump}"]`);
+    if (target) { target.scrollIntoView({ block: 'center' }); target.classList.add('flash'); }
+    delete route.jump;
+  }
   refreshCounts();
 }
 

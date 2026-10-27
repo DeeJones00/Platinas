@@ -20,7 +20,7 @@ Use "Importar" to load a `.txt` guide or a `.json` backup. "Backup" downloads ev
 
 ## Gwent card guide
 
-`tools/build_gwent_guide.py` builds `guides/gwent.txt` (cards by faction, with art) from `guides/witcher3.txt`. Card art is loaded at runtime from the Witcher wiki (Fandom) and cached on the device; it is not stored in this repo. Cards link to their entry in the main guide (`> @link guide:n`), so ticking one ticks the other. Item art is set with `> @img <url>`.
+`tools/build_gwent_guide.py` builds `guides/gwent.txt` (cards by faction, with art) from `guides/witcher3.txt`. Card art is loaded at runtime from the Witcher wiki (Fandom) and cached on the device; it is not stored in this repo. Cards link to their entry in the main guide (`> @link guide:n`), so ticking one ticks the other. Item art is set with `> @img <url>`. Extra copies (neutral weather, Decoy, Scorch, ...) come from the wiki and are tagged Extra; they are not linked to the main guide. Links also carry the main guide item title (`> @lt`), so they survive edits that move items.
 
 ## Bundled guides
 

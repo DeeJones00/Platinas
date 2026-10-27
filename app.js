@@ -345,7 +345,22 @@ function read() {
     view.querySelectorAll('.item.just').forEach((x) => x.classList.remove('just'));
   };
 
-  view.innerHTML = '<div id="tree"></div>';
+  view.innerHTML = '<div id="links"></div><div id="tree"></div>';
+  // Atalhos para guias ligados (ex.: guia principal <-> Cartas de Gwent): abrir e limpar so os itens ligados.
+  const linked = {};
+  Object.keys(linkAdj).filter((k) => k.startsWith(g.id + ':')).forEach((k) =>
+    linkAdj[k].forEach((t) => { const tg = t.slice(0, t.lastIndexOf(':')); if (guides[tg]) (linked[tg] ||= []).push(k.slice(g.id.length + 1)); }));
+  $('#links').innerHTML = Object.keys(linked).map((tg) => `<div class="linkbar"><button class="chip" data-open="${esc(tg)}">↗ ${esc(guides[tg].name)}</button><button class="chip danger" data-clear="${esc(tg)}">Limpar só estes itens</button></div>`).join('');
+  $('#links').querySelectorAll('[data-open]').forEach((b) => (b.onclick = () => go({ name: 'read', id: b.dataset.open })));
+  $('#links').querySelectorAll('[data-clear]').forEach((b) => (b.onclick = async () => {
+    const ns = linked[b.dataset.clear].filter((n) => pr.done[n]);
+    if (!ns.length) return alert('Nenhum desses itens está marcado.');
+    if (!confirm(`Desmarcar ${ns.length} item(ns) ligados a "${guides[b.dataset.clear].name}" (aqui e lá)? O resto deste guia não muda.`)) return;
+    for (const n of ns) delete pr.done[n];
+    await saveProgress(g.id);
+    for (const n of ns) await propagate(g.id, n, false);
+    render();
+  }));
   const tree = $('#tree');
   const noteHtml = (d) => d.map((x) => `<p>${esc(x)}</p>`).join('');
   if (g.notes?.length) tree.insertAdjacentHTML('beforebegin', `<div class="note">${noteHtml(g.notes)}</div>`);

@@ -45,7 +45,7 @@ h2.sec{font-size:1rem;color:var(--acc);margin:22px 0 6px;border-bottom:1px solid
 .detail p,.note p{margin:6px 0}
 .item.done .detail{text-decoration:none}
 .note{color:var(--mute);font-size:.92rem;padding:4px 8px}
-#view.hidedone .item.done{display:none}
+#view.hidedone .item.done:not(.just){display:none}
 .bar{margin-top:4px}
 #sum .bar{margin:6px 0 10px}
 header .row,#actions{display:flex;gap:6px}

@@ -119,10 +119,23 @@ async function syncLibrary() {
   const skip = (await get('meta', 'libSkip')) || [];
   for (const e of list) {
     const id = 'lib-' + e.file;
-    if (guides[id] || skip.includes(id)) continue;
+    if (skip.includes(id)) continue;
+    if (guides[id]) {
+      // Guia ja importado: so soma marcacoes novas (rev maior), nunca desmarca nada.
+      if ((guides[id].rev || 0) >= (e.rev || 0)) continue;
+      try {
+        const p = parse(await (await fetch('guides/' + e.file)).text());
+        if (p.total === guides[id].total) {
+          Object.assign((progress[id] ||= { done: {}, open: {} }).done, p.done);
+          guides[id].rev = e.rev || 0;
+          await saveGuide(guides[id]); await saveProgress(id);
+        }
+      } catch { /* sem rede */ }
+      continue;
+    }
     try {
       const p = parse(await (await fetch('guides/' + e.file)).text());
-      const g = { id, game: e.game, name: e.name, tree: p.tree, notes: p.notes, total: p.total };
+      const g = { id, game: e.game, name: e.name, tree: p.tree, notes: p.notes, total: p.total, rev: e.rev || 0 };
       guides[id] = g;
       progress[id] = { done: p.done, open: {} };
       if (!games.includes(e.game)) { games.push(e.game); await saveGames(); }
@@ -252,9 +265,15 @@ function read() {
   if (!g) return go({ name: 'home' });
   const pr = (progress[g.id] ||= { done: {}, open: {} });
   title.textContent = g.name;
-  actions.innerHTML = '<button id="hide">Ocultar</button><button id="ed">Editar</button>';
+  actions.innerHTML = '<button id="hide">Ocultar feitos</button><button id="ed">Editar</button>';
   $('#ed').onclick = () => go({ name: 'edit', id: g.id });
-  $('#hide').onclick = () => { view.classList.toggle('hidedone'); };
+  // Feitos continuam visiveis (so riscados). "Ocultar feitos" e opcional e comeca desligado a cada abertura.
+  view.classList.remove('hidedone');
+  $('#hide').onclick = () => {
+    const on = view.classList.toggle('hidedone');
+    $('#hide').textContent = on ? 'Mostrar feitos' : 'Ocultar feitos';
+    view.querySelectorAll('.item.just').forEach((x) => x.classList.remove('just'));
+  };
 
   view.innerHTML = '<div id="sum" class="hint"></div><div id="tree"></div>';
   const tree = $('#tree');
@@ -282,6 +301,7 @@ function read() {
     el.querySelector('.box').onclick = () => {
       if (pr.done[it.n]) delete pr.done[it.n]; else pr.done[it.n] = 1;
       el.classList.toggle('done', !!pr.done[it.n]);
+      el.classList.add('just'); // nao some na hora, mesmo com "Ocultar feitos" ligado
       saveProgress(g.id); refreshCounts();
     };
     if (hasD) el.querySelectorAll('.txt, .more').forEach((x) => (x.onclick = () => { const dt = el.querySelector('.detail'); dt.hidden = !dt.hidden; }));

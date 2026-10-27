@@ -46,119 +46,119 @@
 > 5. Achievements: 4/78
 > Before we begin the game, be sure to tweak a few things in the Options – Gameplay tab. We are able to turn on some alternate Outfits for some main characters & get some new Gwent Cards; they do not contribute to the Card Collector Achievement. When you are ready to start, be sure to select “Fresh Start” & not begin a DLC solo Campaign; for Difficulty, select Death March! & do not turn it down so we can unlock the Walked the Path Achievement upon beating the Base Game.
 ## Kaer Morhen
-- Main Quest #1 – Kaer Morhen
+[x] Main Quest #1 – Kaer Morhen
 > Follow along with the Tutorial to the game & participate or skip what you desire.
 > When we reach the Combat Tutorial, be sure that you stick around in Free Training where we can safely & easily unlock a few Achievements.
-- Achievement #1 – What Was That?
+[x] Achievement #1 – What Was That?
 > Attack, Counter, cast a Sign, & throw a Bomb (in any order) in under 4 seconds.
 > Ready your Training Bombs & a Sign like Quen. Open up with a Counterattack against Vesemir, attack him with your Sword, throw a Training Bomb, then immediately cast Quen to unlock the Achievement.
 > Keep attempting until the Achievement unlocks; we have unlimited Bombs at our disposal.
-- Achievement #2 – Kaer Morhen Trained
+[x] Achievement #2 – Kaer Morhen Trained
 > Perform 10 effective Counterattacks in a row without getting hit or parrying.
 > This is another ideal time to attempt this Achievement since we cannot be killed. Hone in on Vesemir’s attacks, & Counterattack him 10 times for the Achievement; this is good practice for Death March! Difficulty.
 > Vesemir is actually pretty difficult however, & has a wide variety of attacks; his Swift Attacks can be challenging to Counterattack. If you cannot seem to last long enough for 10, keep this Achievement in mind as we enter White Orchard & attempt it on a lone Bandit who has a much more limited move set.
 ## White Orchard
-- Main Quest #2 – Lilac & Gooseberries
+[x] Main Quest #2 – Lilac & Gooseberries
 > After our initial conversation with Vesemir, we will be attacked by some Ghouls. Though only Level 1, they will teach us what we are in for on Death March! Difficulty.
 > Quen is our staple; anytime you are in combat, Quen must always be on. Do not blindly spam attack either, feel out your enemies & fight defensively to survive. When they are defeated, follow Vesemir to the White Orchard township, & deal with an encounter with a Griffon.
-- Achievement #3 – Fist of the South Star
+[x] Achievement #3 – Fist of the South Star
 > Defeat an opponent in a Fist Fight without taking any damage.
 > Before we do anything inside the White Orchard Tavern once we reach it, make a Save, then exit outside the front entrance to be accosted by some ruffians. Be sure you Save before leaving as you may need to reload a few times…
 > Speak with the Peasants, & do not choose the Axii dialogue, & instead engage them in a Fist Fight. One will then come to fight us on his own; defeat them without taking a single hit to unlock this Achievement. As always, do not spam attack… but since these are fists, be a bit more aggressive them you normally would; this guy is not too hard.
 > The other two will attack us after we defeat the first Peasant, but our Achievement will unlock as soon as the first Peasant is taken down without us taking a hit.
-- Achievement #4 – Geralt & Friends
+[x] Achievement #4 – Geralt & Friends
 > Win a round of Gwent using only Neutral Cards.
 > This is the earliest we can unlock this Achievement. Our Neutral Cards are the Weather Cards, Zoltan Chivay, & our DLC Card Roach. For this Achievement, be sure you have Zoltan in your hand.
 > Use the first round to exhaust as many (if not all) of the Scholar’s cards in the first round & still win. On the final round, play only those Neutral Cards & win the game.
 > If you cannot swing this, we can earn this Achievement at any point during the game when we get more & stronger Neutral Cards… Just be sure to attempt it on weaker Gwent opponents; it may also just happen naturally in game as well.
 ## Cartas de Gwent
-- Gwent Player – Scholar
+[x] Gwent Player – Scholar
 > Local: White Orchard
 > Return back into the Tavern now & speak with the group of Peasants playing Gwent at a table. Speak with the Scholar, & when we go to leave… he will introduce us to the best card game in all games, even better than Caravan. Gwent.
 > With our first Gwent match underway, we will unlock our starter base deck of Gwent Cards made up of Northern Realms & Neutral Cards.
-- Unique Gwent Card #1 – Foltest, King of Temeria (Leader)
+[x] Unique Gwent Card #1 – Foltest, King of Temeria (Leader)
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #2 – Biting Frost
+[x] Unique Gwent Card #2 – Biting Frost
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #3 – Impenetrable Fog
+[x] Unique Gwent Card #3 – Impenetrable Fog
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #4 – Torrential Rain
+[x] Unique Gwent Card #4 – Torrential Rain
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #5 – Clear Weather
+[x] Unique Gwent Card #5 – Clear Weather
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #6 – Dethmold
+[x] Unique Gwent Card #6 – Dethmold
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #7 – Trebuchet (1)
+[x] Unique Gwent Card #7 – Trebuchet (1)
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #8 – Trebuchet (2)
+[x] Unique Gwent Card #8 – Trebuchet (2)
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #9 – Ballista (1)
+[x] Unique Gwent Card #9 – Ballista (1)
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #10 – Ballista (2)
+[x] Unique Gwent Card #10 – Ballista (2)
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #11 – Ves
+[x] Unique Gwent Card #11 – Ves
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #12 – Siegfried of Denesle
+[x] Unique Gwent Card #12 – Siegfried of Denesle
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #13 – Keira Metz
+[x] Unique Gwent Card #13 – Keira Metz
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #14 – Síle de Tansarville
+[x] Unique Gwent Card #14 – Síle de Tansarville
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #15 – Prince Stennis
+[x] Unique Gwent Card #15 – Prince Stennis
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #16 – Dun Banner Medic
+[x] Unique Gwent Card #16 – Dun Banner Medic
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #17 – Sabrina Glevissig
+[x] Unique Gwent Card #17 – Sabrina Glevissig
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #18 – Sheldon Skaggs
+[x] Unique Gwent Card #18 – Sheldon Skaggs
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #19 – Blue Stripes Commando
+[x] Unique Gwent Card #19 – Blue Stripes Commando
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #20 – Poor Fockin’ Infantry
+[x] Unique Gwent Card #20 – Poor Fockin’ Infantry
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #21 – Redanian Foot Soldier (1)
+[x] Unique Gwent Card #21 – Redanian Foot Soldier (1)
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #22 – Redanian Foot Soldier (2)
+[x] Unique Gwent Card #22 – Redanian Foot Soldier (2)
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #23 – Kaedweni Siege Expert
+[x] Unique Gwent Card #23 – Kaedweni Siege Expert
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #24 – Yarpen Zigrin
+[x] Unique Gwent Card #24 – Yarpen Zigrin
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #25 – Emhyr var Emreis, His Imperial Majesty (Leader)
+[x] Unique Gwent Card #25 – Emhyr var Emreis, His Imperial Majesty (Leader)
 > Local: White Orchard
 > Unlocked with
 > our base deck.
-- Unique Gwent Card #26 – Francesca Findabair, Pureblood Elf (Leader)
+[x] Unique Gwent Card #26 – Francesca Findabair, Pureblood Elf (Leader)
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #27 – Eredin, King of the Wild Hunt (Leader)
+[x] Unique Gwent Card #27 – Eredin, King of the Wild Hunt (Leader)
 > Local: White Orchard
 > Unlocked with our base deck.
-- Unique Gwent Card #28 – Zoltan Chivay
+[x] Unique Gwent Card #28 – Zoltan Chivay
 > Local: White Orchard
 > We will acquire this Gwent Card after we defeat the Scholar in the White Orchard Tavern in a game.
 > If you synced your Gwent – The Witcher Card game profile, the Roach Card we recieved is a DLC Card & does not count towards the Achievement.
@@ -171,56 +171,56 @@
 > 4. Witcher Contracts: 1/26
 > 5. Achievements: 7/78
 ## White Orchard
-- Main Quest #2 – Lilac & Gooseberries
+[x] Main Quest #2 – Lilac & Gooseberries
 > Speak with Gaunter O’Dimm in the Tavern to progress the Quest, & we will now be tasked with speaking with the Nilfgaardian garrison here.
-- Witcher Contract #1 – Devil By the Well
+[x] Witcher Contract #1 – Devil By the Well
 > Go to the Notice Board in White Orchard, & we can find this Contract pinned to it. Be sure to collect it, as we will need it completed before we leave the “prologue”. I recommend collecting & completing the other Secondary Quests obtained from this Notice Board as well…
 > Speak with Odolan in White Orchard about the Contract to progress it to the abandoned acreage of Hovel.
-- Main Quest #2 – Lilac & Gooseberries
+[x] Main Quest #2 – Lilac & Gooseberries
 > Before we do anything else, head up North to the Nilfgaardian Garrison to speak with the Nilfgaardian Officer there. To learn where to find Yennefer, we must first slay the Griffon that is harassing White Orchard...
 > Exploring White Orchard: Keep the objectives in mind for Main Quest #3 – The Beast of White Orchard, & we can begin exploring around the region as we go; in your World Map, toggle the Waypoint visibility to “All” to see all of the Undiscovered Locations in the area. I highly recommend discovering them all.
 > Loot, kill, & map. Remember to Save often, as it is very easy to lose lots of progress by accidents in combat!
 > Be sure to destroy the three Monster Nests found at the North & Eastern ends of White Orchard as well; they will be marked by ?. We need to destroy 10 Monster Nests with Bombs for the Fire In the Hole Achievement.
-- Main Quest #3 – The Beast of White Orchard
+[x] Main Quest #3 – The Beast of White Orchard
 > Collect the Buckthorn & track down the Griffon’s nest to learn more about what you are dealing with; hold off on speaking with Vesemir for now however, & we will save setting the trap to lure the Griffon for later...
-- Achievement #5 – Power Overwhelming
+[x] Achievement #5 – Power Overwhelming
 > Have all 5 possible Place of Power bonuses active at the same time.
 > There are 6 Places of Power found in White Orchard; one is a double. Each bonus will last for 30 minutes, meaning we will have 30 minutes to ride around & visit all the Places of Power. This is easier than it sounds. I recommend starting from the Northmost Place of Power & visiting them in order South while riding Roach.
 > Beware the large Bear found at our final Place of Power; it is Level 6!
 > It is also important to note that using any Place of Power for the first time will also grant you a free Ability Point; always use them when you come across new ones… speaking of.
 > Sun & Stars: With our new found Ability Points, I strongly recommend spending the Point on the Sun & Stars Ability so that we can begin passively regenerating Vitality; this is very beneficial in early game.
 > Purchasing the Gourmet Ability is also very useful as well. These can be found in the General Tab of our Skill Trees.
-- Achievement #6 – Let’s Cook!
+[x] Achievement #6 – Let’s Cook!
 > Learn 12 Potion Formulae.
 > This Achievement can be earned here in White Orchard if you explore all of the ? on the World Map & find Potion Formulae as random loot. We can also buy Formulae from Herbalists & other Merchants in the area as well.
 > By looting White Orchard, we should also be halfway to reaching the Bombardier Achievement for collecting 6 different Bomb Formulae.
-- Witcher Contract #1 – Devil By the Well
+[x] Witcher Contract #1 – Devil By the Well
 > Before we kill the Griffon, we have a different monster to slay. For better preparations, go to the Abandoned Village at nighttime & not in the afternoon as the ghost will be absent. Investigate around, & we will determine that it is a Noonwraith.
 > For the Noonwraith entry, we can receive it from Tamira, the Herbalist.
 > Read the entry in our Bestiary, & investigate the village again for more clues of what binds the Wraith here. Drop into the well & swim to the bottom to locate an Ornate Bracelet that belongs to the Wraith; this is what we need to summon her.
 > Save, & make some preparations before the fight. To make the Noonwraith corporeal, we need to trap her in the Yrden Sign.
 > After the Noonwraith is slain, return to Odolan for our reward & complete the Contract.
-- Main Quest #3 – The Beast of White Orchard
+[x] Main Quest #3 – The Beast of White Orchard
 > When you are ready, go & speak with Vesemir to tell him what we have learned, & if you are ready, set off to set the trap.
 > Even Odds #1: For the Even Odds Achievement, we need to defeat two monsters we have a Contract on without using any Signs, Potions, Bombs, Blade Oils, or having Mutagens equipped in our Character tab. Using your Crossbow is fine! Though not an official Contract, the Royal Griffon does count towards the Achievement.
 > The Griffon is tough at this Level on Death March & it will not take too many hits for us to die, especially without Quen. Let Vesemir do all the heavy lifting while you fight defensively… The fight has two parts as the Griffon will fly away halfway through to a different location; be sure to Save before re-engaging it so you do not have to do the fight over.
 > Once it is slain, cut off the Griffon’s head with way too small of a knife & take it to the Nilfgaardian Officer to complete the Quest.
-- Main Quest #4 – The Incident At White Orchard
+[x] Main Quest #4 – The Incident At White Orchard
 > Return to the White Orchard Tavern, & meet up with Vesemir to leave to Vizima. Be sure to purchase anything you need from the Tavern Shopkeeper first…
-- Achievement #7 – Lilac & Gooseberries
+[x] Achievement #7 – Lilac & Gooseberries
 > Find Yennefer of Vengerberg.
 > Story Related. Instead of finding Yennefer, Yennefer will find us at the White Orchard Tavern & take us to Vizima, unlocking the Achievement.
 ## Cartas de Gwent
-- Unique Gwent Card #28 – Decoy
+[x] Unique Gwent Card #28 – Decoy
 > Local: White Orchard
 > While still in the White Orchard Tavern, speak with the Shopkeeper here to purchase this Gwent Card for 20 Crowns.
-- Unique Gwent Card #29 – Crinfrid Reavers Dragon Hunter
+[x] Unique Gwent Card #29 – Crinfrid Reavers Dragon Hunter
 > Local: White Orchard
 > Purchased from the White Orchard Tavern’s Shopkeeper for 20 Crowns.
-- Unique Gwent Card #30 – Catapult (1)
+[x] Unique Gwent Card #30 – Catapult (1)
 > Local: White Orchard
 > Purchased from the White Orchard Tavern’s Shopkeeper for 50 Crowns.
-- Unique Gwent Card #31 – Foltest, Lord Commander of the North (Leader)
+[x] Unique Gwent Card #31 – Foltest, Lord Commander of the North (Leader)
 > Local: White Orchard
 > Purchased from the White Orchard Tavern’s Shopkeeper for 50 Crowns.
 > We can also purchase another Blue Stripes Commando from her; very good for our Northern Realms Deck, but not needed for the Achievement.
@@ -235,28 +235,28 @@
 > Notice Board: When your business in Vizima is complete, leave the palace & travel to the Hanged Man’s Tree in Velen. Ride down the road South towards the Inn At the Crossroads, & we will pass through the ruined village of Mulbrydale immediately below the Hanged Man’s Tree.
 > Here we can find a Notice Board in the center of town; we will get a new Secondary Quest from it as well as mark some new Undiscovered Locations on our World Map. Be sure to locate the Signpost here as well so we can Fast Travel back in the future…
 ## Vizima
-- Main Quest #5 – Imperial Audience
+[x] Main Quest #5 – Imperial Audience
 > After we sit in the bergère, we will be questioned by Morvran Voorhis. If you chose to simulate a Save at the beginning of the game, he will ask you a list of questions involving certain Characters; if asked if anyone died, say that they all lived to keep as many doors open in the game. While Roche does make an appearance in the game, Iorveth does not regardless of if you chose to side with him or not, which is very disappointing. If you imported your own Save from Witcher 2, we will not be asked any questions.
 > Have your audience with the Emperor of Nilfgaard, & speak with Yennefer afterwards to learn more.
 > My Rewards Chest: If you made a Red Account (GOG Account), then we can collect the bribes given to us by doing so from a Chest found in Yennefer’s quarters in Vizima. Be sure to collect them.
-- Achievement #8 – Bookworm
+[x] Achievement #8 – Bookworm
 > Read 30 Books, Journals, or other documents.
 > This Achievement will come naturally as we playthrough the game. If you are a looting fiend, you can unlock it by Vizima if you have been searching Bookshelves in White Orchard. Be sure to read the Books & Journals you collect too!
 ## Velen – Inn At the Crossroads
-- Main Quest #6 – The Nilfgaardian Connection
+[x] Main Quest #6 – The Nilfgaardian Connection
 > Ride to the Inn At the Crossroads now & speak with the Innkeeper inside about Hendrik. He will give us a lead to go to Heatherton next.
-- Witcher Contract #2 – Missing Brother
+[x] Witcher Contract #2 – Missing Brother
 > On the Notice Board, we can find a notice that reads Missing: Mikkel; collecting it will begin our next Witcher Contract. Enter back into the Inn, & speak with a peasant named Bruno for more details.
 > This is a very high Level quest & we will not be completing it for a bit…
 ## Velen – Heatherton
-- Main Quest #6 – The Nilfgaardian Connection
+[x] Main Quest #6 – The Nilfgaardian Connection
 > Continue Westward now to Heatherton to link up with Hendrik. When we arrive, we will discover the village has been decimated by the Wild Hunt. After speaking with a Survivor, go & investigate Hendrik’s home for anymore leads.
 > Check Hendrik’s boots for a Key to his basement; pull on a candle sconce to locate some hidden notes within his merchant’s ledgers.
 > After reading through all the notes, we will complete this Main Quest & unlock two more.
 ## Velen – Crow’s Perch
-- Main Quest #7 – Bloody Baron
+[x] Main Quest #7 – Bloody Baron
 > Without wasting time, carry on to Crow’s Perch. Ignore the Merchants & homes for looting right now & just head straight to the Bloody Baron. Speak with Baron to learn more about Ciri’s whereabouts… quite literally.
-- Ciri’s Quest #1 – The King of the Wolves
+[x] Ciri’s Quest #1 – The King of the Wolves
 > As we play as Ciri, you will realize we do not have access to Quen. For this Quest, it is not that big of a deal, but later ones be will much more difficult with its absence. She controls a little differently than Geralt, but the gist is still the same; there is no point in looting anything more then you have to as her Inventory is not consistent across her isolated Quests.
 > Follow Gretka back to her village, collect the ingredients to make the Beast Oil, & defeat the “King of the Wolves”.
 - Main Quest #8 – Family Matters
@@ -294,7 +294,7 @@
 > 5. Witcher Contracts: 1/26
 > 6. Achievements: 8/78
 ## Velen – Crow’s Perch
-- Secondary Quest – Velen Players
+[x] Secondary Quest – Velen Players
 > To kick this Quest off, we can earn a Unique Gwent Card from the Bloody Baron himself; he has a Northern Realms Deck. He uses a lot of Spies, so be sure to have Decoys in your hand if you can help it.
 > Beating the Baron will unlock the next two Players for us to verse.
 - Witcher Contract #3 – Shrieker
@@ -302,14 +302,14 @@
 > Next, go & investigate the site where the man was slain in the fields nearby.
 > Progress the Contract to the Shrieker’s Cave, but do not enter it just yet; it is a higher Level than us, & it is also a good candidate for the Even Odds Achievement.
 > Go around the backside of the Cave, near the tower to find the Burned Ruins Signpost so we can return here easily.
-- Secondary Quest – Races Crow’s Perch
+[x] Secondary Quest – Races Crow’s Perch
 > We can find the starting line for the Horse Races just East of Crow’s Perch along the road. There are three Races we must beat; since these are our first, they are pretty easy. We need to defeat: Stuttering Matt, Iron-Arse Hans, & Black Bogdan.
 > The nice part about these Races, is we will discover new Locations in the process as we ride past them.
 > We will acquire the Racing Saddle after beating our first contestant which will help a lot. If you are struggling, a “pro” tactic to regain Stamina is to block your opponent’s way while you do it. Tilt Roach in front of their horses to catch them, regain your Stamina, then ride off again!
 > There are 11 Horse Races in total we need to complete across the three main areas for the Fast & Furious Achievement.
 > Note that there are 29 Monster Nests to be found in the Velen/Novigrad region. For the Pest Control Achievement we need to destroy all Monster Nests found in an Area. This would be all 29 in Velen/Novigrad or all 5 in Skellige. For our Achievement, we will obviously be earning this in Skellige later on, but don’t let that stop you from exploring!
 ## Cartas de Gwent
-- Random Player #1 – Fergus
+[x] Random Player #1 – Fergus
 > Local: Velen – Crow’s Perch
 > When we go to leave the Baron’s home, stop outside the fort gates & we can find three merchants. One will be a Dwarf named Fergus & he is an Armorer.
 > Fergus is a “Random Player” meaning that the Gwent Card we receive from him upon victory is random. There are more Random Players in the game than there are Gwent Cards in the random card pool. By playing all Random Players we come across, you are guaranteed to collect all 50 of these Cards in the pool; consult the Miraculous Guide to Gwent in our Book tab to see how many Cards can be collected from Random Players… You can also cross reference the Random Card list in my Achievement Checklist found in this guide’s Introduction as well to see which Cards you still need.
@@ -318,7 +318,7 @@
 - Unique Gwent Card #38 – Villentretenmerth
 > Local: Velen – Crow’s Perch
 > Can be earned from playing against any Random Player; this is the Card I earned from Fergus, you may earn a different one instead.
-- Random Player #2 – Yoana
+[x] Random Player #2 – Yoana
 > Local: Velen – Crow’s Perch
 > We can duel the alternate Armorer near Fergus, Yoana, as well for a Unique Card. Yoana uses a Monster Deck & will award us one from the random cards pool.
 > Monster Decks are terrifying to fight in early game as they rely heavily on Muster. They are also Close Combat Unit focused making them very susceptible to Biting Frost.
@@ -329,15 +329,15 @@
 > Local: Velen – Crow’s Perch
 > Head just across the street from Fergus, & we can find the fort Quartermaster; we can purchase this Card from him for 10 Crowns.
 > He also sells another copy of the Nausicaa Cavalry Rider.
-- Random Player #3 – Quartermaster
+[x] Random Player #3 – Quartermaster
 > Local: Velen – Crow’s Perch
 > Lastly, we can also duel the Quartermaster for another chance at winning a new Gwent Card; he uses a Northern Realms Deck.
-- Unique Card #41 – Vrihedd Brigade Recruit
+[x] Unique Card #41 – Vrihedd Brigade Recruit
 > Local: Velen – Crow’s Perch
 > Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
 > Notice Board: The Notice Board here in Crow’s Perch is full of important Quests we need to complete such as a Witcher Contract as well as Fists of Fury, Velen Players, & Horse Races. The latter three Secondary Quests are all required for Achievements…
 > The Witcher Contract – The Beast of Honorton is a DLC Quest & does not count towards the Geralt the Professional Achievement.
-- Random Player #4 – Merchant
+[x] Random Player #4 – Merchant
 > Local: Velen – Crow’s Perch
 > In the lower tier of Crow’s Perch, close to the front entrance to the fort, we can find a lowly grocer Merchant who can be dueled for a Card; they own a Northern Realms Deck.
 - Unique Gwent Card #42 – Filavandrel aen Fidhail
@@ -364,17 +364,17 @@
 > 5. Witcher Contracts: 1/26
 > 6. Achievements: 8/78
 ## Velen – Blackbough
-- Secondary Quest – Fists of Fury Velen
+[x] Secondary Quest – Fists of Fury Velen
 > While in Blackbough, as we can plainly see, there is a Fist Fight event going on right beside where the Blacksmith is. Compete, & we will need to defeat Jonah.
 > For the Brawl Master Achievement, we need to complete all 12 Fist Fight events across the three main areas.
-- Main Quest #9 – Family Matters
+[x] Main Quest #9 – Family Matters
 > Just North of Blackbough, we can find the pellar’s hut. Deal with his guests… & ask him where we can find Anna & Tamara. Before he will help us though, we need to find Princess.
-- Main Quest #10 – A Princess In Distress
+[x] Main Quest #10 – A Princess In Distress
 > With the Pellar’s Bell, search in the marked area & ring the bell to locate Princess. Wander around in the forest using Witcher Senses until you begin to hear her. Once you get close enough, we will see her health bar, & can now lead her back to the Pellar using the bell.
 > Princess will deliberately lead us to a Cave that has a Level 6 Bear in it that we will have to defeat; exploring the Cave can lead us to the Ursine Steel Sword (Master Crafted) Diagram…
 > Return to Princess & take her back to the Pellar.
 ## Velen – Crow’s Perch
-- Main Quest #9 – Family Matters
+[x] Main Quest #9 – Family Matters
 > With the Pellar’s help, we will now know the next step for finding the Baron’s family. It is the Baron who will help us, but on return to Crow’s Perch, we will find it ablaze.
 > Deal with the stable or not, & find the Baron. He will be plastered & we will have to talk some sense into him… with our fists. When he is down, take the Baron inside & speak with him about his lost child.
 > When you are ready, go with the Baron to where the child was buried & the Botchling will arrive. We will only have a few seconds to decide what we do with it; the default will be killing it. There are two ways we can go about dealing with the Botchling. The good way: bury it under the threshold & turn it into a guardian spirit. Or the bad way: kill it & harvest its blood. Either choice will have the same outcome of leading us to the Baron’s family, but the Botchling’s fate is yours to decide.
@@ -386,16 +386,16 @@
 > With half our bargain completed for the Baron, he will provide us with another story about Ciri. This is a lighthearted Quest, & fortunately we already have some good Horse Race practice under our belts!
 > Now we put a pin in Main Quest #9 & hold off until we explore some more. Finding Tamara is one thing, but locating Anna goes down slope fast & pits us against some terrible enemies…
 ## Velen – Inn At the Crossroads
-- Secondary Quest – Fists of Fury Velen
+[x] Secondary Quest – Fists of Fury Velen
 > Travel to the Inn At the Crossroads & we will find it much more bustling than it was on our first visit. Enter into the Inn itself, & we can find a Fist Fight event going on in the back corner.
 > Sign up, & defeat Smithy to progress the Quest.
 > Speak with the Innkeeper, & we can purchase another copy of the Commander’s Horn Gwent Card if you desire.
 ## Cartas de Gwent
-- Random Gwent Player #5 – Merchant
+[x] Random Gwent Player #5 – Merchant
 > Local: Velen – Blackbough
 > We will have discovered Blackbough during our Horse Races. Head on over to it, & we can find a Merchant along the roadway immediately upon entering the town. We can duel him for a Card from the random pool; he has a Nilfgaardian Deck.
 > I earned an Impenetrable Fog from this duel; ideally, you won a new Unique Gwent Card instead…
-- Random Gwent Player #6 – Blacksmith
+[x] Random Gwent Player #6 – Blacksmith
 > Local: Velen – Blackbough
 > At the Southwest end of Blackbough, we can find the Blacksmith. Not only will he craft us Swords, but we can duel him for a chance to earn a Unique Gwent Card from the random pool; he has a Northern Realms Deck.
 - Unique Gwent Card #46 – Griffon
@@ -414,22 +414,22 @@
 > Always Save your game after clearing an Undiscovered Location; you never know what waits for you at the next one, & re-clearing areas is always such a drag.
 > We can find Claywich immediately South down the road from Crow’s Perch. There is a Gwent Merchant/Random Player in this village, but they are being hostage by Bandits & must be freed. Locate the Signpost for Fast Travel, & continue further down South to Oreton; we will return here after the Merchant is freed…
 ## Velen – Midcopse
-- Main Quest #11 – Hunting A Witch
+[x] Main Quest #11 – Hunting A Witch
 > For now, we will switch directions & follow a separate lead as it pertains to what happened to Ciri. You can go to Midcopse & listen in to some gossiping women of the location to find the witch… or just go straight to her home.
 > The witch is found at a building in between Midcopse & Blackbough. If you look on your World Map, there are two buildings Northwest of Midcopse & one Northeast; the witch lives in the house to the Northeast close to the bay.
 > The witch as it turns out is Keira Metz, an old friend of Geralts; Keira is also one of our Allies we need to bring to Kaer Morhen for the Full Crew Achievement, but that will happen later…
 > Speak with Keira during… spontaneous bath time? & she will tell us that she doesn’t know where Ciri is, but does know where a mysterious Elf who came looking for is. He is found in an old Elven ruin.
 > Don’t go with her to the ruin yet, & tell her that will meet up with her there later. We miss a Fast Travel opportunity, but it would be better if we went on foot; we are long overdue for more exploring, looting, & Secondary Questin’.
 > Notice Board: Return to Midcopse, & if you have not already done so, collect all the documents pinned to it to mark new Undiscovered Locations.
-- Witcher Contract #4 – Jenny O' the Woods
+[x] Witcher Contract #4 – Jenny O' the Woods
 > Amongst all the nonsense on the board, we can find a new Contract. Speak with Ealdorman Bolko for more details & then Agneta; this is as far as we will progress the Contract for now since it is Level 10.
 > The monster is found just Northwest of Midcopse & spawns at night so be weary…
 ## Velen – No Man’s Land
-- Achievement #9 – Triple Threat
+[x] Achievement #9 – Triple Threat
 > Kill 3 opponents in one fight using 3 different methods (Swords, Bombs, Crossbow, Signs, etc.).
 > As we explore Undiscovered Locations, keep your eyes open for Level 5 or lower areas guarded by human enemies (Pirates, Bandits, Cannibals, Renegades, etc.)
 > When you find a good bunch, Save your game & get ready. The easiest three methods are going to be your Steel Sword, Grapeshot, & Igni. The Steel Sword is obvious, but for Bombs & Signs, whittle down the enemies health as low as you can & finish them off with a different method; you do not have to do each new method in a row, just as long as they are all done over the course of a single fight.
-- Achievement #10 – Bombardier
+[x] Achievement #10 – Bombardier
 > Collect the Formulae for 6 different Bomb types.
 > Bomb Formulae can be purchased from Herbalists when they have them in stock or earned as random loot when opening Chests. If you are diligent with your exploration, this is probably the earliest you will unlock this Achievement; there are 8 different types of Bombs in total.
 > If not, or you are not close yet, do not fret; we can purchase all of them from a specific Herbalist found close to Oxenfurt on the other side of the river. I will flag them down when we are in that neck of the woods…
@@ -438,13 +438,13 @@
 > Local: Velen – Midcopse
 > Now for the fun part, speak with the Merchant found close by the Notice Board, & we can purchase this Gwent Card for 10 Crowns.
 > We can also purchase another copy of the Crinfrid Reavers Dragon Hunter & Poor Fockin Infantry. There is a weird glitch with the Fockin’ Infantry that makes the Cards stack funny making it seem like they are Unique even though the Card’s art is the same. They should be only worth 1 Unique Card, which we fulfilled in our starting deck, but just to be safe I recommend buying the extra copies of them we come across…
-- Random Player #6 – Merchant
+[x] Random Player #6 – Merchant
 > Local: Velen – Midcopse
 > The Merchant is also a Random Player we can duel for a Gwent Card from the random pool; he has a Monster Deck so be careful!
 - Unique Gwent Card #48 – Vreemde
 > Local: Velen – Midcopse
 > Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #7 – Armorer
+[x] Random Player #7 – Armorer
 > Local: Velen – Midcopse
 > Our next opponent, will be the Armorer found close by; he has a Nilfgaardian Deck.
 > This Armorer also sells both Maps by Edwin Greloff that will give us the locations of all six pieces of the Griffon School Gear.
@@ -464,21 +464,21 @@
 > In the center of this island (where the ? is) we can locate a Person In Distress. Dispatch all the Renegades & free the Merchant using the Bandit’s Key we collect from the Renegade Leader where he will then head back home to Claywich.
 > The Merchant might be standing outside their cage… unlock the cage door for him to be freed still.
 ## Velen – Oreton
-- Witcher Contract #6 – The Mystery of the Byways Murders
+[x] Witcher Contract #6 – The Mystery of the Byways Murders
 > We can also collect a new Witcher Contract from this Notice Board as well. Head over to the Nilfgaardian patrol stationed in the village & speak with Milan Noran for more details on the Contract; it is above our Level, so we will hold onto it for now…
-- Secondary Quest – Gwent Velen Players
+[x] Secondary Quest – Gwent Velen Players
 > While here in Oreton, we can find a Boatwright that will play us in Gwent for a new Unique Card; he uses a Nilfgaard Deck. He is a difficult opponent & has two Hero Cards in his Deck.
 ## Velen – Lindenvale
-- Secondary Quest – Fists of Fury Velen
+[x] Secondary Quest – Fists of Fury Velen
 > For our third Fist Fight, follow the Quest Marker to Lindenvale. Speak with the Bookie, & defeat Fishgulper in a fight. Before the fight, Fishgulper will take us aside & ask us to take a fall for him. While this is a nice thing to do, we will lose the fight & ultimately fail this Quest in turn voiding our two associated Fist Fight related Achievements.
 > We can give him some Crowns after the fight however if you are feeling guilty.
 > Notice Board: Look on the Notice Board in the village to mark new Undiscovered Locations as well as collecting two new Witcher Contracts as well as an important Secondary Quest.
-- Witcher Contract #6 – The Merry Widow
+[x] Witcher Contract #6 – The Merry Widow
 > With the Contract collected, speak with the Gravedigger in town for more details; this is a Level 10 Quest, for now leave the Cemetery be…
-- Witcher Contract #7 – Mysterious Tracks
+[x] Witcher Contract #7 – Mysterious Tracks
 > Speak with the Hunter in Lindenvale for more details on this Contract; this is a Level 20 Contract we will leave until later on…
 ## Cartas de Gwent
-- Random Player #8 – Trader
+[x] Random Player #8 – Trader
 > Local: Velen – Oreton
 > In Oreton, we can find a Trader who is a Random Player; he has a Northern Realms Deck.
 - Unique Gwent Card #50 – Plague Maiden
@@ -487,7 +487,7 @@
 - Unique Gwent Card #51 – Letho of Gulet (Hero)
 > Local: Velen – Oreton
 > Collected by defeating the Boatwright.
-- Random Player #9 – Merchant
+[x] Random Player #9 – Merchant
 > Local: Velen – Claywich
 > Return to Claywich after freeing the Merchant from the Renegades & he should have set up shop here. We can play him for a new Card from the random pool; he has a Northern Realms Deck.
 > For whatever reason, the two people we rescue for Claywich are bugged; the Merchant & there is also a Barber we can rescue found Northwest of Midcopse & Southwest of Blackbough. They will be present, but we will be unable to speak with them. If this bug happens, Fast Travel to White Orchard, then return back to Claywich to get them unstuck.
@@ -507,11 +507,11 @@
 > Local: Velen – Claywich
 > Can be purchased from the Merchant for 50 Crowns.
 > We can also purchase another copy of the Crinfrid Reavers Dragon Hunter Card from him as well.
-- Random Player #10 – Blacksmith
+[x] Random Player #10 – Blacksmith
 > Local: Velen – Lindenvale
 > Now for the fun part. Go to the village Blacksmith & we can verse him in Gwent; he has a Scoia’tael Deck.
 > I received a Clear Weather Card from this duel… no Unique Gwent Card this time.
-- Random Player #11 – Merchant
+[x] Random Player #11 – Merchant
 > Local: Velen – Lindenvale
 > We can find another Random Player in Lindenvale, it is the Merchant; he has a Northern Realms Deck.
 - Unique Gwent Card #57 – Grave Hag
@@ -542,24 +542,24 @@
 > On this Notice Board, we can mark some new Undiscovered Locations as well as collect a new Witcher Contract.
 > Notice Board: There is one final village to mark on this side of the continent found in between the Nilfgaardian Camp & Lindenvale. Travel the perilous road to Downwarren & look at the Notice Board to mark the last few Undiscovered Locations here; as of now, we should have every Undiscovered Location in Central/Southern Velen marked on the world Map.
 ## Velen – Benek
-- Secondary Quest – Gwent Velen Players
+[x] Secondary Quest – Gwent Velen Players
 > To verse the soothsayer, we need to travel all the way Southeast across No Man’s Land to the village of Benek. Find the Old Sage & defeat him in a duel to collect this Card; he has a Monster Deck.
-- Witcher Contract #9 – Phantom of the Trade Route
+[x] Witcher Contract #9 – Phantom of the Trade Route
 > Before we leave Benek, we can find a Refugee with a ! over their head. Speak with him & we will receive this Witcher Contract; we will save it for later as always…
 ## Velen – Crow’s Perch
-- Secondary Quest – Fists of Fury Velen
+[x] Secondary Quest – Fists of Fury Velen
 > It is time for our final Fist Fight. Travel to Crow’s Perch & we will find a new arena set up around the Baron’s manor. Enter it, & challenge the Sergeant to a fight for the championship & complete the Quest.
 ## Velen – Midcopse
-- Secondary Quest – Gwent Velen Players
+[x] Secondary Quest – Gwent Velen Players
 > We can also finally complete this Quest as well, & duel our final competitor. Go to Midcopse & seek out Haddy… he is a child. He has a Northern Realms Deck & is quite a challenging opponent, or can be anyways depending on luck.
 ## Velen – Nilfgaardian Central Army Camp
-- Witcher Contract #9 – Patrol Gone Missing
+[x] Witcher Contract #9 – Patrol Gone Missing
 > Head inside the nearby tent & speak with Quartermaster Eggebracht for more details on the Contract. This Contract surprisingly is within our Level if you are around Level 5-6. We will complete it shortly…
-- Witcher Contract #9 – Patrol Gone Missing
+[x] Witcher Contract #9 – Patrol Gone Missing
 > Make your way to the patrols last known position & begin following the tracks into the forest using your Witcher Senses. As we get closer & closer to where we went, we will realize that it was a Draconid that killed them; it is a Wyvern.
 > Even Odds #2: This enemy is the perfect opportunity for our last kill for the Even Odds Achievement. Make a Save before the fight & do not consume any Potions or Decoctions, use any Signs, Bombs, or Oils for the fight; Food is of course alright as well as our Crossbow. We also cannot have any Mutagens equipped either, if you do, be sure to go into your Character tab & unequip them! Like the Griffon, the Wyvern might take to the air; shoot it down with the Crossbow!
 > Return back to the Quartermaster to turn in the Contract.
-- Achievement #11 – Even Odds
+[x] Achievement #11 – Even Odds
 > Kill 2 Monsters you have a Contract on without using Signs, Potions, Mutagens, Oils or Bombs.
 > Missable. This is a Missable Achievement as it is possible to complete all Witcher Contracts without unlocking this Achievement. There are many applicants to attempt this Achievement, however Contracts on Wraiths will not work as they are almost impossible to kill without Signs.
 > Not unequipping your Mutagens is the prime suspect for not unlocking/contributing to this Achievement. Remember to do so before engaging the Monster when working towards this Achievement… As we complete more Contracts, I will advise if they are good candidates or not for the Achievement.
@@ -582,13 +582,13 @@
 - Unique Gwent Card #64 – Eredin, Destroyer of Worlds (Leader)
 > Local: Velen – Midcopse
 > We will receive this new Leader Card as well for completing the Quest itself; it would be earned from whoever our last opponent is.
-- Random Player #12 – Eggebracht
+[x] Random Player #12 – Eggebracht
 > Local: Velen – Nilfgaardian Central Army Camp
 > As it turns out, the Quartermaster is a Random Player for Gwent; he uses a Northern Realms Deck… which is weird, you would think he’d be using a Nilfgaardian one.
 - Unique Gwent Card #65 – Kayran (Hero)
 > Local: Velen – Nilfgaardian Central Army Camp
 > Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #13 – Merchant
+[x] Random Player #13 – Merchant
 > Local: Velen – Downwarren
 > We can find a Merchant here in Downwarren that is a Random Player; he has a Monster Deck. It is important to defeat this fellow in a duel before progressing too far into the Main Questline… as something bad can potentially happen to Downwarren that will… displace the villagers & this Merchant… from life.
 - Unique Gwent Card #66 – Havekar Healer (3)
@@ -603,34 +603,34 @@
 > 5. Witcher Contracts: 2/26
 > 6. Achievements: 14/78
 ## Velen – The Elven Ruins
-- Main Quest #12 – Wandering In the Dark
+[x] Main Quest #12 – Wandering In the Dark
 > After you are done exploring & looting, it will finally be time to travel to link up with Keira Metz; we should be around Level 6 or 7 ideally... Travel to the mage’s hideout & follow Keira inside.
 > There is an arm load of hidden loot & Chests in these Elven Ruins, be sure to look around!
 > Continue on with Keira through the ruins after destroying the Rat Nests, following the signs that the Masked Mage left behind for Ciri, until we catch up with the Wild Hunt. Defend Keira as she closes the rifts to their realm. This section can be quite tricky if you are not prepared; be sure to have Swallow ready! There are three rifts that need to be closed & they will increase in difficulty as we close them; there are no Saves in between rifts & they must be closed in one shot which makes this a real test of endurance.
 > Defeat Nithral, & examine the Illusionary Wall at the end of this chamber to receive the Eye of Nehaleni to dispel it.
-- Secondary Quest – The Magic Lamp
+[x] Secondary Quest – The Magic Lamp
 > Before we leave the Ruins, Keira will ask us for our help in searching for a Magic Lamp she was promised from the Elven Mage. We have the option to decline, but do not do this; do not exit out of the dialogue without accepting the Quest! We need to complete this Secondary Quest to unlock Keira as an Ally later on for the Full Crew Achievement as well as the Friends With Benefits Achievement!
 > Agree to help Keira & we will need to solve a little puzzle involving four statues. Facing the doorway we need to open, light the statues in this order: first on the right, first on the left, second on the right, & second on the left. Enter into the following room & collect the Magic Lamp for Keira.
 > Completing this Secondary Quest will unlock a few more for us to complete for Keira…
 ## Velen – Midcopse
-- Secondary Quest – An Invitation From Keira
+[x] Secondary Quest – An Invitation From Keira
 > Track down a Signpost & travel to Midcopse where we can then head over to Keira’s home.
 > Potion of Clearance: Keira is now a Merchant we can purchase Alchemy ingredients from. Of these Items, is a Potion of Clearance for 1000 Crowns. Not that you have to buy it right away, but it is a good idea to begin making a stockpile of a few of these; there are a few Achievements that we will require very specific Abilities to unlock them. We can use these Potions to respec our Ability Points. If possible, we will try to obtain at least two of them for those Achievements later on; one Potion to respec to get the Abilities, & then the other to return us back to our desired builds after the Achievements are unlocked…
 ## Velen – Fyke Isle
-- Secondary Quest – A Towerful of Mice
+[x] Secondary Quest – A Towerful of Mice
 > Speak with Keira & we will receive our next Quest from her to lift a curse on Fyke Isle. Sail to the island using Keira’s Boat, & carefully fight your way through the corpse eaters to reach the tower. While we explore the tower, use the Magic Lamp on the memories of the dead to listen to the ghosts; we can earn some great bonus Xp for doing this!
 > Locate Anabelle at the top of the tower & decide how you want to handle her request; agreeing to help her is actually the evil ending to the Quest while not trusting/attacking her leads to the… “better” ending.
 ## Velen – Midcopse
-- Secondary Quest – A Favor For A Friend
+[x] Secondary Quest – A Favor For A Friend
 > After the curse is lifted, return to Keira & we will be given a new errand to run for her locating a package that failed to arrive from Novigrad. Agree to help her & travel to Hangman’s Alley to search for it. Track down the remnants of the wagon & collect Keira’s ingredients.
 > Return them to Keira & agree to go on a little fairy tale date with her; whether or not you have sexy time with her is not a factor for any Achievements.
 ## Velen – Fyke Isle
-- Secondary Quest – For the Advancement of Learning
+[x] Secondary Quest – For the Advancement of Learning
 > We need to return to Fyke Isle now to see what Keira is up to there. When we arrive, Keira will meet us outside. There are a few different ways this Quest can end, for the Full Crew Achievement we cannot kill her, or it will completely mess up our 100%!
 > Do not exit out of the dialogue either. Follow through with the dialogue not letting her seek out King Radovid & suggest that she “Goes to Kaer Morhen” to stay.
-- Kaer Morhen Ally #1 – Keira Metz
+[x] Kaer Morhen Ally #1 – Keira Metz
 > Tell Keira to go to Kaer Morhen at the end of Secondary Quest – For the Advancement of Learning to unlock our first of seven Allies.
-- Achievement #14 – Friends With Benefits
+[x] Achievement #14 – Friends With Benefits
 > Complete the subplot involving Keira Metz.
 > This Achievement will be unlocked no matter what ending you pick to end Secondary Quest – For the Advancement of Learning.
 
@@ -653,7 +653,7 @@
 > Head to Downwarren now & you will see the Notice Board is re-highlighted. Scan it, & we can find this new Witcher Contract pinned to it. Travel Southwest into the swamps & speak with the Contract issuer. (Be wary the covenant for the Witches of Crookback Bog is close by in this swamp; they are found at the circle of three buildings in the center of the swamp South of Downwarren. Do not go there yet!)
 > Locate Leslev & ask for more details on the Contract; we will hold onto this one for now, though we are not too far off from being able to complete it.
 ## Velen – No Man’s Land
-- Achievement #16 – Fire In the Hole
+[x] Achievement #16 – Fire In the Hole
 > Destroy 10 Monster Nests using Bombs.
 > This will come naturally as we playthrough the game; there are well over 10 Monster Nests in the game for sure… You may have unlocked this Achievement sooner if you destroyed the three Monster Nests in White Orchard.
 ## Velen – Crow’s Perch

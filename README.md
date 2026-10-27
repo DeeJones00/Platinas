@@ -16,7 +16,11 @@ Use "Importar" to load a `.txt` guide or a `.json` backup. "Backup" downloads ev
 
 ## Steam guide converter
 
-`tools/steam_guide_to_text.py <guide.html|URL> <out.txt>` converts the Steam "100% Achievement Guide: The Witcher 3" into the text format above. The output is the author's text, so it goes in `private/` (git-ignored). Do not commit it.
+`tools/steam_guide_to_text.py <guide.html|URL> <out.txt>` converts the Steam "100% Achievement Guide: The Witcher 3" (by Cynical Guides) into the text format above.
+
+## Bundled guides
+
+Files listed in `guides/index.json` are imported automatically the first time the app opens (a guide you delete is not re-imported). The Witcher 3 text in `guides/` belongs to its author; it is included here by the repo owner's choice.
 
 ## Deploy on GitHub Pages
 

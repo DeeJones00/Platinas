@@ -23,3 +23,29 @@ h2.sec{font-size:1rem;color:var(--acc);margin:22px 0 6px;border-bottom:1px solid
 .item.done .box{background:var(--ok);border-color:var(--ok)}
 .note{color:var(--mute);padding:4px 6px}
 .hint{color:var(--mute);font-size:.85rem}
+
+.card b{font-size:1.05rem}
+.group{border-left:2px solid #2a2f42;margin:6px 0 6px 0}
+.group.d1{border-left:0;background:var(--card);border-radius:12px;margin:10px 0}
+.group.d2,.group.d3{margin-left:10px;padding-left:4px}
+.gh{display:flex;align-items:center;gap:8px;padding:12px 10px;cursor:pointer;user-select:none}
+.group.d2>.gh,.group.d3>.gh{padding:9px 6px;color:var(--acc)}
+.gh .gt{flex:1}
+.gh .cnt{color:var(--mute);font-size:.85rem;font-variant-numeric:tabular-nums}
+.chev{display:inline-block;width:1em;transition:transform .15s;color:var(--mute)}
+.group.open>.gh .chev{transform:rotate(90deg)}
+.group.complete>.gh .gt{color:var(--ok)}
+.group.complete>.gh .cnt{color:var(--ok)}
+.gb{padding:0 8px 6px}
+.item .box{cursor:pointer;padding:0}
+.item{cursor:default;align-items:flex-start}
+.item .txt{flex:1;cursor:pointer}
+.item .more{color:var(--mute);cursor:pointer;padding:0 4px}
+.detail{color:var(--mute);font-size:.92rem;margin-top:6px;text-decoration:none}
+.detail p,.note p{margin:6px 0}
+.item.done .detail{text-decoration:none}
+.note{color:var(--mute);font-size:.92rem;padding:4px 8px}
+#view.hidedone .item.done{display:none}
+.bar{margin-top:4px}
+#sum .bar{margin:6px 0 10px}
+header .row,#actions{display:flex;gap:6px}

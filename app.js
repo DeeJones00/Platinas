@@ -1,109 +1,345 @@
-const KEY = 'platinas.v1';
+// ---------- Armazenamento (IndexedDB) ----------
+// guides: conteudo do guia. progress: itens feitos e grupos abertos, por guia. meta: lista de jogos.
+const OLD_KEY = 'platinas.v1';
 const $ = (s) => document.querySelector(s);
 const view = $('#view'), title = $('#title'), actions = $('#actions'), back = $('#back');
 
-let db = load();
+const idb = new Promise((ok, fail) => {
+  const r = indexedDB.open('platinas', 1);
+  r.onupgradeneeded = () => ['guides', 'progress', 'meta'].forEach((s) => r.result.createObjectStore(s));
+  r.onsuccess = () => ok(r.result);
+  r.onerror = () => fail(r.error);
+});
+const tx = async (store, mode, fn) => {
+  const db = await idb;
+  return new Promise((ok, fail) => {
+    const t = db.transaction(store, mode), s = t.objectStore(store);
+    const req = fn(s);
+    t.oncomplete = () => ok(req && req.result);
+    t.onerror = () => fail(t.error);
+  });
+};
+const get = (s, k) => tx(s, 'readonly', (o) => o.get(k));
+const put = (s, k, v) => tx(s, 'readwrite', (o) => o.put(v, k));
+const del = (s, k) => tx(s, 'readwrite', (o) => o.delete(k));
+const all = async (s) => {
+  const db = await idb;
+  return new Promise((ok) => {
+    const out = {}, c = db.transaction(s).objectStore(s).openCursor();
+    c.onsuccess = () => { const x = c.result; if (x) { out[x.key] = x.value; x.continue(); } else ok(out); };
+  });
+};
+
+let guides = {};   // id -> {id, game, name, tree, total}
+let progress = {}; // id -> {done:{ordinal:1}, open:{groupId:1}}
+let games = [];    // nomes das pastas
 let route = { name: 'home' };
 
-function load() {
-  try { return JSON.parse(localStorage.getItem(KEY)) || { guides: [] }; }
-  catch { return { guides: [] }; }
-}
-function save() { localStorage.setItem(KEY, JSON.stringify(db)); }
 const uid = () => Math.random().toString(36).slice(2, 10);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-// Texto -> blocos. "# x" = secao, "- x"/"* x"/"[ ] x"/linha = item riscavel, "> x" = nota.
+// ---------- Formato de texto ----------
+// "# t" / "## t" / "### t" = grupo. "- t" ou linha solta = item. "> t" = detalhe do item (ou do grupo, antes do 1o item).
+// "[x] t" = item ja feito. Ids: grupos "g<n>" por ordem, itens numerados por ordem (n).
 function parse(text) {
-  return text.split(/\r?\n/).map((l) => l.trim()).filter(Boolean).map((l) => {
+  const root = { g: 1, x: '', c: [], d: [], id: 'g0' };
+  const stack = [{ depth: 0, node: root }];
+  let gid = 1, n = 0, last = null;
+  const done = {};
+  for (let line of text.split(/\r?\n/)) {
+    line = line.trim();
+    if (!line) continue;
     let m;
-    if ((m = l.match(/^#{1,6}\s*(.+)/))) return { t: 'h', x: m[1] };
-    if ((m = l.match(/^>\s*(.+)/))) return { t: 'n', x: m[1] };
-    return { t: 'i', x: l.replace(/^([-*+]|\d+[.)]|\[[ xX]?\])\s+/, ''), d: /^\[[xX]\]/.test(l) };
-  });
+    if ((m = line.match(/^(#{1,6})\s*(.+)/))) {
+      const depth = m[1].length;
+      while (stack[stack.length - 1].depth >= depth) stack.pop();
+      const g = { g: 1, x: m[2], c: [], d: [], id: 'g' + gid++ };
+      stack[stack.length - 1].node.c.push(g);
+      stack.push({ depth, node: g });
+      last = g;
+    } else if ((m = line.match(/^>\s*(.*)/))) {
+      (last || root).d.push(m[1]);
+    } else {
+      const it = { x: line.replace(/^([-*+]|\d+[.)])\s+/, '').replace(/^\[[ xX]?\]\s*/, ''), n: n++, d: [] };
+      if (/^(?:[-*+]\s+)?\[[xX]\]/.test(line)) done[it.n] = 1;
+      stack[stack.length - 1].node.c.push(it);
+      last = it;
+    }
+  }
+  return { tree: root.c, notes: root.d, total: n, done };
 }
-const stats = (g) => {
-  const it = g.blocks.filter((b) => b.t === 'i');
-  const done = it.filter((b) => b.d).length;
-  return { done, total: it.length, pct: it.length ? Math.round((done / it.length) * 100) : 0 };
+const toText = (tree, notes = [], done = {}) => {
+  const out = notes.map((d) => '> ' + d);
+  const walk = (nodes, depth) => nodes.forEach((x) => {
+    if (x.g) {
+      out.push('#'.repeat(depth) + ' ' + x.x);
+      x.d.forEach((d) => out.push('> ' + d));
+      walk(x.c, depth + 1);
+    } else {
+      out.push((done[x.n] ? '[x] ' : '- ') + x.x);
+      x.d.forEach((d) => out.push('> ' + d));
+    }
+  });
+  walk(tree, 1);
+  return out.join('\n');
 };
-const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
+// contagem [feitos, total] de um grupo
+const count = (node, done) => {
+  let d = 0, t = 0;
+  for (const c of node.c) {
+    if (c.g) { const r = count(c, done); d += r[0]; t += r[1]; } else { t++; if (done[c.n]) d++; }
+  }
+  return [d, t];
+};
+const guideStats = (g) => {
+  const done = progress[g.id]?.done || {};
+  const [d, t] = count({ c: g.tree }, done);
+  return { d, t, pct: t ? Math.round((d / t) * 100) : 0 };
+};
+
+async function saveGuide(g) { await put('guides', g.id, g); }
+const saveProgress = (id) => put('progress', id, progress[id]);
+const saveGames = () => put('meta', 'games', games);
+
+async function init() {
+  guides = await all('guides');
+  progress = await all('progress');
+  games = (await get('meta', 'games')) || [];
+  await migrateOld();
+  Object.values(guides).forEach((g) => g.game && !games.includes(g.game) && games.push(g.game));
+  render();
+}
+
+// Guias do formato antigo (localStorage) viram guias novos uma unica vez.
+async function migrateOld() {
+  let old;
+  try { old = JSON.parse(localStorage.getItem(OLD_KEY)); } catch { return; }
+  if (!old?.guides?.length) return;
+  for (const o of old.guides) {
+    const g = { id: o.id, game: o.game || 'Sem jogo', name: o.name, tree: [], notes: [] };
+    let grp = null, n = 0;
+    const done = {};
+    for (const b of o.blocks) {
+      if (b.t === 'h') { grp = { g: 1, x: b.x, c: [], d: [], id: 'g' + (g.tree.length + 1) }; g.tree.push(grp); }
+      else if (b.t === 'i') { const it = { x: b.x, n: n++, d: [] }; if (b.d) done[it.n] = 1; (grp ? grp.c : g.tree).push(it); }
+    }
+    g.total = n;
+    guides[g.id] = g;
+    progress[g.id] = { done, open: {} };
+    await saveGuide(g); await saveProgress(g.id);
+  }
+  localStorage.removeItem(OLD_KEY);
+}
+
+// ---------- Navegacao ----------
 function go(r) { route = r; render(); window.scrollTo(0, 0); }
-back.onclick = () => go(route.name === 'read' && route.from ? route.from : { name: 'home' });
+back.onclick = () => go(route.name === 'read' || route.name === 'edit' && route.id
+  ? { name: 'game', game: guides[route.id]?.game } : { name: route.game ? 'game' : 'home', game: route.game });
 
 function render() {
   back.hidden = route.name === 'home';
   actions.innerHTML = '';
-  ({ home, edit, read }[route.name])();
+  ({ home, game: gameView, edit, read }[route.name])();
 }
 
+const bar = (p) => `<div class="bar"><i style="width:${p}%"></i></div>`;
+
+// ---------- Pastas de jogos ----------
 function home() {
   title.textContent = 'Platinas';
-  actions.innerHTML = '<button class="primary" id="new">+ Guia</button>';
-  $('#new').onclick = () => go({ name: 'edit' });
-  if (!db.guides.length) {
-    view.innerHTML = '<p class="empty">Nenhum guia ainda.<br>Toque em "+ Guia" e cole o texto.</p>';
+  actions.innerHTML = '<button id="bk">Backup</button><button id="imp">Importar</button><button class="primary" id="newgame">+ Jogo</button>';
+  $('#newgame').onclick = async () => {
+    const n = (prompt('Nome do jogo:') || '').trim();
+    if (n && !games.includes(n)) { games.push(n); await saveGames(); render(); }
+  };
+  $('#imp').onclick = () => importFile();
+  $('#bk').onclick = exportBackup;
+  if (!games.length) {
+    view.innerHTML = '<p class="empty">Nenhum jogo ainda.<br>Toque em "+ Jogo" para criar uma pasta,<br>ou em "Importar" para abrir um guia ou backup.</p>';
     return;
   }
-  const games = {};
-  db.guides.forEach((g) => (games[g.game || 'Sem jogo'] ||= []).push(g));
-  view.innerHTML = Object.entries(games).map(([game, gs]) =>
-    `<h2 class="sec">${esc(game)}</h2>` + gs.map((g) => {
-      const s = stats(g);
-      return `<div class="card" data-id="${g.id}"><div><b>${esc(g.name)}</b><small>${s.done}/${s.total} · ${s.pct}%</small>
-        <div class="bar"><i style="width:${s.pct}%"></i></div></div></div>`;
-    }).join('')).join('');
+  view.innerHTML = games.map((n) => {
+    const gs = Object.values(guides).filter((g) => g.game === n);
+    const s = gs.map(guideStats).reduce((a, x) => ({ d: a.d + x.d, t: a.t + x.t }), { d: 0, t: 0 });
+    const pct = s.t ? Math.round((s.d / s.t) * 100) : 0;
+    return `<div class="card" data-game="${esc(n)}"><div style="flex:1"><b>📁 ${esc(n)}</b>
+      <small>${gs.length} guia(s)${s.t ? ` · ${s.d}/${s.t} · ${pct}%` : ''}</small>${s.t ? bar(pct) : ''}</div></div>`;
+  }).join('');
+  view.querySelectorAll('.card').forEach((c) => (c.onclick = () => go({ name: 'game', game: c.dataset.game })));
+}
+
+function gameView() {
+  const game = route.game;
+  title.textContent = game;
+  actions.innerHTML = '<button id="more">⋯</button><button id="imp">Importar</button><button class="primary" id="new">+ Guia</button>';
+  $('#new').onclick = () => go({ name: 'edit', game });
+  $('#imp').onclick = () => importFile(game);
+  $('#more').onclick = async () => {
+    const act = (prompt('Digite: renomear ou excluir') || '').trim().toLowerCase();
+    if (act === 'renomear') {
+      const n = (prompt('Novo nome:', game) || '').trim();
+      if (!n || games.includes(n)) return;
+      games[games.indexOf(game)] = n;
+      for (const g of Object.values(guides)) if (g.game === game) { g.game = n; await saveGuide(g); }
+      await saveGames(); go({ name: 'game', game: n });
+    } else if (act === 'excluir' && confirm(`Excluir "${game}" e todos os guias dentro?`)) {
+      for (const g of Object.values(guides)) if (g.game === game) { await del('guides', g.id); await del('progress', g.id); delete guides[g.id]; delete progress[g.id]; }
+      games = games.filter((x) => x !== game); await saveGames(); go({ name: 'home' });
+    }
+  };
+  const gs = Object.values(guides).filter((g) => g.game === game);
+  if (!gs.length) { view.innerHTML = '<p class="empty">Pasta vazia.<br>Toque em "+ Guia" ou "Importar".</p>'; return; }
+  view.innerHTML = gs.map((g) => {
+    const s = guideStats(g);
+    return `<div class="card" data-id="${g.id}"><div style="flex:1"><b>${esc(g.name)}</b><small>${s.d}/${s.t} · ${s.pct}%</small>${bar(s.pct)}</div></div>`;
+  }).join('');
   view.querySelectorAll('.card').forEach((c) => (c.onclick = () => go({ name: 'read', id: c.dataset.id })));
 }
 
+// ---------- Editor ----------
 function edit() {
-  const g = db.guides.find((x) => x.id === route.id);
+  const g = guides[route.id];
   title.textContent = g ? 'Editar guia' : 'Novo guia';
-  const raw = g ? g.blocks.map((b) => (b.t === 'h' ? '# ' : b.t === 'n' ? '> ' : (b.d ? '[x] ' : '- ')) + b.x).join('\n') : '';
+  const raw = g ? toText(g.tree, g.notes, progress[g.id]?.done) : '';
   view.innerHTML = `
-    <input id="game" placeholder="Jogo" value="${esc(g?.game || '')}" list="games">
-    <datalist id="games">${[...new Set(db.guides.map((x) => x.game).filter(Boolean))].map((x) => `<option value="${esc(x)}">`).join('')}</datalist>
     <input id="name" placeholder="Nome do guia" value="${esc(g?.name || '')}">
-    <textarea id="text" placeholder="Cole o guia aqui.\n# Secao\n- item riscavel\n> nota (nao riscavel)">${esc(raw)}</textarea>
-    <p class="hint">Regras: "# " = secao. "> " = nota. Qualquer outra linha = item que voce risca.</p>
+    <textarea id="text" placeholder="# Seção&#10;## Subseção&#10;- item riscável&#10;> detalhe do item">${esc(raw)}</textarea>
+    <p class="hint"># ## ### = grupos (recolhidos). "- " = item. "> " = detalhe do item acima. Dá para editar sem perder o progresso se a ordem dos itens não mudar.</p>
     <div class="row"><button class="primary" id="save">Salvar</button>${g ? '<button class="danger" id="del">Excluir</button>' : ''}</div>`;
-  $('#save').onclick = () => {
-    const blocks = parse($('#text').value);
-    const name = $('#name').value.trim() || 'Sem nome';
-    if (!blocks.length) return alert('Guia vazio.');
-    const rec = g || { id: uid() };
-    Object.assign(rec, { game: $('#game').value.trim(), name, blocks });
-    if (!g) db.guides.push(rec);
-    save(); go({ name: 'read', id: rec.id });
+  $('#save').onclick = async () => {
+    const p = parse($('#text').value);
+    if (!p.total) return alert('Guia vazio.');
+    const rec = g || { id: uid(), game: route.game || 'Sem jogo' };
+    Object.assign(rec, { name: $('#name').value.trim() || 'Sem nome', tree: p.tree, notes: p.notes, total: p.total });
+    guides[rec.id] = rec;
+    progress[rec.id] ||= { done: p.done, open: {} };
+    await saveGuide(rec); await saveProgress(rec.id);
+    go({ name: 'read', id: rec.id });
   };
-  if (g) $('#del').onclick = () => {
-    if (confirm('Excluir este guia?')) { db.guides = db.guides.filter((x) => x !== g); save(); go({ name: 'home' }); }
+  if (g) $('#del').onclick = async () => {
+    if (!confirm('Excluir este guia?')) return;
+    await del('guides', g.id); await del('progress', g.id);
+    delete guides[g.id]; delete progress[g.id];
+    go({ name: 'game', game: g.game });
   };
 }
 
+// ---------- Leitor ----------
 function read() {
-  const g = db.guides.find((x) => x.id === route.id);
+  const g = guides[route.id];
   if (!g) return go({ name: 'home' });
+  const pr = (progress[g.id] ||= { done: {}, open: {} });
   title.textContent = g.name;
-  actions.innerHTML = '<button id="reset">Zerar</button><button id="ed">Editar</button>';
+  actions.innerHTML = '<button id="hide">Ocultar</button><button id="ed">Editar</button>';
   $('#ed').onclick = () => go({ name: 'edit', id: g.id });
-  $('#reset').onclick = () => {
-    if (confirm('Desmarcar tudo?')) { g.blocks.forEach((b) => delete b.d); save(); render(); }
+  $('#hide').onclick = () => { view.classList.toggle('hidedone'); };
+
+  view.innerHTML = '<div id="sum" class="hint"></div><div id="tree"></div>';
+  const tree = $('#tree');
+  const noteHtml = (d) => d.map((x) => `<p>${esc(x)}</p>`).join('');
+  if (g.notes?.length) tree.insertAdjacentHTML('beforebegin', `<div class="note">${noteHtml(g.notes)}</div>`);
+
+  const summary = () => {
+    const s = guideStats(g);
+    $('#sum').innerHTML = `${esc(g.game)} · ${s.d}/${s.t} (${s.pct}%)${bar(s.pct)}`;
   };
-  const s = stats(g);
-  view.innerHTML = `<p class="hint">${esc(g.game)} · ${s.done}/${s.total} (${s.pct}%)</p>` +
-    g.blocks.map((b, i) =>
-      b.t === 'h' ? `<h2 class="sec">${esc(b.x)}</h2>`
-      : b.t === 'n' ? `<div class="note">${esc(b.x)}</div>`
-      : `<div class="item${b.d ? ' done' : ''}" data-i="${i}"><span class="box"></span><span>${esc(b.x)}</span></div>`).join('');
-  view.querySelectorAll('.item').forEach((el) => (el.onclick = () => {
-    const b = g.blocks[el.dataset.i];
-    b.d = !b.d; save();
-    el.classList.toggle('done', b.d);
-    const t = stats(g);
-    view.querySelector('.hint').textContent = `${g.game} · ${t.done}/${t.total} (${t.pct}%)`;
-  }));
+  const refreshCounts = () => {
+    tree.querySelectorAll('[data-gid]').forEach((el) => {
+      const [d, t] = count(el._node, pr.done);
+      el.querySelector(':scope > .gh .cnt').textContent = `${d}/${t}`;
+      el.classList.toggle('complete', t > 0 && d === t);
+    });
+    summary();
+  };
+
+  const itemEl = (it) => {
+    const el = document.createElement('div');
+    el.className = 'item' + (pr.done[it.n] ? ' done' : '');
+    const hasD = it.d && it.d.length;
+    el.innerHTML = `<span class="box"></span><div class="txt"><div>${esc(it.x)}</div>${hasD ? '<div class="detail" hidden>' + noteHtml(it.d) + '</div>' : ''}</div>${hasD ? '<span class="more">ⓘ</span>' : ''}`;
+    el.querySelector('.box').onclick = () => {
+      if (pr.done[it.n]) delete pr.done[it.n]; else pr.done[it.n] = 1;
+      el.classList.toggle('done', !!pr.done[it.n]);
+      saveProgress(g.id); refreshCounts();
+    };
+    if (hasD) el.querySelectorAll('.txt, .more').forEach((x) => (x.onclick = () => { const dt = el.querySelector('.detail'); dt.hidden = !dt.hidden; }));
+    return el;
+  };
+
+  const groupEl = (node, depth) => {
+    const el = document.createElement('section');
+    el.className = 'group d' + Math.min(depth, 3);
+    el.dataset.gid = node.id;
+    el._node = node;
+    const [d, t] = count(node, pr.done);
+    el.innerHTML = `<div class="gh"><span class="chev">▸</span><span class="gt">${esc(node.x)}</span><span class="cnt">${d}/${t}</span></div><div class="gb" hidden></div>`;
+    const body = el.querySelector('.gb');
+    const open = (state) => {
+      body.hidden = !state;
+      el.classList.toggle('open', state);
+      if (state) fill();
+      if (state) pr.open[node.id] = 1; else delete pr.open[node.id];
+    };
+    let filled = false;
+    const fill = () => {
+      if (filled) return;
+      filled = true;
+      if (node.d?.length) body.insertAdjacentHTML('beforeend', `<div class="note">${noteHtml(node.d)}</div>`);
+      node.c.forEach((c) => body.appendChild(c.g ? groupEl(c, depth + 1) : itemEl(c)));
+    };
+    el.querySelector('.gh').onclick = () => { open(body.hidden); saveProgress(g.id); };
+    if (pr.open[node.id]) open(true);
+    return el;
+  };
+
+  g.tree.forEach((c) => tree.appendChild(c.g ? groupEl(c, 1) : itemEl(c)));
+  refreshCounts();
 }
 
-render();
+// ---------- Importar / backup ----------
+function importFile(game) {
+  const inp = document.createElement('input');
+  inp.type = 'file';
+  inp.accept = '.txt,.md,.json,text/plain,application/json';
+  inp.onchange = async () => {
+    const f = inp.files[0];
+    if (!f) return;
+    const text = await f.text();
+    if (f.name.endsWith('.json')) return importBackup(text);
+    const p = parse(text);
+    if (!p.total) return alert('Arquivo sem itens.');
+    const name = (prompt('Nome do guia:', f.name.replace(/\.\w+$/, '')) || '').trim();
+    if (!name) return;
+    const gm = game || (prompt('Jogo (pasta):') || 'Sem jogo').trim();
+    const g = { id: uid(), game: gm, name, tree: p.tree, notes: p.notes, total: p.total };
+    guides[g.id] = g;
+    progress[g.id] = { done: p.done, open: {} };
+    if (!games.includes(gm)) { games.push(gm); await saveGames(); }
+    await saveGuide(g); await saveProgress(g.id);
+    go({ name: 'game', game: gm });
+  };
+  inp.click();
+}
+
+function exportBackup() {
+  const blob = new Blob([JSON.stringify({ v: 2, games, guides, progress })], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'platinas-backup.json';
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+}
+
+async function importBackup(text) {
+  let b;
+  try { b = JSON.parse(text); } catch { return alert('JSON inválido.'); }
+  if (!b.guides || !confirm('Restaurar backup? Guias com o mesmo id serão substituídos.')) return;
+  for (const g of Object.values(b.guides)) { guides[g.id] = g; await saveGuide(g); }
+  for (const [id, p] of Object.entries(b.progress || {})) { progress[id] = p; await saveProgress(id); }
+  (b.games || []).forEach((n) => !games.includes(n) && games.push(n));
+  await saveGames(); go({ name: 'home' });
+}
+
+init();
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');

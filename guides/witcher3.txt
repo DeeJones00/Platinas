@@ -71,99 +71,6 @@
 > This is the earliest we can unlock this Achievement. Our Neutral Cards are the Weather Cards, Zoltan Chivay, & our DLC Card Roach. For this Achievement, be sure you have Zoltan in your hand.
 > Use the first round to exhaust as many (if not all) of the Scholar’s cards in the first round & still win. On the final round, play only those Neutral Cards & win the game.
 > If you cannot swing this, we can earn this Achievement at any point during the game when we get more & stronger Neutral Cards… Just be sure to attempt it on weaker Gwent opponents; it may also just happen naturally in game as well.
-## Cartas de Gwent
-[x] Gwent Player – Scholar
-> Local: White Orchard
-> Return back into the Tavern now & speak with the group of Peasants playing Gwent at a table. Speak with the Scholar, & when we go to leave… he will introduce us to the best card game in all games, even better than Caravan. Gwent.
-> With our first Gwent match underway, we will unlock our starter base deck of Gwent Cards made up of Northern Realms & Neutral Cards.
-[x] Unique Gwent Card #1 – Foltest, King of Temeria (Leader)
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #2 – Biting Frost
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #3 – Impenetrable Fog
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #4 – Torrential Rain
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #5 – Clear Weather
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #6 – Dethmold
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #7 – Trebuchet (1)
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #8 – Trebuchet (2)
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #9 – Ballista (1)
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #10 – Ballista (2)
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #11 – Ves
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #12 – Siegfried of Denesle
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #13 – Keira Metz
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #14 – Síle de Tansarville
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #15 – Prince Stennis
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #16 – Dun Banner Medic
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #17 – Sabrina Glevissig
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #18 – Sheldon Skaggs
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #19 – Blue Stripes Commando
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #20 – Poor Fockin’ Infantry
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #21 – Redanian Foot Soldier (1)
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #22 – Redanian Foot Soldier (2)
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #23 – Kaedweni Siege Expert
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #24 – Yarpen Zigrin
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #25 – Emhyr var Emreis, His Imperial Majesty (Leader)
-> Local: White Orchard
-> Unlocked with
-> our base deck.
-[x] Unique Gwent Card #26 – Francesca Findabair, Pureblood Elf (Leader)
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #27 – Eredin, King of the Wild Hunt (Leader)
-> Local: White Orchard
-> Unlocked with our base deck.
-[x] Unique Gwent Card #28 – Zoltan Chivay
-> Local: White Orchard
-> We will acquire this Gwent Card after we defeat the Scholar in the White Orchard Tavern in a game.
-> If you synced your Gwent – The Witcher Card game profile, the Roach Card we recieved is a DLC Card & does not count towards the Achievement.
-> A Miraculous Guide to Gwent: We will acquire this Book after defeating the Scholar for the first time that will give us a bit of a checklist for Unique Gwent Cards acquired.
-
 # Sequence 2: The Death of White Lilies
 > 1. White Orchard
 > 2. Main Quests: Lilac & Gooseberries, The Beast of White Orchard, The Incident At White Orchard
@@ -210,21 +117,6 @@
 [x] Achievement #7 – Lilac & Gooseberries
 > Find Yennefer of Vengerberg.
 > Story Related. Instead of finding Yennefer, Yennefer will find us at the White Orchard Tavern & take us to Vizima, unlocking the Achievement.
-## Cartas de Gwent
-[x] Unique Gwent Card #28 – Decoy
-> Local: White Orchard
-> While still in the White Orchard Tavern, speak with the Shopkeeper here to purchase this Gwent Card for 20 Crowns.
-[x] Unique Gwent Card #29 – Crinfrid Reavers Dragon Hunter
-> Local: White Orchard
-> Purchased from the White Orchard Tavern’s Shopkeeper for 20 Crowns.
-[x] Unique Gwent Card #30 – Catapult (1)
-> Local: White Orchard
-> Purchased from the White Orchard Tavern’s Shopkeeper for 50 Crowns.
-[x] Unique Gwent Card #31 – Foltest, Lord Commander of the North (Leader)
-> Local: White Orchard
-> Purchased from the White Orchard Tavern’s Shopkeeper for 50 Crowns.
-> We can also purchase another Blue Stripes Commando from her; very good for our Northern Realms Deck, but not needed for the Achievement.
-
 # Sequence 3: The Bloody Baron
 > 1. Vizima
 > 2. Velen: Mulbrydale, Inn At the Crossroads, Heatherton, Crow’s Perch
@@ -262,30 +154,6 @@
 - Main Quest #8 – Family Matters
 > After our memory of Ciri, we will strike a deal with the Baron to look for his wife & daughter in return for more information on Ciri. By doing this, we now have full run of Crow’s Perch & it has now become our new base of operation for Velen!
 > Go to the wife & daughter’s rooms & use your Witcher Senses to search for clues. After finding some & speaking with the Baron, we will progress the Quest to speaking with the old pellar North of Black Bough.
-## Cartas de Gwent
-- Unique Gwent Card #32 – Foltest, the Siegemaster (Leader)
-> Local: Vizima
-> After our gear is returned, we have an errand to run before we leave set off to Velen. In the courtyard outside Yennefer’s quarters, we can find a Nilfgaardian Nobleman; he will have a ! over him on our World Map.
-> Speak with him, & we can duel him in Gwent. He is pretty tricky, so you will want to pull out all the stops & be sure you have your Deck specked out… as best you can anyways with the Cards we have. He has three Hero Cards, so you will want to keep dueling him until he only gets one… or none, in his hand.
-> As a Deck building tip, I would recommend having a Deck with 28-36 Cards in it max. Just because you can put up to 60 Cards in your Deck doesn’t mean you should; it just increases the chance of you getting weak Cards in your hand… You will want Decoys in your Deck so you can steal the Spies he places on your field as well!
-> Dueling him again will not award you with any more Unique Gwent Cards…
-- Unique Gwent Card #33 – Commander’s Horn
-> Local: Velen – Inn At the Crossroads
-> Speak with the Innkeeper again & ask him what he has got for sale; we can purchase this Gwent Card for 10 Crowns.
-- Unique Gwent Card #34 – Siege Engineer
-> Local: Velen – Inn At the Crossroads
-> Purchased from the Innkeeper at the Inn At the Crossroads for 20 Crowns.
-- Unique Gwent Card #35 – Impera Brigade Guard
-> Local: Velen – Inn At the Crossroads
-> Purchased from the Innkeeper at the Inn At the Crossroads for 20 Crowns.
-- Unique Gwent Card #36 – Nausicaa Cavalry Rider
-> Local: Velen – Inn At the Crossroads
-> Purchased from the Innkeeper at the Inn At the Crossroads for 20 Crowns.
-- Unique Gwent Card #37 – Emhyr var Emreis, Emperor of Nilfgaard (Leader)
-> Local: Velen – Inn At the Crossroads
-> Purchased from the Innkeeper at the Inn At the Crossroads for 50 Crowns.
-> Notice Board: Outside the Inn, we can find a Notice Board that will uncover some new Undiscovered Locations.
-
 # Sequence 4: A Round of Gwent?
 > 1. Velen: Crow’s Perch
 > 2. Main Quests: N/A
@@ -308,54 +176,6 @@
 > We will acquire the Racing Saddle after beating our first contestant which will help a lot. If you are struggling, a “pro” tactic to regain Stamina is to block your opponent’s way while you do it. Tilt Roach in front of their horses to catch them, regain your Stamina, then ride off again!
 > There are 11 Horse Races in total we need to complete across the three main areas for the Fast & Furious Achievement.
 > Note that there are 29 Monster Nests to be found in the Velen/Novigrad region. For the Pest Control Achievement we need to destroy all Monster Nests found in an Area. This would be all 29 in Velen/Novigrad or all 5 in Skellige. For our Achievement, we will obviously be earning this in Skellige later on, but don’t let that stop you from exploring!
-## Cartas de Gwent
-[x] Random Player #1 – Fergus
-> Local: Velen – Crow’s Perch
-> When we go to leave the Baron’s home, stop outside the fort gates & we can find three merchants. One will be a Dwarf named Fergus & he is an Armorer.
-> Fergus is a “Random Player” meaning that the Gwent Card we receive from him upon victory is random. There are more Random Players in the game than there are Gwent Cards in the random card pool. By playing all Random Players we come across, you are guaranteed to collect all 50 of these Cards in the pool; consult the Miraculous Guide to Gwent in our Book tab to see how many Cards can be collected from Random Players… You can also cross reference the Random Card list in my Achievement Checklist found in this guide’s Introduction as well to see which Cards you still need.
-> Note that we will not always get a Unique Card & instead may also receive a duplicate of another Card instead from the pool.
-> A Random Player can only be dueled once to earn a Unique Card; all subsequent duels will award you with Crafting Materials or Junk Items.
-- Unique Gwent Card #38 – Villentretenmerth
-> Local: Velen – Crow’s Perch
-> Can be earned from playing against any Random Player; this is the Card I earned from Fergus, you may earn a different one instead.
-[x] Random Player #2 – Yoana
-> Local: Velen – Crow’s Perch
-> We can duel the alternate Armorer near Fergus, Yoana, as well for a Unique Card. Yoana uses a Monster Deck & will award us one from the random cards pool.
-> Monster Decks are terrifying to fight in early game as they rely heavily on Muster. They are also Close Combat Unit focused making them very susceptible to Biting Frost.
-- Unique Gwent Card #39 – Renuald aep Matsen
-> Local: Velen – Crow’s Perch
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #40 – Cynthia
-> Local: Velen – Crow’s Perch
-> Head just across the street from Fergus, & we can find the fort Quartermaster; we can purchase this Card from him for 10 Crowns.
-> He also sells another copy of the Nausicaa Cavalry Rider.
-[x] Random Player #3 – Quartermaster
-> Local: Velen – Crow’s Perch
-> Lastly, we can also duel the Quartermaster for another chance at winning a new Gwent Card; he uses a Northern Realms Deck.
-[x] Unique Card #41 – Vrihedd Brigade Recruit
-> Local: Velen – Crow’s Perch
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-> Notice Board: The Notice Board here in Crow’s Perch is full of important Quests we need to complete such as a Witcher Contract as well as Fists of Fury, Velen Players, & Horse Races. The latter three Secondary Quests are all required for Achievements…
-> The Witcher Contract – The Beast of Honorton is a DLC Quest & does not count towards the Geralt the Professional Achievement.
-[x] Random Player #4 – Merchant
-> Local: Velen – Crow’s Perch
-> In the lower tier of Crow’s Perch, close to the front entrance to the fort, we can find a lowly grocer Merchant who can be dueled for a Card; they own a Northern Realms Deck.
-- Unique Gwent Card #42 – Filavandrel aen Fidhail
-> Local: Velen – Crow’s Perch
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #43 – Albrich
-> Local: Velen – Crow’s Perch
-> This Merchant also sells Gwent Cards as well. We can purchase this Gwent Card from him for 10 Crowns.
-- Unique Gwent Card #44 – Zerrikanian Fire Scorpion
-> Local: Velen – Crow’s Perch
-> We can purchase this Gwent Card from the Merchant for 50 Crowns.
-> The Merchant also sells copies of the Impera Brigade Guard & Nausicaa Cavalry Rider.
-> Looting Crow’s Perch: Especially on Death March! Difficulty, it is good practice to loot anything & everything that is not nailed down in every settlement we come across. Not only can we restock on Food & get Junk to sell, but if you are lucky, you can stumble upon some rare caches & find Formulae, Weapons, Armor, or even Witcher School Diagrams.
-> We can find such caches in the Cave down the well within the Baron’s garden & in the attic of the stables…
-- Unique Gwent Card #45 – Sigismund Dijkstra
-> Local: Velen – Crow’s Perch
-> Defeat the Bloody Baron during Side Quest – Velen Players.
-
 # Sequence 5: In Memory of Dea
 > 1. Velen: Blackbough, Crow’s Perch, Inn At the Crossroads
 > 2. Main Quests: Family Matters, A Princess In Distress, The Race
@@ -390,18 +210,6 @@
 > Travel to the Inn At the Crossroads & we will find it much more bustling than it was on our first visit. Enter into the Inn itself, & we can find a Fist Fight event going on in the back corner.
 > Sign up, & defeat Smithy to progress the Quest.
 > Speak with the Innkeeper, & we can purchase another copy of the Commander’s Horn Gwent Card if you desire.
-## Cartas de Gwent
-[x] Random Gwent Player #5 – Merchant
-> Local: Velen – Blackbough
-> We will have discovered Blackbough during our Horse Races. Head on over to it, & we can find a Merchant along the roadway immediately upon entering the town. We can duel him for a Card from the random pool; he has a Nilfgaardian Deck.
-> I earned an Impenetrable Fog from this duel; ideally, you won a new Unique Gwent Card instead…
-[x] Random Gwent Player #6 – Blacksmith
-> Local: Velen – Blackbough
-> At the Southwest end of Blackbough, we can find the Blacksmith. Not only will he craft us Swords, but we can duel him for a chance to earn a Unique Gwent Card from the random pool; he has a Northern Realms Deck.
-- Unique Gwent Card #46 – Griffon
-> Local: Velen – Blackbough
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-
 # Sequence 6: Not Just Any Witch...
 > 1. Velen: Midcopse, Claywich
 > 2. Main Quests: Hunting A Witch
@@ -433,25 +241,6 @@
 > Collect the Formulae for 6 different Bomb types.
 > Bomb Formulae can be purchased from Herbalists when they have them in stock or earned as random loot when opening Chests. If you are diligent with your exploration, this is probably the earliest you will unlock this Achievement; there are 8 different types of Bombs in total.
 > If not, or you are not close yet, do not fret; we can purchase all of them from a specific Herbalist found close to Oxenfurt on the other side of the river. I will flag them down when we are in that neck of the woods…
-## Cartas de Gwent
-- Unique Gwent Card #47 – Morteisen
-> Local: Velen – Midcopse
-> Now for the fun part, speak with the Merchant found close by the Notice Board, & we can purchase this Gwent Card for 10 Crowns.
-> We can also purchase another copy of the Crinfrid Reavers Dragon Hunter & Poor Fockin Infantry. There is a weird glitch with the Fockin’ Infantry that makes the Cards stack funny making it seem like they are Unique even though the Card’s art is the same. They should be only worth 1 Unique Card, which we fulfilled in our starting deck, but just to be safe I recommend buying the extra copies of them we come across…
-[x] Random Player #6 – Merchant
-> Local: Velen – Midcopse
-> The Merchant is also a Random Player we can duel for a Gwent Card from the random pool; he has a Monster Deck so be careful!
-- Unique Gwent Card #48 – Vreemde
-> Local: Velen – Midcopse
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-[x] Random Player #7 – Armorer
-> Local: Velen – Midcopse
-> Our next opponent, will be the Armorer found close by; he has a Nilfgaardian Deck.
-> This Armorer also sells both Maps by Edwin Greloff that will give us the locations of all six pieces of the Griffon School Gear.
-- Unique Gwent Card #49 – Arachas Behemoth
-> Local: Velen – Midcopse
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-
 # Sequence 7: Man of the People
 > 1. Velen: Oreton, No Man’s Land, Claywich, Lindenvale
 > 2. Main Quests: N/A
@@ -477,60 +266,6 @@
 > With the Contract collected, speak with the Gravedigger in town for more details; this is a Level 10 Quest, for now leave the Cemetery be…
 [x] Witcher Contract #7 – Mysterious Tracks
 > Speak with the Hunter in Lindenvale for more details on this Contract; this is a Level 20 Contract we will leave until later on…
-## Cartas de Gwent
-[x] Random Player #8 – Trader
-> Local: Velen – Oreton
-> In Oreton, we can find a Trader who is a Random Player; he has a Northern Realms Deck.
-- Unique Gwent Card #50 – Plague Maiden
-> Local: Velen – Oreton
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #51 – Letho of Gulet (Hero)
-> Local: Velen – Oreton
-> Collected by defeating the Boatwright.
-[x] Random Player #9 – Merchant
-> Local: Velen – Claywich
-> Return to Claywich after freeing the Merchant from the Renegades & he should have set up shop here. We can play him for a new Card from the random pool; he has a Northern Realms Deck.
-> For whatever reason, the two people we rescue for Claywich are bugged; the Merchant & there is also a Barber we can rescue found Northwest of Midcopse & Southwest of Blackbough. They will be present, but we will be unable to speak with them. If this bug happens, Fast Travel to White Orchard, then return back to Claywich to get them unstuck.
-- Unique Gwent Card #52 – Dol Blathanna Scout (2)
-> Local: Velen – Claywich
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #53 – Sweers
-> Local: Velen – Claywich
-> This Merchant also sells quite a few Gwent Cards as well; we can purchase this one for 10 Crowns.
-- Unique Gwent Card #54 – Puttkammer
-> Local: Velen – Claywich
-> Can be purchased from the Merchant for 10 Crowns.
-- Unique Gwent Card #55 – Black Infantry Archer (1)
-> Local: Velen – Claywich
-> Can be purchased from the Merchant for 50 Crowns.
-- Unique Gwent Card #56 – Etolian Auxiliary Archer (1)
-> Local: Velen – Claywich
-> Can be purchased from the Merchant for 50 Crowns.
-> We can also purchase another copy of the Crinfrid Reavers Dragon Hunter Card from him as well.
-[x] Random Player #10 – Blacksmith
-> Local: Velen – Lindenvale
-> Now for the fun part. Go to the village Blacksmith & we can verse him in Gwent; he has a Scoia’tael Deck.
-> I received a Clear Weather Card from this duel… no Unique Gwent Card this time.
-[x] Random Player #11 – Merchant
-> Local: Velen – Lindenvale
-> We can find another Random Player in Lindenvale, it is the Merchant; he has a Northern Realms Deck.
-- Unique Gwent Card #57 – Grave Hag
-> Local: Velen – Lindenvale
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #58 – Rainfarn
-> Local: Velen – Lindenvale
-> This Merchant also sells quite a few new Gwent Cards; we can purchase this one for 10 Crowns.
-- Unique Gwent Card #59 – Heavy Zerrikanain Fire Scorpion
-> Local: Velen – Lindenvale
-> Purchased from the Merchant for 50 Crowns.
-- Unique Gwent Card #60 – Etolian Auxiliary Archer (2)
-> Local: Velen – Lindenvale
-> Purchased from the Merchant for 50 Crowns; this is a different variation from the first Etolian Auxiliary Archer we purchased & is Unique.
-- Unique Gwent Card #61 – Black Infantry Archer (2)
-> Local: Velen – Lindenvale
-> Purchased from the Merchant for 50 Crowns; this is a different variation from the first Black Infantry Archer we purchased & is Unique.
-> We can also purchase another copy of Poor Fockin’ Infantry from them as well, which I recommend doing to be safe.
-
 # Sequence 8: Wind's Howling...
 > 1. Velen: Benek, Crow’s Perch, Midcopse, Nilfgaardian Central Army Camp, Downwarren, No Man’s Land
 > 2. Main Quests: N/A
@@ -572,29 +307,6 @@
 > Kill 5 foes in a fight without taking damage (except for Toxicity) & without using the Quen Sign.
 > This Achievement is a bit trickier but follows the same rationale; these Cannibals again being the perfect victims. This time, you want to take it slow & fight them one on one if you can. Anything goes, but you cannot use the Quen Sign for defence. If you take any damage, reload & try again.
 > Again, this Achievement can be earned at anytime when you are a higher Level with better gear…
-## Cartas de Gwent
-- Unique Gwent Card #62 – Crone Weavess
-> Local: Velen – Benek
-> Defeat the Old Sage in a duel to earn this Card.
-- Unique Gwent Card #63 – Vernon Roche (Hero)
-> Local: Velen – Midcopse
-> Defeat Haddy during Secondary Quest – Gwent Velen Players.
-- Unique Gwent Card #64 – Eredin, Destroyer of Worlds (Leader)
-> Local: Velen – Midcopse
-> We will receive this new Leader Card as well for completing the Quest itself; it would be earned from whoever our last opponent is.
-[x] Random Player #12 – Eggebracht
-> Local: Velen – Nilfgaardian Central Army Camp
-> As it turns out, the Quartermaster is a Random Player for Gwent; he uses a Northern Realms Deck… which is weird, you would think he’d be using a Nilfgaardian one.
-- Unique Gwent Card #65 – Kayran (Hero)
-> Local: Velen – Nilfgaardian Central Army Camp
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-[x] Random Player #13 – Merchant
-> Local: Velen – Downwarren
-> We can find a Merchant here in Downwarren that is a Random Player; he has a Monster Deck. It is important to defeat this fellow in a duel before progressing too far into the Main Questline… as something bad can potentially happen to Downwarren that will… displace the villagers & this Merchant… from life.
-- Unique Gwent Card #66 – Havekar Healer (3)
-> Local: Velen – Downwarren
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-
 # Sequence 9: Feminine Intuition
 > 1. Velen: Elven Ruins, Midcopse, Fyke Isle
 > 2. Main Quests: Wandering In the Dark
@@ -707,42 +419,6 @@
 > Follow through & locate all the pieces to the Griffon School set through Scavenger Hunt – Griffon School Gear; if you do not have the Quest, we can purchase the first & second maps from the Armorer in Midcopse. There are only three locations the Diagrams are found at; for the Silver Sword at Lornruk, we need to swim down into the sea below where the Place of Power is to find a hidden underwater entrance.
 > After the Diagrams are collected, we will then need to craft them; the Armorer & Blacksmith in Oxenfurt can do this. Lastly, we then need to be Level 11. Once we are, equip all four pieces of Armor & the two Witcher Swords to unlock the Achievement.
 > This can be done with any Witcher set… I strongly recommend crafting all Witcher sets we come across as they are the best Weapons & Armor in the entire game. Never sell pieces you craft as they are required to craft the next tier of Witcher gear afterwards.
-## Cartas de Gwent
-- Unique Gwent Card #67 – Yennefer of Vengerberg (Hero)
-> Local: Novigrad – Oxenfurt
-> Defeat Stjepan at the Oxenfurt Alchemy Inn during the Secondary Quest to collect this Card.
-- Unique Gwent Card #68 – Dwarven Skirmisher (1)
-> Local: Novigrad – Oxenfurt
-> Purchased from Stjepan at the Alchemy Inn for 10 Crowns.
-- Unique Gwent Card #69 – Vrihedd Brigade Veteran (1)
-> Local: Novigrad – Oxenfurt
-> Purchased from Stjepan at the Alchemy Inn for 20 Crowns.
-- Unique Gwent Card #70 – Mahakaman Defender (1)
-> Local: Novigrad – Oxenfurt
-> Purchased from Stjepan at the Alchemy Inn for 20 Crowns.
-- Random Player #14 – Armorer
-> Local: Novigrad – Oxenfurt
-> Above where the Notice Board is, we can find an Armorer’s store front. Enter inside, & we can duel the man for a Card from the random pool; he uses a Scoia’tael Deck.
-- Unique Gwent Card #71 – Elven Skirmisher (1)
-> Local: Novigrad – Oxenfurt
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #15 – Merchant
-> Local: Novigrad – Oxenfurt
-> In the market square, we can also find a Merchant who will duel us as well; he will use a Northern Realms Deck.
-- Unique Gwent Card #72 – Dennis Cranmer
-> Local: Novigrad – Oxenfurt
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #16 – Blacksmith
-> Local: Novigrad – Oxenfurt
-> Head over to the Southeastern side of Oxenfurt, in between the bridges going to the Novigrad Gate & the Oxenfurt Academy, & we can find a Blacksmith. He will use a Monster Deck.
-- Unique Gwent Card #73 – Stefan Skellen
-> Local: Novigrad – Oxenfurt
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #17 – Herbalist
-> Local: Novigrad – Oxenfurt
-> If you look on your World Map where we are, you can see a structure with a wall around it just Northwest of our position outside Oxenfurt. Head up to it, & we can find an Herbalist we can duel for a chance at a new Card. He uses a Scoia’tael Deck; I earned an extra copy of Torrential Rain from this duel…
-> This is also that previously mentioned Herbalist we can purchase every Bomb type from as well as other Potion or Oil Formulae!
-
 # Sequence 12: An Impossible Redemption
 > 1. Velen: No Man’s Land, Inn At the Crossroads, The Orphans of Crookback Bog, Crow’s Perch, Downwarren
 > 2. Main Quests: Ladies of the Wood, Family Matters, Out of the Shadows
@@ -782,11 +458,6 @@
 > As our last order of business in Velen, we should be a high enough Level now to slay the “Swamp Thing”. Search the swamps near The Orphans of Crookback Bog & use the Eye of Nehaleni to dispel some illusionary rocks to find the monster’s tracks. Search more corpses & we can track a scent down to the Foglet, Ignis Fatuus
 > Dispel an illusionary rock formation to locate the Foglet’s lair & we will find the monster; this monster is a candidate for the Even Odds Achievement.
 > As of now, all current Witcher Contracts are too far beyond our Level. Wrap up any Secondary Quests or last minute exploration, & we will travel to the Novigrad region…
-## Cartas de Gwent
-- Unique Gwent Card #74 – Menno Coehoorn (Hero)
-> Local: Velen – Inn At the Crossroads
-> Defeat the Innkeeper during Secondary Quest – Gwent Playing Innkeeps to collect this Card.
-
 # Sequence 13: Out of His Element
 > 1. Novigrad: Farcorners, Cunny of the Goose, Seven Cats Inn, Glory Lane, Crippled Kate’s
 > 2. Main Quests: N/A
@@ -809,55 +480,6 @@
 ## Novigrad – Glory Lane
 - Secondary Quest – First of Fury Novigrad
 > Return to the Portside Gate & make your way into Novigrad. As soon as we enter, take a right, & follow the wall along down a set of stairs into Glory Lane where we will immediately see a fight circle. Speak with the Bookie & defeat Archibald O’Neill to begin our next Fist Fight tour.
-## Cartas de Gwent
-- Random Player #18 – Innkeep
-> Local: Novigrad – Cunny of the Goose
-> We can duel the Innkeep in the Cunny of the Goose for a random Gwent Card; he uses a Scoia’tael Deck & has multiple Hero Cards…
-- Unique Gwent Card #75 – Vattier de Ridaux
-> Local: Novigrad – Cunny of the Goose
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #76 – Havekar Healer (1)
-> Local: Novigrad – Cunny of the Goose
-> We can purchase this Gwent Card from the Innkeep for 20 Crowns.
-- Unique Gwent Card #77 – Young Emissary (1)
-> Local: Novigrad – Cunny of the Goose
-> We can purchase this Gwent Card from the Innkeep for 20 Crowns.
-- Unique Gwent Card #78 – Scorch
-> Local: Novigrad – Cunny of the Goose
-> We can purchase this Gwent Card from the Innkeep for 50 Crowns.
-- Unique Gwent Card #79 – Francesca Findabair, Daisy of the Valley (Leader)
-> Local: Novigrad – Cunny of the Goose
-> We can purchase this Gwent Card from the Innkeep for 50 Crowns.
-> We can also purchase another copy of the Impera Brigade Guard.
-- Random Player #19 – Innkeep
-> Local: Novigrad – Seven Cats Inn
-> Once again, we can duel the Innkeep in this tavern for a chance of winning a new Gwent Card; she uses a Northern Realms Deck.
-- Unique Gwent Card #80 – Assire var Anahid
-> Local: Novigrad – Seven Cats Inn
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #81 – Havekar Smuggler (1)
-> Local: Novigrad – Seven Cats Inn
-> We can purchase this Gwent Card from the Innkeep for 10 Crowns.
-- Unique Gwent Card #82 – Mahakaman Defender (2)
-> Local: Novigrad – Seven Cats Inn
-> We can purchase this Gwent Card from the Innkeep for 20 Crowns.
-- Unique Gwent Card #83 – Young Emissary (2)
-> Local: Novigrad – Seven Cats Inn
-> We can purchase this Gwent Card from the Innkeep for 50 Crowns.
-> We can also purchase yet another copy of the Impera Brigade Guard.
-- Random Player #20 – Herbalist
-> Local: Novigrad – Glory Lane
-> In the center of Glory Lane, will be the master swordsmith Hattori’s smithy… umm, dumpling parlor. From here, head Northeast up the street & we can find a Herbalist’s shop along the waterside (but not accessed from that side if that makes sense. This Gnome Herbalist is a Random Player; he has a Scoia’tael Deck with Hero Cards.
-- Unique Gwent Card #84 – Dol Blathanna Scout (3)
-> Local: Novigrad – Glory Lane
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #21 – Madame
-> Local: Novigrad – Crippled Kate’s
-> Head North of the Herbalist to the other side of his shop to the waterfront, follow the waterfront along West & we can find Crippled Kate’s brothel; it can only be entered from the waterfront side. Not only can we plough some maidens, but we can duel the Madame for a new Card; she uses a Northern Realms Deck.
-- Unique Gwent Card #85 – Ciaran aep Easnillien
-> Local: Novigrad – Crippled Kate’s
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-
 # Sequence 14: How About Some Gwent?
 > 1. Novigrad: Golden Sturgeon, Fish Market, Hierarch Square, Kingfisher Inn, The Bits
 > 2. Main Quests: N/A
@@ -888,82 +510,6 @@
 ## Novigrad – The Bits
 - Secondary Quest – Fists of Fury Novigrad
 > Continue with this Secondary Quest & it will lead us to Iron Mortimer’s location in The Bits. Defeat them to unlock our final opponent for Novigrad.
-## Cartas de Gwent
-- Random Player #22 – Innkeep
-> Local: Novigrad – Golden Sturgeon
-> While in the Golden Sturgeon, speak with the Innkeeper & duel them for a chance of earning a random Gwent Card; he uses a Scoia’tael Deck with Hero Cards.
-- Unique Gwent Card #86 – Emiel Regis Rohellec Terzieff
-> Local: Novigrad – Golden Sturgeon
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #87 – Dol Blathanna Scout (1)
-> Local: Novigrad – Golden Sturgeon
-> We can purchase this Card from the Innkeep for 10 Crowns.
-- Unique Gwent Card #88 – Mahakaman Defender (3)
-> Local: Novigrad – Golden Sturgeon
-> We can purchase this Card from the Innkeep for 20 Crowns.
-- Unique Gwent Card #89 – Barclay Els
-> Local: Novigrad – Golden Sturgeon
-> We can purchase this Card from the Innkeep for 20 Crowns.
-- Unique Gwent Card #90 – Siege Technician
-> Local: Novigrad – Golden Sturgeon
-> We can purchase this Card from the Innkeep for 20 Crowns.
-> Notice Board: If you have not already done so, take a peek at the Notice Board outside the Golden Sturgeon to mark some new Undiscovered Locations along with a very important Secondary Quest – Gwent Big City Players & a new Witcher Contract.
-- Random Player #23 – Merchant
-> Local: Novigrad – Fish Market
-> Nearby our contact for the Witcher Contract, we can find a Merchant who is a Random Player; he uses a Nilfgaardian Empire Deck with Hero Cards.
-- Unique Gwent Card #91 – Philippa Eilhart (Hero)
-> Local: Novigrad – Fish Market
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #24 – Blacksmith
-> Local: Novigrad – Fish Market
-> We can also duel the nearby Blacksmith for a new Gwent Card as well; he uses a Monster Deck.
-- Unique Gwent Card #92 – Crone Brewess
-> Local: Novigrad – Fish Market
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #25 – Marcus T.K. Hodgson
-> Local: Novigrad – Hierarch Square
-> Across the street from the Notice Board, we can find the store called Books & Scrolls. Enter inside & speak with the proprietor Marcus T.K. Hodgson. Apart from a minor Quest we can do involving him, we can also duel him for a random Card; he uses a Scoia’tael Deck with many Hero Cards.
-- Unique Gwent Card #93 – Imlerith (Hero)
-> Local: Novigrad – Hierarch Square
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Gwent Card #94 – Vesemir
-> Local: Novigrad – Hierarch Square
-> Defeat Vimme Vivaldi in a duel to earn this Gwent Card.
-> While we can progress Secondary Quest – Gwent Big City Players to the Passiflora, doing so will glitch this Quest out; fortunately, it will not void the Card Collector Achievement if we do so. For safety’s sake, hold off on going to the Passiflora for now…
-- Unique Gwent Card #95 – Tibor Eggebracht (Hero)
-> Local: Novigrad – Kingfisher Inn
-> Defeat Oliver in a duel to earn this Gwent Card.
-- Unique Gwent Card #96 – Havekar Smuggler (2)
-> Local: Novigrad – Kingfisher Inn
-> Oliver is also a Gwent Merchant & we can purchase some more Cards from him; this one costs 20 Crowns.
-- Unique Gwent Card #97 – Mahakaman Defender (4)
-> Local: Novigrad – Kingfisher Inn
-> Purchased from Oliver for 20 Crowns.
-- Unique Gwent Card #98 – Vrihedd Brigade Veteran (2)
-> Local: Novigrad – Kingfisher Inn
-> Purchased from Oliver for 20 Crowns.
-- Unique Gwent Card #99 – Havekar Healer (2)
-> Local: Novigrad – Kingfisher Inn
-> Purchased from Oliver for 50 Crowns.
-- Random Player #26 – Merchant
-> Local: Novigrad – The Bits
-> Leave the Kingfisher Inn & head Southeast down the street into The Bits. Close to the Tretogor Gate (Novigrad side not Farcorners) we can find a small food market with a Merchant who is a Random Player; they use a Nilfgaardian Deck with Hero Cards.
-- Unique Gwent Card #100 – Gargoyle
-> Local: Novigrad – The Bits
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #27 – Merchant
-> Local: Novigrad – The Bits
-> From the courtyard where we fought Iron Mortimer, head immediately North of it to find two Merchants close to the Southern Gate; the one set up outside in the streets is a Random Player with a Northern Realms Deck.
-- Unique Gwent Card #101 – Nekker (3)
-> Local: Novigrad – The Bits
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #28 – Loan Shark
-> Local: Novigrad – The Bits
-> Across from the previous Merchant, we can enter into a building to find a Loan Shark who is also a Random Player; he uses a Monster Deck.
-- Unique Gwent Card #102 – Ghoul (2)
-> Local: Novigrad – The Bits
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-
 # Sequence 15: Gwent Anybody?
 > 1. Novigrad: Nowhere Inn, Gildorf, Passiflora, Silverton, Temple Isle, Farcorners
 > 2. Main Quests: N/A
@@ -988,58 +534,6 @@
 > On the upper floor of the waterwheel we will encounter Geralt’s Wolf School brother, Lambert, fighting an Ekimmara. Slay it, & agree to go with him to collect the reward where things will go South…
 > Note that if you progress this Quest to the Seven Cats Inn & speak with Lambert there, we will void a random Secondary Quest in Skellige called Flesh For Sale. It has no notable loot or Achievements attached to it, but if you wanted to complete it still, hold off on progressing this Quest until later.
 > Since it is inconsequential, & if you don’t care, head to the Inn & speak with Lambert to progress the Quest to Skellige where we will continue it later…
-## Cartas de Gwent
-- Random Player #29 – Innkeeper
-> Local: Novigrad – Nowhere Inn
-> Continue North down the street from the Loan Shark all the way to the end of it where the Vilmerius Hospital is found. From here, take a left down the street & we can spot the Nowhere Inn. Inside, we can duel the Innkeeper for a chance at a new Card; she uses a Nilfgaardian Deck.
-- Unique Gwent Card #103 – Endrega
-> Local: Novigrad – Nowhere Inn
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #30 – Merchant
-> Local: Novigrad – Gildorf
-> Right in front of the Notice Board, we can find a Merchant’s shop. The Merchant inside happens to be a Random Player that uses a Nilfgaardian Deck with Hero Cards.
-> He also sells a second Potion of Clearance which could come in handy…
-- Unique Gwent Card #104 – Shilard Fitz-Oesterlen
-> Local: Novigrad – Gildorf
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #105 – Dol Blathanna Archer
-> Local: Novigrad – Passiflora
-> Though we cannot duel her, we can purchase these two Gwent Cards from Marquise Serenity as well, this one for 10 Crowns.
-- Unique Gwent Card #106 – Mahakaman Defender (5)
-> Local: Novigrad – Passiflora
-> Purchased from Marquise Serenity for 20 Crowns.
-> We can also purchase another copy of the Catapult Card.
-- Random Player #31 – Blacksmith
-> Local: Novigrad – Silverton
-> From the Golden Sturgeon, head Northeast up into Silverton & we can find a smithy near its center. Here we can find a Blacksmith who is a Random Player; they use a Nilfgaardian Deck.
-- Unique Gwent Card #107 – Frightener
-> Local: Novigrad – Silverton
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #32 – Merchant
-> Local: Novigrad – Silverton
-> Across the street from the Blacksmith, we can see a Merchant inside a building. To get there however, we need to head down the street to the left & go around to find the building’s entrance. Before we do that, after heading down the street left, we can spot a different Merchant in a shanty market who is also a Random Player; he uses a Monster Deck with Hero Cards.
-- Unique Gwent Card #108 – Elven Skirmisher (2)
-> Local: Novigrad – Silverton
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #33 – Merchant
-> Local: Novigrad – Silverton
-> Now head back across the street to where we were originally headed to the Merchant across from the Blacksmith. We can duel this Merchant for a random Card; he uses a Scoia’tael Deck with Hero Cards.
-- Unique Gwent Card #109 – Siege Tower
-> Local: Novigrad – Silverton
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #34 – Priest of the Eternal Fire
-> Local: Novigrad – Temple Isle
-> For our next Random Player, head North to Temple Isle across St. Gregory’s Bridge. Head to the center of the area to the Elector’s Square Signpost where we can find a Priest of the Eternal Fire who is an Alchemist. We can duel him for a new Card; he uses a Nilfgaardian Deck.
-- Unique Gwent Card #110 – Riordain
-> Local: Novigrad – Temple Isle
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #35 – Elihal
-> Local: Novigrad – Farcorners
-> Northeast of Farcorners will be a small island outside Novigrad with many outer bridges connecting to it (Gate of the Hierarch, Tretogor Gate, & Southern Gate). In between the Gate of the Hierarch & Tretogor Gate Signposts, we can find a Merchant named Elihal inside a house. Duel him for a chance at a random Card; he uses a Northern Realms Deck.
-- Unique Gwent Card #111 – Cahir Mawr Dyffryn aep Ceallach
-> Local: Novigrad – Farcorners
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-
 # Sequence 16: Hunting Witch Hunters...
 > 1. Novigrad: Hierarch Square, Putrid Grove, The Bits, Golden Sturgeon, Rosemary & Thyme, Passiflora, Silverton
 > 2. Eastern Expanse: Vegelbud Residence
@@ -1098,24 +592,6 @@
 > If possible, at least make it to Menge so you can be sure he dies… Just know that any attempt to use Axii will fail; these are Witch Hunters after all. I will say this, Triss is less mad if you follow through with the ruse than if you decide to murder everyone…
 > Regardless of how things go, it will all lead to us needing to speak with Priscilla to locate the Doppler, Dudu. Once you escape, return to Dijkstra to tell him how things went; depending on what transpired will determine his mirth…
 > Return to Priscilla in her room at the Kingfisher Inn to report back & complete the Quest.
-## Cartas de Gwent
-- Random Player #36 – Merchant
-> Local: Novigrad – Putrid Grove
-> Once we locate the Putrid Grove, enter inside the compound. Before we enter the den itself, look around in the compound & we can find a Merchant in a building near the entrance. We can duel him for a Random Card; he uses a Monster Deck with Hero Cards.
-- Unique Gwent Card #112 – Forktail
-> Local: Novigrad – Putrid Grove
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #113 – Eithné (Hero)
-> Local: Novigrad – Rosemary & Thyme
-> Defeat Zoltan Chivay during Secondary Quest – Old Friends to unlock this Gwent Card.
-- Unique Gwent Card #114 – Morvran Voorhis (Hero)
-> Local: Novigrad – Passiflora
-> Defeat Marquise Serenity in a duel to earn this Card.
-- Unique Gwent Card #115 – Esterad Thyssen (Hero)
-> Local: Novigrad – Bathhouse
-> Defeat Dijkstra during Secondary Quest – Gwent Big City Players to earn this Card.
-> We can still unlock this Card if we accidentally completed this Secondary Quest early… he uses a Northern Realms Deck. Defeating Dijkstra will re-initiate this Secondary Quest so we can now defeat the final opponent needed for it.
-
 # Sequence 17: Old Friends
 > 1. Novigrad: No Man’s Land, The Bits, Harborside, Drahim Castle
 > 2. Eastern Expanse: Temerian Partisan Hideout, Vegelbud Residence
@@ -1156,29 +632,6 @@
 ## Eastern Expanse – Vegelbud’s Residence
 - Secondary Quest – A Matter of Life & Death
 > Enter the Residence with Triss & begin making your way over to speak with Ingrid Vegelbud. When we enter the upper courtyard where Triss exclaims for us to look around… do so, & we can find an ! in the center of the estate on a man named Croupier who is running a small Gwent tournament. Before you speak with him, Save your game; failing to win the tournament will void these Gwent Cards forever!
-## Cartas de Gwent
-- Unique Gwent Card #116 – Cirilla Fiona Elen Riannon (Hero)
-> Local: Novigrad – No Man’s Land
-> Defeat the Scoia’tael Merchant during Secondary Quest – Gwent Big City Players to collect this Card; one of the two best Cards in the entire game.
-- Unique Gwent Card #117 – Francesca Findabair, the Beautiful (Leader)
-> Local: Novigrad – No Man’s Land
-> We will also receive this Card by completing Secondary Quest – Gwent Big City Players.
-- Unique Gwent Card #118 – Saesenthessis (Hero)
-> Local: Eastern Expanse – Temeria Partisan Hideout
-> Defeat Vernon Roche in a duel during Secondary Quest – Gwent Old Pals.
-> The Quest will now progress to us needing to verse Lambert, fortunately, we have already met up with him but have missed the first opportunity to duel him. At the end of Secondary Quest – Following the Thread, we will get our second & final opportunity to duel him.
-- Unique Gwent Card #169 – Milva
-> Local: Eastern Expanse – Vegelbud’s Residence
-> Our first opponent will have a Nilfgaardian Deck with Heroes & of course a lot of Spies; defeat them to collect this Card.
-- Unique Gwent Card #120 – Vampire Bruxa
-> Local: Eastern Expanse – Vegelbud’s Residence
-> Continue on & defeat the next opponent for this Card; they use a Scoia’tael Deck with Hero Cards.
-- Unique Gwent Card #121 – Dandelion
-> Local: Eastern Expanse – Vegelbud’s Residence
-> The last opponent will have a gross Monster Deck & give us this great Card, though not a Hero, very useful!
-> Should you fail any of the matches, you will need to reload your Save & redo them all. There is a lot of luck involved in the Cards you get; this will be our first real test of our Gwent Decks! Heart of the cards…
-> With the Cards collected, complete the rest of the Quest as you will…
-
 # Sequence 18: Beggars & Kings
 > 1. Novigrad: The Bits, Oxenfurt, Temple Isle, Passiflora, Border Post, Kingfisher Inn
 > 2. Eastern Expanse: Temerian Partisan Camp, Est Tayiar
@@ -1228,17 +681,6 @@
 - Main Quest #19 – The Play’s the Thing
 > Deal with Junior, & report back to Priscilla with information on Dudu. To lure the Doppler out, we are going to need to create a new play with a message for him. Take the play’s script to Irina Renarde then go out to hire some dockworkers to be ushers for it.
 > Return to Irina, & let the play begin; if you want to do a good job playing yourself, you may want to rehearse some of your lines & read over the script. There are no penalties for messing your lines up, just some awkward coughs from the audience. Depending on what kind of play you decided to put on & which actors you chose, the events of the play will vary. Regardless, it will still result in us meeting up with Dudu & tell him of our very risky plan…
-## Cartas de Gwent
-- Unique Gwent Card #122 – Geralt of Rivia (Hero)
-> Local: Novigrad – Border Post
-> Defeat Thaler in a duel after completing Secondary Quest – A Deadly Plot to earn this Card.
-- Random Player #37 – Innkeeper
-> Local: Novigrad – Kingfisher Inn
-> If Oliver died during Secondary Quest - Now Or Never, he will be replaced by an unnamed Innkeeper that we can duel for a random Card. If Oliver is still alive, we will not be able to get a new Card. This is not a big deal either way; there are more Random Players in the game than Card in the "Random Pool" & I include all their locations in the guide even after we unlock the Achievement...
-- Unique Gwent Card #123 – Dwarven Skirmisher (2)
-> Local: Novigrad – Kingfisher Inn
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-
 # Sequence 19: A Divine Comedy
 > 1. Eastern Expanse: Isolated Hut, Vegelbud Residence, Aleness, Yantra, Honeyfill Meadwork,
 > 2. Novigrad: Rosemary & Thyme, Hierarch Square, Golden Sturgeon, Chameleon, Harborside
@@ -1287,24 +729,6 @@
 > When you have finished the Secondary Quests, Witcher Contracts, exploration, looting, & Witcher gear crafting you want… it will be time for the final area of Act 1: going to Skellige.
 > Most of our leads on finding a swarthy captain will be dead ends except for one Captain Wolverstone found in the Golden Sturgeon. Pay him his steep fee of 1000 Crowns; when ready, set sail!
 > While out at sea, we will be attacked by Skellige Pirates. After they retreat, our ship will be rammed into some nearby rocks & wreck upon them & we will wake up some time later on the shores of Ard Skellig…
-## Cartas de Gwent
-- Unique Gwent Card #124 – Isengrim Faoiltiarna (Hero)
-> Local: Novigrad – Rosemary & Thyme
-> Go to find Zed & he will be dead in his home. Kill his assailants, & we can loot this Card off of one of them.
-- Unique Gwent Card #125 – Fringilla Vigo
-> Local: Novigrad – Hierarch Square
-> Return back to Zoltan with Zed’s ledger & we will now need to track down the two people the other Cards were sold to. First head to Hierarch Square to find Caesar with Zoltan. After drinking, search Caesar’s home & collect the Gwent Card from the secret room upstairs.
-- Unique Gwent Card #126 – John Natalis (Hero)
-> Local: Novigrad – Golden Sturgeon
-> Now it is time to go see Ravvy for his Gwent Card. To earn the Card, we need to defeat his captor, Earl, in a Gwent match; Save before you approach them in case you fail; he uses a Nilfgaardian Deck but has no Hero Cards.
-- Random Player #38 – Innkeeper
-> Local: Novigrad – Chameleon
-> With Act 1 completed here in Novigrad, we can now complete some new Secondary Quests for Dandelion. Complete the Secondary Quests – Cabaret, & Carnal Sins to help Dandelion rebrand the Rosemary & Thyme as “Chameleon”.
-> Fast Travel elsewhere & return to the establishment to have a new Innkeeper here to play in Gwent for a Card; he uses a Monster Deck.
-- Unique Gwent Card #127 – Ida Emean aep Sivney
-> Local: Novigrad – Chameleon
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-
 # Sequence 20: Castaway
 > 1. Ard Skellig: Kaer Trolde
 > 2. Main Quests: Destination Skellige, The King Is Dead – Long Live the King
@@ -1336,42 +760,6 @@
 - Witcher Contract #20 – Muire D’yaeblen
 > With our primary business finished, we are now free to roam about. To start, let’s finish this Contract; head to the Drowner locations along the beach & follow a terrible scent along the coast to find their underwater lair.
 > It will turn out, our monster is a Water Hag. To lure her out, we will need to craft the Drowner Pheromones; the Potion can be purchased from the Kaer Trolde Herbalist. Return back to the lair, & drink the Potion to lure out Abaya. Once she is slain, return to the shipbuilder to collect our reward.
-## Cartas de Gwent
-- Random Player #39 – Herbalist
-> Local: Ard Skellig – Kaer Trolde
-> Progress further along the harbor & we can find an Herbalist close by where the Notice Board is who will duel us in Gwent; he uses a Nilfgaardian Empire Deck.
-- Unique Gwent Card #128 – Toruviel
-> Local: Ard Skellig – Kaer Trolde
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #40 – Jonas the Innkeep
-> Local: Ard Skellig – Kaer Trolde
-> Enter inside the Inn now & speak with Jonas the Innkeep. We can duel him for a new Card; he uses a Monster Deck.
-- Unique Gwent Card #129 – Fire Elemental
-> Local: Ard Skellig – Kaer Trolde
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #130 – Botchling
-> Local: Ard Skellig – Kaer Trolde
-> We can also purchase three new Gwent Cards from Jonas as well; this one costs 10 Crowns.
-- Unique Gwent Card #131 – Earth Elemental
-> Local: Ard Skellig – Kaer Trolde
-> Bought from Jonas the Innkeeper for 20 Crowns.
-- Unique Gwent Card #132 – Eredin, King of the Wild Hunt (Leader)
-> Local: Ard Skellig – Kaer Trolde
-> Bought from Jonas the Innkeeper for 50 Crowns.
-> We can also purchase another copy of the Scorch Card if we want.
-- Random Player #41 – Armorer
-> Local: Ard Skellig – Kaer Trolde
-> Before we leave Kaer Trolde castle, we can locate the armory close the castle’s exit. Head over there & speak with the Armorer during business hours (there are potentially more than one so keep speaking with them until you find the right Armorer…). We can duel the Armorer for a new Card; they use a Northern Realms Deck.
-- Unique Gwent Card #133 – Celaeno Harpy
-> Local: Ard Skellig – Kaer Trolde
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #42 – Blacksmith
-> Local: Ard Skellig – Kaer Trolde
-> Right beside the Armorer here at the castle will be a lone Blacksmith who is also a Random Player. Note that he is often bugged & you will not be able to speak with him. If this is the case, make a Save, then continue to Meditate until he will talk; he will not speak regardless of if it is night. The Blacksmith will use a Scoia’tael Deck.
-- Unique Gwent Card #134 – Ghoul (3)
-> Local: Ard Skellig – Kaer Trolde
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-
 # Sequence 21: Snow, Salt, & Cold Steel
 > 1. Ard Skellig: Rannvaig, Blandare, Gedyneith Grove
 > 2. Main Quests: N/A
@@ -1416,21 +804,6 @@
 - Achievement #26 – Dendrologist
 > Acquire all the Abilities in one tree.
 > Gremist also sells a whopping 8 Potions of Clearance. Make a Save before attempting this. If you are at least Level 20, use a Potion of Clearance to reset your Ability Points, then pick any Ability Tree to purchase all 20 Abilities in it. It will cost a total of 23 Ability Points; Places of Power will make this guaranteed to unlock. You just need at least one Point in all 20 Abilities, not have them all fully Upgraded.
-## Cartas de Gwent
-- Random Player #43 – Merchant
-> Local: Ard Skellig – Blandare
-> While in Blandare, we can find a Merchant who is a Random Player that we can duel; they use a Northern Realms Deck with Hero Cards.
-- Unique Gwent Card #135 – Vanhemar
-> Local: Ard Skellig – Blandare
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #136 – Iorveth (Hero)
-> Local: Ard Skellig – Gedyneith Grove
-> Complete Secondary Quest – Shock Therapy to receive this Gwent Card. I’m so mad they never included Iorveth in the game…
-- Random Player #44 – Herbalist
-> Local: Ard Skellig – Blandare
-> Head South down the road from Blandare towards an Undiscovered Location & it will be a Person In Distress. This person will be an Herbalist held captive by some Bandits. Kill them, & let the Herbalist walk over to an idle position so we can talk with them; they are a Random Player & use a Scoia’tael Deck.
-> I earned a Biting Frost Card from the Random Card Pool this duel & not a new Gwent Card…
-
 # Sequence 22: Kvitravn
 > 1. Ard Skellig: Fayrlund, Arinbjorn, Holmstein, Kaer Muire, Fyresdal
 > 2. Main Quests: N/A
@@ -1462,69 +835,6 @@
 - Achievement #27 – Woodland Spirit
 > Complete the Contract on the Woodland Spirit.
 > There are two ways of completing the Quest, renewing the villages pact with the spirit or destroying it. Unfortunately, the Achievement will only unlock if you destroy the spirit; renewing the pact, though does complete the quest, does not complete the Contract & will void our Achievement.
-## Cartas de Gwent
-- Random Player #45 – Merchant
-> Local: Ard Skellig – Fayrlund
-> In Fayrlund, we can find a Merchant who is a Random Player; they use a Scoia’tael Deck.
-- Unique Gwent Card #137 – Dwarven Skirmisher (3)
-> Local: Ard Skellig – Fayrlund
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #46 – Blacksmith
-> Local: Ard Skellig – Fayrlund
-> We can also find a Blacksmith here as well who is a Random Player; they use a Monster Deck.
-- Unique Gwent Card #138 – Rotten Mangonel
-> Local: Ard Skellig – Fayrlund
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #47 – Innkeeper
-> Local: Ard Skellig – Arinbjorn
-> While we are here, we can duel the Innkeeper for a chance at a new Card; he uses a Scoia’tael Deck.
-- Unique Gwent Card #139 – Cockatrice
-> Local: Ard Skellig – Arinbjorn
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Unique Gwent Card #140 – Thaler
-> Local: Ard Skellig – Arinbjorn
-> We can also purchase four Gwent Cards from this Innkeeper as well; this one picked up for 20 Crowns.
-- Unique Gwent Card #141 – Arachas (1)
-> Local: Ard Skellig – Arinbjorn
-> Purchased from the Innkeeper for 20 Crowns.
-- Unique Gwent Card #142 – Crone Whispess
-> Local: Ard Skellig – Arinbjorn
-> Purchased from the Innkeeper for 20 Crowns.
-- Unique Gwent Card #143 – Fiend
-> Local: Ard Skellig – Arinbjorn
-> Purchased from the Innkeeper for 20 Crowns.
-> Note that these Gwent Cards are actually Missable if we progress too far with our new Witcher Contract here; be sure to buy them right away!
-- Random Player #48 – Blacksmith
-> Local: Ard Skellig – Arinbjorn
-> Head lower down into the village & we can find a Blacksmith here who is a Random Player; he uses a Monster Deck.
-- Unique Gwent Card #144 – Havekar Smuggler (3)
-> Local: Ard Skellig – Arinbjorn
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #49 – Merchant
-> Local: Ard Skellig – Holmstein
-> Head down to Homstein’s Port & we can find a Merchant here who is a Random Player; he uses a Scoia’tael Deck.
-- Unique Gwent Card #145 – Vampire Garkain
-> Local: Ard Skellig – Holmstein
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-- Random Player #50 – Armorer
-> Local: Ard Skellig – Kaer Muire
-> From Holmstein, head up the hill to the East to the large fortress, Kaer Muire, which belongs to Madman Lugos. Here we can verse both the Armorer & Blacksmith for new Gwent Cards; the Armorer uses a Monster Deck.
-- Unique Gwent Card #146 – Wyvern
-> Local: Ard Skellig – Kaer Muire
-> Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
-> As of now, we can no longer earn any more Cards from the Random Card Pool; there are only 50 Cards total including duplicate Weather Cards. There are more Random Players in the game however; if you missed some along the way, I will still include the remaining ones locations. Besides, Gwent is fun!
-- Random Player #51 – Smith
-> Local: Ard Skellig – Kaer Muire
-> Right beside the Armorer, we can also duel the nearby Smith; he uses a Scoia’tael Deck with many Hero Cards.
-- Random Player #52 – Merchant
-> Local: Ard Skellig – Fyresdal
-> Near the port, we can find a Merchant that is a Random Player; he uses a Monster Deck.
-- Random Player #53 – Smith
-> Local: Ard Skellig – Fyresdal
-> While still at the port, we can find a Smith who is also a Gwent player across the beach from the Merchant; he uses a Scoia’tael Deck.
-> Monster Nest #3: Since we looked at the Fyresdal Notice Board, we will have marked the last two Monster Nests we can find on Ard Skellig. For the next one, head to the small fort located West of Fyresdal; we will find a Harpy Nest.
-> Monster Nest #4: For the last Monster Nest, head East of Fyresdal to the Ruined Inn where we can find a Siren Nest to destroy.
-
 # Sequence 23: Lilac & Gooseberry
 > 1. Ard Skellig: Arinbjorin, Gedyneith Grove, Kaer Trolde, Kaer Muire
 > 2. Faroe: Harviken, Trottheim
@@ -1576,50 +886,6 @@
 ## Novigrad – Gildorf
 - Secondary Quest – Gwent Old Pals
 > This is the Missable part of the Quest; as soon as we finish Secondary Quest – Following the Thread, speak with Lambert before he leaves! If Lambert despawns, we can only verse him later on once we go to Kaer Morhen or void the Card Collector Achievement.
-## Cartas de Gwent
-- Unique Gwent Card #147 – Leshen (Hero)
-> Local: Ard Skellig – Gedvneith Grove
-> Defeat Ermion in a duel for this Gwent Card.
-- Unique Gwent Card #148 – Mysterious Elf (Hero)
-> Local: Ard Skellig – Gedvneith Grove
-> Defeat Gremist in a duel to earn this awesome Gwent Card.
-- Unique Gwent Card #149 – Draug (Hero)
-> Local: Ard Skellig – Kaer Trolde
-> Defeat Crach an Craite in a duel to earn this Card.
-- Unique Gwent Card #150 – Yaevinn
-> Local: Ard Skellig – Kaer Trolde
-> Defeat Sjusta in a duel to earn this Gwent Card.
-- Unique Gwent Card #151 – Vampire Katakan
-> Local: Ard Skellig – Kaer Muire
-> Defeat Madman Lugos in a duel to earn this Card.
-- Unique Gwent Card #152 – Emhyr var Emreis, The White Flame (Leader)
-> Local: Ard Skellig – Kaer Muire
-> We will earn this Gwent Card after completing Secondary Quest – Gwent Skellige style; the order of who we verse does not matter.
-- Random Player #54 – Innkeeper
-> Local: Faroe – Harviken
-> While in the village, enter into the tavern at the top of the settlement to find an Innkeep who is a Random Player; he uses a Monster Deck.
-- Unique Gwent Card #153 – Ghoul (1)
-> Local: Faroe – Harviken
-> We can also purchase four new Gwent Cards from this Innkeeper as well; this one is 10 Crowns.
-- Unique Gwent Card #154 – Nekker (1)
-> Local: Faroe – Harviken
-> Purchased from the Innkeeper for 10 Crowns.
-- Unique Gwent Card #155 – Harpy
-> Local: Faroe – Harviken
-> Purchased from the Innkeeper for 20 Crowns.
-- Unique Gwent Card #156 – Vampire Fleder
-> Local: Faroe – Harviken
-> Purchased from the Innkeeper for 50 Crowns.
-- Random Player #55 – Blacksmith
-> Local: Faroe – Harviken
-> Just down the hill from the inn, we can find a Blacksmith who is also a Random Player; he uses a Scoia’tael Deck.
-- Unique Gwent Card #157 – Nekker (2)
-> Local: Faroe – Trottheim
-> We can loot this Gwent Card off of Hammond’s corpse; be sure to collect it as it will disappear if we travel away!
-- Unique Gwent Card #158 – Triss Merigold (Hero)
-> Local: Novigrad – Gildorf
-> Duel & defeat Lambert in Gwent before he leaves Jan Karadin’s manor in Gildorf to collect this Gwent Card; Lambert uses a Scoia’tael Deck. Ironic that he should be the one to give us this Card…
-
 # Sequence 24: Helvegen
 > 1. Hindarsfjall: Larvik, Lofoten, Freya’s Garden
 > 2. An Skellig: Urialla Harbor
@@ -1667,39 +933,6 @@
 - Achievement #32 – Pest Control
 > Destroy all 29 Monster Nests in the Velen/Novigrad region, or all 5 in Skellige.
 > We will unlock this Achievement after we destroy the fifth & last Monster Nest here in Skellige; it is much easier doing it this way than in Velen/Novigrad.
-## Cartas de Gwent
-- Random Player #55 – Innkeeper
-> Local: Hindarsfjall – Larvik
-> Close to the Notice Board, we can find an inn with the Innkeeper being a Random Player; he uses a Scoia’tael Deck.
-- Random Player #56 – Merchant
-> Local: Hindarsfjall – Larvik
-> Head outside the inn, & we can find a Merchant who will also happen to be a Random Player; he uses a Northern Realms Deck.
-- Random Player #57 – Armorer
-> Local: Hindarsfjall – Larvik
-> Near the main entrance to Larvik, we can find an Armorer who is a Random Player; he uses a Nilfgaardian Empire Deck.
-- Random Player #58 – Blacksmith
-> Local: Hindarsfjall – Larvik
-> At the back end of the village right beside where Clan Chief Donar an Hindar is, we can find a Blacksmith who is also a Random Player; this entire town plays Gwent?! The Blacksmith uses a Monster Deck.
-- Random Player #59 – Armorer
-> Local: An Skellig – Urialla Harbor
-> Near the waterfront, we can find an Armorer in a building that is a Random Player; he uses a Nilfgaardian Deck.
-- Random Player #60 – Blacksmith
-> Local: An Skellig – Urialla Harbor
-> Close to the center of the village, we can find a Blacksmith who is also a Random Player; he uses a Monster Deck.
-- Random Player #61 – Innkeep
-> Local: An Skellig – Urialla Harbor
-> The Innkeep found in the Urialla Harbor Inn is a Random Player as well & uses a Northern Realms Deck.
-- Unique Gwent Card #159 – Elven Skirmisher (3)
-> Local: An Skellig – Urialla Harbor
-> The Innkeep is also a Merchant that sells Gwent Cards; we can purchase this one for 10 Crowns.
-- Unique Gwent Card #160 – Arachas (2)
-> Local: An Skellig – Urialla Harbor
-> Purchased from the Innkeep for 20 Crowns.
-- Unique Gwent Card #161 – Werewolf
-> Local: An Skellig – Urialla Harbor
-> Purchased from the Innkeep for 20 Crowns.
-> Monster Nest #5: We can find the final Monster Nest in the Skellige Isles just West of Urialla Harbor at an Undiscovered Location; it is a Harpy Nest.
-
 # Sequence 25: Long Live an Craite!
 > 1. Spikeroog: Svorlag, Hov
 > 2. Undvik: Dorve Ruins, Clan Tordarroch Forge
@@ -1749,29 +982,6 @@
 > Complete Secondary Quest – Coronation & help choose a new Ruler of Skellige to unlock this Achievement.
 > With that, we are officially finished our work in Skellige for now & completed Act I of the game.
 > 43% Complete
-## Cartas de Gwent
-- Random Player #62 – Smith
-> Local: Spikeroog – Svorlag
-> In Svorlag, the local Smith will be a Random Player that uses a Nilfgaardian Empire Deck.
-- Random Player #63 – Innkeeper
-> Local: Spikeroog – Svorlag
-> The Innkeep is also a Random Player & uses a Northern Realms Deck; he is also sells Gwent Cards as well…
-- Unique Gwent Card #162 – Foglet
-> Local: Spikeroog – Svorlag
-> Purchased from the Innkeep for 10 Crowns.
-- Unique Gwent Card #163 – Ice Giant
-> Local: Spikeroog – Svorlag
-> Purchased from the Innkeep for 10 Crowns.
-- Unique Gwent Card #164 – Vampire Ekimmara
-> Local: Spikeroog – Svorlag
-> Purchased from the Innkeep for 20 Crowns.
-- Unique Gwent Card #165 – Arachas (3)
-> Local: Spikeroog – Svorlag
-> Purchased from the Innkeep for 50 Crowns.
-- Random Player #64 – Merchant
-> Local: Spikeroog – Svorlag
-> Down by the waterfront we can find a Merchant he is a Random Player that uses a Scoia’tael Deck.
-
 # Sequence 26: Killing Monsters
 > 1. Velen: Lindenvale, Byways, Oreton, Benek, Crow’s Perch
 > 2. Novigrad: Moldavie Residence, Cunny of the Goose, Oxenfurt
@@ -1856,28 +1066,6 @@
 > If you have been following along with the guide, we will unlock this Achievement after earning our final four Cards during Secondary Quest – High Stakes.
 > If I am being completely honest… I am pretty sure some of the Cards included in the guide do not count. The problem is, there is no real way of knowing for sure with out so much proofing. I found it was just safest to collect every single non-stackable Card & call it unique; if nothing else, it helped you build the strongest Deck possible to win the tournament…
 > Though there are more Gwent Cards to be earned through the Hearts of Stone DLC & potential new Random Players to defeat, I will no longer record any more Gwent related information in the guide… that is, until we begin the Blood & Wine DLC…
-## Cartas de Gwent
-- Random Player #65 – Swordsmith
-> Local: Velen – Mulbrydale
-> If you have not already done so, we can rescue a captured Swordsmith from a Person In Distress location just Southwest of Mulbrydale along the shoreline. Free them, & when they return back to the village, we can duel them in Gwent; they use a Monster Deck.
-- Unique Gwent Card #166 – Foltest, The Steel-Forged (Leader)
-> Local: Novigrad – Passiflora
-> Our first opponent will be the Halfling, Bernard Tulle. Before we verse him, make sure you Save! Should we lose, we will need to reload as we will be kicked out of the tournament & not be able to collect our final Gwent Cards…
-> Tulle uses a Northern Realms Deck with only 22 Cards, hyper specialized. He has all the Spies, Heroes, & lots of Siege Cards (no Neutral Cards); bring some Torrential Rain or Scorch. Your starter hand could spell your downfall before you even begin; don’t be afraid of Forfeiting & reloading the game to get a better one if it won’t win you the game!
-- Unique Gwent Card #167 – Emhyr var Emreis, The Relentless (Leader)
-> Local: Novigrad – Passiflora
-> Our next opponent, ironically, will be miss “Sasha” who uses an intimidating Nilfgaardian Empire Deck. Once again, Save before starting the match!
-> This is a very tough duel as she has all the Spies & Hero Cards (but no Neutral Cards). Her Deck focuses on Decoy’s to take your own Spies & resurrecting Spies back to the field.
-- Unique Gwent Card #168 – Francesca Findabair, Queen of Dol Bathanna (Leader)
-> Local: Novigrad – Passiflora
-> Unfortunately, we have to now jump straight into our third duel without being able to Save. This means, should we lose this match for whatever reason, we must reload & have to verse Sasha all over again…
-> Our next opponent is the Half-Elf, Finneas, who naturally has a Scoia’tael Deck. I find these Decks the least intimidating, but they do have the flexibility to place certain Cards in different rows depending on the need. Finneas has all the Hero Cards, but no Spies; I found he was the easiest to exploit with Weather Cards.
-> The Half-Elf is a sore loser when we defeat him though so be careful… we have to box him in his pointy ears… losing this Fist Fight will not disqualify us from the tournament.
-- Unique Gwent Card #169 – Eredin, Bringer of Death (Leader)
-> Local: Novigrad – Passiflora
-> With that debacle done with, we can now make a final Save before we duel our last opponent, Count Tybalt. True to form with the theming of the opponents Decks, Tybalt has a Monster Deck, & is rightfully the final contender. I hate Monster Decks…
-> Tybalt of course has all the Hero Cards, but no Neutral Cards, so he has no Spies. He does have Decoys though & will throw your own back at you. With how little Cards Tybalt has in his Deck, there is a great chance he will over-extend with his Muster Cards having doubles in his hand & exhaust it quick. Be reserved.
-
 # Sequence 28: Reunion
 > 1. Velen: Crow’s Perch
 > 2. Kaer Morhen
@@ -2377,30 +1565,6 @@
 > Speak with Liam, & he will offer us the Coronata Quest – be sure to accept it.
 > Next, Matilda will gesture us over & offer us a Quest of her own, the Vementino Quest. Be sure to accept this one as well; you can be way more liberal with your bartering with your Witcher Rate on this one… The key to us earning our Achievement is simultaneously completing specific problems for each Quest.
 > Make a Manual Save right now in case we mess up! The Achievement can be a bit buggy!
-## Cartas de Gwent
-- Skellige Card #1 – Clan Drummond Shield Maiden (1)
-> Local: Toussaint – The Cockatrice Inn
-> After progressing our Quest, it is time for a little diversion. Go speak with the Innkeeper, & we can duel them in Gwent to earn this new Skellige Deck Card. He uses a Skellige Deck.
-- Skellige Card #2 – Crach an Craite (Leader)
-> Local: Toussaint – The Cockatrice Inn
-> We will acquire the first Leader Card for the Skellige Deck after obtaining any Skellige Card to unlock access to the Deck.
-- Skellige Card #3 – War Longship (1)
-> Local: Toussaint – Tourney Grounds
-> At the Tourney Grounds, we are able to obtain four new Skellige Cards. First, speak with Innkeeper close to the lake’s edge at the cantina. Duel her in Gwent to receive this Card. She uses a Scoia’tael Deck.
-- Skellige Card #4 – Skellige Storm (1)
-> Local: Toussaint – Tourney Grounds
-> Just South of the cantina close to the Signpost for this area, we can find a Barber. Duel them to receive this Card; they use a Skellige Deck.
-- Skellige Card #5 – Young Berserker (1)
-> Local: Toussaint – Tourney Grounds
-> Head across the pavilion now over towards where the Blacksmith is stationed at. Duel them to receive this Card; they use a Skellige Deck.
-- Skellige Card #6 – Skellige Storm (2)
-> Local: Toussaint – Tourney Grounds
-> Around the corner from the Blacksmith, we can find the Armorer. Duel them to receive this Card; they use a Nilfgaardian Empire Deck.
-> Hold off from speaking to Palmerin at the Tourney Grounds for our current DLC Quest, & let’s make a couple pit stops to the North first. Speaking to Palmerin will enter us into an important part of the DLC Questline needed for a Missable Achievement.
-- Skellige Card #7 – Clan Brokvar Archer (1)
-> Local: Toussaint – Castel Ravello Vineyard
-> From the Tourney Grounds, head Northwest up the road, crossing the river, & reaching Castel Ravello Vineyard. Follow your Quest Marker for Secondary Quest – Never Fear, Skellige’s Here to an Herbalist that we can duel for this Card; she uses a Nilfgaardian Empire Deck.
-
 # Sequence 38: Geralt the Sommelier
 > 1. Toussaint: Flovive, Francollarts, Abandoned Storehouse, Plegmund’s Bridge, Belgraad
 > 2. B&W Quests: N/A
@@ -2432,17 +1596,6 @@
 > Help unite the warring vineyards & have a wine named in your honor.
 > Missable. Once we have completed Secondary Quest – Belgraad, camp out at the vineyard & Meditate for a whole three days in imagined luxury drinking wine & enjoying the countryside. After three days have passed, speak to Matilda & Liam & apparently they will have produced an exceptional wine that is to be named in our honor (& of our choice). Choose the name, & we will unlock this Achievement upon completing the Quest.
 > If only Matilda or Liam (not both) acquired Belgraad, we would not have a wine named in our honor & not earned our Achievement.
-## Cartas de Gwent
-- Skellige Card #8 – Cerys (Hero)
-> Local: Toussaint – Flovive
-> From the Cockatrice Inn, travel along the Eastern side of the lake down to the village Flovive. Go to the Barrel & Bung Inn & duel the Innkeeper for this Card; she uses a Northern Realms Deck.
-- Skellige Card #9 – Ermion (Hero)
-> Local: Toussaint – Francollarts
-> Ride down South now to the town of Francollarts & go to the Scarlet Cardinal Inn to verse the Innkeeper in a duel; she uses a Nilfgaardian Empire Deck. She is actually pretty difficult.
-- Skellige Card #10 – Clan Drummond Shield Maiden (2)
-> Local: Toussaint – Francollarts
-> Now go to the South end of town & we can find an Armorer that we can duel. He uses a Northern Realms Deck.
-
 # Sequence 39: Molto Bene
 > 1. Toussaint: Beauclair Port, Beauclair Hauteville, The Gran’s Place, Lac Célavy, The Adder & Jewels Winery, Beauclair Lolivier Square
 > 2. B&W Quests: N/A
@@ -2474,34 +1627,6 @@
 - Secondary Quest – Master, Master, Master, Master!
 > Just across the street, we can find Lazare Lafargue’s Workshop. Enter inside & speak with Lafargue to learn of the locations of Grandmaster Witcher Diagrams. Fortunately for us, they all will have Quest Markers going to them making collection easy; we need to find all 30 Diagrams for the Turned Every Stone Achievement.
 > Speak with Lafargue about the locations of each of the five Witchers & we will receive five different Treasure Hunt Quests…
-## Cartas de Gwent
-- Skellige Card #10 – Skellige Storm (3)
-> Local: Toussaint – Beauclair Port
-> Before we progress the DLC Questline, let us enter into the city of Beauclair & explore about. From the Tourney Grounds, we can head to the Northeastern quarter along the waterfront & obtain two Cards.
-> In the Beauclair Port, enter into the Butcher’s Shop & we can duel the Butcher for this Card; he uses a Skellige Deck.
-- Skellige Card #11 – Mardroeme (1)
-> Local: Toussaint – Beauclair Port
-> Across the street from the Butcher, next door, we can find The Belles of Beauclair. Enter inside & we can duel the Madame here; she uses a Scoia’tael Deck.
-- Skellige Card #12 – Young Berserker (2)
-> Local: Toussaint – Beauclair Hauteville
-> For Secondary Quest – Never Fear, Skellige’s Here, we will just start at the top of Beaulcair & work our way down through the city. Our first stop will be at the Tailor’s Workshop to duel the master tailor, Pierre, for this Card; he uses a Nilfgaardian Empire Deck.
-- Skellige Cards #13 – Olaf
-> Local: Toussaint – Beauclair the Adder & Jewels Winery
-> Now let us get back to the task at hand, from the Gran’s Place Signpost, head Southeast through Beauclair to the Adder & Jewels Winery where we can find a Sommelier that we can duel for this Card. He uses a Skellige Deck.
-> If you are just following your Quest Marker & it says you are above it in the middle of the street, you need to drop down to the lower street to get to the winery.
-- Skellige Cards #14 – Mardroeme (2)
-> Local: Toussaint – Beauclair Lolivier Square
-> Continue down further South through the city & go into the Herb Store. Here we can speak with an Herbalist we can duel for this Card; she uses a Skellige Deck.
-- Skellige Cards #15 – Clan Dimun Pirate
-> Local: Toussaint – Beauclair Lolivier Square
-> In the next building beside our Grandmaster Blacksmith, we can enter a simple general store. Speak with the Merchant & duel him to collect this Card; he uses a Monster Deck.
-- Skellige Cards #16 – Kambi
-> Local: Toussaint – Beauclair Lolivier Square
-> Head further up the street & we can enter an Armory where we can duel the Armorer for this Card; he uses a Northern Realms Deck.
-- Skellige Cards #17 – Light Longship (1)
-> Local: Toussaint – Beauclair Lolivier Square
-> Head up the street now past a festival square where we can find the Perfumery & a Merchant that we can duel for this Card. He uses a Skellige Deck.
-
 # Sequence 40: From Rags to Riches
 > 1. Toussaint: Beauclair, Knights Dormant Square, The Pheasantry, Lebioda’s Gate, Tourney Grounds, Beauclair Palace, Beauclair Hauteville, Corvo Bianco Vineyard
 > 2. B&W Quests: The Beast of Toussaint, Blood Run
@@ -2542,17 +1667,6 @@
 > When we arrive at the estate at the end of the tour, we will be able to purchase upgrades for it from B.B. We can perform a general refurbishment to the estate for 5000 Crowns, then purchase an Armor Repair Table for 1000 Crowns, & a Grindstone for another 1000 Crowns.
 > Meditate for three full days for the upgrades to complete then return to B.B. for the next round. For the estate, purchase: a new bed for 1000 Crowns, another set of Weapon Racks for 500 Crowns, another set of Armor Racks for 500 Crowns, & refurbish the Guest Room for 1000 Crowns. Now for the vineyard grounds, purchase: the Stables for 2000 Crowns & lastly the Herb Garden for another 2000 Crowns.
 > Meditate for two full days for the last upgrades to complete & we will unlock the Achievement. It will cost us a total of 14,000 Crowns to purchase all upgrades. We are showered with loot & Crowns in this DLC; if you do not have the Crowns, do some Secondary Quests or Witcher Contracts.
-## Cartas de Gwent
-- Skellige Cards #18 – King Bran (Leader Card)
-> Local: Toussaint – Beauclair Knights Dormant Square
-> Next, head up the street to the Ducal Camerlengo (yes if you approach old man Hughes door along the way he will be back to diddling again) & speak to the Camerlengo. For our current needs, duel him in Gwent for this Card; he uses a Nilfgaardian Empire Deck.
-- Skellige Card #19 – Draig Bon-Dhu
-> Local: Toussaint – The Pheasantry
-> Lastly, go to the Pheasantry tavern & duel the Innkeeper for our final Card; she uses a Monster Deck.
-> Skellige Cards #20-38 – Skellige Base Deck: Now finally, in a bit of a backwards order of things, we will go to collect the actual Base Deck that contains the other half of the missing Cards we need.
-> To receive it, pass through the lower floor of The Pheasantry to the outdoor patio & we can find the Count Monnier who will tell us of an upcoming Gwent Tournament. Agree to sign up for the Tournament, & the caveat to signing up is only being able to use the Skellige Deck… good thing we already got every other Card.
-> Agree to enter the Tournament playing as Skellige, & Monnier will provide us with the Skellige Base Deck.
-
 # Sequence 41: Rise, A Knight
 > 1. Toussaint: Tourney Grounds, Lac Célavy
 > 2. B&W Quests: N/A

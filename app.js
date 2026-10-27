@@ -223,8 +223,16 @@ async function syncLibrary() {
           const collect = (nodes) => nodes.forEach((x) => { if (x.g) collect(x.c); else if (oldPr[x.n]) oldDone.add(x.x.replace('cópia extra', 'cópia')); });
           collect(guides[id].tree);
           const done = { ...p.done };
-          const mark = (nodes) => nodes.forEach((x) => { if (x.g) mark(x.c); else if (oldDone.has(x.x)) done[x.n] = 1; });
-          mark(p.tree);
+          // Itens removidos do guia: alinha pela ordem dos titulos (o novo e o antigo menos alguns itens).
+          const flat = (nodes, out = []) => { nodes.forEach((x) => (x.g ? flat(x.c, out) : (out[x.n] = x))); return out; };
+          const oldItems = flat(guides[id].tree), newItems = flat(p.tree);
+          const map = {};
+          for (let i = 0, j = 0; i < oldItems.length && j < newItems.length; i++) if (oldItems[i].x === newItems[j].x) map[i] = j++;
+          if (Object.keys(map).length === newItems.length) Object.keys(oldPr).forEach((i) => { if (map[i] != null) done[map[i]] = 1; });
+          else {
+            const mark = (nodes) => nodes.forEach((x) => { if (x.g) mark(x.c); else if (oldDone.has(x.x)) done[x.n] = 1; });
+            mark(p.tree);
+          }
           Object.assign(guides[id], { tree: p.tree, notes: p.notes, total: p.total, rev: e.rev || 0 });
           progress[id] = { done, open: {} };
           await saveGuide(guides[id]); await saveProgress(id);
@@ -499,9 +507,9 @@ function read() {
     };
     members.forEach((m, i) => {
       const b = document.createElement('button');
-      b.className = 'sq' + (pr.done[m.n] ? ' on' : '') + (m.l ? '' : ' free');
+      b.className = 'sq' + (pr.done[m.n] ? ' on' : '');
       b.textContent = i + 1;
-      b.title = m.l ? `Cópia ${i + 1} (ligada ao guia principal)` : `Cópia ${i + 1}`;
+      b.title = `Cópia ${i + 1}`;
       b.onclick = (ev) => {
         ev.stopPropagation();
         if (pr.done[m.n]) delete pr.done[m.n]; else pr.done[m.n] = 1;

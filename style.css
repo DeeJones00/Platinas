@@ -9,7 +9,7 @@ body{margin:0;background:radial-gradient(1200px 500px at 50% -150px,#1a2229 0,va
 header{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 14px 8px;padding-top:calc(10px + env(safe-area-inset-top));background:rgba(13,16,19,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);box-shadow:0 1px 0 #000}
 header::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.5}
 header h1{flex:1 1 130px;margin:0;font:600 1rem Georgia,'Times New Roman',serif;letter-spacing:.05em;text-transform:uppercase;color:var(--steel);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
-.logo{width:28px;height:28px;flex:none}
+.logo{width:28px;height:28px;flex:none;object-fit:contain}
 #actions{display:flex;gap:6px;margin-left:auto}
 #hbar{flex-basis:100%}
 #hbar:empty{display:none}

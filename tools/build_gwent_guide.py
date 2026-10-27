@@ -2,9 +2,9 @@
 """Build guides/gwent.txt (Gwent card checklist by faction, with art, strength and class) from guides/witcher3.txt.
 
 Card art and card data (strength, row, type, ability) come from the Witcher wiki (Fandom); the app loads the
-images from there at runtime. Each card links back to its entry in the main guide
-("@link lib-witcher3.txt:<item number>") so ticks stay in sync. Cards that appear more than once in the guide
-(copies 1, 2, 3 ...) get "@copy i/n".
+images from there at runtime. Every card of the game appears once; it has one item per copy (all share "@grp"), and the app draws one square
+per copy under the card. Copies the main guide lists link back to it ("@link lib-witcher3.txt:<item number>") so
+ticks stay in sync; the other copies, and cards outside the guide, are only tracked here.
 
 Usage: build_gwent_guide.py [guides/witcher3.txt] [guides/gwent.txt]
 """
@@ -22,6 +22,8 @@ CATEGORIES = ['Northern_Realms_gwent_deck_cards', 'Nilfgaardian_Empire_gwent_dec
 ROWS = {'close combat': 'Corpo a corpo', 'closed-ranged': 'Ágil (corpo a corpo ou distância)',
         'ranged': 'À distância', 'siege': 'Cerco'}
 TYPES = {'hero': 'Herói', 'leader': 'Líder', 'weather': 'Clima', 'special': 'Especial'}
+DECKS = {'Northern': 'Northern Realms', 'Nilfgaard': 'Nilfgaard', 'Scoiatael': "Scoia'tael", 'Monsters': 'Monsters',
+         'Skellige': 'Skellige', 'Neutral': 'Neutral'}
 MAIN_ID = 'lib-witcher3.txt'
 # Cards whose name differs from the art file name. Leaders share one art per hero (the "gold" file).
 ALIAS = {
@@ -113,7 +115,8 @@ def card_data():
                 tags.append(ROWS[row])
             st = re.match(r'\d+', clean(field(w, 'strength')))
             out[norm(name)] = {'pow': st.group(0) if st else '', 'tags': tags, 'ability': clean(field(w, 'spec_ability')),
-                               'copies': copies_in_game(field(w, 'source')), 'name': name}
+                               'copies': copies_in_game(field(w, 'source')), 'name': name, 'deck': field(w, 'deck').strip(),
+                               'token': bool(re.search(r'summon|transform', field(w, 'source'), re.I)) or name.startswith('Transformed')}
     return out
 
 
@@ -187,85 +190,88 @@ def read_main(src):
     return cards, others
 
 
+def slug(name):
+    return norm(name) or 'card'
+
+
 def main(src, dst):
     imgs, data = images(), card_data()
     cards, others = read_main(src)
-    base_of = lambda c: re.sub(r'\s*\((\d+)\)', '', c['name']).strip()
-    copies = {}
-    for c in cards:
-        copies.setdefault(base_of(c), []).append(c)
     for c in cards:
         c['info'] = card_info(c['name'], data)
-    # copies per game card: guide entries first, then extra copies the wiki lists (neutral weather, Decoy, ...)
-    by_card = {}
+    title_of = {c['n']: c['title'] for c in cards}
+    base_of = lambda t: re.sub(r'\s*\((\d+)\)$', '', t).strip()
+    # one record per game card: its guide entries (in guide order) and total copies
+    recs, order_ids = {}, []
     for c in cards:
-        if c['info']:
-            by_card.setdefault(id(c['info']), []).append(c)
-    extras = []
-    for lst in by_card.values():
-        inf = lst[0]['info']
-        total = max(inf['copies'], len(lst))
-        for i, c in enumerate(lst, 1):
-            c['copy'] = (i, total) if total > 1 else None
-        last = lst[-1]
-        for k in range(len(lst) + 1, total + 1):
-            extras.append({'after': last, 'name': '%s (cópia extra %d)' % (base_of(last), k), 'copy': (k, total),
-                           'info': inf, 'detail': ['Cópia extra: não conta para o Card Collector, serve para montar o baralho.'],
-                           'extra': True, 'done': False, 'n': None, 'src': last})
-    for c in cards:
-        if not c['info']:
-            c['copy'] = None
-            lst = copies[base_of(c)]
-            if len(lst) > 1:
-                c['copy'] = (lst.index(c) + 1, len(lst))
+        inf = c['info']
+        key = id(inf) if inf else 'g:' + base_of(c['name'])
+        if key not in recs:
+            recs[key] = {'info': inf, 'entries': [], 'name': base_of(c['name']), 'guide': True}
+            order_ids.append(key)
+        recs[key]['entries'].append(c)
+    seen = {id(r['info']) for r in recs.values() if r['info']}
+    wiki_only = [v for v in data.values() if id(v) not in seen and not v['token']]
+    for v in sorted(wiki_only, key=lambda v: v['name']):
+        recs[id(v)] = {'info': v, 'entries': [], 'name': v['name'], 'guide': False}
+        order_ids.append(id(v))
     groups, noart, nodata = {}, [], []
-    for c in cards:
-        hit = find(c['name'], imgs)
-        if not c['info']:
-            nodata.append(c['name'])
-        if hit:
+    for key in order_ids:
+        r = recs[key]
+        inf = r['info']
+        probe = r['entries'][0]['name'] if r['entries'] else r['name']
+        hit = find(probe, imgs)
+        r['img'] = thumb(hit[1]) if hit else None
+        if inf and inf['deck'] in DECKS:
+            fac = DECKS[inf['deck']]
+        elif hit:
             fac = FACTIONS[hit[0].partition('_')[0]]
-            c['img'] = thumb(hit[1])
         else:
             fac = 'Outras cartas'
-            noart.append(c['name'])
-        c['fac'], c['hit'] = fac, hit
-        groups.setdefault(fac, []).append(c)
-        for e in extras:
-            if e['after'] is c:
-                e['img'] = c.get('img')
-                groups[fac].append(e)
-    title_of = {c['n']: c['title'] for c in cards}
+        if not hit:
+            noart.append(r['name'])
+        if not inf:
+            nodata.append(r['name'])
+        r['total'] = max(inf['copies'] if inf else 1, len(r['entries']), 1)
+        groups.setdefault(fac, []).append(r)
     order = ['Northern Realms', 'Nilfgaard', "Scoia'tael", 'Monsters', 'Skellige', 'Neutral', 'Outras cartas']
-    out = ['> Cartas de Gwent do guia, por facção. Marcar aqui também marca no guia principal (e vice-versa).',
-           '> %d entradas do guia (cada cópia conta), %d cartas distintas e %d cópias extras (etiqueta Extra, só aqui, não contam para a conquista).'
-           % (len(cards), len(copies), len(extras))]
+    n_entries = sum(len(r['entries']) for r in recs.values())
+    n_copies = sum(r['total'] for r in recs.values())
+    out = ['> Baralho de Gwent completo, por facção. Cada carta mostra um quadradinho por cópia que existe no jogo: marque as que você já tem.',
+           '> As cópias que o guia principal lista são ligadas a ele (marcar aqui marca lá e vice-versa). As outras, e as cartas fora do guia, ficam só aqui e não contam para o Card Collector.',
+           '> %d cartas, %d cópias no total (%d delas estão no guia).' % (len(recs), n_copies, n_entries)]
     for fac in order:
-        if fac not in groups:
+        lst = groups.get(fac)
+        if not lst:
             continue
-        lst = groups[fac]
         out.append('# ' + fac)
-        real = [c for c in lst if not c.get('extra')]
-        out.append('> %d entradas, %d distintas, %d cópias extras.' % (len(real), len({base_of(c) for c in real}), len(lst) - len(real)))
-        for c in lst:
-            out.append(('[x] ' if c['done'] else '- ') + c['name'])
-            if c.get('img'):
-                out.append('> @img ' + c['img'])
-            if not c.get('extra'):
-                out.append('> @link %s:%d' % (MAIN_ID, c['n']))
-                out.append('> @lt ' + title_of[c['n']])
-            inf = c['info']
-            if inf:
-                if inf['pow']:
-                    out.append('> @pow ' + inf['pow'])
-                out += ['> @tag ' + t for t in inf['tags']]
-            if c.get('extra'):
-                out.append('> @tag Extra')
-            if c['copy']:
-                out.append('> @copy %d/%d' % c['copy'])
-            if inf and inf['ability']:
-                out.append('> Habilidade: ' + inf['ability'])
-            out += ['> ' + d for d in c['detail']]
+        out.append('> %d cartas, %d cópias.' % (len(lst), sum(r['total'] for r in lst)))
+        for r in lst:
+            inf, g = r['info'], slug(r['name'])
+            for i in range(1, r['total'] + 1):
+                e = r['entries'][i - 1] if i <= len(r['entries']) else None
+                title = e['name'] if e else ('%s (cópia %d)' % (r['name'], i) if r['total'] > 1 else r['name'])
+                out.append((('[x] ' if e and e['done'] else '- ')) + title)
+                out.append('> @grp ' + g)
+                if r['img']:
+                    out.append('> @img ' + r['img'])
+                if e:
+                    out.append('> @link %s:%d' % (MAIN_ID, e['n']))
+                    out.append('> @lt ' + title_of[e['n']])
+                if inf:
+                    if inf['pow']:
+                        out.append('> @pow ' + inf['pow'])
+                    out += ['> @tag ' + t for t in inf['tags']]
+                if r['total'] > 1:
+                    out.append('> @copy %d/%d' % (i, r['total']))
+                if not r['guide']:
+                    out.append('> @tag Fora do guia')
+                if i == 1 and inf and inf['ability']:
+                    out.append('> Habilidade: ' + inf['ability'])
+                if e:
+                    out += ['> ' + d for d in e['detail']]
+                else:
+                    out.append('> Cópia que não está no guia principal: só controle aqui.')
     # jogadores, quests e conquistas de Gwent (ligados ao guia principal)
     out.append('# Jogadores e quests de Gwent')
     out.append('> Quem enfrentar, quests e conquistas de Gwent. Ligados ao guia principal.')
@@ -279,9 +285,11 @@ def main(src, dst):
         out.append('> @lt ' + o['title'])
         out += ['> ' + d for d in o['detail']]
     open(dst, 'w', encoding='utf8').write('\n'.join(out) + '\n')
-    print(len(cards), 'cards;', len(extras), 'extra copies;', len(others), 'players/quests;', {f: len(v) for f, v in groups.items()})
+    print(len(recs), 'cards,', n_copies, 'copies,', n_entries, 'in the guide;', len(wiki_only), 'wiki-only;', len(others), 'players/quests;',
+          {f: len(v) for f, v in groups.items()})
     print('without art:', noart)
     print('without data:', nodata)
+    print('wiki-only:', [v['name'] for v in wiki_only])
 
 
 if __name__ == '__main__':

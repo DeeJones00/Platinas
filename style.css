@@ -105,3 +105,19 @@ h2.sec{font-size:1rem;color:var(--gold);margin:22px 0 6px}
 .snip{color:var(--mute);font-size:.85rem;margin-top:4px;font-style:italic}
 .item.flash{animation:flash 2.4s ease-out}
 @keyframes flash{0%,40%{background:rgba(201,168,76,.28)}100%{background:transparent}}
+
+/* carta com copias: um quadradinho por copia */
+.cardrow{flex-wrap:wrap}
+.cardrow .txt{cursor:default}
+.cardrow .ttl{cursor:pointer;font-weight:600}
+.sqrow{display:flex;align-items:center;gap:10px;margin-top:8px;flex-wrap:wrap}
+.sqs{display:flex;gap:6px;flex-wrap:wrap}
+.sq{width:34px;height:34px;padding:0;border-radius:8px;border:2px solid #5a6870;background:#0f1417;color:var(--mute);font-weight:700;font-size:.9rem}
+.sq.free{border-style:dashed}
+.sq.on{background:var(--ok);border-color:var(--ok);color:#0d1013}
+.owned{color:var(--mute);font-size:.85rem;font-variant-numeric:tabular-nums}
+.cardrow.partial .owned{color:var(--gold)}
+.cardrow.done .owned{color:var(--ok)}
+.cardrow.done .ttl{color:var(--ok);text-decoration:line-through;text-decoration-color:var(--ok);text-decoration-thickness:2px}
+.cardrow.done .thumb{opacity:.55;border-color:#2f6b43}
+.dcopy{margin:6px 0}

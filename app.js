@@ -62,6 +62,7 @@ function parse(text) {
       if (last && !last.g && (k = m[1].match(/^@img\s+(\S+)/))) last.i = k[1];
       else if (last && !last.g && (k = m[1].match(/^@link\s+(\S+)/))) last.l = k[1];
       else if (last && !last.g && (k = m[1].match(/^@lt\s+(.+)/))) last.lt = k[1].trim();
+      else if (last && !last.g && (k = m[1].match(/^@grp\s+(\S+)/))) last.grp = k[1];
       else if (last && !last.g && (k = m[1].match(/^@pow\s+(\d+)/))) last.p = k[1];
       else if (last && !last.g && (k = m[1].match(/^@tag\s+(.+)/))) (last.t ||= []).push(k[1].trim());
       else if (last && !last.g && (k = m[1].match(/^@copy\s+(\d+\/\d+)/))) last.c2 = k[1];
@@ -87,6 +88,7 @@ const toText = (tree, notes = [], done = {}) => {
       if (x.i) out.push('> @img ' + x.i);
       if (x.l) out.push('> @link ' + x.l);
       if (x.lt) out.push('> @lt ' + x.lt);
+      if (x.grp) out.push('> @grp ' + x.grp);
       if (x.p) out.push('> @pow ' + x.p);
       (x.t || []).forEach((t) => out.push('> @tag ' + t));
       if (x.c2) out.push('> @copy ' + x.c2);
@@ -212,6 +214,19 @@ async function syncLibrary() {
           Object.assign((progress[id] ||= { done: {}, open: {} }).done, p.done);
           if (!guides[id].edited) { guides[id].tree = p.tree; guides[id].notes = p.notes; }
           guides[id].rev = e.rev || 0;
+          await saveGuide(guides[id]); await saveProgress(id);
+          libNew.push(id);
+        } else if (!guides[id].edited) {
+          // Guia reestruturado: as marcacoes antigas seguem pelo titulo; os itens ligados voltam do outro guia (pullLinks).
+          const oldDone = new Set();
+          const oldPr = progress[id]?.done || {};
+          const collect = (nodes) => nodes.forEach((x) => { if (x.g) collect(x.c); else if (oldPr[x.n]) oldDone.add(x.x.replace('cópia extra', 'cópia')); });
+          collect(guides[id].tree);
+          const done = { ...p.done };
+          const mark = (nodes) => nodes.forEach((x) => { if (x.g) mark(x.c); else if (oldDone.has(x.x)) done[x.n] = 1; });
+          mark(p.tree);
+          Object.assign(guides[id], { tree: p.tree, notes: p.notes, total: p.total, rev: e.rev || 0 });
+          progress[id] = { done, open: {} };
           await saveGuide(guides[id]); await saveProgress(id);
           libNew.push(id);
         }
@@ -452,6 +467,64 @@ function read() {
     return el;
   };
 
+  // Itens seguidos com o mesmo "@grp" sao copias da mesma carta: uma linha, um quadradinho por copia.
+  const cardEl = (members) => {
+    const first = members[0];
+    const el = document.createElement('div');
+    el.className = 'item cardrow';
+    el.dataset.n = first.n;
+    const baseTitle = first.x.replace(/\s*\((\d+|cópia \d+)\)$/, '');
+    const hasInfo = members.some((m) => m.d && m.d.length);
+    const detail = members.map((m, i) => (m.d || []).length
+      ? `<div class="dcopy">${members.length > 1 ? `<b>Cópia ${i + 1}:</b> ` : ''}${(m.d).map((x) => esc(x)).join('<br>')}</div>` : '').join('');
+    el.innerHTML = `<div class="tw"><img class="thumb" loading="lazy" crossorigin="anonymous" alt="" src="${esc(first.i || '')}">${first.p ? `<b class="pow" title="Poder">${esc(first.p)}</b>` : ''}</div>
+      <div class="txt"><div class="ttl">${esc(baseTitle)}</div>
+      <div class="meta">${(first.t || []).map((t) => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+      <div class="sqrow"><span class="sqs"></span><span class="owned"></span></div>
+      ${hasInfo ? `<div class="detail" hidden>${detail}</div>` : ''}</div>${hasInfo ? '<span class="more">ⓘ</span>' : ''}`;
+    if (!first.i) el.querySelector('.tw').innerHTML = `<span class="ico">${itemIcon(first.x)}</span>`;
+    const sqs = el.querySelector('.sqs'), owned = el.querySelector('.owned');
+    const paint = () => {
+      const d = members.filter((m) => pr.done[m.n]).length;
+      owned.textContent = `${d}/${members.length}${members.length > 1 ? ' cópias' : ''}`;
+      el.classList.toggle('done', d === members.length);
+      el.classList.toggle('partial', d > 0 && d < members.length);
+    };
+    members.forEach((m, i) => {
+      const b = document.createElement('button');
+      b.className = 'sq' + (pr.done[m.n] ? ' on' : '') + (m.l ? '' : ' free');
+      b.textContent = i + 1;
+      b.title = m.l ? `Cópia ${i + 1} (ligada ao guia principal)` : `Cópia ${i + 1}`;
+      b.onclick = (ev) => {
+        ev.stopPropagation();
+        if (pr.done[m.n]) delete pr.done[m.n]; else pr.done[m.n] = 1;
+        b.classList.toggle('on', !!pr.done[m.n]);
+        saveProgress(g.id); paint(); refreshCounts();
+        propagate(g.id, m.n, !!pr.done[m.n]);
+      };
+      sqs.appendChild(b);
+    });
+    paint();
+    const im = el.querySelector('.thumb');
+    if (im) im.onclick = () => {
+      const big = el.classList.toggle('bigimg');
+      im.src = big ? first.i.replace('/scale-to-width-down/200', '/scale-to-width-down/480') : first.i;
+    };
+    if (hasInfo) el.querySelectorAll('.txt .ttl, .more').forEach((x) => (x.onclick = () => { const dt = el.querySelector('.detail'); dt.hidden = !dt.hidden; }));
+    return el;
+  };
+  const appendNodes = (parent, nodes, depth) => {
+    for (let i = 0; i < nodes.length; i++) {
+      const c = nodes[i];
+      if (c.g) { parent.appendChild(groupEl(c, depth)); continue; }
+      if (c.grp) {
+        const run = [c];
+        while (nodes[i + 1] && !nodes[i + 1].g && nodes[i + 1].grp === c.grp) run.push(nodes[++i]);
+        parent.appendChild(cardEl(run));
+      } else parent.appendChild(itemEl(c));
+    }
+  };
+
   const groupEl = (node, depth) => {
     const el = document.createElement('section');
     el.className = 'group d' + Math.min(depth, 3);
@@ -471,7 +544,7 @@ function read() {
       if (filled) return;
       filled = true;
       if (node.d?.length) body.insertAdjacentHTML('beforeend', `<div class="note">${noteHtml(node.d)}</div>`);
-      node.c.forEach((c) => body.appendChild(c.g ? groupEl(c, depth + 1) : itemEl(c)));
+      appendNodes(body, node.c, depth + 1);
     };
     el.querySelector('.gh').onclick = () => { open(body.hidden); saveProgress(g.id); };
     if (pr.open[node.id]) open(true);
@@ -531,9 +604,9 @@ function read() {
   q.oninput = () => { clearTimeout(timer); timer = setTimeout(runSearch, 150); };
   q.onkeydown = (e) => { if (e.key === 'Escape') closeSearch(); };
 
-  g.tree.forEach((c) => tree.appendChild(c.g ? groupEl(c, 1) : itemEl(c)));
+  appendNodes(tree, g.tree, 1);
   if (route.jump != null) {
-    const target = tree.querySelector(`.item[data-n="${route.jump}"]`);
+    const target = tree.querySelector(`.item[data-n="${route.jump}"]`) || [...tree.querySelectorAll('.cardrow')].find((r) => r.querySelector('.sq'));
     if (target) { target.scrollIntoView({ block: 'center' }); target.classList.add('flash'); }
     delete route.jump;
   }

@@ -412,6 +412,13 @@ function read() {
   Object.keys(linkAdj).filter((k) => k.startsWith(g.id + ':')).forEach((k) =>
     linkAdj[k].forEach((t) => { const tg = t.slice(0, t.lastIndexOf(':')); if (guides[tg]) (linked[tg] ||= []).push(k.slice(g.id.length + 1)); }));
   $('#links').innerHTML = Object.keys(linked).map((tg) => `<div class="linkbar"><button class="chip" data-open="${esc(tg)}">↗ ${esc(guides[tg].name)}</button><button class="chip danger" data-clear="${esc(tg)}">Limpar só estes itens</button></div>`).join('');
+  $('#links').insertAdjacentHTML('beforeend', '<div class="linkbar"><button class="chip" id="collapse">⇡ Recolher tudo</button></div>');
+  $('#collapse').onclick = async () => {
+    pr.open = {};
+    await saveProgress(g.id);
+    render();
+    window.scrollTo(0, 0);
+  };
   $('#links').querySelectorAll('[data-open]').forEach((b) => (b.onclick = () => go({ name: 'read', id: b.dataset.open })));
   $('#links').querySelectorAll('[data-clear]').forEach((b) => (b.onclick = async () => {
     const ns = linked[b.dataset.clear].filter((n) => pr.done[n]);

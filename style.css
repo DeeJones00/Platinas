@@ -81,3 +81,7 @@ h2.sec{font-size:1rem;color:var(--gold);margin:22px 0 6px}
 .item.bigimg{flex-wrap:wrap}
 .item.bigimg .thumb{width:100%;max-width:300px;order:5;cursor:zoom-out;margin:8px auto 0}
 .item.done .thumb{opacity:.55;border-color:#2f6b43}
+
+.linkbar{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}
+.chip{border-radius:20px;padding:6px 14px;font-size:.9rem}
+.chip.danger{color:#ff8a8a;border-color:#4a2a2e}

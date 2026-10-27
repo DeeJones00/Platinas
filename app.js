@@ -173,10 +173,25 @@ back.onclick = () => go(route.name === 'read' || route.name === 'edit' && route.
 function render() {
   back.hidden = route.name === 'home';
   actions.innerHTML = '';
+  $('#hbar').innerHTML = '';
   ({ home, game: gameView, edit, read }[route.name])();
 }
 
-const bar = (p) => `<div class="bar"><i style="width:${p}%"></i></div>`;
+const bar = (p) => `<div class="bar${p >= 100 ? ' full' : ''}"><i style="width:${p}%"></i></div>`;
+
+// Icones so estetica: por tipo de item e por regiao do grupo.
+const ITEM_ICONS = [
+  [/^Main Quest|^Ciri/, '⚔️'], [/^Achievement|^Secret/, '🏆'], [/^Secondary Quest|^Treasure|^Scavenger|^Kaer Morhen Ally/, '📜'],
+  [/^Witcher Contract/, '🐺'], [/^(HoS|Hos|B&W|DLC)/, '🗡️'], [/^Nightmare/, '👻'],
+  [/^(Unique|Gwent Card)/, '🃏'], [/^(Random|Gwent Player|Skellige Card)/, '🎴'],
+];
+const itemIcon = (t) => (ITEM_ICONS.find(([r]) => r.test(t)) || [0, '◆'])[1];
+const GROUP_ICONS = [
+  [/Cartas/, '🃏'], [/Velen/, '🌲'], [/Novigrad|Oxenfurt/, '🏙️'], [/Skellige|Faroe|Hindarsfjall|Undvik|Spikeroog|Kaer Trolde/, '⚓'],
+  [/Toussaint|Beauclair/, '🍷'], [/Kaer Morhen/, '🏰'], [/White Orchard/, '🌾'], [/Vizima/, '👑'], [/Eastern|Painted/, '🌫️'],
+];
+const groupIcon = (t, depth) => (GROUP_ICONS.find(([r]) => r.test(t)) || [0, depth === 1 ? '📖' : '◈'])[1];
+const pctOf = (d, t) => (t ? Math.round((d / t) * 100) : 0);
 
 // ---------- Pastas de jogos ----------
 function home() {
@@ -275,19 +290,22 @@ function read() {
     view.querySelectorAll('.item.just').forEach((x) => x.classList.remove('just'));
   };
 
-  view.innerHTML = '<div id="sum" class="hint"></div><div id="tree"></div>';
+  view.innerHTML = '<div id="tree"></div>';
   const tree = $('#tree');
   const noteHtml = (d) => d.map((x) => `<p>${esc(x)}</p>`).join('');
   if (g.notes?.length) tree.insertAdjacentHTML('beforebegin', `<div class="note">${noteHtml(g.notes)}</div>`);
 
   const summary = () => {
     const s = guideStats(g);
-    $('#sum').innerHTML = `${esc(g.game)} · ${s.d}/${s.t} (${s.pct}%)${bar(s.pct)}`;
+    $('#hbar').innerHTML = `<div class="sumrow"><span>${esc(g.game)}</span><span><b>${s.pct}%</b> · ${s.d}/${s.t}</span></div>${bar(s.pct)}`;
   };
   const refreshCounts = () => {
     tree.querySelectorAll('[data-gid]').forEach((el) => {
       const [d, t] = count(el._node, pr.done);
-      el.querySelector(':scope > .gh .cnt').textContent = `${d}/${t}`;
+      const gh = el.querySelector(':scope > .gh');
+      gh.querySelector('.cnt').textContent = `${d}/${t}`;
+      const p = pctOf(d, t);
+      gh.querySelector('.gbar i').style.width = p + '%';
       el.classList.toggle('complete', t > 0 && d === t);
     });
     summary();
@@ -297,7 +315,7 @@ function read() {
     const el = document.createElement('div');
     el.className = 'item' + (pr.done[it.n] ? ' done' : '');
     const hasD = it.d && it.d.length;
-    el.innerHTML = `<span class="box"></span><div class="txt"><div>${esc(it.x)}</div>${hasD ? '<div class="detail" hidden>' + noteHtml(it.d) + '</div>' : ''}</div>${hasD ? '<span class="more">ⓘ</span>' : ''}`;
+    el.innerHTML = `<span class="box"></span><span class="ico">${itemIcon(it.x)}</span><div class="txt"><div class="ttl">${esc(it.x)}</div>${hasD ? '<div class="detail" hidden>' + noteHtml(it.d) + '</div>' : ''}</div>${hasD ? '<span class="more">ⓘ</span>' : ''}`;
     el.querySelector('.box').onclick = () => {
       if (pr.done[it.n]) delete pr.done[it.n]; else pr.done[it.n] = 1;
       el.classList.toggle('done', !!pr.done[it.n]);
@@ -314,7 +332,7 @@ function read() {
     el.dataset.gid = node.id;
     el._node = node;
     const [d, t] = count(node, pr.done);
-    el.innerHTML = `<div class="gh"><span class="chev">▸</span><span class="gt">${esc(node.x)}</span><span class="cnt">${d}/${t}</span></div><div class="gb" hidden></div>`;
+    el.innerHTML = `<div class="gh"><div class="gtop"><span class="chev">▸</span><span class="ico">${groupIcon(node.x, depth)}</span><span class="gt">${esc(node.x)}</span><span class="tick">✔</span><span class="cnt">${d}/${t}</span></div><div class="gbar"><i style="width:${pctOf(d, t)}%"></i></div></div><div class="gb" hidden></div>`;
     const body = el.querySelector('.gb');
     const open = (state) => {
       body.hidden = !state;

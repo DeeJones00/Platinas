@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#12141c">
+<meta name="theme-color" content="#0d1013">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -14,8 +14,10 @@
 <body>
 <header>
   <button id="back" hidden aria-label="Voltar">←</button>
+  <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="#c9a84c" stroke-width="2"/><path d="M16 5l8 6v10l-8 6-8-6V11z" fill="#151a1f" stroke="#acb8bb" stroke-width="1.5"/><circle cx="16" cy="16" r="3.2" fill="#f41020"/></svg>
   <h1 id="title">Platinas</h1>
   <div id="actions"></div>
+  <div id="hbar"></div>
 </header>
 <main id="view"></main>
 <script src="app.js"></script>

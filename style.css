@@ -93,3 +93,15 @@ h2.sec{font-size:1rem;color:var(--gold);margin:22px 0 6px}
 .tag.copy{color:var(--gold);border-color:#5a4a1f}
 .item.bigimg .tw{order:5;width:100%;display:flex;justify-content:center}
 .item.bigimg .tw .thumb{margin:8px auto 0}
+
+/* busca */
+#sbar{position:sticky;top:0;margin:-4px 0 10px;padding:4px 0;background:transparent}
+#q{margin:0;font-size:1rem}
+#qinfo{margin-top:4px}
+.hit{background:linear-gradient(var(--card2),var(--card));border:1px solid var(--line);border-radius:12px;padding:8px 10px;margin:8px 0}
+.hit .where{font-size:.75rem;color:var(--gold);letter-spacing:.03em}
+.hit .item{border-bottom:0}
+.hit .chip{margin:2px 0 4px 34px;font-size:.8rem;padding:3px 12px}
+.snip{color:var(--mute);font-size:.85rem;margin-top:4px;font-style:italic}
+.item.flash{animation:flash 2.4s ease-out}
+@keyframes flash{0%,40%{background:rgba(201,168,76,.28)}100%{background:transparent}}

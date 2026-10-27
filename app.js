@@ -325,8 +325,18 @@ function read() {
   if (!g) return go({ name: 'home' });
   const pr = (progress[g.id] ||= { done: {}, open: {} });
   title.textContent = g.name;
-  actions.innerHTML = '<button id="hide">Ocultar feitos</button><button id="ed">Editar</button>';
+  actions.innerHTML = '<button id="hide">Ocultar feitos</button><button id="clr">Limpar</button><button id="ed">Editar</button>';
   $('#ed').onclick = () => go({ name: 'edit', id: g.id });
+  // Limpar selecao: desmarca todos os itens deste guia (e os ligados em outros guias). Grupos abertos continuam.
+  $('#clr').onclick = async () => {
+    const ns = Object.keys(pr.done);
+    if (!ns.length) return alert('Nada marcado neste guia.');
+    if (!confirm(`Limpar a seleção de "${g.name}"? Isso desmarca ${ns.length} item(ns)` + (Object.keys(linkAdj).some((k) => k.startsWith(g.id + ':')) ? ' e os itens ligados em outros guias.' : '.'))) return;
+    pr.done = {};
+    await saveProgress(g.id);
+    for (const n of ns) await propagate(g.id, n, false);
+    render();
+  };
   // Feitos continuam visiveis (so riscados). "Ocultar feitos" e opcional e comeca desligado a cada abertura.
   view.classList.remove('hidedone');
   $('#hide').onclick = () => {

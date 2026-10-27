@@ -61,6 +61,7 @@ function parse(text) {
       let k;
       if (last && !last.g && (k = m[1].match(/^@img\s+(\S+)/))) last.i = k[1];
       else if (last && !last.g && (k = m[1].match(/^@link\s+(\S+)/))) last.l = k[1];
+      else if (last && !last.g && (k = m[1].match(/^@lt\s+(.+)/))) last.lt = k[1].trim();
       else if (last && !last.g && (k = m[1].match(/^@pow\s+(\d+)/))) last.p = k[1];
       else if (last && !last.g && (k = m[1].match(/^@tag\s+(.+)/))) (last.t ||= []).push(k[1].trim());
       else if (last && !last.g && (k = m[1].match(/^@copy\s+(\d+\/\d+)/))) last.c2 = k[1];
@@ -85,6 +86,7 @@ const toText = (tree, notes = [], done = {}) => {
       out.push((done[x.n] ? '[x] ' : '- ') + x.x);
       if (x.i) out.push('> @img ' + x.i);
       if (x.l) out.push('> @link ' + x.l);
+      if (x.lt) out.push('> @lt ' + x.lt);
       if (x.p) out.push('> @pow ' + x.p);
       (x.t || []).forEach((t) => out.push('> @tag ' + t));
       if (x.c2) out.push('> @copy ' + x.c2);
@@ -111,14 +113,31 @@ const guideStats = (g) => {
 
 // Itens ligados entre guias ("@link guia:n"): marcar um marca o outro, nos dois sentidos.
 let linkAdj = {};
+// "@link guia:n" aponta para o item n do outro guia; "@lt titulo" confere o titulo. Se o outro guia foi editado
+// (itens mudaram de posicao), o vinculo segue o titulo quando ele e unico.
 function buildLinks() {
   linkAdj = {};
+  const ord = {}, titles = {};
+  const index = (gid, nodes) => nodes.forEach((x) => {
+    if (x.g) return index(gid, x.c);
+    (ord[gid] ||= {})[x.n] = x;
+    ((titles[gid] ||= {})[x.x] ||= []).push(x.n);
+  });
+  Object.values(guides).forEach((g) => index(g.id, g.tree));
   const walk = (gid, nodes) => nodes.forEach((x) => {
     if (x.g) return walk(gid, x.c);
     if (!x.l) return;
+    const i = x.l.lastIndexOf(':');
+    const tg = x.l.slice(0, i);
+    let tn = x.l.slice(i + 1);
+    if (x.lt && ord[tg]?.[tn]?.x !== x.lt) {
+      const c = titles[tg]?.[x.lt];
+      if (c && c.length === 1) tn = c[0];
+    }
+    x.rl = tg + ':' + tn;
     const a = gid + ':' + x.n;
-    (linkAdj[a] ||= []).push(x.l);
-    (linkAdj[x.l] ||= []).push(a);
+    (linkAdj[a] ||= []).push(x.rl);
+    (linkAdj[x.rl] ||= []).push(a);
   });
   Object.values(guides).forEach((g) => walk(g.id, g.tree));
 }
@@ -132,13 +151,28 @@ async function propagate(gid, n, val) {
   }
 }
 // Ao importar um guia ligado, herda o que ja estava marcado no outro lado.
+// Ao abrir o app: se um lado de um vinculo esta marcado e o outro nao (edicao, offline), marca os dois.
+async function reconcileLinks() {
+  const touched = new Set();
+  for (const [a, targets] of Object.entries(linkAdj)) {
+    const [ag, an] = [a.slice(0, a.lastIndexOf(':')), a.slice(a.lastIndexOf(':') + 1)];
+    if (!progress[ag]?.done[an]) continue;
+    for (const t of targets) {
+      const [tg, tn] = [t.slice(0, t.lastIndexOf(':')), t.slice(t.lastIndexOf(':') + 1)];
+      if (!guides[tg]) continue;
+      const pr = (progress[tg] ||= { done: {}, open: {} });
+      if (!pr.done[tn]) { pr.done[tn] = 1; touched.add(tg); }
+    }
+  }
+  for (const id of touched) await saveProgress(id);
+}
 async function pullLinks(gid) {
   const g = guides[gid], pr = (progress[gid] ||= { done: {}, open: {} });
   const walk = (nodes) => nodes.forEach((x) => {
     if (x.g) return walk(x.c);
-    if (!x.l) return;
-    const i = x.l.lastIndexOf(':');
-    if (progress[x.l.slice(0, i)]?.done[x.l.slice(i + 1)]) pr.done[x.n] = 1;
+    if (!x.rl) return;
+    const i = x.rl.lastIndexOf(':');
+    if (progress[x.rl.slice(0, i)]?.done[x.rl.slice(i + 1)]) pr.done[x.n] = 1;
   });
   walk(g.tree);
   await saveProgress(gid);
@@ -155,6 +189,7 @@ async function init() {
   await migrateOld();
   await syncLibrary();
   buildLinks();
+  await reconcileLinks();
   Object.values(guides).forEach((g) => g.game && !games.includes(g.game) && games.push(g.game));
   render();
 }
@@ -178,6 +213,7 @@ async function syncLibrary() {
           if (!guides[id].edited) { guides[id].tree = p.tree; guides[id].notes = p.notes; }
           guides[id].rev = e.rev || 0;
           await saveGuide(guides[id]); await saveProgress(id);
+          libNew.push(id);
         }
       } catch { /* sem rede */ }
       continue;
@@ -192,7 +228,8 @@ async function syncLibrary() {
       libNew.push(id);
     } catch { /* sem rede: tenta na proxima abertura */ }
   }
-  if (libNew.length) { buildLinks(); for (const id of libNew) await pullLinks(id); }
+  buildLinks();
+  for (const id of libNew) await pullLinks(id);
 }
 
 // Guias do formato antigo (localStorage) viram guias novos uma unica vez.
@@ -313,7 +350,8 @@ function edit() {
     Object.assign(rec, { name: $('#name').value.trim() || 'Sem nome', tree: p.tree, notes: p.notes, total: p.total });
     if (rec.id.startsWith('lib-')) rec.edited = true; // edicao do usuario nao e sobrescrita por novas versoes do guia
     guides[rec.id] = rec;
-    progress[rec.id] ||= { done: p.done, open: {} };
+    // o texto traz [x] nos itens feitos: ele manda, assim inserir/apagar itens nao desloca as marcacoes
+    progress[rec.id] = { done: p.done, open: progress[rec.id]?.open || {} };
     await saveGuide(rec); await saveProgress(rec.id);
     buildLinks();
     go({ name: 'read', id: rec.id });

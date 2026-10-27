@@ -1,10 +1,11 @@
 > Cartas de Gwent do guia, por facção. Marcar aqui também marca no guia principal (e vice-versa).
-> 189 entradas (cada cópia conta), 156 cartas distintas, 21 com mais de uma cópia.
+> 190 entradas do guia (cada cópia conta), 157 cartas distintas e 55 cópias extras (etiqueta Extra, só aqui, não contam para a conquista).
 # Northern Realms
-> 32 entradas, 29 distintas.
+> 32 entradas, 29 distintas, 8 cópias extras.
 [x] Foltest, King of Temeria (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/0/07/Tw3_cardart_northernrealms_foltest_gold.png/revision/latest/scale-to-width-down/200?cb=20170426195032
 > @link lib-witcher3.txt:7
+> @lt Unique Gwent Card #1 – Foltest, King of Temeria (Leader)
 > @tag Líder
 > Habilidade: Pick an Impenetrable Fog card from your deck and play it instantly.
 > Local: White Orchard
@@ -12,6 +13,7 @@
 [x] Dethmold
 > @img https://static.wikia.nocookie.net/witcher/images/a/a5/Tw3_cardart_northernrealms_dethmold.png/revision/latest/scale-to-width-down/200?cb=20170426191221
 > @link lib-witcher3.txt:12
+> @lt Unique Gwent Card #6 – Dethmold
 > @pow 6
 > @tag À distância
 > Local: White Orchard
@@ -19,6 +21,7 @@
 [x] Trebuchet (1)
 > @img https://static.wikia.nocookie.net/witcher/images/7/78/Tw3_cardart_northernrealms_trebuchet_1.png/revision/latest/scale-to-width-down/200?cb=20170426202630
 > @link lib-witcher3.txt:13
+> @lt Unique Gwent Card #7 – Trebuchet (1)
 > @pow 6
 > @tag Cerco
 > @copy 1/2
@@ -27,6 +30,7 @@
 [x] Trebuchet (2)
 > @img https://static.wikia.nocookie.net/witcher/images/e/ee/Tw3_cardart_northernrealms_trebuchet_2.png/revision/latest/scale-to-width-down/200?cb=20170425204114
 > @link lib-witcher3.txt:14
+> @lt Unique Gwent Card #8 – Trebuchet (2)
 > @pow 6
 > @tag Cerco
 > @copy 2/2
@@ -35,6 +39,7 @@
 [x] Ballista (1)
 > @img https://static.wikia.nocookie.net/witcher/images/7/70/Tw3_cardart_northernrealms_ballista_1.png/revision/latest/scale-to-width-down/200?cb=20170426183749
 > @link lib-witcher3.txt:15
+> @lt Unique Gwent Card #9 – Ballista (1)
 > @pow 6
 > @tag Cerco
 > @copy 1/2
@@ -43,6 +48,7 @@
 [x] Ballista (2)
 > @img https://static.wikia.nocookie.net/witcher/images/5/51/Tw3_cardart_northernrealms_ballista_2.png/revision/latest/scale-to-width-down/200?cb=20170426183750
 > @link lib-witcher3.txt:16
+> @lt Unique Gwent Card #10 – Ballista (2)
 > @pow 6
 > @tag Cerco
 > @copy 2/2
@@ -51,6 +57,7 @@
 [x] Ves
 > @img https://static.wikia.nocookie.net/witcher/images/0/04/Tw3_cardart_northernrealms_ves.png/revision/latest/scale-to-width-down/200?cb=20170426202632
 > @link lib-witcher3.txt:17
+> @lt Unique Gwent Card #11 – Ves
 > @pow 5
 > @tag Corpo a corpo
 > Local: White Orchard
@@ -58,6 +65,7 @@
 [x] Siegfried of Denesle
 > @img https://static.wikia.nocookie.net/witcher/images/1/1a/Tw3_cardart_northernrealms_siegfried_of_denesle.png/revision/latest/scale-to-width-down/200?cb=20170426201556
 > @link lib-witcher3.txt:18
+> @lt Unique Gwent Card #12 – Siegfried of Denesle
 > @pow 5
 > @tag Corpo a corpo
 > Local: White Orchard
@@ -65,6 +73,7 @@
 [x] Keira Metz
 > @img https://static.wikia.nocookie.net/witcher/images/6/61/Tw3_cardart_northernrealms_keira_metz.png/revision/latest/scale-to-width-down/200?cb=20170426191224
 > @link lib-witcher3.txt:19
+> @lt Unique Gwent Card #13 – Keira Metz
 > @pow 5
 > @tag À distância
 > Local: White Orchard
@@ -72,6 +81,7 @@
 [x] Síle de Tansarville
 > @img https://static.wikia.nocookie.net/witcher/images/a/ad/Tw3_cardart_northernrealms_sheala_de_tansarville.png/revision/latest/scale-to-width-down/200?cb=20170426202629
 > @link lib-witcher3.txt:20
+> @lt Unique Gwent Card #14 – Síle de Tansarville
 > @pow 5
 > @tag À distância
 > Local: White Orchard
@@ -79,6 +89,7 @@
 [x] Prince Stennis
 > @img https://static.wikia.nocookie.net/witcher/images/f/f2/Tw3_cardart_northernrealms_prince_stennis.png/revision/latest/scale-to-width-down/200?cb=20260524181949
 > @link lib-witcher3.txt:21
+> @lt Unique Gwent Card #15 – Prince Stennis
 > @pow 5
 > @tag Corpo a corpo
 > Habilidade: Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck.
@@ -87,6 +98,7 @@
 [x] Dun Banner Medic
 > @img https://static.wikia.nocookie.net/witcher/images/7/7a/Tw3_cardart_northernrealms_dun_banner_medic.png/revision/latest/scale-to-width-down/200?cb=20170426183754
 > @link lib-witcher3.txt:22
+> @lt Unique Gwent Card #16 – Dun Banner Medic
 > @pow 5
 > @tag Cerco
 > Habilidade: Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
@@ -95,6 +107,7 @@
 [x] Sabrina Glevissig
 > @img https://static.wikia.nocookie.net/witcher/images/6/69/Tw3_cardart_northernrealms_sabrina.png/revision/latest/scale-to-width-down/200?cb=20160605172401
 > @link lib-witcher3.txt:23
+> @lt Unique Gwent Card #17 – Sabrina Glevissig
 > @pow 4
 > @tag À distância
 > Local: White Orchard
@@ -102,6 +115,7 @@
 [x] Sheldon Skaggs
 > @img https://static.wikia.nocookie.net/witcher/images/c/c9/Tw3_cardart_northernrealms_sheldon_skaggs.png/revision/latest/scale-to-width-down/200?cb=20170426202629
 > @link lib-witcher3.txt:24
+> @lt Unique Gwent Card #18 – Sheldon Skaggs
 > @pow 4
 > @tag À distância
 > Local: White Orchard
@@ -109,22 +123,59 @@
 [x] Blue Stripes Commando
 > @img https://static.wikia.nocookie.net/witcher/images/e/ee/Tw3_cardart_northernrealms_blue_stripes_1.png/revision/latest/scale-to-width-down/200?cb=20170426183751
 > @link lib-witcher3.txt:25
+> @lt Unique Gwent Card #19 – Blue Stripes Commando
 > @pow 4
 > @tag Corpo a corpo
+> @copy 1/3
 > Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
 > Local: White Orchard
 > Unlocked with our base deck.
+- Blue Stripes Commando (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/e/ee/Tw3_cardart_northernrealms_blue_stripes_1.png/revision/latest/scale-to-width-down/200?cb=20170426183751
+> @pow 4
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 2/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Blue Stripes Commando (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/e/ee/Tw3_cardart_northernrealms_blue_stripes_1.png/revision/latest/scale-to-width-down/200?cb=20170426183751
+> @pow 4
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 3/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 [x] Poor Fockin’ Infantry
 > @img https://static.wikia.nocookie.net/witcher/images/0/05/Tw3_cardart_northernrealms_poor_infantry.png/revision/latest/scale-to-width-down/200?cb=20160923165540
 > @link lib-witcher3.txt:26
+> @lt Unique Gwent Card #20 – Poor Fockin’ Infantry
 > @pow 1
 > @tag Corpo a corpo
+> @copy 1/3
 > Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
 > Local: White Orchard
 > Unlocked with our base deck.
+- Poor Fockin’ Infantry (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/0/05/Tw3_cardart_northernrealms_poor_infantry.png/revision/latest/scale-to-width-down/200?cb=20160923165540
+> @pow 1
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 2/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Poor Fockin’ Infantry (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/0/05/Tw3_cardart_northernrealms_poor_infantry.png/revision/latest/scale-to-width-down/200?cb=20160923165540
+> @pow 1
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 3/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 [x] Redanian Foot Soldier (1)
 > @img https://static.wikia.nocookie.net/witcher/images/6/65/Tw3_cardart_northernrealms_redanian_foot_soldier_1.png/revision/latest/scale-to-width-down/200?cb=20170426202628
 > @link lib-witcher3.txt:27
+> @lt Unique Gwent Card #21 – Redanian Foot Soldier (1)
 > @pow 1
 > @tag Corpo a corpo
 > @copy 1/2
@@ -133,6 +184,7 @@
 [x] Redanian Foot Soldier (2)
 > @img https://static.wikia.nocookie.net/witcher/images/3/37/Tw3_cardart_northernrealms_redanian_foot_soldier_2.png/revision/latest/scale-to-width-down/200?cb=20170426202628
 > @link lib-witcher3.txt:28
+> @lt Unique Gwent Card #22 – Redanian Foot Soldier (2)
 > @pow 1
 > @tag Corpo a corpo
 > @copy 2/2
@@ -141,6 +193,7 @@
 [x] Kaedweni Siege Expert
 > @img https://static.wikia.nocookie.net/witcher/images/6/61/Tw3_cardart_northernrealms_kaedwen_siege_1.png/revision/latest/scale-to-width-down/200?cb=20170426191223
 > @link lib-witcher3.txt:29
+> @lt Unique Gwent Card #23 – Kaedweni Siege Expert
 > @pow 1
 > @tag Cerco
 > Habilidade: Morale boost: Adds +1 to all units in the row (excluding itself).
@@ -149,6 +202,7 @@
 [x] Yarpen Zigrin
 > @img https://static.wikia.nocookie.net/witcher/images/3/37/Tw3_cardart_northernrealms_yarpen_zigrin.png/revision/latest/scale-to-width-down/200?cb=20250808095202
 > @link lib-witcher3.txt:30
+> @lt Unique Gwent Card #24 – Yarpen Zigrin
 > @pow 2
 > @tag Corpo a corpo
 > Local: White Orchard
@@ -156,22 +210,59 @@
 [x] Crinfrid Reavers Dragon Hunter
 > @img https://static.wikia.nocookie.net/witcher/images/7/76/Tw3_cardart_northernrealms_crinfrid_reavers_1.png/revision/latest/scale-to-width-down/200?cb=20170426191219
 > @link lib-witcher3.txt:46
+> @lt Unique Gwent Card #29 – Crinfrid Reavers Dragon Hunter
 > @pow 5
 > @tag À distância
+> @copy 1/3
 > Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
 > Local: White Orchard
 > Purchased from the White Orchard Tavern’s Shopkeeper for 20 Crowns.
+- Crinfrid Reavers Dragon Hunter (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/7/76/Tw3_cardart_northernrealms_crinfrid_reavers_1.png/revision/latest/scale-to-width-down/200?cb=20170426191219
+> @pow 5
+> @tag À distância
+> @tag Extra
+> @copy 2/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Crinfrid Reavers Dragon Hunter (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/7/76/Tw3_cardart_northernrealms_crinfrid_reavers_1.png/revision/latest/scale-to-width-down/200?cb=20170426191219
+> @pow 5
+> @tag À distância
+> @tag Extra
+> @copy 3/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 [x] Catapult (1)
 > @img https://static.wikia.nocookie.net/witcher/images/5/5a/Tw3_cardart_northernrealms_catapult_1.png/revision/latest/scale-to-width-down/200?cb=20170426183753
 > @link lib-witcher3.txt:47
+> @lt Unique Gwent Card #30 – Catapult (1)
 > @pow 8
 > @tag Cerco
+> @copy 1/3
 > Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
 > Local: White Orchard
 > Purchased from the White Orchard Tavern’s Shopkeeper for 50 Crowns.
+- Catapult (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/5/5a/Tw3_cardart_northernrealms_catapult_1.png/revision/latest/scale-to-width-down/200?cb=20170426183753
+> @pow 8
+> @tag Cerco
+> @tag Extra
+> @copy 2/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Catapult (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/5/5a/Tw3_cardart_northernrealms_catapult_1.png/revision/latest/scale-to-width-down/200?cb=20170426183753
+> @pow 8
+> @tag Cerco
+> @tag Extra
+> @copy 3/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 [x] Foltest, Lord Commander of the North (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/0/07/Tw3_cardart_northernrealms_foltest_gold.png/revision/latest/scale-to-width-down/200?cb=20170426195032
 > @link lib-witcher3.txt:48
+> @lt Unique Gwent Card #31 – Foltest, Lord Commander of the North (Leader)
 > @tag Líder
 > Habilidade: Clear any weather effects (resulting from Biting Frost, Torrential Rain or Impenetrable Fog cards) in play.
 > Local: White Orchard
@@ -180,6 +271,7 @@
 - Foltest, the Siegemaster (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/0/07/Tw3_cardart_northernrealms_foltest_gold.png/revision/latest/scale-to-width-down/200?cb=20170426195032
 > @link lib-witcher3.txt:57
+> @lt Unique Gwent Card #32 – Foltest, the Siegemaster (Leader)
 > @tag Líder
 > Habilidade: Doubles the strength of all your Siege units (unless a Commander's Horn is also present on that row).
 > Local: Vizima
@@ -190,6 +282,7 @@
 - Sigismund Dijkstra
 > @img https://static.wikia.nocookie.net/witcher/images/2/25/Tw3_cardart_northernrealms_sigismund_dijkstra.png/revision/latest/scale-to-width-down/200?cb=20170426191226
 > @link lib-witcher3.txt:77
+> @lt Unique Gwent Card #45 – Sigismund Dijkstra
 > @pow 4
 > @tag Corpo a corpo
 > Habilidade: Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck.
@@ -198,6 +291,7 @@
 - Vernon Roche (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/a/a3/Tw3_cardart_northernrealms_vernon_roche.png/revision/latest/scale-to-width-down/200?cb=20170426202631
 > @link lib-witcher3.txt:127
+> @lt Unique Gwent Card #63 – Vernon Roche (Hero)
 > @pow 10
 > @tag Herói
 > @tag Corpo a corpo
@@ -207,6 +301,7 @@
 - Philippa Eilhart (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/9/9e/Tw3_cardart_northernrealms_philippa_eilhart.png/revision/latest/scale-to-width-down/200?cb=20170426191225
 > @link lib-witcher3.txt:209
+> @lt Unique Gwent Card #91 – Philippa Eilhart (Hero)
 > @pow 10
 > @tag Herói
 > @tag À distância
@@ -216,6 +311,7 @@
 - Siege Tower
 > @img https://static.wikia.nocookie.net/witcher/images/3/33/Tw3_cardart_northernrealms_siege_tower_1.png/revision/latest/scale-to-width-down/200?cb=20170425204339
 > @link lib-witcher3.txt:241
+> @lt Unique Gwent Card #109 – Siege Tower
 > @pow 6
 > @tag Cerco
 > Local: Novigrad – Silverton
@@ -223,6 +319,7 @@
 - Esterad Thyssen (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/8/8b/Tw3_cardart_northernrealms_esterad.png/revision/latest/scale-to-width-down/200?cb=20170426185826
 > @link lib-witcher3.txt:263
+> @lt Unique Gwent Card #115 – Esterad Thyssen (Hero)
 > @pow 10
 > @tag Herói
 > @tag Corpo a corpo
@@ -233,6 +330,7 @@
 - John Natalis (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/3/3b/Tw3_cardart_northernrealms_john_natalis.png/revision/latest/scale-to-width-down/200?cb=20170426191222
 > @link lib-witcher3.txt:305
+> @lt Unique Gwent Card #126 – John Natalis (Hero)
 > @pow 10
 > @tag Herói
 > @tag Corpo a corpo
@@ -242,6 +340,7 @@
 - Thaler
 > @img https://static.wikia.nocookie.net/witcher/images/3/32/Tw3_cardart_northernrealms_thaler.png/revision/latest/scale-to-width-down/200?cb=20170426202626
 > @link lib-witcher3.txt:354
+> @lt Unique Gwent Card #140 – Thaler
 > @pow 1
 > @tag Cerco
 > Habilidade: Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck.
@@ -250,16 +349,18 @@
 - Foltest, The Steel-Forged (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/0/07/Tw3_cardart_northernrealms_foltest_gold.png/revision/latest/scale-to-width-down/200?cb=20170426195032
 > @link lib-witcher3.txt:449
+> @lt Unique Gwent Card #166 – Foltest, The Steel-Forged (Leader)
 > @tag Líder
 > Habilidade: Destroy your enemy's strongest Siege unit(s) if the combined strength of all his or her Siege units is 10 or more.
 > Local: Novigrad – Passiflora
 > Our first opponent will be the Halfling, Bernard Tulle. Before we verse him, make sure you Save! Should we lose, we will need to reload as we will be kicked out of the tournament & not be able to collect our final Gwent Cards…
 > Tulle uses a Northern Realms Deck with only 22 Cards, hyper specialized. He has all the Spies, Heroes, & lots of Siege Cards (no Neutral Cards); bring some Torrential Rain or Scorch. Your starter hand could spell your downfall before you even begin; don’t be afraid of Forfeiting & reloading the game to get a better one if it won’t win you the game!
 # Nilfgaard
-> 36 entradas, 33 distintas.
+> 36 entradas, 33 distintas, 8 cópias extras.
 [x] Emhyr var Emreis, His Imperial Majesty (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/e/eb/Tw3_cardart_nilfgaard_emhyr_gold.png/revision/latest/scale-to-width-down/200?cb=20170425182657
 > @link lib-witcher3.txt:31
+> @lt Unique Gwent Card #25 – Emhyr var Emreis, His Imperial Majesty (Leader)
 > @tag Líder
 > Habilidade: His Imperial Majesty: Pick a Torrential Rain card from your deck and play it instantly.
 > Local: White Orchard
@@ -268,37 +369,100 @@
 - Siege Engineer
 > @img https://static.wikia.nocookie.net/witcher/images/9/96/Tw3_cardart_nilfgaard_siege_engineer.png/revision/latest/scale-to-width-down/200?cb=20170425190054
 > @link lib-witcher3.txt:59
+> @lt Unique Gwent Card #34 – Siege Engineer
 > @pow 6
 > @tag Cerco
+> @copy 1/2
 > Local: Velen – Inn At the Crossroads
 > Purchased from the Innkeeper at the Inn At the Crossroads for 20 Crowns.
+- Siege Engineer (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/9/96/Tw3_cardart_nilfgaard_siege_engineer.png/revision/latest/scale-to-width-down/200?cb=20170425190054
+> @pow 6
+> @tag Cerco
+> @tag Extra
+> @copy 2/2
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Impera Brigade Guard
 > @img https://static.wikia.nocookie.net/witcher/images/2/2f/Tw3_cardart_nilgaard_impera_brigade_1.png/revision/latest/scale-to-width-down/200?cb=20260305084047
 > @link lib-witcher3.txt:60
+> @lt Unique Gwent Card #35 – Impera Brigade Guard
 > @pow 3
 > @tag Corpo a corpo
+> @copy 1/4
 > Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
 > Local: Velen – Inn At the Crossroads
 > Purchased from the Innkeeper at the Inn At the Crossroads for 20 Crowns.
+- Impera Brigade Guard (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/2/2f/Tw3_cardart_nilgaard_impera_brigade_1.png/revision/latest/scale-to-width-down/200?cb=20260305084047
+> @pow 3
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 2/4
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Impera Brigade Guard (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/2/2f/Tw3_cardart_nilgaard_impera_brigade_1.png/revision/latest/scale-to-width-down/200?cb=20260305084047
+> @pow 3
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 3/4
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Impera Brigade Guard (cópia extra 4)
+> @img https://static.wikia.nocookie.net/witcher/images/2/2f/Tw3_cardart_nilgaard_impera_brigade_1.png/revision/latest/scale-to-width-down/200?cb=20260305084047
+> @pow 3
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 4/4
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Nausicaa Cavalry Rider
 > @img https://static.wikia.nocookie.net/witcher/images/3/33/Tw3_cardart_nilfgaard_nausicaa_cavalry_rider1.png/revision/latest/scale-to-width-down/200?cb=20170425182701
 > @link lib-witcher3.txt:61
+> @lt Unique Gwent Card #36 – Nausicaa Cavalry Rider
 > @pow 2
 > @tag Corpo a corpo
+> @copy 1/3
 > Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
 > Local: Velen – Inn At the Crossroads
 > Purchased from the Innkeeper at the Inn At the Crossroads for 20 Crowns.
+- Nausicaa Cavalry Rider (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/3/33/Tw3_cardart_nilfgaard_nausicaa_cavalry_rider1.png/revision/latest/scale-to-width-down/200?cb=20170425182701
+> @pow 2
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 2/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Nausicaa Cavalry Rider (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/3/33/Tw3_cardart_nilfgaard_nausicaa_cavalry_rider1.png/revision/latest/scale-to-width-down/200?cb=20170425182701
+> @pow 2
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 3/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Emhyr var Emreis, Emperor of Nilfgaard (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/e/eb/Tw3_cardart_nilfgaard_emhyr_gold.png/revision/latest/scale-to-width-down/200?cb=20170425182657
 > @link lib-witcher3.txt:62
+> @lt Unique Gwent Card #37 – Emhyr var Emreis, Emperor of Nilfgaard (Leader)
 > @tag Líder
+> @copy 1/2
 > Habilidade: Emperor of Nilfgaard: Look at 3 random cards from your opponent's hand.
 > Local: Velen – Inn At the Crossroads
 > Purchased from the Innkeeper at the Inn At the Crossroads for 50 Crowns.
 > Notice Board: Outside the Inn, we can find a Notice Board that will uncover some new Undiscovered Locations.
+- Emhyr var Emreis, Emperor of Nilfgaard (Leader) (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/e/eb/Tw3_cardart_nilfgaard_emhyr_gold.png/revision/latest/scale-to-width-down/200?cb=20170425182657
+> @tag Líder
+> @tag Extra
+> @copy 2/2
+> Habilidade: Emperor of Nilfgaard: Look at 3 random cards from your opponent's hand.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Renuald aep Matsen
 > @img https://static.wikia.nocookie.net/witcher/images/5/52/Tw3_cardart_nilfgaard_renuald.png/revision/latest/scale-to-width-down/200?cb=20170425190053
 > @link lib-witcher3.txt:69
+> @lt Unique Gwent Card #39 – Renuald aep Matsen
 > @pow 5
 > @tag À distância
 > Local: Velen – Crow’s Perch
@@ -306,6 +470,7 @@
 - Cynthia
 > @img https://static.wikia.nocookie.net/witcher/images/4/42/Tw3_cardart_nilfgaard_cynthia.png/revision/latest/scale-to-width-down/200?cb=20170425174236
 > @link lib-witcher3.txt:70
+> @lt Unique Gwent Card #40 – Cynthia
 > @pow 4
 > @tag À distância
 > Local: Velen – Crow’s Perch
@@ -314,6 +479,7 @@
 - Albrich
 > @img https://static.wikia.nocookie.net/witcher/images/9/93/Tw3_cardart_nilfgaard_albrich.png/revision/latest/scale-to-width-down/200?cb=20260524181048
 > @link lib-witcher3.txt:75
+> @lt Unique Gwent Card #43 – Albrich
 > @pow 2
 > @tag À distância
 > Local: Velen – Crow’s Perch
@@ -321,6 +487,7 @@
 - Zerrikanian Fire Scorpion
 > @img https://static.wikia.nocookie.net/witcher/images/7/70/Tw3_cardart_nilfgaard_heavy_zerrikanian_fire_scorpion.png/revision/latest/scale-to-width-down/200?cb=20170420165620
 > @link lib-witcher3.txt:76
+> @lt Unique Gwent Card #44 – Zerrikanian Fire Scorpion
 > @pow 5
 > @tag Cerco
 > Local: Velen – Crow’s Perch
@@ -331,6 +498,7 @@
 - Morteisen
 > @img https://static.wikia.nocookie.net/witcher/images/e/e6/Tw3_cardart_nilfgaard_morteisen.png/revision/latest/scale-to-width-down/200?cb=20170425061228
 > @link lib-witcher3.txt:91
+> @lt Unique Gwent Card #47 – Morteisen
 > @pow 3
 > @tag Corpo a corpo
 > Local: Velen – Midcopse
@@ -339,6 +507,7 @@
 - Vreemde
 > @img https://static.wikia.nocookie.net/witcher/images/9/9f/Tw3_cardart_nilfgaard_vreemde.png/revision/latest/scale-to-width-down/200?cb=20260524182228
 > @link lib-witcher3.txt:93
+> @lt Unique Gwent Card #48 – Vreemde
 > @pow 2
 > @tag Corpo a corpo
 > Local: Velen – Midcopse
@@ -346,6 +515,7 @@
 - Letho of Gulet (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/9/94/Tw3_cardart_nilfgaard_letho.png/revision/latest/scale-to-width-down/200?cb=20241215194328
 > @link lib-witcher3.txt:103
+> @lt Unique Gwent Card #51 – Letho of Gulet (Hero)
 > @pow 10
 > @tag Herói
 > @tag Corpo a corpo
@@ -355,6 +525,7 @@
 - Sweers
 > @img https://static.wikia.nocookie.net/witcher/images/6/6a/Tw3_cardart_nilfgaard_sweers.png/revision/latest/scale-to-width-down/200?cb=20260524181537
 > @link lib-witcher3.txt:106
+> @lt Unique Gwent Card #53 – Sweers
 > @pow 2
 > @tag À distância
 > Local: Velen – Claywich
@@ -362,6 +533,7 @@
 - Puttkammer
 > @img https://static.wikia.nocookie.net/witcher/images/e/ef/Tw3_cardart_nilfgaard_Puttkammer.png/revision/latest/scale-to-width-down/200?cb=20170425062029
 > @link lib-witcher3.txt:107
+> @lt Unique Gwent Card #54 – Puttkammer
 > @pow 3
 > @tag À distância
 > Local: Velen – Claywich
@@ -369,6 +541,7 @@
 - Black Infantry Archer (1)
 > @img https://static.wikia.nocookie.net/witcher/images/d/dd/Tw3_cardart_nilfgaard_black_infantry_archer_1.png/revision/latest/scale-to-width-down/200?cb=20170422163121
 > @link lib-witcher3.txt:108
+> @lt Unique Gwent Card #55 – Black Infantry Archer (1)
 > @pow 10
 > @tag À distância
 > @copy 1/2
@@ -377,6 +550,7 @@
 - Etolian Auxiliary Archer (1)
 > @img https://static.wikia.nocookie.net/witcher/images/7/7a/Tw3_cardart_nilfgaard_etolian_auxiliary_archers1.png/revision/latest/scale-to-width-down/200?cb=20170425182658
 > @link lib-witcher3.txt:109
+> @lt Unique Gwent Card #56 – Etolian Auxiliary Archer (1)
 > @pow 1
 > @tag À distância
 > @copy 1/2
@@ -387,6 +561,7 @@
 - Rainfarn
 > @img https://static.wikia.nocookie.net/witcher/images/2/2f/Tw3_cardart_nilfgaard_rainfarn.png/revision/latest/scale-to-width-down/200?cb=20260524175954
 > @link lib-witcher3.txt:113
+> @lt Unique Gwent Card #58 – Rainfarn
 > @pow 4
 > @tag Corpo a corpo
 > Local: Velen – Lindenvale
@@ -394,6 +569,7 @@
 - Heavy Zerrikanain Fire Scorpion
 > @img https://static.wikia.nocookie.net/witcher/images/9/96/Tw3_cardart_nilfgaard_fire_scorpion2.png/revision/latest/scale-to-width-down/200?cb=20170425190053
 > @link lib-witcher3.txt:114
+> @lt Unique Gwent Card #59 – Heavy Zerrikanain Fire Scorpion
 > @pow 10
 > @tag Cerco
 > Local: Velen – Lindenvale
@@ -401,6 +577,7 @@
 - Etolian Auxiliary Archer (2)
 > @img https://static.wikia.nocookie.net/witcher/images/2/29/Tw3_cardart_nilfgaard_etolian_auxiliary_archers2.png/revision/latest/scale-to-width-down/200?cb=20170425182659
 > @link lib-witcher3.txt:115
+> @lt Unique Gwent Card #60 – Etolian Auxiliary Archer (2)
 > @pow 1
 > @tag À distância
 > @copy 2/2
@@ -410,6 +587,7 @@
 - Black Infantry Archer (2)
 > @img https://static.wikia.nocookie.net/witcher/images/6/62/Tw3_cardart_nilfgaard_black_infantry_archer_2.png/revision/latest/scale-to-width-down/200?cb=20170422163121
 > @link lib-witcher3.txt:116
+> @lt Unique Gwent Card #61 – Black Infantry Archer (2)
 > @pow 10
 > @tag À distância
 > @copy 2/2
@@ -419,6 +597,7 @@
 - Stefan Skellen
 > @img https://static.wikia.nocookie.net/witcher/images/a/a4/Tw3_cardart_nilfgaard_stefan_skellen.png/revision/latest/scale-to-width-down/200?cb=20260524180633
 > @link lib-witcher3.txt:164
+> @lt Unique Gwent Card #73 – Stefan Skellen
 > @pow 9
 > @tag Corpo a corpo
 > Habilidade: Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck.
@@ -427,6 +606,7 @@
 - Menno Coehoorn (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/8/8c/Tw3_cardart_nilfgaard_menno_coehoorn.png/revision/latest/scale-to-width-down/200?cb=20260524183352
 > @link lib-witcher3.txt:176
+> @lt Unique Gwent Card #74 – Menno Coehoorn (Hero)
 > @pow 10
 > @tag Herói
 > @tag Corpo a corpo
@@ -436,6 +616,7 @@
 - Vattier de Ridaux
 > @img https://static.wikia.nocookie.net/witcher/images/1/12/Tw3_cardart_nilfgaard_vattier_de_rideaux.png/revision/latest/scale-to-width-down/200?cb=20260524180500
 > @link lib-witcher3.txt:182
+> @lt Unique Gwent Card #75 – Vattier de Ridaux
 > @pow 4
 > @tag Corpo a corpo
 > Habilidade: Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck.
@@ -444,6 +625,7 @@
 - Young Emissary (1)
 > @img https://static.wikia.nocookie.net/witcher/images/7/7c/Tw3_cardart_nilfgaard_young_emissary1.png/revision/latest/scale-to-width-down/200?cb=20260524182916
 > @link lib-witcher3.txt:184
+> @lt Unique Gwent Card #77 – Young Emissary (1)
 > @pow 5
 > @tag Corpo a corpo
 > @copy 1/2
@@ -453,6 +635,7 @@
 - Assire var Anahid
 > @img https://static.wikia.nocookie.net/witcher/images/d/dc/Tw3_cardart_nilfgaard_assire_var_anahid.png/revision/latest/scale-to-width-down/200?cb=20260524181319
 > @link lib-witcher3.txt:188
+> @lt Unique Gwent Card #80 – Assire var Anahid
 > @pow 6
 > @tag À distância
 > Local: Novigrad – Seven Cats Inn
@@ -460,6 +643,7 @@
 - Young Emissary (2)
 > @img https://static.wikia.nocookie.net/witcher/images/1/12/Tw3_cardart_nilfgaard_young_emissary2.png/revision/latest/scale-to-width-down/200?cb=20170425190056
 > @link lib-witcher3.txt:191
+> @lt Unique Gwent Card #83 – Young Emissary (2)
 > @pow 5
 > @tag Corpo a corpo
 > @copy 2/2
@@ -470,15 +654,26 @@
 - Siege Technician
 > @img https://static.wikia.nocookie.net/witcher/images/8/87/Tw3_cardart_nilfgaard_siege_technician.png/revision/latest/scale-to-width-down/200?cb=20170425190055
 > @link lib-witcher3.txt:207
+> @lt Unique Gwent Card #90 – Siege Technician
 > @pow 0
 > @tag Cerco
+> @copy 1/2
 > Habilidade: Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
 > Local: Novigrad – Golden Sturgeon
 > We can purchase this Card from the Innkeep for 20 Crowns.
 > Notice Board: If you have not already done so, take a peek at the Notice Board outside the Golden Sturgeon to mark some new Undiscovered Locations along with a very important Secondary Quest – Gwent Big City Players & a new Witcher Contract.
+- Siege Technician (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/8/87/Tw3_cardart_nilfgaard_siege_technician.png/revision/latest/scale-to-width-down/200?cb=20170425190055
+> @pow 0
+> @tag Cerco
+> @tag Extra
+> @copy 2/2
+> Habilidade: Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Tibor Eggebracht (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/e/e5/Tw3_cardart_nilfgaard_tibor_rggebracht.png/revision/latest/scale-to-width-down/200?cb=20260524180918
 > @link lib-witcher3.txt:215
+> @lt Unique Gwent Card #95 – Tibor Eggebracht (Hero)
 > @pow 10
 > @tag Herói
 > @tag À distância
@@ -488,6 +683,7 @@
 - Shilard Fitz-Oesterlen
 > @img https://static.wikia.nocookie.net/witcher/images/4/49/Tw3_cardart_nilgaard_shilard.png/revision/latest/scale-to-width-down/200?cb=20260524182347
 > @link lib-witcher3.txt:233
+> @lt Unique Gwent Card #104 – Shilard Fitz-Oesterlen
 > @pow 7
 > @tag Corpo a corpo
 > Habilidade: Spy: Place on your opponent's battlefield (counts towards your opponent's total) and draw 2 cards from your deck.
@@ -496,6 +692,7 @@
 - Cahir Mawr Dyffryn aep Ceallach
 > @img https://static.wikia.nocookie.net/witcher/images/d/d1/Tw3_cardart_nilfgaard_cahir.png/revision/latest/scale-to-width-down/200?cb=20170425055516
 > @link lib-witcher3.txt:245
+> @lt Unique Gwent Card #111 – Cahir Mawr Dyffryn aep Ceallach
 > @pow 6
 > @tag Corpo a corpo
 > Local: Novigrad – Farcorners
@@ -503,6 +700,7 @@
 - Morvran Voorhis (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/3/34/Tw3_cardart_nilfgaard_morvran_voorhis.png/revision/latest/scale-to-width-down/200?cb=20260524180145
 > @link lib-witcher3.txt:262
+> @lt Unique Gwent Card #114 – Morvran Voorhis (Hero)
 > @pow 10
 > @tag Herói
 > @tag Cerco
@@ -512,6 +710,7 @@
 - Fringilla Vigo
 > @img https://static.wikia.nocookie.net/witcher/images/0/01/Tw3_cardart_nilfgaard_fringilla_vigo.png/revision/latest/scale-to-width-down/200?cb=20170425182659
 > @link lib-witcher3.txt:304
+> @lt Unique Gwent Card #125 – Fringilla Vigo
 > @pow 6
 > @tag À distância
 > Local: Novigrad – Hierarch Square
@@ -519,6 +718,7 @@
 - Vanhemar
 > @img https://static.wikia.nocookie.net/witcher/images/7/7c/Tw3_cardart_nilfgaard_vanhemar.png/revision/latest/scale-to-width-down/200?cb=20260524181431
 > @link lib-witcher3.txt:337
+> @lt Unique Gwent Card #135 – Vanhemar
 > @pow 4
 > @tag À distância
 > Local: Ard Skellig – Blandare
@@ -526,6 +726,7 @@
 - Rotten Mangonel
 > @img https://static.wikia.nocookie.net/witcher/images/5/59/Tw3_cardart_nilfgaard_rotten_mangonel.png/revision/latest/scale-to-width-down/200?cb=20170425190054
 > @link lib-witcher3.txt:351
+> @lt Unique Gwent Card #138 – Rotten Mangonel
 > @pow 3
 > @tag Cerco
 > Local: Ard Skellig – Fayrlund
@@ -533,6 +734,7 @@
 - Emhyr var Emreis, The White Flame (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/e/eb/Tw3_cardart_nilfgaard_emhyr_gold.png/revision/latest/scale-to-width-down/200?cb=20170425182657
 > @link lib-witcher3.txt:384
+> @lt Unique Gwent Card #152 – Emhyr var Emreis, The White Flame (Leader)
 > @tag Líder
 > Habilidade: The White Flame: Cancel your opponent's Leader Ability.
 > Local: Ard Skellig – Kaer Muire
@@ -540,16 +742,18 @@
 - Emhyr var Emreis, The Relentless (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/e/eb/Tw3_cardart_nilfgaard_emhyr_gold.png/revision/latest/scale-to-width-down/200?cb=20170425182657
 > @link lib-witcher3.txt:450
+> @lt Unique Gwent Card #167 – Emhyr var Emreis, The Relentless (Leader)
 > @tag Líder
 > Habilidade: The Relentless: Draw a card from your opponent's discard pile.
 > Local: Novigrad – Passiflora
 > Our next opponent, ironically, will be miss “Sasha” who uses an intimidating Nilfgaardian Empire Deck. Once again, Save before starting the match!
 > This is a very tough duel as she has all the Spies & Hero Cards (but no Neutral Cards). Her Deck focuses on Decoy’s to take your own Spies & resurrecting Spies back to the field.
 # Scoia'tael
-> 41 entradas, 26 distintas.
+> 41 entradas, 26 distintas, 11 cópias extras.
 [x] Francesca Findabair, Pureblood Elf (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/9/9b/Tw3_cardart_scoiatael_francesca_gold.png/revision/latest/scale-to-width-down/200?cb=20160409070652
 > @link lib-witcher3.txt:32
+> @lt Unique Gwent Card #26 – Francesca Findabair, Pureblood Elf (Leader)
 > @tag Líder
 > Habilidade: Pureblood Elf: Pick a Biting Frost card from your deck and play it instantly.
 > Local: White Orchard
@@ -557,6 +761,7 @@
 [x] Vrihedd Brigade Recruit
 > @img https://static.wikia.nocookie.net/witcher/images/b/b3/Tw3_cardart_scoiatael_vrihedd_brigade_recruit.png/revision/latest/scale-to-width-down/200?cb=20170427063643
 > @link lib-witcher3.txt:72
+> @lt Unique Card #41 – Vrihedd Brigade Recruit
 > @pow 4
 > @tag À distância
 > Local: Velen – Crow’s Perch
@@ -566,6 +771,7 @@
 - Filavandrel aen Fidhail
 > @img https://static.wikia.nocookie.net/witcher/images/3/3e/Tw3_cardart_scoiatael_filavandrel.png/revision/latest/scale-to-width-down/200?cb=20170427054437
 > @link lib-witcher3.txt:74
+> @lt Unique Gwent Card #42 – Filavandrel aen Fidhail
 > @pow 6
 > @tag Ágil (corpo a corpo ou distância)
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
@@ -574,24 +780,27 @@
 - Dol Blathanna Scout (2)
 > @img https://static.wikia.nocookie.net/witcher/images/8/83/Tw3_cardart_scoiatael_dol_blathanna_scout_2.png/revision/latest/scale-to-width-down/200?cb=20170427053845
 > @link lib-witcher3.txt:105
+> @lt Unique Gwent Card #52 – Dol Blathanna Scout (2)
 > @pow 6
 > @tag Ágil (corpo a corpo ou distância)
-> @copy 1/3
+> @copy 1/4
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
 > Local: Velen – Claywich
 > Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
 - Havekar Healer (3)
 > @img https://static.wikia.nocookie.net/witcher/images/b/b5/Tw3_cardart_scoiatael_havekar_healer_3.png/revision/latest/scale-to-width-down/200?cb=20170427063645
 > @link lib-witcher3.txt:132
+> @lt Unique Gwent Card #66 – Havekar Healer (3)
 > @pow 0
 > @tag À distância
-> @copy 1/3
+> @copy 1/4
 > Habilidade: Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
 > Local: Velen – Downwarren
 > Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
 - Dwarven Skirmisher (1)
 > @img https://static.wikia.nocookie.net/witcher/images/a/aa/Tw3_cardart_scoiatael_dwarven_skirmisher_1.png/revision/latest/scale-to-width-down/200?cb=20170427053847
 > @link lib-witcher3.txt:156
+> @lt Unique Gwent Card #68 – Dwarven Skirmisher (1)
 > @pow 3
 > @tag Corpo a corpo
 > @copy 1/3
@@ -601,23 +810,26 @@
 - Vrihedd Brigade Veteran (1)
 > @img https://static.wikia.nocookie.net/witcher/images/b/be/Tw3_cardart_scoiatael_vrihedd_brigade_veteran_1.png/revision/latest/scale-to-width-down/200?cb=20170427063644
 > @link lib-witcher3.txt:157
+> @lt Unique Gwent Card #69 – Vrihedd Brigade Veteran (1)
 > @pow 5
 > @tag Ágil (corpo a corpo ou distância)
-> @copy 1/2
+> @copy 1/3
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
 > Local: Novigrad – Oxenfurt
 > Purchased from Stjepan at the Alchemy Inn for 20 Crowns.
 - Mahakaman Defender (1)
 > @img https://static.wikia.nocookie.net/witcher/images/7/78/Tw3_cardart_scoiatael_mahakaman_defender_1.png/revision/latest/scale-to-width-down/200?cb=20170427063940
 > @link lib-witcher3.txt:158
+> @lt Unique Gwent Card #70 – Mahakaman Defender (1)
 > @pow 5
 > @tag Corpo a corpo
-> @copy 1/5
+> @copy 1/8
 > Local: Novigrad – Oxenfurt
 > Purchased from Stjepan at the Alchemy Inn for 20 Crowns.
 - Elven Skirmisher (1)
 > @img https://static.wikia.nocookie.net/witcher/images/3/32/Tw3_cardart_scoiatael_elven_skirmisher_1.png/revision/latest/scale-to-width-down/200?cb=20170427053849
 > @link lib-witcher3.txt:160
+> @lt Unique Gwent Card #71 – Elven Skirmisher (1)
 > @pow 2
 > @tag À distância
 > @copy 1/3
@@ -627,6 +839,7 @@
 - Dennis Cranmer
 > @img https://static.wikia.nocookie.net/witcher/images/d/dd/Tw3_cardart_scoiatael_dennis_cranmer.png/revision/latest/scale-to-width-down/200?cb=20170427052652
 > @link lib-witcher3.txt:162
+> @lt Unique Gwent Card #72 – Dennis Cranmer
 > @pow 6
 > @tag Corpo a corpo
 > Local: Novigrad – Oxenfurt
@@ -634,15 +847,17 @@
 - Havekar Healer (1)
 > @img https://static.wikia.nocookie.net/witcher/images/e/ec/Tw3_cardart_scoiatael_havekar_healer_1.png/revision/latest/scale-to-width-down/200?cb=20170427063644
 > @link lib-witcher3.txt:183
+> @lt Unique Gwent Card #76 – Havekar Healer (1)
 > @pow 0
 > @tag À distância
-> @copy 2/3
+> @copy 2/4
 > Habilidade: Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
 > Local: Novigrad – Cunny of the Goose
 > We can purchase this Gwent Card from the Innkeep for 20 Crowns.
 - Francesca Findabair, Daisy of the Valley (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/9/9b/Tw3_cardart_scoiatael_francesca_gold.png/revision/latest/scale-to-width-down/200?cb=20160409070652
 > @link lib-witcher3.txt:186
+> @lt Unique Gwent Card #79 – Francesca Findabair, Daisy of the Valley (Leader)
 > @tag Líder
 > Habilidade: Daisy of the Valley: Draw an extra card at the beginning of the battle.
 > Local: Novigrad – Cunny of the Goose
@@ -651,32 +866,36 @@
 - Havekar Smuggler (1)
 > @img https://static.wikia.nocookie.net/witcher/images/b/b2/Tw3_cardart_scoiatael_havekar_smuggler_1.png/revision/latest/scale-to-width-down/200?cb=20170427063646
 > @link lib-witcher3.txt:189
+> @lt Unique Gwent Card #81 – Havekar Smuggler (1)
 > @pow 5
 > @tag Corpo a corpo
-> @copy 1/3
+> @copy 1/4
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
 > Local: Novigrad – Seven Cats Inn
 > We can purchase this Gwent Card from the Innkeep for 10 Crowns.
 - Mahakaman Defender (2)
 > @img https://static.wikia.nocookie.net/witcher/images/4/4a/Tw3_cardart_scoiatael_mahakaman_defender_2.png/revision/latest/scale-to-width-down/200?cb=20170427063940
 > @link lib-witcher3.txt:190
+> @lt Unique Gwent Card #82 – Mahakaman Defender (2)
 > @pow 5
 > @tag Corpo a corpo
-> @copy 2/5
+> @copy 2/8
 > Local: Novigrad – Seven Cats Inn
 > We can purchase this Gwent Card from the Innkeep for 20 Crowns.
 - Dol Blathanna Scout (3)
 > @img https://static.wikia.nocookie.net/witcher/images/c/c6/Tw3_cardart_scoiatael_dol_blathanna_scout_3.png/revision/latest/scale-to-width-down/200?cb=20170427053846
 > @link lib-witcher3.txt:193
+> @lt Unique Gwent Card #84 – Dol Blathanna Scout (3)
 > @pow 6
 > @tag Ágil (corpo a corpo ou distância)
-> @copy 2/3
+> @copy 2/4
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
 > Local: Novigrad – Glory Lane
 > Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
 - Ciaran aep Easnillien
 > @img https://static.wikia.nocookie.net/witcher/images/d/db/Tw3_cardart_scoiatael_ciaran.png/revision/latest/scale-to-width-down/200?cb=20260524181718
 > @link lib-witcher3.txt:195
+> @lt Unique Gwent Card #85 – Ciaran aep Easnillien
 > @pow 3
 > @tag Ágil (corpo a corpo ou distância)
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
@@ -685,82 +904,169 @@
 - Dol Blathanna Scout (1)
 > @img https://static.wikia.nocookie.net/witcher/images/d/d5/Tw3_cardart_scoiatael_dol_blathanna_scout_1.png/revision/latest/scale-to-width-down/200?cb=20170427053844
 > @link lib-witcher3.txt:204
+> @lt Unique Gwent Card #87 – Dol Blathanna Scout (1)
 > @pow 6
 > @tag Ágil (corpo a corpo ou distância)
-> @copy 3/3
+> @copy 3/4
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
 > Local: Novigrad – Golden Sturgeon
 > We can purchase this Card from the Innkeep for 10 Crowns.
+- Dol Blathanna Scout (cópia extra 4)
+> @img https://static.wikia.nocookie.net/witcher/images/d/d5/Tw3_cardart_scoiatael_dol_blathanna_scout_1.png/revision/latest/scale-to-width-down/200?cb=20170427053844
+> @pow 6
+> @tag Ágil (corpo a corpo ou distância)
+> @tag Extra
+> @copy 4/4
+> Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Mahakaman Defender (3)
 > @img https://static.wikia.nocookie.net/witcher/images/8/82/Tw3_cardart_scoiatael_mahakaman_defender_3.png/revision/latest/scale-to-width-down/200?cb=20170427063941
 > @link lib-witcher3.txt:205
+> @lt Unique Gwent Card #88 – Mahakaman Defender (3)
 > @pow 5
 > @tag Corpo a corpo
-> @copy 3/5
+> @copy 3/8
 > Local: Novigrad – Golden Sturgeon
 > We can purchase this Card from the Innkeep for 20 Crowns.
 - Barclay Els
 > @img https://static.wikia.nocookie.net/witcher/images/f/f4/Tw3_cardart_scoiatael_barclay.png/revision/latest/scale-to-width-down/200?cb=20161008170215
 > @link lib-witcher3.txt:206
+> @lt Unique Gwent Card #89 – Barclay Els
 > @pow 6
 > @tag Ágil (corpo a corpo ou distância)
+> @copy 1/3
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
 > Local: Novigrad – Golden Sturgeon
 > We can purchase this Card from the Innkeep for 20 Crowns.
+- Barclay Els (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/f/f4/Tw3_cardart_scoiatael_barclay.png/revision/latest/scale-to-width-down/200?cb=20161008170215
+> @pow 6
+> @tag Ágil (corpo a corpo ou distância)
+> @tag Extra
+> @copy 2/3
+> Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Barclay Els (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/f/f4/Tw3_cardart_scoiatael_barclay.png/revision/latest/scale-to-width-down/200?cb=20161008170215
+> @pow 6
+> @tag Ágil (corpo a corpo ou distância)
+> @tag Extra
+> @copy 3/3
+> Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Havekar Smuggler (2)
 > @img https://static.wikia.nocookie.net/witcher/images/5/5e/Tw3_cardart_scoiatael_havekar_smuggler_2.png/revision/latest/scale-to-width-down/200?cb=20170427063646
 > @link lib-witcher3.txt:216
+> @lt Unique Gwent Card #96 – Havekar Smuggler (2)
 > @pow 5
 > @tag Corpo a corpo
-> @copy 2/3
+> @copy 2/4
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
 > Local: Novigrad – Kingfisher Inn
 > Oliver is also a Gwent Merchant & we can purchase some more Cards from him; this one costs 20 Crowns.
 - Mahakaman Defender (4)
 > @img https://static.wikia.nocookie.net/witcher/images/6/60/Tw3_cardart_scoiatael_mahakaman_defender_4.png/revision/latest/scale-to-width-down/200?cb=20170427063941
 > @link lib-witcher3.txt:217
+> @lt Unique Gwent Card #97 – Mahakaman Defender (4)
 > @pow 5
 > @tag Corpo a corpo
-> @copy 4/5
+> @copy 4/8
 > Local: Novigrad – Kingfisher Inn
 > Purchased from Oliver for 20 Crowns.
 - Vrihedd Brigade Veteran (2)
 > @img https://static.wikia.nocookie.net/witcher/images/5/5f/Tw3_cardart_scoiatael_vrihedd_brigade_veteran_2.png/revision/latest/scale-to-width-down/200?cb=20170427063644
 > @link lib-witcher3.txt:218
+> @lt Unique Gwent Card #98 – Vrihedd Brigade Veteran (2)
 > @pow 5
 > @tag Ágil (corpo a corpo ou distância)
-> @copy 2/2
+> @copy 2/3
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
 > Local: Novigrad – Kingfisher Inn
 > Purchased from Oliver for 20 Crowns.
+- Vrihedd Brigade Veteran (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/5/5f/Tw3_cardart_scoiatael_vrihedd_brigade_veteran_2.png/revision/latest/scale-to-width-down/200?cb=20170427063644
+> @pow 5
+> @tag Ágil (corpo a corpo ou distância)
+> @tag Extra
+> @copy 3/3
+> Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Havekar Healer (2)
 > @img https://static.wikia.nocookie.net/witcher/images/5/5d/Tw3_cardart_scoiatael_havekar_healer_2.png/revision/latest/scale-to-width-down/200?cb=20170427063645
 > @link lib-witcher3.txt:219
+> @lt Unique Gwent Card #99 – Havekar Healer (2)
 > @pow 0
 > @tag À distância
-> @copy 3/3
+> @copy 3/4
 > Habilidade: Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
 > Local: Novigrad – Kingfisher Inn
 > Purchased from Oliver for 50 Crowns.
+- Havekar Healer (cópia extra 4)
+> @img https://static.wikia.nocookie.net/witcher/images/5/5d/Tw3_cardart_scoiatael_havekar_healer_2.png/revision/latest/scale-to-width-down/200?cb=20170427063645
+> @pow 0
+> @tag À distância
+> @tag Extra
+> @copy 4/4
+> Habilidade: Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Dol Blathanna Archer
 > @img https://static.wikia.nocookie.net/witcher/images/8/8b/Tw3_cardart_scoiatael_dol_blathanna_archer.png/revision/latest/scale-to-width-down/200?cb=20170427053842
 > @link lib-witcher3.txt:234
+> @lt Unique Gwent Card #105 – Dol Blathanna Archer
 > @pow 4
 > @tag À distância
+> @copy 1/3
 > Local: Novigrad – Passiflora
 > Though we cannot duel her, we can purchase these two Gwent Cards from Marquise Serenity as well, this one for 10 Crowns.
+- Dol Blathanna Archer (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/8/8b/Tw3_cardart_scoiatael_dol_blathanna_archer.png/revision/latest/scale-to-width-down/200?cb=20170427053842
+> @pow 4
+> @tag À distância
+> @tag Extra
+> @copy 2/3
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Dol Blathanna Archer (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/8/8b/Tw3_cardart_scoiatael_dol_blathanna_archer.png/revision/latest/scale-to-width-down/200?cb=20170427053842
+> @pow 4
+> @tag À distância
+> @tag Extra
+> @copy 3/3
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Mahakaman Defender (5)
 > @img https://static.wikia.nocookie.net/witcher/images/d/d4/Tw3_cardart_scoiatael_mahakaman_defender_5.png/revision/latest/scale-to-width-down/200?cb=20170427063942
 > @link lib-witcher3.txt:235
+> @lt Unique Gwent Card #106 – Mahakaman Defender (5)
 > @pow 5
 > @tag Corpo a corpo
-> @copy 5/5
+> @copy 5/8
 > Local: Novigrad – Passiflora
 > Purchased from Marquise Serenity for 20 Crowns.
 > We can also purchase another copy of the Catapult Card.
+- Mahakaman Defender (cópia extra 6)
+> @img https://static.wikia.nocookie.net/witcher/images/d/d4/Tw3_cardart_scoiatael_mahakaman_defender_5.png/revision/latest/scale-to-width-down/200?cb=20170427063942
+> @pow 5
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 6/8
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Mahakaman Defender (cópia extra 7)
+> @img https://static.wikia.nocookie.net/witcher/images/d/d4/Tw3_cardart_scoiatael_mahakaman_defender_5.png/revision/latest/scale-to-width-down/200?cb=20170427063942
+> @pow 5
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 7/8
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Mahakaman Defender (cópia extra 8)
+> @img https://static.wikia.nocookie.net/witcher/images/d/d4/Tw3_cardart_scoiatael_mahakaman_defender_5.png/revision/latest/scale-to-width-down/200?cb=20170427063942
+> @pow 5
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 8/8
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Elven Skirmisher (2)
 > @img https://static.wikia.nocookie.net/witcher/images/f/f7/Tw3_cardart_scoiatael_elven_skirmisher_2.png/revision/latest/scale-to-width-down/200?cb=20170427053850
 > @link lib-witcher3.txt:239
+> @lt Unique Gwent Card #108 – Elven Skirmisher (2)
 > @pow 2
 > @tag À distância
 > @copy 2/3
@@ -770,6 +1076,7 @@
 - Riordain
 > @img https://static.wikia.nocookie.net/witcher/images/2/27/Tw3_cardart_scoiatael_riordain.png/revision/latest/scale-to-width-down/200?cb=20170427055907
 > @link lib-witcher3.txt:243
+> @lt Unique Gwent Card #110 – Riordain
 > @pow 1
 > @tag À distância
 > Local: Novigrad – Temple Isle
@@ -777,6 +1084,7 @@
 - Eithné (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/6/65/Tw3_cardart_scoiatael_eithne.png/revision/latest/scale-to-width-down/200?cb=20161015113751
 > @link lib-witcher3.txt:261
+> @lt Unique Gwent Card #113 – Eithné (Hero)
 > @pow 10
 > @tag Herói
 > @tag À distância
@@ -786,6 +1094,7 @@
 - Francesca Findabair, the Beautiful (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/9/9b/Tw3_cardart_scoiatael_francesca_gold.png/revision/latest/scale-to-width-down/200?cb=20160409070652
 > @link lib-witcher3.txt:273
+> @lt Unique Gwent Card #117 – Francesca Findabair, the Beautiful (Leader)
 > @tag Líder
 > Habilidade: The Beautiful: Doubles the strength of all your Ranged Combat units (unless a Commander's Horn is also present on that row).
 > Local: Novigrad – No Man’s Land
@@ -793,6 +1102,7 @@
 - Saesenthessis (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/a/a6/Tw3_cardart_scoiatael_saesenthessis_saskia.png/revision/latest/scale-to-width-down/200?cb=20170427060503
 > @link lib-witcher3.txt:274
+> @lt Unique Gwent Card #118 – Saesenthessis (Hero)
 > @pow 10
 > @tag Herói
 > @tag À distância
@@ -803,6 +1113,7 @@
 - Milva
 > @img https://static.wikia.nocookie.net/witcher/images/2/2d/Tw3_cardart_scoiatael_milva.png/revision/latest/scale-to-width-down/200?cb=20260305084437
 > @link lib-witcher3.txt:275
+> @lt Unique Gwent Card #169 – Milva
 > @pow 10
 > @tag À distância
 > Habilidade: Morale boost: Adds +1 to all units in the row (excluding itself).
@@ -811,6 +1122,7 @@
 - Dwarven Skirmisher (2)
 > @img https://static.wikia.nocookie.net/witcher/images/4/41/Tw3_cardart_scoiatael_dwarven_skirmisher_2.png/revision/latest/scale-to-width-down/200?cb=20170427053848
 > @link lib-witcher3.txt:292
+> @lt Unique Gwent Card #123 – Dwarven Skirmisher (2)
 > @pow 3
 > @tag Corpo a corpo
 > @copy 2/3
@@ -820,6 +1132,7 @@
 - Isengrim Faoiltiarna (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/a/a6/Tw3_cardart_scoiatael_isengrim.png/revision/latest/scale-to-width-down/200?cb=20260305084942
 > @link lib-witcher3.txt:303
+> @lt Unique Gwent Card #124 – Isengrim Faoiltiarna (Hero)
 > @pow 10
 > @tag Herói
 > @tag Corpo a corpo
@@ -829,6 +1142,7 @@
 - Ida Emean aep Sivney
 > @img https://static.wikia.nocookie.net/witcher/images/0/00/Tw3_cardart_scoiatael_ida.png/revision/latest/scale-to-width-down/200?cb=20260305084817
 > @link lib-witcher3.txt:307
+> @lt Unique Gwent Card #127 – Ida Emean aep Sivney
 > @pow 6
 > @tag À distância
 > Local: Novigrad – Chameleon
@@ -836,6 +1150,7 @@
 - Toruviel
 > @img https://static.wikia.nocookie.net/witcher/images/1/12/Tw3_cardart_scoiatael_toruviel.png/revision/latest/scale-to-width-down/200?cb=20260305085226
 > @link lib-witcher3.txt:316
+> @lt Unique Gwent Card #128 – Toruviel
 > @pow 2
 > @tag À distância
 > Local: Ard Skellig – Kaer Trolde
@@ -843,6 +1158,7 @@
 - Iorveth (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/e/e9/Tw3_cardart_scoiatael_iorveth.png/revision/latest/scale-to-width-down/200?cb=20260305085041
 > @link lib-witcher3.txt:338
+> @lt Unique Gwent Card #136 – Iorveth (Hero)
 > @pow 10
 > @tag Herói
 > @tag À distância
@@ -852,6 +1168,7 @@
 - Dwarven Skirmisher (3)
 > @img https://static.wikia.nocookie.net/witcher/images/5/53/Tw3_cardart_scoiatael_dwarven_skirmisher_3.png/revision/latest/scale-to-width-down/200?cb=20170427053849
 > @link lib-witcher3.txt:349
+> @lt Unique Gwent Card #137 – Dwarven Skirmisher (3)
 > @pow 3
 > @tag Corpo a corpo
 > @copy 3/3
@@ -861,15 +1178,25 @@
 - Havekar Smuggler (3)
 > @img https://static.wikia.nocookie.net/witcher/images/b/bf/Tw3_cardart_scoiatael_havekar_smuggler_3.png/revision/latest/scale-to-width-down/200?cb=20170427063647
 > @link lib-witcher3.txt:359
+> @lt Unique Gwent Card #144 – Havekar Smuggler (3)
 > @pow 5
 > @tag Corpo a corpo
-> @copy 3/3
+> @copy 3/4
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
 > Local: Ard Skellig – Arinbjorn
 > Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
+- Havekar Smuggler (cópia extra 4)
+> @img https://static.wikia.nocookie.net/witcher/images/b/bf/Tw3_cardart_scoiatael_havekar_smuggler_3.png/revision/latest/scale-to-width-down/200?cb=20170427063647
+> @pow 5
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 4/4
+> Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Yaevinn
 > @img https://static.wikia.nocookie.net/witcher/images/c/c7/Tw3_cardart_scoiatael_yaevinn.png/revision/latest/scale-to-width-down/200?cb=20260305085507
 > @link lib-witcher3.txt:382
+> @lt Unique Gwent Card #150 – Yaevinn
 > @pow 6
 > @tag Ágil (corpo a corpo ou distância)
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
@@ -878,6 +1205,7 @@
 - Elven Skirmisher (3)
 > @img https://static.wikia.nocookie.net/witcher/images/0/08/Tw3_cardart_scoiatael_elven_skirmisher_3.png/revision/latest/scale-to-width-down/200?cb=20170427053851
 > @link lib-witcher3.txt:411
+> @lt Unique Gwent Card #159 – Elven Skirmisher (3)
 > @pow 2
 > @tag À distância
 > @copy 3/3
@@ -887,6 +1215,7 @@
 - Francesca Findabair, Queen of Dol Bathanna (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/9/9b/Tw3_cardart_scoiatael_francesca_gold.png/revision/latest/scale-to-width-down/200?cb=20160409070652
 > @link lib-witcher3.txt:451
+> @lt Unique Gwent Card #168 – Francesca Findabair, Queen of Dol Bathanna (Leader)
 > @tag Líder
 > Habilidade: Queen of Dol Blathanna: Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more.
 > Local: Novigrad – Passiflora
@@ -894,10 +1223,11 @@
 > Our next opponent is the Half-Elf, Finneas, who naturally has a Scoia’tael Deck. I find these Decks the least intimidating, but they do have the flexibility to place certain Cards in different rows depending on the need. Finneas has all the Hero Cards, but no Spies; I found he was the easiest to exploit with Weather Cards.
 > The Half-Elf is a sore loser when we defeat him though so be careful… we have to box him in his pointy ears… losing this Fist Fight will not disqualify us from the tournament.
 # Monsters
-> 44 entradas, 37 distintas.
+> 44 entradas, 37 distintas, 2 cópias extras.
 [x] Eredin, King of the Wild Hunt (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/b/b3/Tw3_cardart_monsters_eredin_gold.png/revision/latest/scale-to-width-down/200?cb=20170425201321
 > @link lib-witcher3.txt:33
+> @lt Unique Gwent Card #27 – Eredin, King of the Wild Hunt (Leader)
 > @tag Líder
 > @copy 1/2
 > Habilidade: Pick any weather card from your deck and play it instantly.
@@ -906,6 +1236,7 @@
 - Griffon
 > @img https://static.wikia.nocookie.net/witcher/images/4/46/Tw3_cardart_monsters_griffin.png/revision/latest/scale-to-width-down/200?cb=20170425202635
 > @link lib-witcher3.txt:86
+> @lt Unique Gwent Card #46 – Griffon
 > @pow 5
 > @tag Corpo a corpo
 > Local: Velen – Blackbough
@@ -913,6 +1244,7 @@
 - Arachas Behemoth
 > @img https://static.wikia.nocookie.net/witcher/images/8/81/Tw3_cardart_monsters_arachas_behemoth.png/revision/latest/scale-to-width-down/200?cb=20170425202401
 > @link lib-witcher3.txt:95
+> @lt Unique Gwent Card #49 – Arachas Behemoth
 > @pow 6
 > @tag Cerco
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
@@ -921,6 +1253,7 @@
 - Plague Maiden
 > @img https://static.wikia.nocookie.net/witcher/images/f/f4/Tw3_cardart_monsters_plague_maiden.png/revision/latest/scale-to-width-down/200?cb=20170425202852
 > @link lib-witcher3.txt:102
+> @lt Unique Gwent Card #50 – Plague Maiden
 > @pow 5
 > @tag Corpo a corpo
 > Local: Velen – Oreton
@@ -928,6 +1261,7 @@
 - Grave Hag
 > @img https://static.wikia.nocookie.net/witcher/images/c/ca/Tw3_cardart_monsters_grave_hag.png/revision/latest/scale-to-width-down/200?cb=20170425202634
 > @link lib-witcher3.txt:112
+> @lt Unique Gwent Card #57 – Grave Hag
 > @pow 5
 > @tag À distância
 > Local: Velen – Lindenvale
@@ -935,6 +1269,7 @@
 - Crone Weavess
 > @img https://static.wikia.nocookie.net/witcher/images/8/80/Tw3_cardart_monsters_crone_weavess.png/revision/latest/scale-to-width-down/200?cb=20170425201324
 > @link lib-witcher3.txt:126
+> @lt Unique Gwent Card #62 – Crone Weavess
 > @pow 6
 > @tag Corpo a corpo
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
@@ -943,6 +1278,7 @@
 - Eredin, Destroyer of Worlds (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/b/b3/Tw3_cardart_monsters_eredin_gold.png/revision/latest/scale-to-width-down/200?cb=20170425201321
 > @link lib-witcher3.txt:128
+> @lt Unique Gwent Card #64 – Eredin, Destroyer of Worlds (Leader)
 > @tag Líder
 > Habilidade: Discard 2 card and draw 1 card of your choice from your deck.
 > Local: Velen – Midcopse
@@ -950,6 +1286,7 @@
 - Kayran (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/7/7f/Tw3_cardart_monsters_kayran.png/revision/latest/scale-to-width-down/200?cb=20170425202849
 > @link lib-witcher3.txt:130
+> @lt Unique Gwent Card #65 – Kayran (Hero)
 > @pow 8
 > @tag Herói
 > @tag Ágil (corpo a corpo ou distância)
@@ -959,6 +1296,7 @@
 - Crone Brewess
 > @img https://static.wikia.nocookie.net/witcher/images/5/5e/Tw3_cardart_monsters_crone_brewess.png/revision/latest/scale-to-width-down/200?cb=20170425201323
 > @link lib-witcher3.txt:211
+> @lt Unique Gwent Card #92 – Crone Brewess
 > @pow 6
 > @tag Corpo a corpo
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
@@ -967,6 +1305,7 @@
 - Imlerith (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/b/b5/Tw3_cardart_monsters_imlerith.png/revision/latest/scale-to-width-down/200?cb=20170425202848
 > @link lib-witcher3.txt:213
+> @lt Unique Gwent Card #93 – Imlerith (Hero)
 > @pow 10
 > @tag Herói
 > @tag Corpo a corpo
@@ -976,6 +1315,7 @@
 - Gargoyle
 > @img https://static.wikia.nocookie.net/witcher/images/9/92/Tw3_cardart_monsters_gargoyle.png/revision/latest/scale-to-width-down/200?cb=20170425202633
 > @link lib-witcher3.txt:221
+> @lt Unique Gwent Card #100 – Gargoyle
 > @pow 2
 > @tag À distância
 > Local: Novigrad – The Bits
@@ -983,6 +1323,7 @@
 - Nekker (3)
 > @img https://static.wikia.nocookie.net/witcher/images/2/25/Tw3_cardart_monsters_nekker3.png/revision/latest/scale-to-width-down/200?cb=20170425202851
 > @link lib-witcher3.txt:223
+> @lt Unique Gwent Card #101 – Nekker (3)
 > @pow 2
 > @tag Corpo a corpo
 > @copy 1/3
@@ -992,6 +1333,7 @@
 - Ghoul (2)
 > @img https://static.wikia.nocookie.net/witcher/images/7/7c/Tw3_cardart_monsters_ghoul2.png/revision/latest/scale-to-width-down/200?cb=20170425202633
 > @link lib-witcher3.txt:225
+> @lt Unique Gwent Card #102 – Ghoul (2)
 > @pow 1
 > @tag Corpo a corpo
 > @copy 1/3
@@ -1001,6 +1343,7 @@
 - Endrega
 > @img https://static.wikia.nocookie.net/witcher/images/9/9a/Tw3_cardart_monsters_endrega.png/revision/latest/scale-to-width-down/200?cb=20170425202406
 > @link lib-witcher3.txt:231
+> @lt Unique Gwent Card #103 – Endrega
 > @pow 2
 > @tag À distância
 > Local: Novigrad – Nowhere Inn
@@ -1008,6 +1351,7 @@
 - Frightener
 > @img https://static.wikia.nocookie.net/witcher/images/d/de/Tw3_cardart_monsters_frightener.png/revision/latest/scale-to-width-down/200?cb=20170425202632
 > @link lib-witcher3.txt:237
+> @lt Unique Gwent Card #107 – Frightener
 > @pow 5
 > @tag Corpo a corpo
 > Local: Novigrad – Silverton
@@ -1015,6 +1359,7 @@
 - Forktail
 > @img https://static.wikia.nocookie.net/witcher/images/8/8f/Tw3_cardart_monsters_forktail.png/revision/latest/scale-to-width-down/200?cb=20170425202632
 > @link lib-witcher3.txt:260
+> @lt Unique Gwent Card #112 – Forktail
 > @pow 5
 > @tag Corpo a corpo
 > Local: Novigrad – Putrid Grove
@@ -1022,21 +1367,41 @@
 - Vampire Bruxa
 > @img https://static.wikia.nocookie.net/witcher/images/8/80/Tw3_cardart_monsters_vampire_bruxa.png/revision/latest/scale-to-width-down/200?cb=20170425202853
 > @link lib-witcher3.txt:276
+> @lt Unique Gwent Card #120 – Vampire Bruxa
 > @pow 4
 > @tag Corpo a corpo
+> @copy 1/2
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly
 > Local: Eastern Expanse – Vegelbud’s Residence
 > Continue on & defeat the next opponent for this Card; they use a Scoia’tael Deck with Hero Cards.
+- Vampire Bruxa (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/8/80/Tw3_cardart_monsters_vampire_bruxa.png/revision/latest/scale-to-width-down/200?cb=20170425202853
+> @pow 4
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 2/2
+> Habilidade: Muster: Find any cards with the same name in your deck and play them instantly
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Fire Elemental
 > @img https://static.wikia.nocookie.net/witcher/images/2/29/Tw3_cardart_monsters_fire_elemental.png/revision/latest/scale-to-width-down/200?cb=20170425202406
 > @link lib-witcher3.txt:318
+> @lt Unique Gwent Card #129 – Fire Elemental
 > @pow 6
 > @tag Cerco
+> @copy 1/2
 > Local: Ard Skellig – Kaer Trolde
 > Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
+- Fire Elemental (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/2/29/Tw3_cardart_monsters_fire_elemental.png/revision/latest/scale-to-width-down/200?cb=20170425202406
+> @pow 6
+> @tag Cerco
+> @tag Extra
+> @copy 2/2
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Botchling
 > @img https://static.wikia.nocookie.net/witcher/images/0/06/Tw3_cardart_monsters_botchling.png/revision/latest/scale-to-width-down/200?cb=20260304173006
 > @link lib-witcher3.txt:319
+> @lt Unique Gwent Card #130 – Botchling
 > @pow 4
 > @tag Corpo a corpo
 > Local: Ard Skellig – Kaer Trolde
@@ -1044,6 +1409,7 @@
 - Earth Elemental
 > @img https://static.wikia.nocookie.net/witcher/images/a/ad/Tw3_cardart_monsters_earth_elemental.png/revision/latest/scale-to-width-down/200?cb=20170425202405
 > @link lib-witcher3.txt:320
+> @lt Unique Gwent Card #131 – Earth Elemental
 > @pow 6
 > @tag Cerco
 > Local: Ard Skellig – Kaer Trolde
@@ -1051,6 +1417,7 @@
 - Eredin, King of the Wild Hunt (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/b/b3/Tw3_cardart_monsters_eredin_gold.png/revision/latest/scale-to-width-down/200?cb=20170425201321
 > @link lib-witcher3.txt:321
+> @lt Unique Gwent Card #132 – Eredin, King of the Wild Hunt (Leader)
 > @tag Líder
 > @copy 2/2
 > Habilidade: Pick any weather card from your deck and play it instantly.
@@ -1060,6 +1427,7 @@
 - Celaeno Harpy
 > @img https://static.wikia.nocookie.net/witcher/images/1/15/Tw3_cardart_monsters_celaeno_harpy.png/revision/latest/scale-to-width-down/200?cb=20170425202403
 > @link lib-witcher3.txt:323
+> @lt Unique Gwent Card #133 – Celaeno Harpy
 > @pow 2
 > @tag Ágil (corpo a corpo ou distância)
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
@@ -1068,6 +1436,7 @@
 - Ghoul (3)
 > @img https://static.wikia.nocookie.net/witcher/images/5/55/Tw3_cardart_monsters_ghoul3.png/revision/latest/scale-to-width-down/200?cb=20170425202634
 > @link lib-witcher3.txt:325
+> @lt Unique Gwent Card #134 – Ghoul (3)
 > @pow 1
 > @tag Corpo a corpo
 > @copy 2/3
@@ -1077,6 +1446,7 @@
 - Cockatrice
 > @img https://static.wikia.nocookie.net/witcher/images/b/bf/Tw3_cardart_monsters_cockatrice.png/revision/latest/scale-to-width-down/200?cb=20170425202404
 > @link lib-witcher3.txt:353
+> @lt Unique Gwent Card #139 – Cockatrice
 > @pow 2
 > @tag À distância
 > Local: Ard Skellig – Arinbjorn
@@ -1084,6 +1454,7 @@
 - Arachas (1)
 > @img https://static.wikia.nocookie.net/witcher/images/4/40/Tw3_cardart_monsters_arachas1.png/revision/latest/scale-to-width-down/200?cb=20170425202402
 > @link lib-witcher3.txt:355
+> @lt Unique Gwent Card #141 – Arachas (1)
 > @pow 4
 > @tag Corpo a corpo
 > @copy 1/3
@@ -1093,6 +1464,7 @@
 - Crone Whispess
 > @img https://static.wikia.nocookie.net/witcher/images/7/7b/Tw3_cardart_monsters_crone_whispess.png/revision/latest/scale-to-width-down/200?cb=20170425201325
 > @link lib-witcher3.txt:356
+> @lt Unique Gwent Card #142 – Crone Whispess
 > @pow 6
 > @tag Corpo a corpo
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
@@ -1101,6 +1473,7 @@
 - Fiend
 > @img https://static.wikia.nocookie.net/witcher/images/0/0e/Tw3_cardart_monsters_fiend.png/revision/latest/scale-to-width-down/200?cb=20170425174233
 > @link lib-witcher3.txt:357
+> @lt Unique Gwent Card #143 – Fiend
 > @pow 6
 > @tag Corpo a corpo
 > Local: Ard Skellig – Arinbjorn
@@ -1109,6 +1482,7 @@
 - Vampire Garkain
 > @img https://static.wikia.nocookie.net/witcher/images/3/30/Tw3_cardart_monsters_vampire_garkain.png/revision/latest/scale-to-width-down/200?cb=20170425203059
 > @link lib-witcher3.txt:361
+> @lt Unique Gwent Card #145 – Vampire Garkain
 > @pow 4
 > @tag Corpo a corpo
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly
@@ -1117,6 +1491,7 @@
 - Wyvern
 > @img https://static.wikia.nocookie.net/witcher/images/7/79/Tw3_cardart_monsters_wyvern.png/revision/latest/scale-to-width-down/200?cb=20170425203101
 > @link lib-witcher3.txt:363
+> @lt Unique Gwent Card #146 – Wyvern
 > @pow 2
 > @tag À distância
 > Local: Ard Skellig – Kaer Muire
@@ -1125,6 +1500,7 @@
 - Leshen (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/3/35/Tw3_cardart_monsters_leshen.png/revision/latest/scale-to-width-down/200?cb=20170425202849
 > @link lib-witcher3.txt:379
+> @lt Unique Gwent Card #147 – Leshen (Hero)
 > @pow 10
 > @tag Herói
 > @tag À distância
@@ -1134,6 +1510,7 @@
 - Draug (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/c/c8/Tw3_cardart_monsters_draug.png/revision/latest/scale-to-width-down/200?cb=20170425202405
 > @link lib-witcher3.txt:381
+> @lt Unique Gwent Card #149 – Draug (Hero)
 > @pow 10
 > @tag Herói
 > @tag Corpo a corpo
@@ -1143,6 +1520,7 @@
 - Vampire Katakan
 > @img https://static.wikia.nocookie.net/witcher/images/2/20/Tw3_cardart_monsters_vampire_katakan.png/revision/latest/scale-to-width-down/200?cb=20170425203100
 > @link lib-witcher3.txt:383
+> @lt Unique Gwent Card #151 – Vampire Katakan
 > @pow 5
 > @tag Corpo a corpo
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
@@ -1151,6 +1529,7 @@
 - Ghoul (1)
 > @img https://static.wikia.nocookie.net/witcher/images/4/4f/Tw3_cardart_monsters_ghoul1.png/revision/latest/scale-to-width-down/200?cb=20170425202633
 > @link lib-witcher3.txt:386
+> @lt Unique Gwent Card #153 – Ghoul (1)
 > @pow 1
 > @tag Corpo a corpo
 > @copy 3/3
@@ -1160,6 +1539,7 @@
 - Nekker (1)
 > @img https://static.wikia.nocookie.net/witcher/images/b/b2/Tw3_cardart_monsters_nekker1.png/revision/latest/scale-to-width-down/200?cb=20170425202850
 > @link lib-witcher3.txt:387
+> @lt Unique Gwent Card #154 – Nekker (1)
 > @pow 2
 > @tag Corpo a corpo
 > @copy 2/3
@@ -1169,6 +1549,7 @@
 - Harpy
 > @img https://static.wikia.nocookie.net/witcher/images/c/c9/Tw3_cardart_monsters_harpy.png/revision/latest/scale-to-width-down/200?cb=20260304172524
 > @link lib-witcher3.txt:388
+> @lt Unique Gwent Card #155 – Harpy
 > @pow 2
 > @tag Ágil (corpo a corpo ou distância)
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
@@ -1177,6 +1558,7 @@
 - Vampire Fleder
 > @img https://static.wikia.nocookie.net/witcher/images/7/7d/Tw3_cardart_monsters_vampire_fleder.png/revision/latest/scale-to-width-down/200?cb=20170425203059
 > @link lib-witcher3.txt:389
+> @lt Unique Gwent Card #156 – Vampire Fleder
 > @pow 4
 > @tag Corpo a corpo
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly
@@ -1185,6 +1567,7 @@
 - Nekker (2)
 > @img https://static.wikia.nocookie.net/witcher/images/2/2d/Tw3_cardart_monsters_nekker2.png/revision/latest/scale-to-width-down/200?cb=20170425202851
 > @link lib-witcher3.txt:391
+> @lt Unique Gwent Card #157 – Nekker (2)
 > @pow 2
 > @tag Corpo a corpo
 > @copy 3/3
@@ -1194,6 +1577,7 @@
 - Arachas (2)
 > @img https://static.wikia.nocookie.net/witcher/images/e/e1/Tw3_cardart_monsters_arachas2.png/revision/latest/scale-to-width-down/200?cb=20260304172033
 > @link lib-witcher3.txt:412
+> @lt Unique Gwent Card #160 – Arachas (2)
 > @pow 4
 > @tag Corpo a corpo
 > @copy 2/3
@@ -1203,6 +1587,7 @@
 - Werewolf
 > @img https://static.wikia.nocookie.net/witcher/images/4/46/Tw3_cardart_monsters_werewolf.png/revision/latest/scale-to-width-down/200?cb=20170425203100
 > @link lib-witcher3.txt:413
+> @lt Unique Gwent Card #161 – Werewolf
 > @pow 5
 > @tag Corpo a corpo
 > Local: An Skellig – Urialla Harbor
@@ -1211,6 +1596,7 @@
 - Foglet
 > @img https://static.wikia.nocookie.net/witcher/images/5/52/Tw3_cardart_monsters_foglet.png/revision/latest/scale-to-width-down/200?cb=20170425202631
 > @link lib-witcher3.txt:425
+> @lt Unique Gwent Card #162 – Foglet
 > @pow 2
 > @tag Corpo a corpo
 > Habilidade: |source = Purchased from Svorlag's innkeep
@@ -1219,6 +1605,7 @@
 - Ice Giant
 > @img https://static.wikia.nocookie.net/witcher/images/b/bb/Tw3_cardart_monsters_ice_giant.png/revision/latest/scale-to-width-down/200?cb=20260304172708
 > @link lib-witcher3.txt:426
+> @lt Unique Gwent Card #163 – Ice Giant
 > @pow 5
 > @tag Cerco
 > Local: Spikeroog – Svorlag
@@ -1226,6 +1613,7 @@
 - Vampire Ekimmara
 > @img https://static.wikia.nocookie.net/witcher/images/a/a7/Tw3_cardart_monsters_vampire_ekimmara.png/revision/latest/scale-to-width-down/200?cb=20170425203058
 > @link lib-witcher3.txt:427
+> @lt Unique Gwent Card #164 – Vampire Ekimmara
 > @pow 4
 > @tag Corpo a corpo
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly
@@ -1234,6 +1622,7 @@
 - Arachas (3)
 > @img https://static.wikia.nocookie.net/witcher/images/2/2a/Tw3_cardart_monsters_arachas3.png/revision/latest/scale-to-width-down/200?cb=20170425202403
 > @link lib-witcher3.txt:428
+> @lt Unique Gwent Card #165 – Arachas (3)
 > @pow 4
 > @tag Corpo a corpo
 > @copy 3/3
@@ -1243,25 +1632,28 @@
 - Eredin, Bringer of Death (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/b/b3/Tw3_cardart_monsters_eredin_gold.png/revision/latest/scale-to-width-down/200?cb=20170425201321
 > @link lib-witcher3.txt:452
+> @lt Unique Gwent Card #169 – Eredin, Bringer of Death (Leader)
 > @tag Líder
 > Habilidade: Restore a card from your discard pile to your hand.
 > Local: Novigrad – Passiflora
 > With that debacle done with, we can now make a final Save before we duel our last opponent, Count Tybalt. True to form with the theming of the opponents Decks, Tybalt has a Monster Deck, & is rightfully the final contender. I hate Monster Decks…
 > Tybalt of course has all the Hero Cards, but no Neutral Cards, so he has no Spies. He does have Decoys though & will throw your own back at you. With how little Cards Tybalt has in his Deck, there is a great chance he will over-extend with his Muster Cards having doubles in his hand & exhaust it quick. Be reserved.
 # Skellige
-> 20 entradas, 15 distintas.
+> 20 entradas, 15 distintas, 10 cópias extras.
 - Clan Drummond Shield Maiden (1)
 > @img https://static.wikia.nocookie.net/witcher/images/2/24/Tw3_cardart_skellige_clan_drummond_shieldmaiden.png/revision/latest/scale-to-width-down/200?cb=20160530180420
 > @link lib-witcher3.txt:555
+> @lt Skellige Card #1 – Clan Drummond Shield Maiden (1)
 > @pow 4
 > @tag Corpo a corpo
-> @copy 1/2
+> @copy 1/3
 > Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
 > Local: Toussaint – The Cockatrice Inn
 > After progressing our Quest, it is time for a little diversion. Go speak with the Innkeeper, & we can duel them in Gwent to earn this new Skellige Deck Card. He uses a Skellige Deck.
 - Crach an Craite (Leader)
 > @img https://static.wikia.nocookie.net/witcher/images/7/72/Tw3_cardart_skellige_leader_crach.png/revision/latest/scale-to-width-down/200?cb=20160530180949
 > @link lib-witcher3.txt:556
+> @lt Skellige Card #2 – Crach an Craite (Leader)
 > @tag Líder
 > Habilidade: Shuffle all cards from each player's graveyard back into their decks.
 > Local: Toussaint – The Cockatrice Inn
@@ -1269,14 +1661,33 @@
 - War Longship (1)
 > @img https://static.wikia.nocookie.net/witcher/images/4/49/Tw3_cardart_skellige_war_drakkar.png/revision/latest/scale-to-width-down/200?cb=20160530181617
 > @link lib-witcher3.txt:557
+> @lt Skellige Card #3 – War Longship (1)
 > @pow 6
 > @tag Cerco
+> @copy 1/3
 > Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
 > Local: Toussaint – Tourney Grounds
 > At the Tourney Grounds, we are able to obtain four new Skellige Cards. First, speak with Innkeeper close to the lake’s edge at the cantina. Duel her in Gwent to receive this Card. She uses a Scoia’tael Deck.
+- War Longship (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/4/49/Tw3_cardart_skellige_war_drakkar.png/revision/latest/scale-to-width-down/200?cb=20160530181617
+> @pow 6
+> @tag Cerco
+> @tag Extra
+> @copy 2/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- War Longship (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/4/49/Tw3_cardart_skellige_war_drakkar.png/revision/latest/scale-to-width-down/200?cb=20160530181617
+> @pow 6
+> @tag Cerco
+> @tag Extra
+> @copy 3/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Skellige Storm (1)
 > @img https://static.wikia.nocookie.net/witcher/images/2/2a/Tw3_cardart_skellige_special_skellige_storm.png/revision/latest/scale-to-width-down/200?cb=20160530181326
 > @link lib-witcher3.txt:558
+> @lt Skellige Card #4 – Skellige Storm (1)
 > @tag Clima
 > @copy 1/3
 > Habilidade: Reduces the Strength of all Range and Siege Units to 1.
@@ -1285,15 +1696,17 @@
 - Young Berserker (1)
 > @img https://static.wikia.nocookie.net/witcher/images/5/56/Tw3_cardart_skellige_young_berserker.png/revision/latest/scale-to-width-down/200?cb=20160530181729
 > @link lib-witcher3.txt:559
+> @lt Skellige Card #5 – Young Berserker (1)
 > @pow 2
 > @tag À distância
-> @copy 1/2
+> @copy 1/3
 > Habilidade: Transforms into a bear when a Mardroeme card is on its row.
 > Local: Toussaint – Tourney Grounds
 > Head across the pavilion now over towards where the Blacksmith is stationed at. Duel them to receive this Card; they use a Skellige Deck.
 - Skellige Storm (2)
 > @img https://static.wikia.nocookie.net/witcher/images/2/2a/Tw3_cardart_skellige_special_skellige_storm.png/revision/latest/scale-to-width-down/200?cb=20160530181326
 > @link lib-witcher3.txt:560
+> @lt Skellige Card #6 – Skellige Storm (2)
 > @tag Clima
 > @copy 2/3
 > Habilidade: Reduces the Strength of all Range and Siege Units to 1.
@@ -1303,13 +1716,30 @@
 - Clan Brokvar Archer (1)
 > @img https://static.wikia.nocookie.net/witcher/images/b/b6/Tw3_cardart_skellige_clan_brokvar_archer.png/revision/latest/scale-to-width-down/200?cb=20160530180329
 > @link lib-witcher3.txt:561
+> @lt Skellige Card #7 – Clan Brokvar Archer (1)
 > @pow 6
 > @tag À distância
+> @copy 1/3
 > Local: Toussaint – Castel Ravello Vineyard
 > From the Tourney Grounds, head Northwest up the road, crossing the river, & reaching Castel Ravello Vineyard. Follow your Quest Marker for Secondary Quest – Never Fear, Skellige’s Here to an Herbalist that we can duel for this Card; she uses a Nilfgaardian Empire Deck.
+- Clan Brokvar Archer (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/b/b6/Tw3_cardart_skellige_clan_brokvar_archer.png/revision/latest/scale-to-width-down/200?cb=20160530180329
+> @pow 6
+> @tag À distância
+> @tag Extra
+> @copy 2/3
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Clan Brokvar Archer (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/b/b6/Tw3_cardart_skellige_clan_brokvar_archer.png/revision/latest/scale-to-width-down/200?cb=20160530180329
+> @pow 6
+> @tag À distância
+> @tag Extra
+> @copy 3/3
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Cerys (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/b/b6/Tw3_cardart_skellige_cerys.png/revision/latest/scale-to-width-down/200?cb=20160530180257
 > @link lib-witcher3.txt:569
+> @lt Skellige Card #8 – Cerys (Hero)
 > @pow 10
 > @tag Herói
 > @tag Corpo a corpo
@@ -1319,6 +1749,7 @@
 - Ermion (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/e/e1/Tw3_cardart_skellige_ermion.png/revision/latest/scale-to-width-down/200?cb=20191101120547
 > @link lib-witcher3.txt:570
+> @lt Skellige Card #9 – Ermion (Hero)
 > @pow 8
 > @tag Herói
 > @tag À distância
@@ -1328,15 +1759,25 @@
 - Clan Drummond Shield Maiden (2)
 > @img https://static.wikia.nocookie.net/witcher/images/f/fd/Tw3_cardart_skellige_clan_drummond_shieldmaiden_2.png/revision/latest/scale-to-width-down/200?cb=20160530180444
 > @link lib-witcher3.txt:571
+> @lt Skellige Card #10 – Clan Drummond Shield Maiden (2)
 > @pow 4
 > @tag Corpo a corpo
-> @copy 2/2
+> @copy 2/3
 > Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
 > Local: Toussaint – Francollarts
 > Now go to the South end of town & we can find an Armorer that we can duel. He uses a Northern Realms Deck.
+- Clan Drummond Shield Maiden (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/f/fd/Tw3_cardart_skellige_clan_drummond_shieldmaiden_2.png/revision/latest/scale-to-width-down/200?cb=20160530180444
+> @pow 4
+> @tag Corpo a corpo
+> @tag Extra
+> @copy 3/3
+> Habilidade: Tight Bond: Place next to a card with the same name to double the strength of both cards.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Skellige Storm (3)
 > @img https://static.wikia.nocookie.net/witcher/images/2/2a/Tw3_cardart_skellige_special_skellige_storm.png/revision/latest/scale-to-width-down/200?cb=20160530181326
 > @link lib-witcher3.txt:578
+> @lt Skellige Card #10 – Skellige Storm (3)
 > @tag Clima
 > @copy 3/3
 > Habilidade: Reduces the Strength of all Range and Siege Units to 1.
@@ -1346,23 +1787,34 @@
 - Mardroeme (1)
 > @img https://static.wikia.nocookie.net/witcher/images/a/a3/Tw3_cardart_skellige_special_mushroom.png/revision/latest/scale-to-width-down/200?cb=20160530175251
 > @link lib-witcher3.txt:579
+> @lt Skellige Card #11 – Mardroeme (1)
 > @tag Especial
-> @copy 1/2
+> @copy 1/3
 > Habilidade: Triggers transformation of all Berserker cards on the same row.
 > Local: Toussaint – Beauclair Port
 > Across the street from the Butcher, next door, we can find The Belles of Beauclair. Enter inside & we can duel the Madame here; she uses a Scoia’tael Deck.
 - Young Berserker (2)
 > @img https://static.wikia.nocookie.net/witcher/images/5/56/Tw3_cardart_skellige_young_berserker.png/revision/latest/scale-to-width-down/200?cb=20160530181729
 > @link lib-witcher3.txt:580
+> @lt Skellige Card #12 – Young Berserker (2)
 > @pow 2
 > @tag À distância
-> @copy 2/2
+> @copy 2/3
 > Habilidade: Transforms into a bear when a Mardroeme card is on its row.
 > Local: Toussaint – Beauclair Hauteville
 > For Secondary Quest – Never Fear, Skellige’s Here, we will just start at the top of Beaulcair & work our way down through the city. Our first stop will be at the Tailor’s Workshop to duel the master tailor, Pierre, for this Card; he uses a Nilfgaardian Empire Deck.
+- Young Berserker (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/5/56/Tw3_cardart_skellige_young_berserker.png/revision/latest/scale-to-width-down/200?cb=20160530181729
+> @pow 2
+> @tag À distância
+> @tag Extra
+> @copy 3/3
+> Habilidade: Transforms into a bear when a Mardroeme card is on its row.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Olaf
 > @img https://static.wikia.nocookie.net/witcher/images/2/20/Tw3_cardart_skellige_olaf.png/revision/latest/scale-to-width-down/200?cb=20160530181205
 > @link lib-witcher3.txt:581
+> @lt Skellige Cards #13 – Olaf
 > @pow 12
 > @tag Ágil (corpo a corpo ou distância)
 > Habilidade: Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed. Morale boost: Adds +1 to all units in the row (excluding itself).
@@ -1372,14 +1824,23 @@
 - Mardroeme (2)
 > @img https://static.wikia.nocookie.net/witcher/images/a/a3/Tw3_cardart_skellige_special_mushroom.png/revision/latest/scale-to-width-down/200?cb=20160530175251
 > @link lib-witcher3.txt:582
+> @lt Skellige Cards #14 – Mardroeme (2)
 > @tag Especial
-> @copy 2/2
+> @copy 2/3
 > Habilidade: Triggers transformation of all Berserker cards on the same row.
 > Local: Toussaint – Beauclair Lolivier Square
 > Continue down further South through the city & go into the Herb Store. Here we can speak with an Herbalist we can duel for this Card; she uses a Skellige Deck.
+- Mardroeme (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/a/a3/Tw3_cardart_skellige_special_mushroom.png/revision/latest/scale-to-width-down/200?cb=20160530175251
+> @tag Especial
+> @tag Extra
+> @copy 3/3
+> Habilidade: Triggers transformation of all Berserker cards on the same row.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Clan Dimun Pirate
 > @img https://static.wikia.nocookie.net/witcher/images/6/67/Tw3_cardart_skellige_clan_dimun_pirate.png/revision/latest/scale-to-width-down/200?cb=20160530180353
 > @link lib-witcher3.txt:583
+> @lt Skellige Cards #15 – Clan Dimun Pirate
 > @pow 6
 > @tag À distância
 > Habilidade: Scorch: Kills the strongest card(s) on the battlefield.
@@ -1388,6 +1849,7 @@
 - Kambi
 > @img https://static.wikia.nocookie.net/witcher/images/6/6c/Tw3_cardart_skellige_cock.png/revision/latest/scale-to-width-down/200?cb=20160530175822
 > @link lib-witcher3.txt:584
+> @lt Skellige Cards #16 – Kambi
 > @pow 0
 > @tag Corpo a corpo
 > Habilidade: When this card is removed from the battlefield, it summons a powerful new Unit Card to take its place.
@@ -1396,21 +1858,49 @@
 - Light Longship (1)
 > @img https://static.wikia.nocookie.net/witcher/images/7/78/Tw3_cardart_skellige_light_drakkar.png/revision/latest/scale-to-width-down/200?cb=20160530181056
 > @link lib-witcher3.txt:585
+> @lt Skellige Cards #17 – Light Longship (1)
 > @pow 4
 > @tag À distância
+> @copy 1/3
 > Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
 > Local: Toussaint – Beauclair Lolivier Square
 > Head up the street now past a festival square where we can find the Perfumery & a Merchant that we can duel for this Card. He uses a Skellige Deck.
+- Light Longship (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/7/78/Tw3_cardart_skellige_light_drakkar.png/revision/latest/scale-to-width-down/200?cb=20160530181056
+> @pow 4
+> @tag À distância
+> @tag Extra
+> @copy 2/3
+> Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Light Longship (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/7/78/Tw3_cardart_skellige_light_drakkar.png/revision/latest/scale-to-width-down/200?cb=20160530181056
+> @pow 4
+> @tag À distância
+> @tag Extra
+> @copy 3/3
+> Habilidade: Muster: Find any cards with the same name in your deck and play them instantly.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - King Bran (Leader Card)
 > @img https://static.wikia.nocookie.net/witcher/images/f/fb/Tw3_cardart_skellige_leader_king_bran.png/revision/latest/scale-to-width-down/200?cb=20160530181030
 > @link lib-witcher3.txt:594
+> @lt Skellige Cards #18 – King Bran (Leader Card)
 > @tag Líder
+> @copy 1/2
 > Habilidade: Units only lose half their Strength in bad weather conditions.
 > Local: Toussaint – Beauclair Knights Dormant Square
 > Next, head up the street to the Ducal Camerlengo (yes if you approach old man Hughes door along the way he will be back to diddling again) & speak to the Camerlengo. For our current needs, duel him in Gwent for this Card; he uses a Nilfgaardian Empire Deck.
+- King Bran (Leader Card) (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/f/fb/Tw3_cardart_skellige_leader_king_bran.png/revision/latest/scale-to-width-down/200?cb=20160530181030
+> @tag Líder
+> @tag Extra
+> @copy 2/2
+> Habilidade: Units only lose half their Strength in bad weather conditions.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Draig Bon-Dhu
 > @img https://static.wikia.nocookie.net/witcher/images/2/26/Tw3_cardart_skellige_draig.png/revision/latest/scale-to-width-down/200?cb=20160530180711
 > @link lib-witcher3.txt:595
+> @lt Skellige Card #19 – Draig Bon-Dhu
 > @pow 2
 > @tag Cerco
 > Habilidade: Commander's Horn: Doubles the strength of all unit cards in that row. Limited to 1 per row.
@@ -1420,38 +1910,103 @@
 > To receive it, pass through the lower floor of The Pheasantry to the outdoor patio & we can find the Count Monnier who will tell us of an upcoming Gwent Tournament. Agree to sign up for the Tournament, & the caveat to signing up is only being able to use the Skellige Deck… good thing we already got every other Card.
 > Agree to enter the Tournament playing as Skellige, & Monnier will provide us with the Skellige Base Deck.
 # Neutral
-> 16 entradas, 16 distintas.
+> 17 entradas, 17 distintas, 16 cópias extras.
 [x] Biting Frost
 > @img https://static.wikia.nocookie.net/witcher/images/e/e8/Tw3_cardart_neutral_frost.png/revision/latest/scale-to-width-down/200?cb=20170425193144
 > @link lib-witcher3.txt:8
+> @lt Unique Gwent Card #2 – Biting Frost
 > @tag Clima
+> @copy 1/3
 > Habilidade: Sets the strength of all Close Combat cards to 1 for both players.
 > Local: White Orchard
 > Unlocked with our base deck.
+- Biting Frost (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/e/e8/Tw3_cardart_neutral_frost.png/revision/latest/scale-to-width-down/200?cb=20170425193144
+> @tag Clima
+> @tag Extra
+> @copy 2/3
+> Habilidade: Sets the strength of all Close Combat cards to 1 for both players.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Biting Frost (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/e/e8/Tw3_cardart_neutral_frost.png/revision/latest/scale-to-width-down/200?cb=20170425193144
+> @tag Clima
+> @tag Extra
+> @copy 3/3
+> Habilidade: Sets the strength of all Close Combat cards to 1 for both players.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 [x] Impenetrable Fog
 > @img https://static.wikia.nocookie.net/witcher/images/7/74/Tw3_cardart_neutral_fog.png/revision/latest/scale-to-width-down/200?cb=20170425193145
 > @link lib-witcher3.txt:9
+> @lt Unique Gwent Card #3 – Impenetrable Fog
 > @tag Clima
+> @copy 1/3
 > Habilidade: Sets the strength of all Ranged Combat cards to 1 for both players.
 > Local: White Orchard
 > Unlocked with our base deck.
+- Impenetrable Fog (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/7/74/Tw3_cardart_neutral_fog.png/revision/latest/scale-to-width-down/200?cb=20170425193145
+> @tag Clima
+> @tag Extra
+> @copy 2/3
+> Habilidade: Sets the strength of all Ranged Combat cards to 1 for both players.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Impenetrable Fog (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/7/74/Tw3_cardart_neutral_fog.png/revision/latest/scale-to-width-down/200?cb=20170425193145
+> @tag Clima
+> @tag Extra
+> @copy 3/3
+> Habilidade: Sets the strength of all Ranged Combat cards to 1 for both players.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 [x] Torrential Rain
 > @img https://static.wikia.nocookie.net/witcher/images/e/ef/Tw3_cardart_neutral_rain.png/revision/latest/scale-to-width-down/200?cb=20170425193144
 > @link lib-witcher3.txt:10
+> @lt Unique Gwent Card #4 – Torrential Rain
 > @tag Clima
+> @copy 1/3
 > Habilidade: Sets the strength of all Siege Combat cards to 1 for both players.
 > Local: White Orchard
 > Unlocked with our base deck.
+- Torrential Rain (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/e/ef/Tw3_cardart_neutral_rain.png/revision/latest/scale-to-width-down/200?cb=20170425193144
+> @tag Clima
+> @tag Extra
+> @copy 2/3
+> Habilidade: Sets the strength of all Siege Combat cards to 1 for both players.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Torrential Rain (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/e/ef/Tw3_cardart_neutral_rain.png/revision/latest/scale-to-width-down/200?cb=20170425193144
+> @tag Clima
+> @tag Extra
+> @copy 3/3
+> Habilidade: Sets the strength of all Siege Combat cards to 1 for both players.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 [x] Clear Weather
 > @img https://static.wikia.nocookie.net/witcher/images/c/c1/Tw3_cardart_neutral_clear_sky.png/revision/latest/scale-to-width-down/200?cb=20170425193146
 > @link lib-witcher3.txt:11
+> @lt Unique Gwent Card #5 – Clear Weather
 > @tag Clima
+> @copy 1/3
 > Habilidade: Removes all Weather Card (Biting Frost, Impenetrable Fog and Torrential Rain) effects.
 > Local: White Orchard
 > Unlocked with our base deck.
+- Clear Weather (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/c/c1/Tw3_cardart_neutral_clear_sky.png/revision/latest/scale-to-width-down/200?cb=20170425193146
+> @tag Clima
+> @tag Extra
+> @copy 2/3
+> Habilidade: Removes all Weather Card (Biting Frost, Impenetrable Fog and Torrential Rain) effects.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Clear Weather (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/c/c1/Tw3_cardart_neutral_clear_sky.png/revision/latest/scale-to-width-down/200?cb=20170425193146
+> @tag Clima
+> @tag Extra
+> @copy 3/3
+> Habilidade: Removes all Weather Card (Biting Frost, Impenetrable Fog and Torrential Rain) effects.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 [x] Zoltan Chivay
 > @img https://static.wikia.nocookie.net/witcher/images/5/5f/Tw3_cardart_neutral_zoltan.png/revision/latest/scale-to-width-down/200?cb=20170425174235
 > @link lib-witcher3.txt:34
+> @lt Unique Gwent Card #28 – Zoltan Chivay
 > @pow 5
 > @tag Corpo a corpo
 > Local: White Orchard
@@ -1461,20 +2016,67 @@
 [x] Decoy
 > @img https://static.wikia.nocookie.net/witcher/images/7/77/Tw3_cardart_neutral_decoy.png/revision/latest/scale-to-width-down/200?cb=20170425193145
 > @link lib-witcher3.txt:45
+> @lt Unique Gwent Card #28 – Decoy
 > @tag Especial
+> @copy 1/3
 > Habilidade: Swap with a card on the battlefield to return it to your hand.
 > Local: White Orchard
 > While still in the White Orchard Tavern, speak with the Shopkeeper here to purchase this Gwent Card for 20 Crowns.
+- Decoy (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/7/77/Tw3_cardart_neutral_decoy.png/revision/latest/scale-to-width-down/200?cb=20170425193145
+> @tag Especial
+> @tag Extra
+> @copy 2/3
+> Habilidade: Swap with a card on the battlefield to return it to your hand.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Decoy (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/7/77/Tw3_cardart_neutral_decoy.png/revision/latest/scale-to-width-down/200?cb=20170425193145
+> @tag Especial
+> @tag Extra
+> @copy 3/3
+> Habilidade: Swap with a card on the battlefield to return it to your hand.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Commander’s Horn
 > @img https://static.wikia.nocookie.net/witcher/images/a/aa/Tw3_cardart_neutral_commander_horn.png/revision/latest/scale-to-width-down/200?cb=20170425193146
 > @link lib-witcher3.txt:58
+> @lt Unique Gwent Card #33 – Commander’s Horn
 > @tag Especial
+> @copy 1/5
 > Habilidade: Doubles the strength of all unit cards in that row. Limited to 1 per row.
 > Local: Velen – Inn At the Crossroads
 > Speak with the Innkeeper again & ask him what he has got for sale; we can purchase this Gwent Card for 10 Crowns.
+- Commander’s Horn (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/a/aa/Tw3_cardart_neutral_commander_horn.png/revision/latest/scale-to-width-down/200?cb=20170425193146
+> @tag Especial
+> @tag Extra
+> @copy 2/5
+> Habilidade: Doubles the strength of all unit cards in that row. Limited to 1 per row.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Commander’s Horn (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/a/aa/Tw3_cardart_neutral_commander_horn.png/revision/latest/scale-to-width-down/200?cb=20170425193146
+> @tag Especial
+> @tag Extra
+> @copy 3/5
+> Habilidade: Doubles the strength of all unit cards in that row. Limited to 1 per row.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Commander’s Horn (cópia extra 4)
+> @img https://static.wikia.nocookie.net/witcher/images/a/aa/Tw3_cardart_neutral_commander_horn.png/revision/latest/scale-to-width-down/200?cb=20170425193146
+> @tag Especial
+> @tag Extra
+> @copy 4/5
+> Habilidade: Doubles the strength of all unit cards in that row. Limited to 1 per row.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Commander’s Horn (cópia extra 5)
+> @img https://static.wikia.nocookie.net/witcher/images/a/aa/Tw3_cardart_neutral_commander_horn.png/revision/latest/scale-to-width-down/200?cb=20170425193146
+> @tag Especial
+> @tag Extra
+> @copy 5/5
+> Habilidade: Doubles the strength of all unit cards in that row. Limited to 1 per row.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Villentretenmerth
 > @img https://static.wikia.nocookie.net/witcher/images/d/dd/Tw3_cardart_neutral_villen.png/revision/latest/scale-to-width-down/200?cb=20160904162240
 > @link lib-witcher3.txt:67
+> @lt Unique Gwent Card #38 – Villentretenmerth
 > @pow 7
 > @tag Corpo a corpo
 > Habilidade: Scorch - Close Combat: Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more.
@@ -1483,6 +2085,7 @@
 - Yennefer of Vengerberg (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/3/3e/Tw3_cardart_neutral_yennefer.png/revision/latest/scale-to-width-down/200?cb=20170425174235
 > @link lib-witcher3.txt:155
+> @lt Unique Gwent Card #67 – Yennefer of Vengerberg (Hero)
 > @pow 7
 > @tag Herói
 > @tag À distância
@@ -1492,20 +2095,47 @@
 - Scorch
 > @img https://static.wikia.nocookie.net/witcher/images/2/29/Tw3_cardart_neutral_scorch.png/revision/latest/scale-to-width-down/200?cb=20170425193143
 > @link lib-witcher3.txt:185
+> @lt Unique Gwent Card #78 – Scorch
 > @tag Especial
+> @copy 1/3
 > Habilidade: Scorch: Discards after playing. Kills the strongest card(s) on the battlefield.
 > Local: Novigrad – Cunny of the Goose
 > We can purchase this Gwent Card from the Innkeep for 50 Crowns.
+- Scorch (cópia extra 2)
+> @img https://static.wikia.nocookie.net/witcher/images/2/29/Tw3_cardart_neutral_scorch.png/revision/latest/scale-to-width-down/200?cb=20170425193143
+> @tag Especial
+> @tag Extra
+> @copy 2/3
+> Habilidade: Scorch: Discards after playing. Kills the strongest card(s) on the battlefield.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
+- Scorch (cópia extra 3)
+> @img https://static.wikia.nocookie.net/witcher/images/2/29/Tw3_cardart_neutral_scorch.png/revision/latest/scale-to-width-down/200?cb=20170425193143
+> @tag Especial
+> @tag Extra
+> @copy 3/3
+> Habilidade: Scorch: Discards after playing. Kills the strongest card(s) on the battlefield.
+> Cópia extra: não conta para o Card Collector, serve para montar o baralho.
 - Emiel Regis Rohellec Terzieff
 > @img https://static.wikia.nocookie.net/witcher/images/e/e6/Tw3_cardart_neutral_emiel.png/revision/latest/scale-to-width-down/200?cb=20160414175853
 > @link lib-witcher3.txt:203
+> @lt Unique Gwent Card #86 – Emiel Regis Rohellec Terzieff
 > @pow 5
 > @tag Corpo a corpo
 > Local: Novigrad – Golden Sturgeon
 > Can be earned from playing against any Random Player; this is the Card I earned for this duel, you may earn a different one.
+- Vesemir
+> @img https://static.wikia.nocookie.net/witcher/images/8/82/Tw3_cardart_neutral_vesemir.png/revision/latest/scale-to-width-down/200?cb=20170425053147
+> @link lib-witcher3.txt:214
+> @lt Gwent Card #94 – Vesemir
+> @pow 6
+> @tag Corpo a corpo
+> Local: Novigrad – Hierarch Square
+> Defeat Vimme Vivaldi in a duel to earn this Gwent Card.
+> While we can progress Secondary Quest – Gwent Big City Players to the Passiflora, doing so will glitch this Quest out; fortunately, it will not void the Card Collector Achievement if we do so. For safety’s sake, hold off on going to the Passiflora for now…
 - Cirilla Fiona Elen Riannon (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/3/3f/Tw3_cardart_neutral_ciri.png/revision/latest/scale-to-width-down/200?cb=20170425042705
 > @link lib-witcher3.txt:272
+> @lt Unique Gwent Card #116 – Cirilla Fiona Elen Riannon (Hero)
 > @pow 15
 > @tag Herói
 > @tag Corpo a corpo
@@ -1515,6 +2145,7 @@
 - Dandelion
 > @img https://static.wikia.nocookie.net/witcher/images/1/1b/Tw3_cardart_neutral_dandelion.png/revision/latest/scale-to-width-down/200?cb=20260305083521
 > @link lib-witcher3.txt:277
+> @lt Unique Gwent Card #121 – Dandelion
 > @pow 2
 > @tag Corpo a corpo
 > Habilidade: Commander's Horn: Doubles the strength of all unit cards in that row. Limited to 1 per row.
@@ -1525,6 +2156,7 @@
 - Geralt of Rivia (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/e/ee/Tw3_cardart_neutral_geralt.png/revision/latest/scale-to-width-down/200?cb=20170425051447
 > @link lib-witcher3.txt:290
+> @lt Unique Gwent Card #122 – Geralt of Rivia (Hero)
 > @pow 15
 > @tag Herói
 > @tag Corpo a corpo
@@ -1534,6 +2166,7 @@
 - Mysterious Elf (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/2/26/Tw3_cardart_neutral_avallach.png/revision/latest/scale-to-width-down/200?cb=20160507170613
 > @link lib-witcher3.txt:380
+> @lt Unique Gwent Card #148 – Mysterious Elf (Hero)
 > @pow 0
 > @tag Herói
 > @tag Corpo a corpo
@@ -1543,9 +2176,495 @@
 - Triss Merigold (Hero)
 > @img https://static.wikia.nocookie.net/witcher/images/9/95/Tw3_cardart_neutral_triss.png/revision/latest/scale-to-width-down/200?cb=20170425052941
 > @link lib-witcher3.txt:392
+> @lt Unique Gwent Card #158 – Triss Merigold (Hero)
 > @pow 7
 > @tag Herói
 > @tag Corpo a corpo
 > Habilidade: Hero: Not affected by any Special Cards or abilities.
 > Local: Novigrad – Gildorf
 > Duel & defeat Lambert in Gwent before he leaves Jan Karadin’s manor in Gildorf to collect this Gwent Card; Lambert uses a Scoia’tael Deck. Ironic that he should be the one to give us this Card…
+# Jogadores e quests de Gwent
+> Quem enfrentar, quests e conquistas de Gwent. Ligados ao guia principal.
+## Sequence 1: Nightmares On the Trail
+[x] Gwent Player – Scholar
+> @link lib-witcher3.txt:6
+> @lt Gwent Player – Scholar
+> Local: White Orchard
+> Return back into the Tavern now & speak with the group of Peasants playing Gwent at a table. Speak with the Scholar, & when we go to leave… he will introduce us to the best card game in all games, even better than Caravan. Gwent.
+> With our first Gwent match underway, we will unlock our starter base deck of Gwent Cards made up of Northern Realms & Neutral Cards.
+## Sequence 4: A Round of Gwent?
+[x] Random Player #1 – Fergus
+> @link lib-witcher3.txt:66
+> @lt Random Player #1 – Fergus
+> Local: Velen – Crow’s Perch
+> When we go to leave the Baron’s home, stop outside the fort gates & we can find three merchants. One will be a Dwarf named Fergus & he is an Armorer.
+> Fergus is a “Random Player” meaning that the Gwent Card we receive from him upon victory is random. There are more Random Players in the game than there are Gwent Cards in the random card pool. By playing all Random Players we come across, you are guaranteed to collect all 50 of these Cards in the pool; consult the Miraculous Guide to Gwent in our Book tab to see how many Cards can be collected from Random Players… You can also cross reference the Random Card list in my Achievement Checklist found in this guide’s Introduction as well to see which Cards you still need.
+> Note that we will not always get a Unique Card & instead may also receive a duplicate of another Card instead from the pool.
+> A Random Player can only be dueled once to earn a Unique Card; all subsequent duels will award you with Crafting Materials or Junk Items.
+[x] Random Player #2 – Yoana
+> @link lib-witcher3.txt:68
+> @lt Random Player #2 – Yoana
+> Local: Velen – Crow’s Perch
+> We can duel the alternate Armorer near Fergus, Yoana, as well for a Unique Card. Yoana uses a Monster Deck & will award us one from the random cards pool.
+> Monster Decks are terrifying to fight in early game as they rely heavily on Muster. They are also Close Combat Unit focused making them very susceptible to Biting Frost.
+[x] Random Player #3 – Quartermaster
+> @link lib-witcher3.txt:71
+> @lt Random Player #3 – Quartermaster
+> Local: Velen – Crow’s Perch
+> Lastly, we can also duel the Quartermaster for another chance at winning a new Gwent Card; he uses a Northern Realms Deck.
+[x] Random Player #4 – Merchant
+> @link lib-witcher3.txt:73
+> @lt Random Player #4 – Merchant
+> Local: Velen – Crow’s Perch
+> In the lower tier of Crow’s Perch, close to the front entrance to the fort, we can find a lowly grocer Merchant who can be dueled for a Card; they own a Northern Realms Deck.
+## Sequence 5: In Memory of Dea
+[x] Random Gwent Player #5 – Merchant
+> @link lib-witcher3.txt:84
+> @lt Random Gwent Player #5 – Merchant
+> Local: Velen – Blackbough
+> We will have discovered Blackbough during our Horse Races. Head on over to it, & we can find a Merchant along the roadway immediately upon entering the town. We can duel him for a Card from the random pool; he has a Nilfgaardian Deck.
+> I earned an Impenetrable Fog from this duel; ideally, you won a new Unique Gwent Card instead…
+[x] Random Gwent Player #6 – Blacksmith
+> @link lib-witcher3.txt:85
+> @lt Random Gwent Player #6 – Blacksmith
+> Local: Velen – Blackbough
+> At the Southwest end of Blackbough, we can find the Blacksmith. Not only will he craft us Swords, but we can duel him for a chance to earn a Unique Gwent Card from the random pool; he has a Northern Realms Deck.
+## Sequence 6: Not Just Any Witch...
+[x] Random Player #6 – Merchant
+> @link lib-witcher3.txt:92
+> @lt Random Player #6 – Merchant
+> Local: Velen – Midcopse
+> The Merchant is also a Random Player we can duel for a Gwent Card from the random pool; he has a Monster Deck so be careful!
+[x] Random Player #7 – Armorer
+> @link lib-witcher3.txt:94
+> @lt Random Player #7 – Armorer
+> Local: Velen – Midcopse
+> Our next opponent, will be the Armorer found close by; he has a Nilfgaardian Deck.
+> This Armorer also sells both Maps by Edwin Greloff that will give us the locations of all six pieces of the Griffon School Gear.
+## Sequence 7: Man of the People
+[x] Secondary Quest – Gwent Velen Players
+> @link lib-witcher3.txt:97
+> @lt Secondary Quest – Gwent Velen Players
+> While here in Oreton, we can find a Boatwright that will play us in Gwent for a new Unique Card; he uses a Nilfgaard Deck. He is a difficult opponent & has two Hero Cards in his Deck.
+[x] Random Player #8 – Trader
+> @link lib-witcher3.txt:101
+> @lt Random Player #8 – Trader
+> Local: Velen – Oreton
+> In Oreton, we can find a Trader who is a Random Player; he has a Northern Realms Deck.
+[x] Random Player #9 – Merchant
+> @link lib-witcher3.txt:104
+> @lt Random Player #9 – Merchant
+> Local: Velen – Claywich
+> Return to Claywich after freeing the Merchant from the Renegades & he should have set up shop here. We can play him for a new Card from the random pool; he has a Northern Realms Deck.
+> For whatever reason, the two people we rescue for Claywich are bugged; the Merchant & there is also a Barber we can rescue found Northwest of Midcopse & Southwest of Blackbough. They will be present, but we will be unable to speak with them. If this bug happens, Fast Travel to White Orchard, then return back to Claywich to get them unstuck.
+[x] Random Player #10 – Blacksmith
+> @link lib-witcher3.txt:110
+> @lt Random Player #10 – Blacksmith
+> Local: Velen – Lindenvale
+> Now for the fun part. Go to the village Blacksmith & we can verse him in Gwent; he has a Scoia’tael Deck.
+> I received a Clear Weather Card from this duel… no Unique Gwent Card this time.
+[x] Random Player #11 – Merchant
+> @link lib-witcher3.txt:111
+> @lt Random Player #11 – Merchant
+> Local: Velen – Lindenvale
+> We can find another Random Player in Lindenvale, it is the Merchant; he has a Northern Realms Deck.
+## Sequence 8: Wind's Howling...
+[x] Secondary Quest – Gwent Velen Players
+> @link lib-witcher3.txt:117
+> @lt Secondary Quest – Gwent Velen Players
+> To verse the soothsayer, we need to travel all the way Southeast across No Man’s Land to the village of Benek. Find the Old Sage & defeat him in a duel to collect this Card; he has a Monster Deck.
+[x] Secondary Quest – Gwent Velen Players
+> @link lib-witcher3.txt:120
+> @lt Secondary Quest – Gwent Velen Players
+> We can also finally complete this Quest as well, & duel our final competitor. Go to Midcopse & seek out Haddy… he is a child. He has a Northern Realms Deck & is quite a challenging opponent, or can be anyways depending on luck.
+[x] Random Player #12 – Eggebracht
+> @link lib-witcher3.txt:129
+> @lt Random Player #12 – Eggebracht
+> Local: Velen – Nilfgaardian Central Army Camp
+> As it turns out, the Quartermaster is a Random Player for Gwent; he uses a Northern Realms Deck… which is weird, you would think he’d be using a Nilfgaardian one.
+[x] Random Player #13 – Merchant
+> @link lib-witcher3.txt:131
+> @lt Random Player #13 – Merchant
+> Local: Velen – Downwarren
+> We can find a Merchant here in Downwarren that is a Random Player; he has a Monster Deck. It is important to defeat this fellow in a duel before progressing too far into the Main Questline… as something bad can potentially happen to Downwarren that will… displace the villagers & this Merchant… from life.
+## Sequence 11: Height of Academia
+- Secondary Quest – Gwent Playing Innkeeps
+> @link lib-witcher3.txt:151
+> @lt Secondary Quest – Gwent Playing Innkeeps
+> Track down Stjepan at the Alchemy Inn in Oxenfurt & duel him for a Unique Gwent Card; he has a strong Nilfgaardian Deck.
+- Random Player #14 – Armorer
+> @link lib-witcher3.txt:159
+> @lt Random Player #14 – Armorer
+> Local: Novigrad – Oxenfurt
+> Above where the Notice Board is, we can find an Armorer’s store front. Enter inside, & we can duel the man for a Card from the random pool; he uses a Scoia’tael Deck.
+- Random Player #15 – Merchant
+> @link lib-witcher3.txt:161
+> @lt Random Player #15 – Merchant
+> Local: Novigrad – Oxenfurt
+> In the market square, we can also find a Merchant who will duel us as well; he will use a Northern Realms Deck.
+- Random Player #16 – Blacksmith
+> @link lib-witcher3.txt:163
+> @lt Random Player #16 – Blacksmith
+> Local: Novigrad – Oxenfurt
+> Head over to the Southeastern side of Oxenfurt, in between the bridges going to the Novigrad Gate & the Oxenfurt Academy, & we can find a Blacksmith. He will use a Monster Deck.
+- Random Player #17 – Herbalist
+> @link lib-witcher3.txt:165
+> @lt Random Player #17 – Herbalist
+> Local: Novigrad – Oxenfurt
+> If you look on your World Map where we are, you can see a structure with a wall around it just Northwest of our position outside Oxenfurt. Head up to it, & we can find an Herbalist we can duel for a chance at a new Card. He uses a Scoia’tael Deck; I earned an extra copy of Torrential Rain from this duel…
+> This is also that previously mentioned Herbalist we can purchase every Bomb type from as well as other Potion or Oil Formulae!
+## Sequence 12: An Impossible Redemption
+- Secondary Quest – Gwent Playing Innkeeps
+> @link lib-witcher3.txt:166
+> @lt Secondary Quest – Gwent Playing Innkeeps
+> Travel to the Inn At the Crossroads, & we can verse the Innkeep who was not allowed to have his own name for a rare Gwent Card; he has a Nilfgaardian Deck.
+## Sequence 13: Out of His Element
+- Random Player #18 – Innkeep
+> @link lib-witcher3.txt:181
+> @lt Random Player #18 – Innkeep
+> Local: Novigrad – Cunny of the Goose
+> We can duel the Innkeep in the Cunny of the Goose for a random Gwent Card; he uses a Scoia’tael Deck & has multiple Hero Cards…
+- Random Player #19 – Innkeep
+> @link lib-witcher3.txt:187
+> @lt Random Player #19 – Innkeep
+> Local: Novigrad – Seven Cats Inn
+> Once again, we can duel the Innkeep in this tavern for a chance of winning a new Gwent Card; she uses a Northern Realms Deck.
+- Random Player #20 – Herbalist
+> @link lib-witcher3.txt:192
+> @lt Random Player #20 – Herbalist
+> Local: Novigrad – Glory Lane
+> In the center of Glory Lane, will be the master swordsmith Hattori’s smithy… umm, dumpling parlor. From here, head Northeast up the street & we can find a Herbalist’s shop along the waterside (but not accessed from that side if that makes sense. This Gnome Herbalist is a Random Player; he has a Scoia’tael Deck with Hero Cards.
+- Random Player #21 – Madame
+> @link lib-witcher3.txt:194
+> @lt Random Player #21 – Madame
+> Local: Novigrad – Crippled Kate’s
+> Head North of the Herbalist to the other side of his shop to the waterfront, follow the waterfront along West & we can find Crippled Kate’s brothel; it can only be entered from the waterfront side. Not only can we plough some maidens, but we can duel the Madame for a new Card; she uses a Northern Realms Deck.
+## Sequence 14: How About Some Gwent?
+- Secondary Quest – Gwent Big City Players
+> @link lib-witcher3.txt:198
+> @lt Secondary Quest – Gwent Big City Players
+> In the Southwest corner of Hierarch Square, we can find the Dwarf banker Vimme Vivaldi. Speak with him, & we will be able to duel him for a rare Unique Gwent Card; he uses a Scoia’tael Deck.
+> Vivaldi can also convert our foreign currency into Crowns as well…
+- Secondary Quest – Gwent Playing Innkeeps
+> @link lib-witcher3.txt:200
+> @lt Secondary Quest – Gwent Playing Innkeeps
+> The Innkeep of the Kingfisher Inn is our next competitor for this Secondary Quest. Duel him to win his Unique Gwent Card; he uses a Monster Deck.
+> Note that during a different Secondary Quest – Now Or Never, Oliver can die; his Unique Gwent Card can fortunately can still be collected from a box on top of a dresser inside the building next door of the Kingfisher.
+- Random Player #22 – Innkeep
+> @link lib-witcher3.txt:202
+> @lt Random Player #22 – Innkeep
+> Local: Novigrad – Golden Sturgeon
+> While in the Golden Sturgeon, speak with the Innkeeper & duel them for a chance of earning a random Gwent Card; he uses a Scoia’tael Deck with Hero Cards.
+- Random Player #23 – Merchant
+> @link lib-witcher3.txt:208
+> @lt Random Player #23 – Merchant
+> Local: Novigrad – Fish Market
+> Nearby our contact for the Witcher Contract, we can find a Merchant who is a Random Player; he uses a Nilfgaardian Empire Deck with Hero Cards.
+- Random Player #24 – Blacksmith
+> @link lib-witcher3.txt:210
+> @lt Random Player #24 – Blacksmith
+> Local: Novigrad – Fish Market
+> We can also duel the nearby Blacksmith for a new Gwent Card as well; he uses a Monster Deck.
+- Random Player #25 – Marcus T.K. Hodgson
+> @link lib-witcher3.txt:212
+> @lt Random Player #25 – Marcus T.K. Hodgson
+> Local: Novigrad – Hierarch Square
+> Across the street from the Notice Board, we can find the store called Books & Scrolls. Enter inside & speak with the proprietor Marcus T.K. Hodgson. Apart from a minor Quest we can do involving him, we can also duel him for a random Card; he uses a Scoia’tael Deck with many Hero Cards.
+- Random Player #26 – Merchant
+> @link lib-witcher3.txt:220
+> @lt Random Player #26 – Merchant
+> Local: Novigrad – The Bits
+> Leave the Kingfisher Inn & head Southeast down the street into The Bits. Close to the Tretogor Gate (Novigrad side not Farcorners) we can find a small food market with a Merchant who is a Random Player; they use a Nilfgaardian Deck with Hero Cards.
+- Random Player #27 – Merchant
+> @link lib-witcher3.txt:222
+> @lt Random Player #27 – Merchant
+> Local: Novigrad – The Bits
+> From the courtyard where we fought Iron Mortimer, head immediately North of it to find two Merchants close to the Southern Gate; the one set up outside in the streets is a Random Player with a Northern Realms Deck.
+- Random Player #28 – Loan Shark
+> @link lib-witcher3.txt:224
+> @lt Random Player #28 – Loan Shark
+> Local: Novigrad – The Bits
+> Across from the previous Merchant, we can enter into a building to find a Loan Shark who is also a Random Player; he uses a Monster Deck.
+## Sequence 15: Gwent Anybody?
+- Secondary Quest – Gwent Big City Players
+> @link lib-witcher3.txt:227
+> @lt Secondary Quest – Gwent Big City Players
+> Though we can verse Marquise Serenity as our next opponent for this Secondary Quest, do not do this! This Quest is bugged!
+> For now, hold off on dueling her & wait until we progress further into the Main Questline to unlock one of the other opponents; once they are defeated, it will be safe to verse Marquise Serenity.
+- Random Player #29 – Innkeeper
+> @link lib-witcher3.txt:230
+> @lt Random Player #29 – Innkeeper
+> Local: Novigrad – Nowhere Inn
+> Continue North down the street from the Loan Shark all the way to the end of it where the Vilmerius Hospital is found. From here, take a left down the street & we can spot the Nowhere Inn. Inside, we can duel the Innkeeper for a chance at a new Card; she uses a Nilfgaardian Deck.
+- Random Player #30 – Merchant
+> @link lib-witcher3.txt:232
+> @lt Random Player #30 – Merchant
+> Local: Novigrad – Gildorf
+> Right in front of the Notice Board, we can find a Merchant’s shop. The Merchant inside happens to be a Random Player that uses a Nilfgaardian Deck with Hero Cards.
+> He also sells a second Potion of Clearance which could come in handy…
+- Random Player #31 – Blacksmith
+> @link lib-witcher3.txt:236
+> @lt Random Player #31 – Blacksmith
+> Local: Novigrad – Silverton
+> From the Golden Sturgeon, head Northeast up into Silverton & we can find a smithy near its center. Here we can find a Blacksmith who is a Random Player; they use a Nilfgaardian Deck.
+- Random Player #32 – Merchant
+> @link lib-witcher3.txt:238
+> @lt Random Player #32 – Merchant
+> Local: Novigrad – Silverton
+> Across the street from the Blacksmith, we can see a Merchant inside a building. To get there however, we need to head down the street to the left & go around to find the building’s entrance. Before we do that, after heading down the street left, we can spot a different Merchant in a shanty market who is also a Random Player; he uses a Monster Deck with Hero Cards.
+- Random Player #33 – Merchant
+> @link lib-witcher3.txt:240
+> @lt Random Player #33 – Merchant
+> Local: Novigrad – Silverton
+> Now head back across the street to where we were originally headed to the Merchant across from the Blacksmith. We can duel this Merchant for a random Card; he uses a Scoia’tael Deck with Hero Cards.
+- Random Player #34 – Priest of the Eternal Fire
+> @link lib-witcher3.txt:242
+> @lt Random Player #34 – Priest of the Eternal Fire
+> Local: Novigrad – Temple Isle
+> For our next Random Player, head North to Temple Isle across St. Gregory’s Bridge. Head to the center of the area to the Elector’s Square Signpost where we can find a Priest of the Eternal Fire who is an Alchemist. We can duel him for a new Card; he uses a Nilfgaardian Deck.
+- Random Player #35 – Elihal
+> @link lib-witcher3.txt:244
+> @lt Random Player #35 – Elihal
+> Local: Novigrad – Farcorners
+> Northeast of Farcorners will be a small island outside Novigrad with many outer bridges connecting to it (Gate of the Hierarch, Tretogor Gate, & Southern Gate). In between the Gate of the Hierarch & Tretogor Gate Signposts, we can find a Merchant named Elihal inside a house. Duel him for a chance at a random Card; he uses a Northern Realms Deck.
+## Sequence 16: Hunting Witch Hunters...
+- Secondary Quest – Gwent Old Pals
+> @link lib-witcher3.txt:253
+> @lt Secondary Quest – Gwent Old Pals
+> After completing Main Quest – Broken Flowers, we can now verse Zoltan in Gwent to unlock this Secondary Quest; he uses a Scoia’tael Deck.
+- Secondary Quest – Gwent Big City Players
+> @link lib-witcher3.txt:255
+> @lt Secondary Quest – Gwent Big City Players
+> Now that we have met Dijkstra, quickly return back to the Passiflora & we can now safely verse Marquise Serenity (if you have not already done so). She uses a Nilfgaardian Deck.
+- Secondary Quest – Gwent Big City Players
+> @link lib-witcher3.txt:256
+> @lt Secondary Quest – Gwent Big City Players
+> Now rush back to the Bathhouse to speak with Dijkstra again & we can now challenge him to a game of Gwent.
+- Random Player #36 – Merchant
+> @link lib-witcher3.txt:259
+> @lt Random Player #36 – Merchant
+> Local: Novigrad – Putrid Grove
+> Once we locate the Putrid Grove, enter inside the compound. Before we enter the den itself, look around in the compound & we can find a Merchant in a building near the entrance. We can duel him for a Random Card; he uses a Monster Deck with Hero Cards.
+## Sequence 17: Old Friends
+- Secondary Quest – Gwent Big City Players
+> @link lib-witcher3.txt:264
+> @lt Secondary Quest – Gwent Big City Players
+> Our last opponent for this Quest can be found outside Novigrad, Southwest from the Portside Gate. At the Quest Marker, we can find a new group of Scoia’tael set up, with a Merchant we can speak to. Duel them to complete the Quest & collect their Unique Gwent Card; naturally, he uses a Scoia’tael Deck with Hero Cards.
+> We can only verse this Merchant if we have previously defeated Dijkstra…
+- Secondary Quest – Gwent Old Pals
+> @link lib-witcher3.txt:265
+> @lt Secondary Quest – Gwent Old Pals
+> It is now time for us to go see another old pal as it was. After beating Zoltan, we can now go track down Vernon Roche at his hideout. Head there & we can find his guerrilla force & Ves too.
+> Unfortunately, at the moment for now at least, we don’t really have a lot to talk about. But we can verse him in Gwent for a new Card; he of course uses a Northern Realms Deck.
+## Sequence 18: Beggars & Kings
+- Secondary Quest – Gwent Playing Thaler
+> @link lib-witcher3.txt:287
+> @lt Secondary Quest – Gwent Playing Thaler
+> After completing the previous Quest, we can now play Thaler for a new Unique Gwent Card; the other best Card aside from Ciri to be exact… Thaler uses a Scoia’tael Deck.
+- Random Player #37 – Innkeeper
+> @link lib-witcher3.txt:291
+> @lt Random Player #37 – Innkeeper
+> Local: Novigrad – Kingfisher Inn
+> If Oliver died during Secondary Quest - Now Or Never, he will be replaced by an unnamed Innkeeper that we can duel for a random Card. If Oliver is still alive, we will not be able to get a new Card. This is not a big deal either way; there are more Random Players in the game than Card in the "Random Pool" & I include all their locations in the guide even after we unlock the Achievement...
+## Sequence 19: A Divine Comedy
+- Random Player #38 – Innkeeper
+> @link lib-witcher3.txt:306
+> @lt Random Player #38 – Innkeeper
+> Local: Novigrad – Chameleon
+> With Act 1 completed here in Novigrad, we can now complete some new Secondary Quests for Dandelion. Complete the Secondary Quests – Cabaret, & Carnal Sins to help Dandelion rebrand the Rosemary & Thyme as “Chameleon”.
+> Fast Travel elsewhere & return to the establishment to have a new Innkeeper here to play in Gwent for a Card; he uses a Monster Deck.
+## Sequence 20: Castaway
+- Random Player #39 – Herbalist
+> @link lib-witcher3.txt:315
+> @lt Random Player #39 – Herbalist
+> Local: Ard Skellig – Kaer Trolde
+> Progress further along the harbor & we can find an Herbalist close by where the Notice Board is who will duel us in Gwent; he uses a Nilfgaardian Empire Deck.
+- Random Player #40 – Jonas the Innkeep
+> @link lib-witcher3.txt:317
+> @lt Random Player #40 – Jonas the Innkeep
+> Local: Ard Skellig – Kaer Trolde
+> Enter inside the Inn now & speak with Jonas the Innkeep. We can duel him for a new Card; he uses a Monster Deck.
+- Random Player #41 – Armorer
+> @link lib-witcher3.txt:322
+> @lt Random Player #41 – Armorer
+> Local: Ard Skellig – Kaer Trolde
+> Before we leave Kaer Trolde castle, we can locate the armory close the castle’s exit. Head over there & speak with the Armorer during business hours (there are potentially more than one so keep speaking with them until you find the right Armorer…). We can duel the Armorer for a new Card; they use a Northern Realms Deck.
+- Random Player #42 – Blacksmith
+> @link lib-witcher3.txt:324
+> @lt Random Player #42 – Blacksmith
+> Local: Ard Skellig – Kaer Trolde
+> Right beside the Armorer here at the castle will be a lone Blacksmith who is also a Random Player. Note that he is often bugged & you will not be able to speak with him. If this is the case, make a Save, then continue to Meditate until he will talk; he will not speak regardless of if it is night. The Blacksmith will use a Scoia’tael Deck.
+## Sequence 21: Snow, Salt, & Cold Steel
+- Random Player #43 – Merchant
+> @link lib-witcher3.txt:336
+> @lt Random Player #43 – Merchant
+> Local: Ard Skellig – Blandare
+> While in Blandare, we can find a Merchant who is a Random Player that we can duel; they use a Northern Realms Deck with Hero Cards.
+- Random Player #44 – Herbalist
+> @link lib-witcher3.txt:339
+> @lt Random Player #44 – Herbalist
+> Local: Ard Skellig – Blandare
+> Head South down the road from Blandare towards an Undiscovered Location & it will be a Person In Distress. This person will be an Herbalist held captive by some Bandits. Kill them, & let the Herbalist walk over to an idle position so we can talk with them; they are a Random Player & use a Scoia’tael Deck.
+> I earned a Biting Frost Card from the Random Card Pool this duel & not a new Gwent Card…
+## Sequence 22: Kvitravn
+- Random Player #45 – Merchant
+> @link lib-witcher3.txt:348
+> @lt Random Player #45 – Merchant
+> Local: Ard Skellig – Fayrlund
+> In Fayrlund, we can find a Merchant who is a Random Player; they use a Scoia’tael Deck.
+- Random Player #46 – Blacksmith
+> @link lib-witcher3.txt:350
+> @lt Random Player #46 – Blacksmith
+> Local: Ard Skellig – Fayrlund
+> We can also find a Blacksmith here as well who is a Random Player; they use a Monster Deck.
+- Random Player #47 – Innkeeper
+> @link lib-witcher3.txt:352
+> @lt Random Player #47 – Innkeeper
+> Local: Ard Skellig – Arinbjorn
+> While we are here, we can duel the Innkeeper for a chance at a new Card; he uses a Scoia’tael Deck.
+- Random Player #48 – Blacksmith
+> @link lib-witcher3.txt:358
+> @lt Random Player #48 – Blacksmith
+> Local: Ard Skellig – Arinbjorn
+> Head lower down into the village & we can find a Blacksmith here who is a Random Player; he uses a Monster Deck.
+- Random Player #49 – Merchant
+> @link lib-witcher3.txt:360
+> @lt Random Player #49 – Merchant
+> Local: Ard Skellig – Holmstein
+> Head down to Homstein’s Port & we can find a Merchant here who is a Random Player; he uses a Scoia’tael Deck.
+- Random Player #50 – Armorer
+> @link lib-witcher3.txt:362
+> @lt Random Player #50 – Armorer
+> Local: Ard Skellig – Kaer Muire
+> From Holmstein, head up the hill to the East to the large fortress, Kaer Muire, which belongs to Madman Lugos. Here we can verse both the Armorer & Blacksmith for new Gwent Cards; the Armorer uses a Monster Deck.
+- Random Player #51 – Smith
+> @link lib-witcher3.txt:364
+> @lt Random Player #51 – Smith
+> Local: Ard Skellig – Kaer Muire
+> Right beside the Armorer, we can also duel the nearby Smith; he uses a Scoia’tael Deck with many Hero Cards.
+- Random Player #52 – Merchant
+> @link lib-witcher3.txt:365
+> @lt Random Player #52 – Merchant
+> Local: Ard Skellig – Fyresdal
+> Near the port, we can find a Merchant that is a Random Player; he uses a Monster Deck.
+- Random Player #53 – Smith
+> @link lib-witcher3.txt:366
+> @lt Random Player #53 – Smith
+> Local: Ard Skellig – Fyresdal
+> While still at the port, we can find a Smith who is also a Gwent player across the beach from the Merchant; he uses a Scoia’tael Deck.
+> Monster Nest #3: Since we looked at the Fyresdal Notice Board, we will have marked the last two Monster Nests we can find on Ard Skellig. For the next one, head to the small fort located West of Fyresdal; we will find a Harpy Nest.
+> Monster Nest #4: For the last Monster Nest, head East of Fyresdal to the Ruined Inn where we can find a Siren Nest to destroy.
+## Sequence 23: Lilac & Gooseberry
+- Secondary Quest – Gwent Skellige Style
+> @link lib-witcher3.txt:370
+> @lt Secondary Quest – Gwent Skellige Style
+> Since we have freed Ermion from being story locked, he is now available for us to duel him in Gwent. Speak with him after Yennefer leaves, & we can finally duel him for his Unique Card; he uses a Monster Deck.
+- Secondary Quest – Gwent Skellige Style
+> @link lib-witcher3.txt:371
+> @lt Secondary Quest – Gwent Skellige Style
+> After we defeat Ermion, we will unlock our next two opponents. Because we completed Secondary Quest – Shock Therapy, we can now duel Gremist for a new Unique Card; he uses a Nilfgaardian Deck.
+- Secondary Quest – Gwent Skellige Style
+> @link lib-witcher3.txt:372
+> @lt Secondary Quest – Gwent Skellige Style
+> Go to Kaer Trolde now & verse Crach an Craite in a duel who apparently surpassed his teacher, Ermion; Crach uses a Monster Deck.
+> We can also speak with Crach about the man Hammond who we are searching for in Secondary Quest – Following the Thread…
+> Note that there is a potential bug with versing Crach. Sometimes, if you are unlucky, when you go to speak with Crach to verse him in Gwent he won't acknowledge the Quest. Unfortunately, if this happens the only way to fix this is to actually beat Secondary Quest – King Maker & finish the plot line to place a new ruler on Skellige's throne.
+- Secondary Quest – Gwent Skellige Style
+> @link lib-witcher3.txt:373
+> @lt Secondary Quest – Gwent Skellige Style
+> With Crach defeated, he will recommend that we verse Sjusta the Tailer who can also be found here in Kaer Trolde. Head down to where the New Port Inn is, & we can find Sjusta’s shop; he uses a Northern Realms Deck.
+- Secondary Quest – Gwent Skellige Style
+> @link lib-witcher3.txt:374
+> @lt Secondary Quest – Gwent Skellige Style
+> For our final opponent during this Quest, go to Kaer Muire & duel Madman Lugos for his Card; he uses a Monster Deck.
+- Secondary Quest – Gwent Old Pals
+> @link lib-witcher3.txt:378
+> @lt Secondary Quest – Gwent Old Pals
+> This is the Missable part of the Quest; as soon as we finish Secondary Quest – Following the Thread, speak with Lambert before he leaves! If Lambert despawns, we can only verse him later on once we go to Kaer Morhen or void the Card Collector Achievement.
+- Random Player #54 – Innkeeper
+> @link lib-witcher3.txt:385
+> @lt Random Player #54 – Innkeeper
+> Local: Faroe – Harviken
+> While in the village, enter into the tavern at the top of the settlement to find an Innkeep who is a Random Player; he uses a Monster Deck.
+- Random Player #55 – Blacksmith
+> @link lib-witcher3.txt:390
+> @lt Random Player #55 – Blacksmith
+> Local: Faroe – Harviken
+> Just down the hill from the inn, we can find a Blacksmith who is also a Random Player; he uses a Scoia’tael Deck.
+## Sequence 24: Helvegen
+- Random Player #55 – Innkeeper
+> @link lib-witcher3.txt:404
+> @lt Random Player #55 – Innkeeper
+> Local: Hindarsfjall – Larvik
+> Close to the Notice Board, we can find an inn with the Innkeeper being a Random Player; he uses a Scoia’tael Deck.
+- Random Player #56 – Merchant
+> @link lib-witcher3.txt:405
+> @lt Random Player #56 – Merchant
+> Local: Hindarsfjall – Larvik
+> Head outside the inn, & we can find a Merchant who will also happen to be a Random Player; he uses a Northern Realms Deck.
+- Random Player #57 – Armorer
+> @link lib-witcher3.txt:406
+> @lt Random Player #57 – Armorer
+> Local: Hindarsfjall – Larvik
+> Near the main entrance to Larvik, we can find an Armorer who is a Random Player; he uses a Nilfgaardian Empire Deck.
+- Random Player #58 – Blacksmith
+> @link lib-witcher3.txt:407
+> @lt Random Player #58 – Blacksmith
+> Local: Hindarsfjall – Larvik
+> At the back end of the village right beside where Clan Chief Donar an Hindar is, we can find a Blacksmith who is also a Random Player; this entire town plays Gwent?! The Blacksmith uses a Monster Deck.
+- Random Player #59 – Armorer
+> @link lib-witcher3.txt:408
+> @lt Random Player #59 – Armorer
+> Local: An Skellig – Urialla Harbor
+> Near the waterfront, we can find an Armorer in a building that is a Random Player; he uses a Nilfgaardian Deck.
+- Random Player #60 – Blacksmith
+> @link lib-witcher3.txt:409
+> @lt Random Player #60 – Blacksmith
+> Local: An Skellig – Urialla Harbor
+> Close to the center of the village, we can find a Blacksmith who is also a Random Player; he uses a Monster Deck.
+- Random Player #61 – Innkeep
+> @link lib-witcher3.txt:410
+> @lt Random Player #61 – Innkeep
+> Local: An Skellig – Urialla Harbor
+> The Innkeep found in the Urialla Harbor Inn is a Random Player as well & uses a Northern Realms Deck.
+## Sequence 25: Long Live an Craite!
+- Random Player #62 – Smith
+> @link lib-witcher3.txt:423
+> @lt Random Player #62 – Smith
+> Local: Spikeroog – Svorlag
+> In Svorlag, the local Smith will be a Random Player that uses a Nilfgaardian Empire Deck.
+- Random Player #63 – Innkeeper
+> @link lib-witcher3.txt:424
+> @lt Random Player #63 – Innkeeper
+> Local: Spikeroog – Svorlag
+> The Innkeep is also a Random Player & uses a Northern Realms Deck; he is also sells Gwent Cards as well…
+- Random Player #64 – Merchant
+> @link lib-witcher3.txt:429
+> @lt Random Player #64 – Merchant
+> Local: Spikeroog – Svorlag
+> Down by the waterfront we can find a Merchant he is a Random Player that uses a Scoia’tael Deck.
+## Sequence 27: Doing Just Gwent, Thanks
+- Achievement #39 – Gwent Master
+> @link lib-witcher3.txt:446
+> @lt Achievement #39 – Gwent Master
+> Defeat Tybalt & win the Gwent Tournament held at the Passiflora.
+> We will unlock this Achievement as soon as we defeat Count Tybalt; there is still a bit more to complete during Secondary Quest – High Stakes, but it is well… secondary, now that we have what we really needed.
+- Achievement #40 – Card Collector
+> @link lib-witcher3.txt:447
+> @lt Achievement #40 – Card Collector
+> Acquire all 169 Gwent Cards available in the base version of the game.
+> If you have been following along with the guide, we will unlock this Achievement after earning our final four Cards during Secondary Quest – High Stakes.
+> If I am being completely honest… I am pretty sure some of the Cards included in the guide do not count. The problem is, there is no real way of knowing for sure with out so much proofing. I found it was just safest to collect every single non-stackable Card & call it unique; if nothing else, it helped you build the strongest Deck possible to win the tournament…
+> Though there are more Gwent Cards to be earned through the Hearts of Stone DLC & potential new Random Players to defeat, I will no longer record any more Gwent related information in the guide… that is, until we begin the Blood & Wine DLC…
+- Random Player #65 – Swordsmith
+> @link lib-witcher3.txt:448
+> @lt Random Player #65 – Swordsmith
+> Local: Velen – Mulbrydale
+> If you have not already done so, we can rescue a captured Swordsmith from a Person In Distress location just Southwest of Mulbrydale along the shoreline. Free them, & when they return back to the village, we can duel them in Gwent; they use a Monster Deck.
+## Sequence 40: From Rags to Riches
+- Achievement #70 – I Have A Gwent Problem
+> @link lib-witcher3.txt:586
+> @lt Achievement #70 – I Have A Gwent Problem
+> Collect all 38 cards in the Skellige Deck.
+> If you have been following along with this guide, we will unlock this Achievement after acquiring the final 19 Cards to the Skellige Deck from speaking with Count Monnier.
+> After two days, we can complete the Tournament; doing this is a way to fulfil the Virtue of Wisdom, but it is optional & there are other ways we can do this as well.

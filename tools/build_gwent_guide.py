@@ -81,6 +81,17 @@ def field(text, key):
     return m.group(1).strip() if m else ''
 
 
+def copies_in_game(src):
+    """Number of copies of a card, from the wiki "source" lines ("2 are part of the base deck<br/>1 is ...")."""
+    n = 0
+    for line in re.split(r'<br\s*/?>|\n', re.sub(r'\{\{(?:HoS|BaW|B&W)[^}]*\}\}:?', '', src)):
+        line = clean(line)
+        if line:
+            m = re.match(r'(\d+)\b', line)
+            n += int(m.group(1)) if m else 1
+    return n
+
+
 def card_data():
     """Return {normalized name: {pow, tags, ability}} from the wiki card infoboxes."""
     titles = []
@@ -101,7 +112,8 @@ def card_data():
             if row in ROWS:
                 tags.append(ROWS[row])
             st = re.match(r'\d+', clean(field(w, 'strength')))
-            out[norm(name)] = {'pow': st.group(0) if st else '', 'tags': tags, 'ability': clean(field(w, 'spec_ability'))}
+            out[norm(name)] = {'pow': st.group(0) if st else '', 'tags': tags, 'ability': clean(field(w, 'spec_ability')),
+                               'copies': copies_in_game(field(w, 'source')), 'name': name}
     return out
 
 
@@ -143,38 +155,72 @@ def find(name, imgs):
     return pick, imgs[pick]
 
 
-def read_cards(src):
-    """Cards of the main guide: item ordinal, name, done flag, detail lines."""
-    cards, n, cur = [], 0, None
+CARD_RE = re.compile(r'(Unique Gwent Card|Unique Card|Gwent Card|Skellige Cards?) #\d+ – (.*)')
+EXTRA_ACH = ('Gwent Master', 'Card Collector', 'I Have A Gwent Problem')
+
+
+def read_main(src):
+    """Cards and other Gwent entries of the main guide: item ordinal, titles, done flag, detail lines."""
+    cards, others, n, cur, seq = [], [], 0, None, ''
     for line in open(src, encoding='utf8').read().split('\n'):
         m = re.match(r'^(\[x\]|-) (.*)$', line)
         if m:
-            t = re.match(r'(Unique Gwent Card|Unique Card|Skellige Cards?) #\d+ – (.*)', m.group(2))
-            cur = {'n': n, 'name': t.group(2), 'done': m.group(1) == '[x]', 'detail': []} if t else None
-            if cur:
-                cards.append(cur)
+            title, cur = m.group(2), None
+            rec = {'n': n, 'title': title, 'done': m.group(1) == '[x]', 'detail': [], 'seq': seq}
+            t = CARD_RE.match(title)
+            if t:
+                rec['name'] = t.group(2)
+                cards.append(rec)
+                cur = rec
+            elif (re.match(r'(Random (Gwent )?Player|Gwent Player)\b', title)
+                  or (title.startswith('Secondary Quest – Gwent'))
+                  or any(title.endswith(a) for a in EXTRA_ACH)):
+                others.append(rec)
+                cur = rec
             n += 1
+        elif line.startswith('# '):
+            seq, cur = line[2:], None
         elif line.startswith('#'):
             cur = None
         elif line.startswith('> ') and cur is not None:
             cur['detail'].append(line[2:])
-    return cards
+    return cards, others
 
 
 def main(src, dst):
     imgs, data = images(), card_data()
-    cards = read_cards(src)
+    cards, others = read_main(src)
     base_of = lambda c: re.sub(r'\s*\((\d+)\)', '', c['name']).strip()
     copies = {}
     for c in cards:
         copies.setdefault(base_of(c), []).append(c)
-    for lst in copies.values():
+    for c in cards:
+        c['info'] = card_info(c['name'], data)
+    # copies per game card: guide entries first, then extra copies the wiki lists (neutral weather, Decoy, ...)
+    by_card = {}
+    for c in cards:
+        if c['info']:
+            by_card.setdefault(id(c['info']), []).append(c)
+    extras = []
+    for lst in by_card.values():
+        inf = lst[0]['info']
+        total = max(inf['copies'], len(lst))
         for i, c in enumerate(lst, 1):
-            c['copy'] = (i, len(lst)) if len(lst) > 1 else None
+            c['copy'] = (i, total) if total > 1 else None
+        last = lst[-1]
+        for k in range(len(lst) + 1, total + 1):
+            extras.append({'after': last, 'name': '%s (cópia extra %d)' % (base_of(last), k), 'copy': (k, total),
+                           'info': inf, 'detail': ['Cópia extra: não conta para o Card Collector, serve para montar o baralho.'],
+                           'extra': True, 'done': False, 'n': None, 'src': last})
+    for c in cards:
+        if not c['info']:
+            c['copy'] = None
+            lst = copies[base_of(c)]
+            if len(lst) > 1:
+                c['copy'] = (lst.index(c) + 1, len(lst))
     groups, noart, nodata = {}, [], []
     for c in cards:
         hit = find(c['name'], imgs)
-        c['info'] = card_info(c['name'], data)
         if not c['info']:
             nodata.append(c['name'])
         if hit:
@@ -183,34 +229,57 @@ def main(src, dst):
         else:
             fac = 'Outras cartas'
             noart.append(c['name'])
+        c['fac'], c['hit'] = fac, hit
         groups.setdefault(fac, []).append(c)
+        for e in extras:
+            if e['after'] is c:
+                e['img'] = c.get('img')
+                groups[fac].append(e)
+    title_of = {c['n']: c['title'] for c in cards}
     order = ['Northern Realms', 'Nilfgaard', "Scoia'tael", 'Monsters', 'Skellige', 'Neutral', 'Outras cartas']
     out = ['> Cartas de Gwent do guia, por facção. Marcar aqui também marca no guia principal (e vice-versa).',
-           '> %d entradas (cada cópia conta), %d cartas distintas, %d com mais de uma cópia.'
-           % (len(cards), len(copies), sum(1 for v in copies.values() if len(v) > 1))]
+           '> %d entradas do guia (cada cópia conta), %d cartas distintas e %d cópias extras (etiqueta Extra, só aqui, não contam para a conquista).'
+           % (len(cards), len(copies), len(extras))]
     for fac in order:
         if fac not in groups:
             continue
         lst = groups[fac]
         out.append('# ' + fac)
-        out.append('> %d entradas, %d distintas.' % (len(lst), len({base_of(c) for c in lst})))
+        real = [c for c in lst if not c.get('extra')]
+        out.append('> %d entradas, %d distintas, %d cópias extras.' % (len(real), len({base_of(c) for c in real}), len(lst) - len(real)))
         for c in lst:
             out.append(('[x] ' if c['done'] else '- ') + c['name'])
             if c.get('img'):
                 out.append('> @img ' + c['img'])
-            out.append('> @link %s:%d' % (MAIN_ID, c['n']))
+            if not c.get('extra'):
+                out.append('> @link %s:%d' % (MAIN_ID, c['n']))
+                out.append('> @lt ' + title_of[c['n']])
             inf = c['info']
             if inf:
                 if inf['pow']:
                     out.append('> @pow ' + inf['pow'])
                 out += ['> @tag ' + t for t in inf['tags']]
+            if c.get('extra'):
+                out.append('> @tag Extra')
             if c['copy']:
                 out.append('> @copy %d/%d' % c['copy'])
             if inf and inf['ability']:
                 out.append('> Habilidade: ' + inf['ability'])
             out += ['> ' + d for d in c['detail']]
+    # jogadores, quests e conquistas de Gwent (ligados ao guia principal)
+    out.append('# Jogadores e quests de Gwent')
+    out.append('> Quem enfrentar, quests e conquistas de Gwent. Ligados ao guia principal.')
+    seq = None
+    for o in others:
+        if o['seq'] != seq:
+            seq = o['seq']
+            out.append('## ' + seq)
+        out.append(('[x] ' if o['done'] else '- ') + o['title'])
+        out.append('> @link %s:%d' % (MAIN_ID, o['n']))
+        out.append('> @lt ' + o['title'])
+        out += ['> ' + d for d in o['detail']]
     open(dst, 'w', encoding='utf8').write('\n'.join(out) + '\n')
-    print(len(cards), 'cards;', {f: len(v) for f, v in groups.items()})
+    print(len(cards), 'cards;', len(extras), 'extra copies;', len(others), 'players/quests;', {f: len(v) for f, v in groups.items()})
     print('without art:', noart)
     print('without data:', nodata)
 

@@ -77,6 +77,7 @@ h2.sec{font-size:1rem;color:var(--gold);margin:22px 0 6px}
 #view.hidedone .item.done:not(.just){display:none}
 
 /* cartas com arte */
+.tw{position:relative;flex:none}
 .thumb{flex:none;width:64px;height:auto;min-height:88px;border-radius:6px;border:1px solid var(--line);background:#0a0d10 center/cover;object-fit:cover;cursor:zoom-in}
 .item.bigimg{flex-wrap:wrap}
 .item.bigimg .thumb{width:100%;max-width:300px;order:5;cursor:zoom-out;margin:8px auto 0}
@@ -85,3 +86,10 @@ h2.sec{font-size:1rem;color:var(--gold);margin:22px 0 6px}
 .linkbar{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}
 .chip{border-radius:20px;padding:6px 14px;font-size:.9rem}
 .chip.danger{color:#ff8a8a;border-color:#4a2a2e}
+
+.pow{position:absolute;left:-6px;top:-6px;min-width:26px;height:26px;padding:0 4px;border-radius:13px;background:#0d1013;border:2px solid var(--gold);color:var(--gold);font:700 .9rem/22px Georgia,serif;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.6)}
+.meta{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.tag{font-size:.72rem;padding:1px 8px;border-radius:10px;background:#0f1417;border:1px solid var(--line);color:var(--steel)}
+.tag.copy{color:var(--gold);border-color:#5a4a1f}
+.item.bigimg .tw{order:5;width:100%;display:flex;justify-content:center}
+.item.bigimg .tw .thumb{margin:8px auto 0}

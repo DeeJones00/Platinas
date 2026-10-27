@@ -2,11 +2,21 @@
 
 PWA to read game guides and strike items off while playing. Plain HTML/CSS/JS, no build step. Data stays in the browser (`localStorage`) and works offline.
 
-## Guide format
+## Structure
 
-- `# Title` starts a section
-- `> text` is a note (not strikeable)
-- any other line is an item you tap to strike
+Games are folders. Each folder holds guides. Inside a guide, groups open and close (closed by default) and show a done/total counter. Tap the checkbox to strike an item; tap the item text (or the info icon) to read its detail. Open groups and progress are remembered. Data lives in IndexedDB on the device.
+
+## Guide format (text)
+
+- `#`, `##`, `###` start a group, nested by depth
+- `- text` is an item you can strike (a bare line works too, `[x] text` starts it done)
+- `> text` is detail for the item above it (or for the group, before its first item)
+
+Use "Importar" to load a `.txt` guide or a `.json` backup. "Backup" downloads everything, progress included.
+
+## Steam guide converter
+
+`tools/steam_guide_to_text.py <guide.html|URL> <out.txt>` converts the Steam "100% Achievement Guide: The Witcher 3" into the text format above. The output is the author's text, so it goes in `private/` (git-ignored). Do not commit it.
 
 ## Deploy on GitHub Pages
 

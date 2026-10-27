@@ -1,20 +1,27 @@
 #!/usr/bin/env python3
-"""Build guides/gwent.txt (Gwent card checklist by faction, with art) from guides/witcher3.txt.
+"""Build guides/gwent.txt (Gwent card checklist by faction, with art, strength and class) from guides/witcher3.txt.
 
-Card art comes from the Witcher wiki (Fandom) file list; the app loads the images from there at runtime.
-Each card links back to its entry in the main guide ("@link lib-witcher3.txt:<item number>") so ticks stay in sync.
-Cards whose art could not be matched are listed on stdout and placed in "Outras cartas".
+Card art and card data (strength, row, type, ability) come from the Witcher wiki (Fandom); the app loads the
+images from there at runtime. Each card links back to its entry in the main guide
+("@link lib-witcher3.txt:<item number>") so ticks stay in sync. Cards that appear more than once in the guide
+(copies 1, 2, 3 ...) get "@copy i/n".
 
 Usage: build_gwent_guide.py [guides/witcher3.txt] [guides/gwent.txt]
 """
 import json
 import re
 import sys
+import urllib.parse
 import urllib.request
 
-API = 'https://witcher.fandom.com/api.php?action=query&list=allimages&aiprefix=Tw3_cardart_&ailimit=500&format=json'
+WIKI = 'https://witcher.fandom.com/api.php'
 FACTIONS = {'northernrealms': 'Northern Realms', 'nilfgaard': 'Nilfgaard', 'nilgaard': 'Nilfgaard',
             'scoiatael': "Scoia'tael", 'monsters': 'Monsters', 'skellige': 'Skellige', 'neutral': 'Neutral'}
+CATEGORIES = ['Northern_Realms_gwent_deck_cards', 'Nilfgaardian_Empire_gwent_deck_cards', "Scoia'tael_gwent_deck_cards",
+              'Monsters_gwent_deck_cards', 'Skellige_gwent_deck_cards', 'Neutral_gwent_cards']
+ROWS = {'close combat': 'Corpo a corpo', 'closed-ranged': 'Ágil (corpo a corpo ou distância)',
+        'ranged': 'À distância', 'siege': 'Cerco'}
+TYPES = {'hero': 'Herói', 'leader': 'Líder', 'weather': 'Clima', 'special': 'Especial'}
 MAIN_ID = 'lib-witcher3.txt'
 # Cards whose name differs from the art file name. Leaders share one art per hero (the "gold" file).
 ALIAS = {
@@ -35,23 +42,77 @@ ALIAS = {
     'war longship': 'skellige_war_drakkar', 'light longship': 'skellige_light_drakkar', 'mardroeme': 'skellige_special_mushroom',
     'kambi': 'skellige_cock',  # best guess, check by eye
 }
+# Guide card names that differ from the wiki card name (both normalized).
+NAME_ALIAS = {'poorfockininfantry': 'poorfuckinginfantry', 'vattierderidaux': 'vattierderideaux', 'griffon': 'griffin',
+              'heavyzerrikanainfirescorpion': 'heavyzerrikanianfirescorpion',
+              'francescafindabairqueenofdolbathanna': 'francescafindabairqueenofdolblathanna'}
 
 
 def norm(s):
     return re.sub(r'[^a-z0-9]', '', s.lower())
 
 
+def wiki(**p):
+    p['format'] = 'json'
+    req = urllib.request.Request(WIKI + '?' + urllib.parse.urlencode(p), headers={'User-Agent': 'Mozilla/5.0'})
+    return json.load(urllib.request.urlopen(req))
+
+
 def images():
-    req = urllib.request.Request(API, headers={'User-Agent': 'Mozilla/5.0'})
-    out = {}
-    for i in json.load(urllib.request.urlopen(req))['query']['allimages']:
-        out[i['name'][len('Tw3_cardart_'):-4]] = i['url']
-    return out
+    r = wiki(action='query', list='allimages', aiprefix='Tw3_cardart_', ailimit=500)
+    return {i['name'][len('Tw3_cardart_'):-4]: i['url'] for i in r['query']['allimages']}
 
 
 def thumb(url, w=200):
     base, _, q = url.partition('/revision/latest')
     return base + '/revision/latest/scale-to-width-down/%d' % w + q
+
+
+def clean(t):
+    t = re.sub(r'<br\s*/?>', ' ', t)
+    t = re.sub(r'\{\{[^{}]*\}\}', '', t)
+    t = re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]', r'\1', t)
+    t = t.replace("'''", '').replace("''", '')
+    return re.sub(r'\s+', ' ', t).strip()
+
+
+def field(text, key):
+    m = re.search(r'\|\s*%s\s*=\s*(.*?)(?=\n\|[a-z_]+\s*=|\n\}\})' % key, text, re.S)
+    return m.group(1).strip() if m else ''
+
+
+def card_data():
+    """Return {normalized name: {pow, tags, ability}} from the wiki card infoboxes."""
+    titles = []
+    for c in CATEGORIES:
+        r = wiki(action='query', list='categorymembers', cmtitle='Category:' + c, cmlimit=500)
+        titles += [m['title'] for m in r['query']['categorymembers'] if m['ns'] == 0]
+    out, titles = {}, sorted(set(titles))
+    for i in range(0, len(titles), 40):
+        r = wiki(action='query', prop='revisions', rvprop='content', rvslots='main', titles='|'.join(titles[i:i + 40]))
+        for pg in r['query']['pages'].values():
+            w = pg['revisions'][0]['slots']['main']['*']
+            name = clean(field(w, 'name'))
+            if not name:
+                continue
+            typ = clean(field(w, 'type')).lower()
+            row = re.sub(r'[{}]', '', field(w, 'row')).replace('Gwent', '').strip().lower()
+            tags = [TYPES[typ]] if typ in TYPES else []
+            if row in ROWS:
+                tags.append(ROWS[row])
+            st = re.match(r'\d+', clean(field(w, 'strength')))
+            out[norm(name)] = {'pow': st.group(0) if st else '', 'tags': tags, 'ability': clean(field(w, 'spec_ability'))}
+    return out
+
+
+def card_info(name, data):
+    base = re.sub(r'\s*\((\d+|Leader|Hero|Leader Card)\)', '', name).strip()
+    k = norm(base)
+    k = NAME_ALIAS.get(k, k)
+    if k in data:
+        return data[k]
+    hits = [v for kk, v in data.items() if kk.startswith(k) or k.startswith(kk)]
+    return hits[0] if len(hits) == 1 else None
 
 
 def find(name, imgs):
@@ -82,56 +143,76 @@ def find(name, imgs):
     return pick, imgs[pick]
 
 
-def main(src, dst):
-    imgs = images()
-    cards, n = [], 0
+def read_cards(src):
+    """Cards of the main guide: item ordinal, name, done flag, detail lines."""
+    cards, n, cur = [], 0, None
     for line in open(src, encoding='utf8').read().split('\n'):
         m = re.match(r'^(\[x\]|-) (.*)$', line)
-        if not m:
-            continue
-        t = re.match(r'(Unique Gwent Card|Unique Card|Skellige Cards?) #\d+ – (.*)', m.group(2))
-        if t:
-            cards.append({'n': n, 'name': t.group(2), 'done': m.group(1) == '[x]', 'detail': []})
-        n += 1
-    # details: lines following a card entry, until the next item or group
-    cur, items = None, iter(cards)
-    nxt = next(items, None)
-    k = -1
-    for line in open(src, encoding='utf8').read().split('\n'):
-        if re.match(r'^(\[x\]|-) ', line):
-            k += 1
-            cur = nxt if nxt and nxt['n'] == k else None
+        if m:
+            t = re.match(r'(Unique Gwent Card|Unique Card|Skellige Cards?) #\d+ – (.*)', m.group(2))
+            cur = {'n': n, 'name': t.group(2), 'done': m.group(1) == '[x]', 'detail': []} if t else None
             if cur:
-                nxt = next(items, None)
+                cards.append(cur)
+            n += 1
         elif line.startswith('#'):
             cur = None
         elif line.startswith('> ') and cur is not None:
             cur['detail'].append(line[2:])
-    groups, missing = {}, []
+    return cards
+
+
+def main(src, dst):
+    imgs, data = images(), card_data()
+    cards = read_cards(src)
+    base_of = lambda c: re.sub(r'\s*\((\d+)\)', '', c['name']).strip()
+    copies = {}
+    for c in cards:
+        copies.setdefault(base_of(c), []).append(c)
+    for lst in copies.values():
+        for i, c in enumerate(lst, 1):
+            c['copy'] = (i, len(lst)) if len(lst) > 1 else None
+    groups, noart, nodata = {}, [], []
     for c in cards:
         hit = find(c['name'], imgs)
+        c['info'] = card_info(c['name'], data)
+        if not c['info']:
+            nodata.append(c['name'])
         if hit:
             fac = FACTIONS[hit[0].partition('_')[0]]
             c['img'] = thumb(hit[1])
         else:
             fac = 'Outras cartas'
-            missing.append(c['name'])
+            noart.append(c['name'])
         groups.setdefault(fac, []).append(c)
     order = ['Northern Realms', 'Nilfgaard', "Scoia'tael", 'Monsters', 'Skellige', 'Neutral', 'Outras cartas']
-    out = ['> Cartas de Gwent do guia, por facção. Marcar aqui também marca no guia principal (e vice-versa).']
+    out = ['> Cartas de Gwent do guia, por facção. Marcar aqui também marca no guia principal (e vice-versa).',
+           '> %d entradas (cada cópia conta), %d cartas distintas, %d com mais de uma cópia.'
+           % (len(cards), len(copies), sum(1 for v in copies.values() if len(v) > 1))]
     for fac in order:
         if fac not in groups:
             continue
+        lst = groups[fac]
         out.append('# ' + fac)
-        for c in groups[fac]:
+        out.append('> %d entradas, %d distintas.' % (len(lst), len({base_of(c) for c in lst})))
+        for c in lst:
             out.append(('[x] ' if c['done'] else '- ') + c['name'])
             if c.get('img'):
                 out.append('> @img ' + c['img'])
             out.append('> @link %s:%d' % (MAIN_ID, c['n']))
+            inf = c['info']
+            if inf:
+                if inf['pow']:
+                    out.append('> @pow ' + inf['pow'])
+                out += ['> @tag ' + t for t in inf['tags']]
+            if c['copy']:
+                out.append('> @copy %d/%d' % c['copy'])
+            if inf and inf['ability']:
+                out.append('> Habilidade: ' + inf['ability'])
             out += ['> ' + d for d in c['detail']]
     open(dst, 'w', encoding='utf8').write('\n'.join(out) + '\n')
     print(len(cards), 'cards;', {f: len(v) for f, v in groups.items()})
-    print('without art:', missing)
+    print('without art:', noart)
+    print('without data:', nodata)
 
 
 if __name__ == '__main__':

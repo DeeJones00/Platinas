@@ -61,6 +61,9 @@ function parse(text) {
       let k;
       if (last && !last.g && (k = m[1].match(/^@img\s+(\S+)/))) last.i = k[1];
       else if (last && !last.g && (k = m[1].match(/^@link\s+(\S+)/))) last.l = k[1];
+      else if (last && !last.g && (k = m[1].match(/^@pow\s+(\d+)/))) last.p = k[1];
+      else if (last && !last.g && (k = m[1].match(/^@tag\s+(.+)/))) (last.t ||= []).push(k[1].trim());
+      else if (last && !last.g && (k = m[1].match(/^@copy\s+(\d+\/\d+)/))) last.c2 = k[1];
       else (last || root).d.push(m[1]);
     } else {
       const it = { x: line.replace(/^([-*+]|\d+[.)])\s+/, '').replace(/^\[[ xX]?\]\s*/, ''), n: n++, d: [] };
@@ -82,6 +85,9 @@ const toText = (tree, notes = [], done = {}) => {
       out.push((done[x.n] ? '[x] ' : '- ') + x.x);
       if (x.i) out.push('> @img ' + x.i);
       if (x.l) out.push('> @link ' + x.l);
+      if (x.p) out.push('> @pow ' + x.p);
+      (x.t || []).forEach((t) => out.push('> @tag ' + t));
+      if (x.c2) out.push('> @copy ' + x.c2);
       x.d.forEach((d) => out.push('> ' + d));
     }
   });
@@ -169,6 +175,7 @@ async function syncLibrary() {
         const p = parse(await (await fetch('guides/' + e.file)).text());
         if (p.total === guides[id].total) {
           Object.assign((progress[id] ||= { done: {}, open: {} }).done, p.done);
+          if (!guides[id].edited) { guides[id].tree = p.tree; guides[id].notes = p.notes; }
           guides[id].rev = e.rev || 0;
           await saveGuide(guides[id]); await saveProgress(id);
         }
@@ -280,7 +287,7 @@ function gameView() {
       games = games.filter((x) => x !== game); await saveGames(); go({ name: 'home' });
     }
   };
-  const gs = Object.values(guides).filter((g) => g.game === game);
+  const gs = Object.values(guides).filter((g) => g.game === game).sort((a, b) => a.name.localeCompare(b.name, 'pt'));
   if (!gs.length) { view.innerHTML = '<p class="empty">Pasta vazia.<br>Toque em "+ Guia" ou "Importar".</p>'; return; }
   view.innerHTML = gs.map((g) => {
     const s = guideStats(g);
@@ -304,6 +311,7 @@ function edit() {
     if (!p.total) return alert('Guia vazio.');
     const rec = g || { id: uid(), game: route.game || 'Sem jogo' };
     Object.assign(rec, { name: $('#name').value.trim() || 'Sem nome', tree: p.tree, notes: p.notes, total: p.total });
+    if (rec.id.startsWith('lib-')) rec.edited = true; // edicao do usuario nao e sobrescrita por novas versoes do guia
     guides[rec.id] = rec;
     progress[rec.id] ||= { done: p.done, open: {} };
     await saveGuide(rec); await saveProgress(rec.id);
@@ -385,8 +393,10 @@ function read() {
     const el = document.createElement('div');
     el.className = 'item' + (pr.done[it.n] ? ' done' : '');
     const hasD = it.d && it.d.length;
-    const thumb = it.i ? `<img class="thumb" loading="lazy" crossorigin="anonymous" alt="" src="${esc(it.i)}">` : `<span class="ico">${itemIcon(it.x)}</span>`;
-    el.innerHTML = `<span class="box"></span>${thumb}<div class="txt"><div class="ttl">${esc(it.x)}</div>${hasD ? '<div class="detail" hidden>' + noteHtml(it.d) + '</div>' : ''}</div>${hasD ? '<span class="more">ⓘ</span>' : ''}`;
+    const img = it.i ? `<img class="thumb" loading="lazy" crossorigin="anonymous" alt="" src="${esc(it.i)}">` : '';
+    const thumb = it.i ? `<div class="tw">${img}${it.p ? `<b class="pow" title="Poder">${esc(it.p)}</b>` : ''}</div>` : `<span class="ico">${itemIcon(it.x)}</span>`;
+    const meta = (it.t || it.c2) ? `<div class="meta">${(it.t || []).map((t) => `<span class="tag">${esc(t)}</span>`).join('')}${it.c2 ? `<span class="tag copy">cópia ${esc(it.c2)}</span>` : ''}</div>` : '';
+    el.innerHTML = `<span class="box"></span>${thumb}<div class="txt"><div class="ttl">${esc(it.x)}</div>${meta}${hasD ? '<div class="detail" hidden>' + noteHtml(it.d) + '</div>' : ''}</div>${hasD ? '<span class="more">ⓘ</span>' : ''}`;
     el.querySelector('.box').onclick = () => {
       if (pr.done[it.n]) delete pr.done[it.n]; else pr.done[it.n] = 1;
       el.classList.toggle('done', !!pr.done[it.n]);

@@ -1,13 +1,13 @@
-> Todos os troféus do jogo, do primeiro até a platina, em português do Brasil (tradução própria; o nome original em inglês está dentro de cada troféu, no ⓘ). 🔴 Perdível = o guia avisa que dá para perder o troféu. Marcar aqui também marca no guia principal.
+> Todos os troféus do jogo, do primeiro até a platina, com os nomes e descrições em português do Brasil da localização oficial da CD Projekt RED (lista da Steam). O nome em inglês está dentro de cada troféu, no ⓘ. 🔴 Perdível = o guia avisa que dá para perder o troféu. Marcar aqui também marca no guia principal.
 > 78 troféus (53 no jogo base, 12 em Hearts of Stone, 13 em Blood & Wine) + a platina. Perdíveis: 11.
 > Contagem do guia (Steam): 53 no jogo base, 12 em Hearts of Stone e 13 em Blood & Wine = 78. A PlayStation soma a platina. A divisão entre expansões segue as contagens do guia; confira na sua lista de troféus.
 # Jogo base – 53 troféus, 3 perdíveis
-[x] Que Foi Isso?
+[x] Pode isso, Arnaldo?
 > @ico 🏆
 > @link lib-witcher3.txt:1
 > @lt Achievement #1 – What Was That?
 > @tag #1
-> Ataque, contra-ataque, lance um Sinal e jogue uma bomba (em qualquer ordem) em menos de 4 segundos.
+> Ataque, contra-ataque, lance um sinal e jogue uma bomba (em qualquer ordem) em menos de 4 segundos.
 > Nome original: What Was That?
 > Aparece na Sequence 1: Nightmares On the Trail. Dicas completas (em inglês) no guia principal.
 [x] Treinado em Kaer Morhen
@@ -15,31 +15,31 @@
 > @link lib-witcher3.txt:2
 > @lt Achievement #2 – Kaer Morhen Trained
 > @tag #2
-> Faça 10 contra-ataques eficazes seguidos sem ser atingido e sem aparar.
+> Contra-ataque dez vezes seguidas sem ser atingido nem bloquear.
 > Nome original: Kaer Morhen Trained
 > Aparece na Sequence 1: Nightmares On the Trail. Dicas completas (em inglês) no guia principal.
-[x] Punho da Estrela do Sul
+[x] Na raça
 > @ico 🏆
 > @link lib-witcher3.txt:4
 > @lt Achievement #3 – Fist of the South Star
 > @tag #3
-> Derrote um oponente numa luta de punhos sem levar nenhum dano.
+> Derrote um adversário no corpo a corpo sem sofrer nenhum dano.
 > Nome original: Fist of the South Star
 > Aparece na Sequence 1: Nightmares On the Trail. Dicas completas (em inglês) no guia principal.
-[x] Geralt e Amigos
+[x] Geralt e Cia.
 > @ico 🏆
 > @link lib-witcher3.txt:5
 > @lt Achievement #4 – Geralt & Friends
 > @tag #4
-> Vença uma rodada de Gwent usando apenas cartas Neutras.
+> Vença uma partida de gwent usando apenas cartas neutras.
 > Nome original: Geralt & Friends
 > Aparece na Sequence 1: Nightmares On the Trail. Dicas completas (em inglês) no guia principal.
-[x] Poder Esmagador
+[x] Poder para dar e vender
 > @ico 🏆
 > @link lib-witcher3.txt:10
 > @lt Achievement #5 – Power Overwhelming
 > @tag #5
-> Tenha os 5 bônus possíveis dos Lugares de Poder ativos ao mesmo tempo.
+> Tenha todos os bônus de Locais de Poder ativos ao mesmo tempo.
 > Nome original: Power Overwhelming
 > Aparece na Sequence 2: The Death of White Lilies. Dicas completas (em inglês) no guia principal.
 [x] Vamos Cozinhar!
@@ -47,10 +47,10 @@
 > @link lib-witcher3.txt:11
 > @lt Achievement #6 – Let’s Cook!
 > @tag #6
-> Aprenda 12 fórmulas de poção.
+> Aprenda 12 fórmulas de poções.
 > Nome original: Let’s Cook!
 > Aparece na Sequence 2: The Death of White Lilies. Dicas completas (em inglês) no guia principal.
-[x] Lilás e Groselhas
+[x] Lilás e groselha
 > @ico 🏆
 > @link lib-witcher3.txt:15
 > @lt Achievement #7 – Lilac & Gooseberries
@@ -58,113 +58,113 @@
 > Encontre Yennefer de Vengerberg.
 > Nome original: Lilac & Gooseberries
 > Aparece na Sequence 2: The Death of White Lilies. Dicas completas (em inglês) no guia principal.
-[x] Rato de Biblioteca
+[x] Rato de biblioteca
 > @ico 🏆
 > @link lib-witcher3.txt:17
 > @lt Achievement #8 – Bookworm
 > @tag #8
-> Leia 30 livros, diários ou outros documentos.
+> Leia trinta livros, diários ou documentos variados.
 > Nome original: Bookworm
 > Aparece na Sequence 3: The Bloody Baron. Dicas completas (em inglês) no guia principal.
-[x] Ameaça Tripla
+[x] Ameaça tripla
 > @ico 🏆
 > @link lib-witcher3.txt:35
 > @lt Achievement #9 – Triple Threat
 > @tag #9
-> Mate 3 oponentes numa mesma luta usando 3 métodos diferentes (espada, bombas, besta, Sinais etc.).
+> Mate 3 oponentes em uma luta usando 3 métodos diferentes (espadas, bombas, bestas, Sinais, etc.).
 > Nome original: Triple Threat
 > Aparece na Sequence 6: Not Just Any Witch.... Dicas completas (em inglês) no guia principal.
-[x] Bombardeiro
+[x] Carga explosiva
 > @ico 🏆
 > @link lib-witcher3.txt:36
 > @lt Achievement #10 – Bombardier
 > @tag #10
-> Colete as fórmulas de 6 tipos diferentes de bomba.
+> Colete a fórmula para 6 tipos de bomba diferentes.
 > Nome original: Bombardier
 > Aparece na Sequence 6: Not Just Any Witch.... Dicas completas (em inglês) no guia principal.
-[x] Chances Iguais
+[x] O que é justo, é justo
 > @ico 🏆
 > @link lib-witcher3.txt:48
 > @lt Achievement #11 – Even Odds
 > @tag 🔴 Perdível
 > @tag #11
-> Mate 2 monstros de um Contrato sem usar Sinais, poções, mutagênicos, óleos ou bombas.
+> Mate dois monstros de um contrato sem usar sinais, poções, mutagênicos, óleos ou bombas.
 > Perdível, segundo o guia. É possível concluir todos os Contratos sem desbloquear este troféu.
 > Nome original: Even Odds
 > Aparece na Sequence 8: Wind's Howling.... Dicas completas (em inglês) no guia principal.
-- Açougueiro de Blaviken
+- O carniceiro de Blaviken
 > @ico 🏆
 > @link lib-witcher3.txt:49
 > @lt Achievement #12 – Butcher of Blaviken
 > @tag #12
-> Mate pelo menos 5 oponentes em menos de 10 segundos.
+> Assassine pelo menos cinco adversários em menos de dez segundos.
 > Nome original: Butcher of Blaviken
 > Aparece na Sequence 8: Wind's Howling.... Dicas completas (em inglês) no guia principal.
-- Intocável!
+- Elegância
 > @ico 🏆
 > @link lib-witcher3.txt:50
 > @lt Achievement #13 – Can’t Touch This!
 > @tag #13
-> Mate 5 inimigos numa luta sem sofrer dano (exceto toxicidade) e sem usar o Sinal Quen.
+> Mate cinco adversários sem sofrer nenhum dano (exceto toxicidade) e sem usar o Sinal Quen.
 > Nome original: Can’t Touch This!
 > Aparece na Sequence 8: Wind's Howling.... Dicas completas (em inglês) no guia principal.
-[x] Amigos com Benefícios
+[x] Amizade colorida
 > @ico 🏆
 > @link lib-witcher3.txt:58
 > @lt Achievement #14 – Friends With Benefits
 > @tag #14
-> Conclua a trama secundária de Keira Metz.
+> Conclua a trama secundária da Keira Metz.
 > Nome original: Friends With Benefits
 > Aparece na Sequence 9: Feminine Intuition. Dicas completas (em inglês) no guia principal.
-- Essa É a Coisa Mais Maligna…
+- Maldade pouca é bobagem...
 > @ico 🏆
 > @link lib-witcher3.txt:59
 > @lt Achievement #15 – That Is the Evilest Thing…
 > @tag #15
-> Acenda o gás de uma bomba Sonho de Dragão usando um oponente em chamas. Faça isso 10 vezes.
+> Faça o gás produzido pelo sonho do dragão pegar fogo com um adversário em chamas. Repita dez vezes.
 > Nome original: That Is the Evilest Thing…
 > Aparece na Sequence 10: Oughta' Just Destroy It. Dicas completas (em inglês) no guia principal.
-[x] Fogo no Buraco
+[x] Bomba, bomba, olha a bomba!
 > @ico 🏆
 > @link lib-witcher3.txt:61
 > @lt Achievement #16 – Fire In the Hole
 > @tag #16
-> Destrua 10 Ninhos de Monstros usando bombas.
+> Destrua dez ninhos de monstros usando as bombas.
 > Nome original: Fire In the Hole
 > Aparece na Sequence 10: Oughta' Just Destroy It. Dicas completas (em inglês) no guia principal.
-- Shrieker
+- A plenos pulmões
 > @ico 🏆
 > @link lib-witcher3.txt:63
 > @lt Achievement #17 – Shrieker
 > @tag #17
-> Conclua o Contrato do Shrieker.
+> Conclua o contrato do berrante.
 > Nome original: Shrieker
 > Aparece na Sequence 10: Oughta' Just Destroy It. Dicas completas (em inglês) no guia principal.
-- Armado e Perigoso
+- Armado e perigoso
 > @ico 🏆
 > @link lib-witcher3.txt:72
 > @lt Achievement #18 – Armed & Dangerous
 > @tag #18
-> Encontre e equipe todas as peças de um conjunto de equipamento de bruxo.
+> Encontre e equipe todos os elementos de um conjunto de equipamentos de bruxo.
 > Nome original: Armed & Dangerous
 > Aparece na Sequence 11: Height of Academia. Dicas completas (em inglês) no guia principal.
-- Conselheiro Familiar
+- Terapeuta da família
 > @ico 🏆
 > @link lib-witcher3.txt:81
 > @lt Achievement #19 – Family Counsellor
 > @tag #19
-> Encontre a esposa e a filha do Barão.
+> Encontre a esposa e a filha do barão.
 > Nome original: Family Counsellor
 > Aparece na Sequence 12: An Impossible Redemption. Dicas completas (em inglês) no guia principal.
-- O Efeito Doppler
+- Dois é demais
 > @ico 🏆
 > @link lib-witcher3.txt:113
 > @lt Achievement #20 – The Doppler Effect
 > @tag #20
-> Resolva o problema do doppler em Novigrad.
+> Resolva o problema do dúplice de Novigrad.
 > Nome original: The Doppler Effect
 > Aparece na Sequence 17: Old Friends. Dicas completas (em inglês) no guia principal.
-- Amigo na Hora Certa
+- Amigo é para essas coisas
 > @ico 🏆
 > @link lib-witcher3.txt:131
 > @lt Achievement #21 – A Friend In Need
@@ -172,7 +172,7 @@
 > Encontre e liberte Dandelion.
 > Nome original: A Friend In Need
 > Aparece na Sequence 19: A Divine Comedy. Dicas completas (em inglês) no guia principal.
-- Viajante do Mundo
+- Andarilho
 > @ico 🏆
 > @link lib-witcher3.txt:140
 > @lt Achievement #22 – Globetrotter
@@ -180,15 +180,15 @@
 > Descubra 100 pontos de viagem rápida.
 > Nome original: Globetrotter
 > Aparece na Sequence 20: Castaway. Dicas completas (em inglês) no guia principal.
-- Tudo ou Nada
+- Apostar tudo
 > @ico 🏆
 > @link lib-witcher3.txt:144
 > @lt Achievement #23 – All In
 > @tag #23
-> Jogue três cartas de Herói numa rodada de Gwent e vença a partida.
+> Use três cartas de heróis em uma partida de gwent e ganhe o jogo.
 > Nome original: All In
 > Aparece na Sequence 20: Castaway. Dicas completas (em inglês) no guia principal.
-- Matador de Vacas
+- Bovinocida
 > @ico 🏆
 > @link lib-witcher3.txt:149
 > @lt Achievement #24 – Moo-rderer
@@ -196,44 +196,44 @@
 > Mate 20 vacas.
 > Nome original: Moo-rderer
 > Aparece na Sequence 21: Snow, Salt, & Cold Steel. Dicas completas (em inglês) no guia principal.
-- Radical, Mano!
+- Mó estiloso, mano!
 > @ico 🏆
 > @link lib-witcher3.txt:154
 > @lt Achievement #25 – Rad Steez, Bro!
 > @tag #25
-> Deslize morro abaixo sem interrupção por pelo menos 10 segundos.
+> Escorregue ladeira abaixo ininterruptamente por 10 segundos.
 > Nome original: Rad Steez, Bro!
 > Aparece na Sequence 21: Snow, Salt, & Cold Steel. Dicas completas (em inglês) no guia principal.
-- Dendrologista
+- Dendrólogo
 > @ico 🏆
 > @link lib-witcher3.txt:156
 > @lt Achievement #26 – Dendrologist
 > @tag #26
-> Adquira todas as habilidades de uma árvore.
+> Conquiste todas as habilidades de um diagrama.
 > Nome original: Dendrologist
 > Aparece na Sequence 21: Snow, Salt, & Cold Steel. Dicas completas (em inglês) no guia principal.
-- Espírito da Floresta
+- Espírito do bosque
 > @ico 🏆
 > @link lib-witcher3.txt:164
 > @lt Achievement #27 – Woodland Spirit
 > @tag #27
-> Conclua o Contrato do Espírito da Floresta.
+> Conclua o contrato do espírito do bosque.
 > Nome original: Woodland Spirit
 > Aparece na Sequence 22: Kvitravn. Dicas completas (em inglês) no guia principal.
-- Inimigo do Meio Ambiente
+- Complô contra a natureza
 > @ico 🏆
 > @link lib-witcher3.txt:167
 > @lt Achievement #28 – Environmentally Unfriendly
 > @tag #28
-> Mate 50 oponentes usando o ambiente (gás do pântano, insetos, objetos etc.).
+> Mate cinquenta adversários usando o ambiente (por exemplo, com gás do pântano, insetos ou objetos).
 > Nome original: Environmentally Unfriendly
 > Aparece na Sequence 23: Lilac & Gooseberry. Dicas completas (em inglês) no guia principal.
-- Velozes e Furiosos
+- A todo gás
 > @ico 🏆
 > @link lib-witcher3.txt:178
 > @lt Achievement #29 – Fast & Furious
 > @tag #29
-> Vença todas as 11 corridas de cavalo do jogo.
+> Ganhe todas as corridas de cavalo do jogo.
 > Nome original: Fast & Furious
 > Aparece na Sequence 24: Helvegen. Dicas completas (em inglês) no guia principal.
 - Necromante
@@ -244,44 +244,44 @@
 > Ajude Yennefer a extrair informações do corpo de Skjall.
 > Nome original: Necromancer
 > Aparece na Sequence 24: Helvegen. Dicas completas (em inglês) no guia principal.
-- Briguento
+- Encrenqueiro
 > @ico 🏆
 > @link lib-witcher3.txt:186
 > @lt Achievement #31 – Brawler
 > @tag #31
-> Derrote Olaf, o campeão de Skellige em combate sem armas.
+> Derrote Olaf, o campeão de combate sem armas de Skellige.
 > Nome original: Brawler
 > Aparece na Sequence 24: Helvegen. Dicas completas (em inglês) no guia principal.
-- Controle de Pragas
+- Dedetização
 > @ico 🏆
 > @link lib-witcher3.txt:187
 > @lt Achievement #32 – Pest Control
 > @tag #32
-> Destrua todos os 29 Ninhos de Monstros da região de Velen/Novigrad, ou todos os 5 de Skellige.
+> Destrua todos os ninhos de monstros na região de Velen / Novigrad, ou em Skellige.
 > Nome original: Pest Control
 > Aparece na Sequence 24: Helvegen. Dicas completas (em inglês) no guia principal.
-- Mestre das Brigas
+- Encrenqueiro de primeira
 > @ico 🏆
 > @link lib-witcher3.txt:190
 > @lt Achievement #33 – Brawl Master
 > @tag #33
-> Conclua os 12 eventos de luta de punhos em Velen, Skellige e Novigrad.
+> Complete todas as missões de luta corpo a corpo em Velen, Skellige e Novigrad.
 > Nome original: Brawl Master
 > Aparece na Sequence 25: Long Live an Craite!. Dicas completas (em inglês) no guia principal.
-- Criador de Reis
+- Realeza
 > @ico 🏆
 > @link lib-witcher3.txt:196
 > @lt Achievement #34 – Kingmaker
 > @tag #34
-> Conclua a trama sobre a escolha do governante de Skellige.
+> Conclua a trama secundária da escolha do monarca de Skellige.
 > Nome original: Kingmaker
 > Aparece na Sequence 25: Long Live an Craite!. Dicas completas (em inglês) no guia principal.
-- Caçador de Vampiros Destemido
+- O caça-vampiros
 > @ico 🏆
 > @link lib-witcher3.txt:199
 > @lt Achievement #35 – Fearless Vampire Slayer
 > @tag #35
-> Conclua o Contrato de Sarasti.
+> Conclua o contrato de Sarasti.
 > Nome original: Fearless Vampire Slayer
 > Aparece na Sequence 26: Killing Monsters. Dicas completas (em inglês) no guia principal.
 - Mutante
@@ -289,52 +289,52 @@
 > @link lib-witcher3.txt:202
 > @lt Achievement #36 – Mutant
 > @tag #36
-> Preencha os 4 espaços de mutagênico.
+> Preencha todos espaços de mutagênicos.
 > Nome original: Mutant
 > Aparece na Sequence 26: Killing Monsters. Dicas completas (em inglês) no guia principal.
-- Cinzas às Cinzas
+- Do pó ao pó
 > @ico 🏆
 > @link lib-witcher3.txt:204
 > @lt Achievement #37 – Ashes to Ashes
 > @tag #37
-> Conclua o Contrato de Therazane.
+> Conclua o contrato de Therazane.
 > Nome original: Ashes to Ashes
 > Aparece na Sequence 26: Killing Monsters. Dicas completas (em inglês) no guia principal.
-- Arrasou
+- Mandou ver
 > @ico 🏆
 > @link lib-witcher3.txt:210
 > @lt Achievement #38 – Killed It
 > @tag #38
-> Vença uma rodada de Gwent com força total de pelo menos 187.
+> Vença uma partida de gwent com uma força total de, pelo menos, 187.
 > Nome original: Killed It
 > Aparece na Sequence 27: Doing Just Gwent, Thanks. Dicas completas (em inglês) no guia principal.
-- Mestre de Gwent
+- Mestre do gwent
 > @ico 🏆
 > @link lib-witcher3.txt:213
 > @lt Achievement #39 – Gwent Master
 > @tag #39
-> Derrote Tybalt e vença o Torneio de Gwent no Passiflora.
+> Derrote Tybalt e vença o torneio de gwent no Passiflora.
 > Nome original: Gwent Master
 > Aparece na Sequence 27: Doing Just Gwent, Thanks. Dicas completas (em inglês) no guia principal.
-- Colecionador de Cartas
+- Colecionador de cartas
 > @ico 🏆
 > @link lib-witcher3.txt:214
 > @lt Achievement #40 – Card Collector
 > @tag #40
-> Adquira as 169 cartas de Gwent disponíveis na versão base do jogo.
+> Adquira todas as cartas de gwent disponíveis na versão base do jogo.
 > Nome original: Card Collector
 > Aparece na Sequence 27: Doing Just Gwent, Thanks. Dicas completas (em inglês) no guia principal.
-- Equipe Completa
+- Rapaziada
 > @ico 🏆
 > @link lib-witcher3.txt:229
 > @lt Achievement #41 – Full Crew
 > @tag 🔴 Perdível
 > @tag #41
-> Leve os 6 aliados possíveis a Kaer Morhen para a batalha contra a Caçada.
+> Traga todos seus possíveis aliados para Kaer Morhen para a batalha contra a Caçada.
 > Perdível, segundo o guia. 
 > Nome original: Full Crew
 > Aparece na Sequence 29: The Battle of Kaer Morhen. Dicas completas (em inglês) no guia principal.
-- Algo Mais
+- Algo mais
 > @ico 🏆
 > @link lib-witcher3.txt:232
 > @lt Achievement #42 – Something More
@@ -347,10 +347,10 @@
 > @link lib-witcher3.txt:238
 > @lt Achievement #43 – Overkill
 > @tag #43
-> Faça um oponente sofrer sangramento, envenenamento e queimadura ao mesmo tempo. Faça isso 10 vezes.
+> Faça um adversário sofrer sangramento, envenenamento e queimaduras ao mesmo tempo. Repita dez vezes.
 > Nome original: Overkill
 > Aparece na Sequence 30: The King Is Dead. Dicas completas (em inglês) no guia principal.
-- Assassino de Reis
+- Regicida
 > @ico 🏆
 > @link lib-witcher3.txt:243
 > @lt Achievement #44 – Assassin of Kings
@@ -360,7 +360,7 @@
 > Perdível, segundo o guia. 
 > Nome original: Assassin of Kings
 > Aparece na Sequence 30: The King Is Dead. Dicas completas (em inglês) no guia principal.
-- Xenonauta
+- Marionete
 > @ico 🏆
 > @link lib-witcher3.txt:245
 > @lt Achievement #45 – Xenonaut
@@ -368,31 +368,31 @@
 > Visite Tir ná Lia e convença Ge'els a trair Eredin.
 > Nome original: Xenonaut
 > Aparece na Sequence 30: The King Is Dead. Dicas completas (em inglês) no guia principal.
-- Munchkin
+- Que gracinha!
 > @ico 🏆
 > @link lib-witcher3.txt:247
 > @lt Achievement #46 – Munchkin
 > @tag #46
-> Alcance o nível 35 de desenvolvimento do personagem.
+> Atinja o nível do personagem 35.
 > Nome original: Munchkin
 > Aparece na Sequence 30: The King Is Dead. Dicas completas (em inglês) no guia principal.
-- Hasta la Vista
+- Hasta la Vista™
 > @ico 🏆
 > @link lib-witcher3.txt:250
 > @lt Achievement #47 – Hasta la Vista
 > @tag #47
-> Mate um oponente congelado com um virote de besta.
+> Mate um adversário congelado com um virote de besta.
 > Nome original: Hasta la Vista
 > Aparece na Sequence 31: Ithlinne's Prophecy. Dicas completas (em inglês) no guia principal.
-- Demônio ou Inimigo?
+- Amizade dolorida
 > @ico 🏆
 > @link lib-witcher3.txt:253
 > @lt Achievement #48 – Fiend or Foe?
 > @tag #48
-> Conclua o Contrato de Morvudd.
+> Conclua o contrato de Morvudd.
 > Nome original: Fiend or Foe?
 > Aparece na Sequence 31: Ithlinne's Prophecy. Dicas completas (em inglês) no guia principal.
-- O Rei dos Mortos
+- O rei está morto
 > @ico 🏆
 > @link lib-witcher3.txt:261
 > @lt Achievement #49 – The King of the Dead
@@ -400,161 +400,161 @@
 > Derrote Eredin.
 > Nome original: The King of the Dead
 > Aparece na Sequence 31: Ithlinne's Prophecy. Dicas completas (em inglês) no guia principal.
-- Passou na Prova
+- Passou no Teste
 > @ico 🏆
 > @link lib-witcher3.txt:264
 > @lt Achievement #50 – Passed the Trial
 > @tag #50
-> Termine o jogo em qualquer dificuldade.
+> Conclua o jogo em qualquer dificuldade.
 > Nome original: Passed the Trial
 > Aparece na Sequence 31: Ithlinne's Prophecy. Dicas completas (em inglês) no guia principal.
-- Enfrentou o Desafio
+- Superou o Desafio
 > @ico 🏆
 > @link lib-witcher3.txt:265
 > @lt Achievement #51 – Ran the Gauntlet
 > @tag #51
-> Termine o jogo nas dificuldades Sangue e Ossos Quebrados! ou Marcha da Morte! (Blood & Broken Bones! / Death March!).
+> Termine o jogo no nível de dificuldade "Sangue e Glória!" ou "Marcha da Morte!".
 > Nome original: Ran the Gauntlet
 > Aparece na Sequence 31: Ithlinne's Prophecy. Dicas completas (em inglês) no guia principal.
-- Trilhou o Caminho
+- Seguiu o Caminho
 > @ico 🏆
 > @link lib-witcher3.txt:266
 > @lt Achievement #52 – Walked the Path
 > @tag #52
-> Termine o jogo na dificuldade Marcha da Morte! (Death March!).
+> Termine o jogo no nível de dificuldade "Marcha da Morte!".
 > Nome original: Walked the Path
 > Aparece na Sequence 31: Ithlinne's Prophecy. Dicas completas (em inglês) no guia principal.
-- Geralt: O Profissional
+- Geralt: bruxo profissional
 > @ico 🏆
 > @link lib-witcher3.txt:269
 > @lt Achievement #53 – Geralt
 > @tag #53
-> Conclua todos os 26 Contratos de Bruxo.
+> Conclua todos os contratos de bruxos.
 > Nome original: Geralt
 > Aparece na Sequence 32: Hearts of Stone. Dicas completas (em inglês) no guia principal.
 # Hearts of Stone (expansão) – 12 troféus, 4 perdíveis
-- Rosa Selvagem sem Espinhos
+- Rosa selvagem sem espinhos
 > @ico 🏆
 > @link lib-witcher3.txt:272
 > @lt Achievement #54 – Wild Rose Dethorned
 > @tag #54
-> Derrote todos os Cavaleiros Caídos e saqueie seus 8 acampamentos.
+> Derrote todos os cavaleiros decaídos e saqueie seus acampamentos.
 > Nome original: Wild Rose Dethorned
 > Aparece na Sequence 32: Hearts of Stone. Dicas completas (em inglês) no guia principal.
-- Usei Ofieri Antes de Ficar na Moda
+- Vestia ofieri bem antes de estar na moda
 > @ico 🏆
 > @link lib-witcher3.txt:273
 > @lt Achievement #55 – I Wore Ofieri Before It Was Cool
 > @tag #55
-> Colete toda a armadura Ofieri disponível, o equipamento de cavalo e pelo menos uma espada Ofieri.
+> Colete todas as armaduras e equipamentos ofieri para cavalo, e pelo menos uma espada ofieri.
 > Nome original: I Wore Ofieri Before It Was Cool
 > Aparece na Sequence 32: Hearts of Stone. Dicas completas (em inglês) no guia principal.
-- Não Vou Beijar Isso
+- Não vou beijar isso
 > @ico 🏆
 > @link lib-witcher3.txt:276
 > @lt Achievement #56 – I’m Not Kissing That
 > @tag #56
-> Mate o príncipe amaldiçoado e transformado em sapo.
+> Mate o príncipe transformado em sapo.
 > Nome original: I’m Not Kissing That
 > Aparece na Sequence 33: The Indentured Witcher. Dicas completas (em inglês) no guia principal.
-- Compulsivo por Compras
+- Viciado em compras
 > @ico 🏆
 > @link lib-witcher3.txt:280
 > @lt Achievement #57 – Shopaholic
 > @tag 🔴 Perdível
 > @tag #57
-> Compre os 3 itens leiloados na Casa de Leilões dos Borsodi.
+> Compre todos os itens leiloados na casa de leilão dos Borsodis.
 > Perdível, segundo o guia. 
 > Nome original: Shopaholic
 > Aparece na Sequence 33: The Indentured Witcher. Dicas completas (em inglês) no guia principal.
-- Que Comece a Festa!
+- Que os bons tempos continuem!
 > @ico 🏆
 > @link lib-witcher3.txt:285
 > @lt Achievement #58 – Let the Good Times Roll!
 > @tag 🔴 Perdível
 > @tag #58
-> Participe das 10 atividades do casamento.
+> Participe em todas as atividades do casamento.
 > Perdível, segundo o guia. 
 > Nome original: Let the Good Times Roll!
 > Aparece na Sequence 34: Till Death Do Us Part. Dicas completas (em inglês) no guia principal.
-- Curador de Pesadelos
+- Curador de pesadelos
 > @ico 🏆
 > @link lib-witcher3.txt:298
 > @lt Achievement #59 – Curator of Nightmares
 > @tag 🔴 Perdível
 > @tag #59
-> Recrie os 8 Pesadelos de Iris no Mundo Pintado.
+> Recrie todos os pesadelos de Iris no Mundo Pintado.
 > Perdível, segundo o guia. Só é perdível se você não concluir o primeiro Pesadelo (o do gazebo) antes de entrar na mansão.
 > Nome original: Curator of Nightmares
 > Aparece na Sequence 34: Till Death Do Us Part. Dicas completas (em inglês) no guia principal.
-- Quando São Muitos Contra Um…
+- Quando são muitos contra um…
 > @ico 🏆
 > @link lib-witcher3.txt:299
 > @lt Achievement #60 – When It’s Many Against One…
 > @tag 🔴 Perdível
 > @tag #60
-> Provoque os 6 Pesadelos de Iris von Everec para lutarem contra você ao mesmo tempo e derrote todos.
+> Provoque todos os pesadelos de Iris von Everec, lute contra todos ao mesmo tempo e os derrote.
 > Perdível, segundo o guia. 
 > Nome original: When It’s Many Against One…
 > Aparece na Sequence 35: A Pact Undone. Dicas completas (em inglês) no guia principal.
-- Pacta Sunt Servanda
+- Pacta sunt servanda
 > @ico 🏆
 > @link lib-witcher3.txt:303
 > @lt Achievement #61 – Pacta Sunt Servanda
 > @tag #61
-> Termine a expansão Hearts of Stone.
+> Termine a expansão "Hearts of Stone".
 > Nome original: Pacta Sunt Servanda
 > Aparece na Sequence 35: A Pact Undone. Dicas completas (em inglês) no guia principal.
-- Devolvido ao Remetente
+- Retornar ao remetente
 > @ico 🏆
 > @link lib-witcher3.txt:304
 > @lt Achievement #62 – Return to Sender
 > @tag #62
-> Mate 3 oponentes com as próprias flechas deles.
+> Mate 3 oponentes com suas próprias flechas.
 > Nome original: Return to Sender
 > Aparece na Sequence 35: A Pact Undone. Dicas completas (em inglês) no guia principal.
-- Paro Quando Quiser
+- Posso largar quando quiser
 > @ico 🏆
 > @link lib-witcher3.txt:305
 > @lt Achievement #63 – Can Quit Anytime I Want
 > @tag #63
-> Esteja sob o efeito de 7 poções ou decocções ao mesmo tempo.
+> Esteja sob o efeito de sete poções ou elixires ao mesmo tempo.
 > Nome original: Can Quit Anytime I Want
 > Aparece na Sequence 35: A Pact Undone. Dicas completas (em inglês) no guia principal.
-- O Inimigo do Meu Inimigo
+- O inimigo do meu inimigo
 > @ico 🏆
 > @link lib-witcher3.txt:306
 > @lt Achievement #64 – The Enemy of My Enemy
 > @tag #64
-> Use o Sinal Axii para forçar um oponente a matar outro. Faça isso 20 vezes.
+> Use o Sinal Axii para forçar um adversário a matar outro. Repita 20 vezes.
 > Nome original: The Enemy of My Enemy
 > Aparece na Sequence 36: Those Poor Pirates. Dicas completas (em inglês) no guia principal.
-- Humpty Dumpty
+- Sai de baixo
 > @ico 🏆
 > @link lib-witcher3.txt:307
 > @lt Achievement #65 – Humpty Dumpty
 > @tag #65
-> Mate 10 oponentes derrubando-os de algum lugar alto com o Sinal Aard.
+> Assassine dez adversários derrubando-os de um lugar alto com o Sinal Aard.
 > Nome original: Humpty Dumpty
 > Aparece na Sequence 36: Those Poor Pirates. Dicas completas (em inglês) no guia principal.
 # Blood & Wine (expansão) – 13 troféus, 4 perdíveis
-- Mestre Atirador
+- Atirador de elite
 > @ico 🏆
 > @link lib-witcher3.txt:308
 > @lt Achievement #66 – Master Marksman
 > @tag #66
-> Mate 50 oponentes, humanos e não humanos, acertando a cabeça com virotes de besta.
+> Mate 50 oponentes humanoides acertando-os na cabeça com um virote de besta.
 > Nome original: Master Marksman
 > Aparece na Sequence 36: Those Poor Pirates. Dicas completas (em inglês) no guia principal.
-- O Bruxo Foi para o Sul
+- O bruxo está à solta
 > @ico 🏆
 > @link lib-witcher3.txt:310
 > @lt Achievement #67 – The Witcher’s Gone South
 > @tag #67
-> Viaje até o Ducado de Toussaint.
+> Viaje ao ducado de Toussaint.
 > Nome original: The Witcher’s Gone South
 > Aparece na Sequence 37: Blood & Wine. Dicas completas (em inglês) no guia principal.
-- Davi e Golias
+- Davi e Golyat
 > @ico 🏆
 > @link lib-witcher3.txt:311
 > @lt Achievement #68 – David & Golyat
@@ -564,51 +564,51 @@
 > Perdível, segundo o guia. 
 > Nome original: David & Golyat
 > Aparece na Sequence 37: Blood & Wine. Dicas completas (em inglês) no guia principal.
-- As Uvas da Ira Pisadas
+- Colhendo as vinhas da ira
 > @ico 🏆
 > @link lib-witcher3.txt:323
 > @lt Achievement #69 – The Grapes of Wrath Stomped
 > @tag 🔴 Perdível
 > @tag #69
-> Ajude a unir os vinhedos rivais e tenha um vinho batizado em sua homenagem.
+> Ajude a unir os vinhedos em guerra e tenha um vinho batizado em sua homenagem.
 > Perdível, segundo o guia. 
 > Nome original: The Grapes of Wrath Stomped
 > Aparece na Sequence 38: Geralt the Sommelier. Dicas completas (em inglês) no guia principal.
-- Tenho um Problema com Gwent
+- Quanto mais gwent melhor
 > @ico 🏆
 > @link lib-witcher3.txt:330
 > @lt Achievement #70 – I Have A Gwent Problem
 > @tag #70
-> Colete as 38 cartas do baralho de Skellige.
+> Colete todas as cartas do baralho de Skellige.
 > Nome original: I Have A Gwent Problem
 > Aparece na Sequence 40: From Rags to Riches. Dicas completas (em inglês) no guia principal.
-- Arma "W"
+- A arma "B"
 > @ico 🏆
 > @link lib-witcher3.txt:332
 > @lt Achievement #71 – Weapon “W”
 > @tag #71
-> Desenvolva uma Mutação.
+> Desenvolva uma mutação.
 > Nome original: Weapon “W”
 > Aparece na Sequence 40: From Rags to Riches. Dicas completas (em inglês) no guia principal.
-- Brincando de Casinha
+- Brincando de casinha
 > @ico 🏆
 > @link lib-witcher3.txt:337
 > @lt Achievement #72 – Playing House
 > @tag #72
-> Use as 9 opções disponíveis para desenvolver Corvo Bianco.
+> Use todas as opções disponíveis para desenvolver Corvo Bianco.
 > Nome original: Playing House
 > Aparece na Sequence 40: From Rags to Riches. Dicas completas (em inglês) no guia principal.
-- Um Cavaleiro Inesquecível
+- Campeão dos campeões
 > @ico 🏆
 > @link lib-witcher3.txt:340
 > @lt Achievement #73 – A Knight to Remember
 > @tag 🔴 Perdível
 > @tag #73
-> Obtenha vitória impecável nas três competições do torneio de cavaleiros.
+> Obtenha uma vitória impecável em todas as competições durante o torneio dos cavaleiros.
 > Perdível, segundo o guia. 
 > Nome original: A Knight to Remember
 > Aparece na Sequence 41: Rise, A Knight. Dicas completas (em inglês) no guia principal.
-- Personificação das Cinco Virtudes
+- A encarnação das cinco virtudes
 > @ico 🏆
 > @link lib-witcher3.txt:341
 > @lt Achievement #74 – Embodiment of the Five Virtues
@@ -618,23 +618,23 @@
 > Perdível, segundo o guia. 
 > Nome original: Embodiment of the Five Virtues
 > Aparece na Sequence 41: Rise, A Knight. Dicas completas (em inglês) no guia principal.
-- Não Deixou Pedra sobre Pedra
+- Não deixar pedra sobre pedra
 > @ico 🏆
 > @link lib-witcher3.txt:342
 > @lt Achievement #75 – Turned Every Stone
 > @tag #75
-> Encontre os 30 Diagramas de Grão-Mestre de cada Escola de Bruxos.
+> Encontre todos os diagramas de grão-mestre de cada escola de bruxo.
 > Nome original: Turned Every Stone
 > Aparece na Sequence 42: Let the Truth Speak. Dicas completas (em inglês) no guia principal.
-- Vestido para Matar
+- Vestido para matar
 > @ico 🏆
 > @link lib-witcher3.txt:343
 > @lt Achievement #76 – Dressed to Kill
 > @tag #76
-> Desbloqueie o bônus por equipar todas as peças de equipamento de bruxo de uma Escola.
+> Desbloqueie o bônus por equipar todos os elementos do equipamento de bruxo de uma Escola.
 > Nome original: Dressed to Kill
 > Aparece na Sequence 42: Let the Truth Speak. Dicas completas (em inglês) no guia principal.
-- O Último Herói de Ação
+- O último grande herói
 > @ico 🏆
 > @link lib-witcher3.txt:353
 > @lt Achievement #77 – Last Action Hero
@@ -642,7 +642,7 @@
 > Seja condecorado com a Ordem de Vitis Vinifera.
 > Nome original: Last Action Hero
 > Aparece na Sequence 43: Fidelis et Mortem. Dicas completas (em inglês) no guia principal.
-- Rei da Cadeia
+- Freguês do xadrez
 > @ico 🏆
 > @link lib-witcher3.txt:354
 > @lt Achievement #78 – Kling of the Clink
@@ -651,7 +651,7 @@
 > Nome original: Kling of the Clink
 > Aparece na Sequence 43: Fidelis et Mortem. Dicas completas (em inglês) no guia principal.
 # Platina (só PlayStation)
-- Os Limites do Possível
+- The Limits of the Possible
 > @ico 🏆
 > @tag Platina
-> Platina da PlayStation, ganha ao conquistar os demais troféus. Nome original: The Limits of the Possible. Fontes consultadas dão esse nome para o jogo base; veja na sua lista de troféus se Hearts of Stone e Blood & Wine entram na sua versão. No Steam e no Xbox não existe platina (78 conquistas).
+> Platina da PlayStation: colete todos os troféus. Não achei o nome em português desse troféu (só existe na PlayStation, não na Steam). Fontes consultadas dão esse nome para o jogo base; veja na sua lista de troféus se Hearts of Stone e Blood & Wine entram na sua versão. No Steam e no Xbox não existe platina (78 conquistas).

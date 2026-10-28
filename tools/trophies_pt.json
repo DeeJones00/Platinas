@@ -1,0 +1,470 @@
+{
+ "1": {
+  "api": "WHAT_WAS_THAT",
+  "en": "What Was That?",
+  "name": "Pode isso, Arnaldo?",
+  "desc": "Ataque, contra-ataque, lance um sinal e jogue uma bomba (em qualquer ordem) em menos de 4 segundos."
+ },
+ "2": {
+  "api": "KAER_MORHEN_TRAINED",
+  "en": "Kaer Morhen Trained",
+  "name": "Treinado em Kaer Morhen",
+  "desc": "Contra-ataque dez vezes seguidas sem ser atingido nem bloquear."
+ },
+ "3": {
+  "api": "FIST_OF_THE_SOUTH_STAR",
+  "en": "Fist of the South Star",
+  "name": "Na raça",
+  "desc": "Derrote um adversário no corpo a corpo sem sofrer nenhum dano."
+ },
+ "4": {
+  "api": "GERALT_AND_FRIENDS",
+  "en": "Geralt and Friends",
+  "name": "Geralt e Cia.",
+  "desc": "Vença uma partida de gwent usando apenas cartas neutras."
+ },
+ "5": {
+  "api": "POWER_OVERWHELMING",
+  "en": "Power Overwhelming",
+  "name": "Poder para dar e vender",
+  "desc": "Tenha todos os bônus de Locais de Poder ativos ao mesmo tempo."
+ },
+ "6": {
+  "api": "LETS_COOK",
+  "en": "Let's Cook!",
+  "name": "Vamos Cozinhar!",
+  "desc": "Aprenda 12 fórmulas de poções."
+ },
+ "7": {
+  "api": "LILAC",
+  "en": "Lilac and Gooseberries",
+  "name": "Lilás e groselha",
+  "desc": "Encontre Yennefer de Vengerberg."
+ },
+ "8": {
+  "api": "BOOKWORM",
+  "en": "Bookworm",
+  "name": "Rato de biblioteca",
+  "desc": "Leia trinta livros, diários ou documentos variados."
+ },
+ "9": {
+  "api": "TRIPLE_THREAT",
+  "en": "Triple Threat",
+  "name": "Ameaça tripla",
+  "desc": "Mate 3 oponentes em uma luta usando 3 métodos diferentes (espadas, bombas, bestas, Sinais, etc.)."
+ },
+ "10": {
+  "api": "BOMBARDIER",
+  "en": "Bombardier",
+  "name": "Carga explosiva",
+  "desc": "Colete a fórmula para 6 tipos de bomba diferentes."
+ },
+ "11": {
+  "api": "EVEN_ODDS",
+  "en": "Even Odds",
+  "name": "O que é justo, é justo",
+  "desc": "Mate dois monstros de um contrato sem usar sinais, poções, mutagênicos, óleos ou bombas."
+ },
+ "12": {
+  "api": "BUTCHER_OF_BLAVIKEN",
+  "en": "Butcher of Blaviken",
+  "name": "O carniceiro de Blaviken",
+  "desc": "Assassine pelo menos cinco adversários em menos de dez segundos."
+ },
+ "13": {
+  "api": "CANT_TOUCH_THIS",
+  "en": "Can't Touch This!",
+  "name": "Elegância",
+  "desc": "Mate cinco adversários sem sofrer nenhum dano (exceto toxicidade) e sem usar o Sinal Quen."
+ },
+ "14": {
+  "api": "FRIENDS_WITH_BENEFITS",
+  "en": "Friends With Benefits",
+  "name": "Amizade colorida",
+  "desc": "Conclua a trama secundária da Keira Metz."
+ },
+ "15": {
+  "api": "THE_EVILEST_THING",
+  "en": "That Is the Evilest Thing",
+  "name": "Maldade pouca é bobagem...",
+  "desc": "Faça o gás produzido pelo sonho do dragão pegar fogo com um adversário em chamas. Repita dez vezes."
+ },
+ "16": {
+  "api": "FIRE_IN_THE_HOLE",
+  "en": "Fire in the Hole",
+  "name": "Bomba, bomba, olha a bomba!",
+  "desc": "Destrua dez ninhos de monstros usando as bombas."
+ },
+ "17": {
+  "api": "SHRIEKER",
+  "en": "Shrieker",
+  "name": "A plenos pulmões",
+  "desc": "Conclua o contrato do berrante."
+ },
+ "18": {
+  "api": "ARMED_AND_DANGEROUS",
+  "en": "Armed and Dangerous",
+  "name": "Armado e perigoso",
+  "desc": "Encontre e equipe todos os elementos de um conjunto de equipamentos de bruxo."
+ },
+ "19": {
+  "api": "FAMILY_COUNSELOR",
+  "en": "Family Counselor",
+  "name": "Terapeuta da família",
+  "desc": "Encontre a esposa e a filha do barão."
+ },
+ "20": {
+  "api": "THE_DOPPLER_EFFECT",
+  "en": "The Doppler Effect",
+  "name": "Dois é demais",
+  "desc": "Resolva o problema do dúplice de Novigrad."
+ },
+ "21": {
+  "api": "FRIEND_IN_NEED",
+  "en": "A Friend in Need",
+  "name": "Amigo é para essas coisas",
+  "desc": "Encontre e liberte Dandelion."
+ },
+ "22": {
+  "api": "GLOBETROTTER",
+  "en": "Globetrotter",
+  "name": "Andarilho",
+  "desc": "Descubra 100 pontos de viagem rápida."
+ },
+ "23": {
+  "api": "ALL_IN",
+  "en": "All In",
+  "name": "Apostar tudo",
+  "desc": "Use três cartas de heróis em uma partida de gwent e ganhe o jogo."
+ },
+ "24": {
+  "api": "EP1_11",
+  "en": "Moo-rderer",
+  "name": "Bovinocida",
+  "desc": "Mate 20 vacas."
+ },
+ "25": {
+  "api": "EP1_12",
+  "en": "Rad Steez, Bro!",
+  "name": "Mó estiloso, mano!",
+  "desc": "Escorregue ladeira abaixo ininterruptamente por 10 segundos."
+ },
+ "26": {
+  "api": "DENDROLOGIST",
+  "en": "Dendrologist",
+  "name": "Dendrólogo",
+  "desc": "Conquiste todas as habilidades de um diagrama."
+ },
+ "27": {
+  "api": "WOODLAND_SPIRIT",
+  "en": "Woodland Spirit",
+  "name": "Espírito do bosque",
+  "desc": "Conclua o contrato do espírito do bosque."
+ },
+ "28": {
+  "api": "ENVIRONMENTALLY_UNFRIENDLY",
+  "en": "Environmentally Unfriendly",
+  "name": "Complô contra a natureza",
+  "desc": "Mate cinquenta adversários usando o ambiente (por exemplo, com gás do pântano, insetos ou objetos)."
+ },
+ "29": {
+  "api": "FAST_AND_FURIOUS",
+  "en": "Fast and Furious",
+  "name": "A todo gás",
+  "desc": "Ganhe todas as corridas de cavalo do jogo."
+ },
+ "30": {
+  "api": "NECROMANCER",
+  "en": "Necromancer",
+  "name": "Necromante",
+  "desc": "Ajude Yennefer a extrair informações do corpo de Skjall."
+ },
+ "31": {
+  "api": "BRAWLER",
+  "en": "Brawler",
+  "name": "Encrenqueiro",
+  "desc": "Derrote Olaf, o campeão de combate sem armas de Skellige."
+ },
+ "32": {
+  "api": "PEST_CONTROL",
+  "en": "Pest Control",
+  "name": "Dedetização",
+  "desc": "Destrua todos os ninhos de monstros na região de Velen / Novigrad, ou em Skellige."
+ },
+ "33": {
+  "api": "BRAWL_MASTER",
+  "en": "Brawl Master",
+  "name": "Encrenqueiro de primeira",
+  "desc": "Complete todas as missões de luta corpo a corpo em Velen, Skellige e Novigrad."
+ },
+ "34": {
+  "api": "MAKER",
+  "en": "Kingmaker",
+  "name": "Realeza",
+  "desc": "Conclua a trama secundária da escolha do monarca de Skellige."
+ },
+ "35": {
+  "api": "FEARLESS_VAMPIRE_SLAYER",
+  "en": "Fearless Vampire Slayer",
+  "name": "O caça-vampiros",
+  "desc": "Conclua o contrato de Sarasti."
+ },
+ "36": {
+  "api": "MUTANT",
+  "en": "Mutant",
+  "name": "Mutante",
+  "desc": "Preencha todos espaços de mutagênicos."
+ },
+ "37": {
+  "api": "ASHES_TO_ASHES",
+  "en": "Ashes to Ashes",
+  "name": "Do pó ao pó",
+  "desc": "Conclua o contrato de Therazane."
+ },
+ "38": {
+  "api": "EP1_13",
+  "en": "Killed It",
+  "name": "Mandou ver",
+  "desc": "Vença uma partida de gwent com uma força total de, pelo menos, 187."
+ },
+ "39": {
+  "api": "GWENT_MASTER",
+  "en": "Gwent Master",
+  "name": "Mestre do gwent",
+  "desc": "Derrote Tybalt e vença o torneio de gwent no Passiflora."
+ },
+ "40": {
+  "api": "CARD_COLLECTOR",
+  "en": "Card Collector",
+  "name": "Colecionador de cartas",
+  "desc": "Adquira todas as cartas de gwent disponíveis na versão base do jogo."
+ },
+ "41": {
+  "api": "FULL_CREW",
+  "en": "Full Crew",
+  "name": "Rapaziada",
+  "desc": "Traga todos seus possíveis aliados para Kaer Morhen para a batalha contra a Caçada."
+ },
+ "42": {
+  "api": "SOMETHING_MORE",
+  "en": "Something More",
+  "name": "Algo mais",
+  "desc": "Encontre Ciri."
+ },
+ "43": {
+  "api": "OVERKILL",
+  "en": "Overkill",
+  "name": "Exagero",
+  "desc": "Faça um adversário sofrer sangramento, envenenamento e queimaduras ao mesmo tempo. Repita dez vezes."
+ },
+ "44": {
+  "api": "ASSASSIN",
+  "en": "Assassin of Kings",
+  "name": "Regicida",
+  "desc": "Participe do assassinato do rei Radovid."
+ },
+ "45": {
+  "api": "XENONAUT",
+  "en": "Xenonaut",
+  "name": "Marionete",
+  "desc": "Visite Tir ná Lia e convença Ge'els a trair Eredin."
+ },
+ "46": {
+  "api": "MUNCHKIN",
+  "en": "Munchkin",
+  "name": "Que gracinha!",
+  "desc": "Atinja o nível do personagem 35."
+ },
+ "47": {
+  "api": "EP2_12",
+  "en": "Hasta la Vista™",
+  "name": "Hasta la Vista™",
+  "desc": "Mate um adversário congelado com um virote de besta."
+ },
+ "48": {
+  "api": "FIEND_OR_FOE",
+  "en": "Fiend or Foe?",
+  "name": "Amizade dolorida",
+  "desc": "Conclua o contrato de Morvudd."
+ },
+ "49": {
+  "api": "THE_KING",
+  "en": "The King is Dead",
+  "name": "O rei está morto",
+  "desc": "Derrote Eredin."
+ },
+ "50": {
+  "api": "PASSED_THE_TRIAL",
+  "en": "Passed the Trial",
+  "name": "Passou no Teste",
+  "desc": "Conclua o jogo em qualquer dificuldade."
+ },
+ "51": {
+  "api": "RAN_THE_GAUNTLET",
+  "en": "Ran the Gauntlet",
+  "name": "Superou o Desafio",
+  "desc": "Termine o jogo no nível de dificuldade \"Sangue e Glória!\" ou \"Marcha da Morte!\"."
+ },
+ "52": {
+  "api": "WALKED_THE_PATH",
+  "en": "Walked the Path",
+  "name": "Seguiu o Caminho",
+  "desc": "Termine o jogo no nível de dificuldade \"Marcha da Morte!\"."
+ },
+ "53": {
+  "api": "THE_PROFESSIONAL",
+  "en": "Geralt: The Professional",
+  "name": "Geralt: bruxo profissional",
+  "desc": "Conclua todos os contratos de bruxos."
+ },
+ "54": {
+  "api": "EP1_9",
+  "en": "Wild Rose Dethorned",
+  "name": "Rosa selvagem sem espinhos",
+  "desc": "Derrote todos os cavaleiros decaídos e saqueie seus acampamentos."
+ },
+ "55": {
+  "api": "EP1_10",
+  "en": "I Wore Ofieri Before It Was Cool",
+  "name": "Vestia ofieri bem antes de estar na moda",
+  "desc": "Colete todas as armaduras e equipamentos ofieri para cavalo, e pelo menos uma espada ofieri."
+ },
+ "56": {
+  "api": "EP1_1",
+  "en": "I'm Not Kissing That",
+  "name": "Não vou beijar isso",
+  "desc": "Mate o príncipe transformado em sapo."
+ },
+ "57": {
+  "api": "EP1_3",
+  "en": "Shopaholic",
+  "name": "Viciado em compras",
+  "desc": "Compre todos os itens leiloados na casa de leilão dos Borsodis."
+ },
+ "58": {
+  "api": "EP1_2",
+  "en": "Let the Good Times Roll!",
+  "name": "Que os bons tempos continuem!",
+  "desc": "Participe em todas as atividades do casamento."
+ },
+ "59": {
+  "api": "EP1_4",
+  "en": "Curator of Nightmares",
+  "name": "Curador de pesadelos",
+  "desc": "Recrie todos os pesadelos de Iris no Mundo Pintado."
+ },
+ "60": {
+  "api": "EP1_6",
+  "en": "When It's Many Against One…",
+  "name": "Quando são muitos contra um…",
+  "desc": "Provoque todos os pesadelos de Iris von Everec, lute contra todos ao mesmo tempo e os derrote."
+ },
+ "61": {
+  "api": "EP1_5",
+  "en": "Pacta Sunt Servanda",
+  "name": "Pacta sunt servanda",
+  "desc": "Termine a expansão \"Hearts of Stone\"."
+ },
+ "62": {
+  "api": "EP1_7",
+  "en": "Return to Sender",
+  "name": "Retornar ao remetente",
+  "desc": "Mate 3 oponentes com suas próprias flechas."
+ },
+ "63": {
+  "api": "EP1_8",
+  "en": "Can Quit Anytime I Want",
+  "name": "Posso largar quando quiser",
+  "desc": "Esteja sob o efeito de sete poções ou elixires ao mesmo tempo."
+ },
+ "64": {
+  "api": "ENEMY_OF_MY_ENEMY",
+  "en": "The Enemy of My Enemy",
+  "name": "O inimigo do meu inimigo",
+  "desc": "Use o Sinal Axii para forçar um adversário a matar outro. Repita 20 vezes."
+ },
+ "65": {
+  "api": "HUMPTY_DUMPTY",
+  "en": "Humpty Dumpty",
+  "name": "Sai de baixo",
+  "desc": "Assassine dez adversários derrubando-os de um lugar alto com o Sinal Aard."
+ },
+ "66": {
+  "api": "MASTER_MARKSMAN",
+  "en": "Master Marksman",
+  "name": "Atirador de elite",
+  "desc": "Mate 50 oponentes humanoides acertando-os na cabeça com um virote de besta."
+ },
+ "67": {
+  "api": "EP2_1",
+  "en": "The Witcher's Gone South",
+  "name": "O bruxo está à solta",
+  "desc": "Viaje ao ducado de Toussaint."
+ },
+ "68": {
+  "api": "EP2_13",
+  "en": "David and Golyat",
+  "name": "Davi e Golyat",
+  "desc": "Mate Golyat com um virote de besta no olho."
+ },
+ "69": {
+  "api": "EP2_9",
+  "en": "The Grapes of Wrath Stomped",
+  "name": "Colhendo as vinhas da ira",
+  "desc": "Ajude a unir os vinhedos em guerra e tenha um vinho batizado em sua homenagem."
+ },
+ "70": {
+  "api": "EP2_8",
+  "en": "I Have a Gwent Problem",
+  "name": "Quanto mais gwent melhor",
+  "desc": "Colete todas as cartas do baralho de Skellige."
+ },
+ "71": {
+  "api": "EP2_11",
+  "en": "Weapon \"W\"",
+  "name": "A arma \"B\"",
+  "desc": "Desenvolva uma mutação."
+ },
+ "72": {
+  "api": "EP2_6",
+  "en": "Playing House",
+  "name": "Brincando de casinha",
+  "desc": "Use todas as opções disponíveis para desenvolver Corvo Bianco."
+ },
+ "73": {
+  "api": "EP2_4",
+  "en": "A Knight to Remember",
+  "name": "Campeão dos campeões",
+  "desc": "Obtenha uma vitória impecável em todas as competições durante o torneio dos cavaleiros."
+ },
+ "74": {
+  "api": "EP2_5",
+  "en": "Embodiment of the Five Virtues",
+  "name": "A encarnação das cinco virtudes",
+  "desc": "Receba Aerondight da Dama do Lago."
+ },
+ "75": {
+  "api": "EP2_7",
+  "en": "Turned Every Stone",
+  "name": "Não deixar pedra sobre pedra",
+  "desc": "Encontre todos os diagramas de grão-mestre de cada escola de bruxo."
+ },
+ "76": {
+  "api": "EP2_10",
+  "en": "Dressed to Kill",
+  "name": "Vestido para matar",
+  "desc": "Desbloqueie o bônus por equipar todos os elementos do equipamento de bruxo de uma Escola."
+ },
+ "77": {
+  "api": "EP2_2",
+  "en": "Last Action Hero",
+  "name": "O último grande herói",
+  "desc": "Seja condecorado com a Ordem de Vitis Vinifera."
+ },
+ "78": {
+  "api": "EP2_3",
+  "en": "Kling of the Clink",
+  "name": "Freguês do xadrez",
+  "desc": "Cumpra pena em Toussaint."
+ }
+}

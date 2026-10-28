@@ -14,7 +14,7 @@ from trophies_pt import MISSABLE_NOTE, PT  # noqa: E402
 # Split follows the guide's own counts: base 53, Hearts of Stone 12, Blood & Wine 13 (78 on Steam/Xbox, 79 on PlayStation).
 SECTIONS = [('Jogo base', range(1, 54)), ('Hearts of Stone (expansão)', range(54, 66)), ('Blood & Wine (expansão)', range(66, 79))]
 MAIN_ID = 'lib-witcher3.txt'
-PLATINUM = ('Os Limites do Possível', 'Platina da PlayStation, ganha ao conquistar os demais troféus. Nome original: The Limits of the Possible. '
+PLATINUM = ('The Limits of the Possible', 'Platina da PlayStation: colete todos os troféus. Não achei o nome em português desse troféu (só existe na PlayStation, não na Steam). '
             'Fontes consultadas dão esse nome para o jogo base; veja na sua lista de troféus se Hearts of Stone e Blood & Wine entram na sua versão. '
             'No Steam e no Xbox não existe platina (78 conquistas).')
 PLAT_NOTE = ('Contagem do guia (Steam): 53 no jogo base, 12 em Hearts of Stone e 13 em Blood & Wine = 78. A PlayStation soma a platina. '
@@ -42,7 +42,7 @@ def main(src, dst, main_path):
     done = {re.sub(r'^(\[x\]|-) ', '', l) for l in open(main_path, encoding='utf8').read().split('\n') if l.startswith('[x] ')}
     ach = {a['n']: a for a in read(src)}
     missable = {n for n, a in ach.items() if any(re.search(r'\bmissable\b', d, re.I) for d in a['d'])}
-    out = ['> Todos os troféus do jogo, do primeiro até a platina, em português do Brasil (tradução própria; o nome original em inglês está dentro de cada troféu, no ⓘ). 🔴 Perdível = o guia avisa que dá para perder o troféu. Marcar aqui também marca no guia principal.',
+    out = ['> Todos os troféus do jogo, do primeiro até a platina, com os nomes e descrições em português do Brasil da localização oficial da CD Projekt RED (lista da Steam). O nome em inglês está dentro de cada troféu, no ⓘ. 🔴 Perdível = o guia avisa que dá para perder o troféu. Marcar aqui também marca no guia principal.',
            '> %d troféus (53 no jogo base, 12 em Hearts of Stone, 13 em Blood & Wine) + a platina. Perdíveis: %d.' % (len(ach), len(missable)),
            '> ' + PLAT_NOTE]
     for title, rng in SECTIONS:

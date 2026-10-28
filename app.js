@@ -63,6 +63,7 @@ function parse(text) {
       else if (last && !last.g && (k = m[1].match(/^@link\s+(\S+)/))) last.l = k[1];
       else if (last && !last.g && (k = m[1].match(/^@lt\s+(.+)/))) last.lt = k[1].trim();
       else if (last && !last.g && (k = m[1].match(/^@grp\s+(\S+)/))) last.grp = k[1];
+      else if (last && !last.g && (k = m[1].match(/^@ico\s+(\S+)/))) last.ico = k[1];
       else if (last && !last.g && (k = m[1].match(/^@pow\s+(\d+)/))) last.p = k[1];
       else if (last && !last.g && (k = m[1].match(/^@tag\s+(.+)/))) (last.t ||= []).push(k[1].trim());
       else if (last && !last.g && (k = m[1].match(/^@copy\s+(\d+\/\d+)/))) last.c2 = k[1];
@@ -89,6 +90,7 @@ const toText = (tree, notes = [], done = {}) => {
       if (x.l) out.push('> @link ' + x.l);
       if (x.lt) out.push('> @lt ' + x.lt);
       if (x.grp) out.push('> @grp ' + x.grp);
+      if (x.ico) out.push('> @ico ' + x.ico);
       if (x.p) out.push('> @pow ' + x.p);
       (x.t || []).forEach((t) => out.push('> @tag ' + t));
       if (x.c2) out.push('> @copy ' + x.c2);
@@ -100,6 +102,18 @@ const toText = (tree, notes = [], done = {}) => {
 };
 
 // contagem [feitos, total] de um grupo
+// Chave estavel de cada item (titulo + n-esima ocorrencia): permite recuperar marcacoes quando um guia muda de estrutura.
+const itemKeys = (tree) => {
+  const seen = {}, out = [];
+  const walk = (nodes) => nodes.forEach((x) => {
+    if (x.g) return walk(x.c);
+    seen[x.x] = (seen[x.x] || 0) + 1;
+    out[x.n] = x.x + '#' + seen[x.x];
+  });
+  walk(tree);
+  return out;
+};
+const doneKeys = (tree, done) => { const ks = itemKeys(tree); return Object.keys(done).map((n) => ks[n]).filter(Boolean); };
 const count = (node, done) => {
   let d = 0, t = 0;
   for (const c of node.c) {
@@ -181,13 +195,27 @@ async function pullLinks(gid) {
 }
 
 async function saveGuide(g) { await put('guides', g.id, g); }
-const saveProgress = (id) => put('progress', id, progress[id]);
+const saveProgress = (id) => {
+  if (guides[id] && progress[id]) progress[id].keys = doneKeys(guides[id].tree, progress[id].done);
+  return put('progress', id, progress[id]);
+};
 const saveGames = () => put('meta', 'games', games);
 
+// Copia automatica do progresso (no maximo 1 a cada 6 h, guarda as 6 ultimas) antes de qualquer atualizacao de guia.
+async function snapshotProgress() {
+  const snaps = (await get('meta', 'snaps')) || [];
+  if (snaps.length && Date.now() - snaps[0].t < 6 * 3600 * 1000) return;
+  if (!Object.values(progress).some((p) => Object.keys(p.done || {}).length)) return;
+  snaps.unshift({ t: Date.now(), progress: JSON.parse(JSON.stringify(progress)) });
+  await put('meta', 'snaps', snaps.slice(0, 6));
+}
+
 async function init() {
+  try { navigator.storage?.persist?.(); } catch { /* sem suporte */ }
   guides = await all('guides');
   progress = await all('progress');
   games = (await get('meta', 'games')) || [];
+  await snapshotProgress();
   await migrateOld();
   await syncLibrary();
   buildLinks();
@@ -229,10 +257,9 @@ async function syncLibrary() {
           const map = {};
           for (let i = 0, j = 0; i < oldItems.length && j < newItems.length; i++) if (oldItems[i].x === newItems[j].x) map[i] = j++;
           if (Object.keys(map).length === newItems.length) Object.keys(oldPr).forEach((i) => { if (map[i] != null) done[map[i]] = 1; });
-          else {
-            const mark = (nodes) => nodes.forEach((x) => { if (x.g) mark(x.c); else if (oldDone.has(x.x)) done[x.n] = 1; });
-            mark(p.tree);
-          }
+          // alem do alinhamento: chaves (titulo + ocorrencia) guardadas junto com o progresso
+          const oldKeys = new Set([...(progress[id]?.keys || []), ...doneKeys(guides[id].tree, oldPr)]);
+          itemKeys(p.tree).forEach((k, n) => { if (oldKeys.has(k)) done[n] = 1; });
           Object.assign(guides[id], { tree: p.tree, notes: p.notes, total: p.total, rev: e.rev || 0 });
           progress[id] = { done, open: {} };
           await saveGuide(guides[id]); await saveProgress(id);
@@ -313,7 +340,19 @@ function home() {
     if (n && !games.includes(n)) { games.push(n); await saveGames(); render(); }
   };
   $('#imp').onclick = () => importFile();
-  $('#bk').onclick = exportBackup;
+  $('#bk').onclick = async () => {
+    const snaps = (await get('meta', 'snaps')) || [];
+    const act = (prompt('Backup: digite "baixar" para salvar um arquivo' + (snaps.length ? ' ou "restaurar" para voltar a uma cópia automática anterior.' : '.')) || '').trim().toLowerCase();
+    if (act === 'baixar') exportBackup();
+    else if (act === 'restaurar' && snaps.length) {
+      const list = snaps.map((s, i) => `${i + 1}) ${new Date(s.t).toLocaleString('pt-BR')} – ${Object.values(s.progress).reduce((a, p) => a + Object.keys(p.done || {}).length, 0)} marcações`).join('\n');
+      const i = parseInt(prompt('Qual cópia restaurar?\n' + list), 10) - 1;
+      if (snaps[i] && confirm('Restaurar essa cópia? O progresso atual será substituído.')) {
+        for (const [id, p] of Object.entries(snaps[i].progress)) { progress[id] = p; await put('progress', id, p); }
+        go({ name: 'home' });
+      }
+    }
+  };
   if (!games.length) {
     view.innerHTML = '<p class="empty">Nenhum jogo ainda.<br>Toque em "+ Jogo" para criar uma pasta,<br>ou em "Importar" para abrir um guia ou backup.</p>';
     return;
@@ -459,12 +498,12 @@ function read() {
 
   const itemEl = (it) => {
     const el = document.createElement('div');
-    el.className = 'item' + (pr.done[it.n] ? ' done' : '');
+    el.className = 'item' + (pr.done[it.n] ? ' done' : '') + ((it.t || []).some((t) => /perd/i.test(t)) ? ' missable' : '');
     el.dataset.n = it.n;
     const hasD = it.d && it.d.length;
     const img = it.i ? `<img class="thumb" loading="lazy" crossorigin="anonymous" alt="" src="${esc(it.i)}">` : '';
-    const thumb = it.i ? `<div class="tw">${img}${it.p ? `<b class="pow" title="Poder">${esc(it.p)}</b>` : ''}</div>` : `<span class="ico">${itemIcon(it.x)}</span>`;
-    const meta = (it.t || it.c2) ? `<div class="meta">${(it.t || []).map((t) => `<span class="tag">${esc(t)}</span>`).join('')}${it.c2 ? `<span class="tag copy">cópia ${esc(it.c2)}</span>` : ''}</div>` : '';
+    const thumb = it.i ? `<div class="tw">${img}${it.p ? `<b class="pow" title="Poder">${esc(it.p)}</b>` : ''}</div>` : `<span class="ico">${it.ico || itemIcon(it.x)}</span>`;
+    const meta = (it.t || it.c2) ? `<div class="meta">${(it.t || []).map((t) => `<span class="tag${/perd/i.test(t) ? ' warn' : ''}">${esc(t)}</span>`).join('')}${it.c2 ? `<span class="tag copy">cópia ${esc(it.c2)}</span>` : ''}</div>` : '';
     el.innerHTML = `<span class="box"></span>${thumb}<div class="txt"><div class="ttl">${esc(it.x)}</div>${meta}${hasD ? '<div class="detail" hidden>' + noteHtml(it.d) + '</div>' : ''}</div>${hasD ? '<span class="more">ⓘ</span>' : ''}`;
     el.querySelector('.box').onclick = () => {
       if (pr.done[it.n]) delete pr.done[it.n]; else pr.done[it.n] = 1;

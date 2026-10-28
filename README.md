@@ -22,6 +22,14 @@ Use "Importar" to load a `.txt` guide or a `.json` backup. "Backup" downloads ev
 
 The Gwent cards and players are not in the main guide: `tools/strip_gwent.py` removes the "Cartas de Gwent" groups from the full converted guide, and `tools/build_gwent_guide.py` builds `guides/gwent.txt` (cards by faction, with art) from the full text (kept in the git-ignored `private/witcher3-full.txt`). Card art is loaded at runtime from the Witcher wiki (Fandom) and cached on the device; it is not stored in this repo. Cards link to their entry in the main guide (`> @link guide:n`), so ticking one ticks the other. Item art is set with `> @img <url>`. Every game card is one row with a square per copy (`> @grp` marks the items that are copies of one card). Cards are tracked only here; the Gwent quests and achievements stay in the main guide and are linked to it. Links also carry the main guide item title (`> @lt`), so they survive edits that move items.
 
+## Trophy guide
+
+`tools/build_trophies.py` builds `guides/trofeus.txt` (all 78 achievements plus the PlayStation platinum, missable ones flagged as the guide marks them), each linked to the main guide.
+
+## Progress safety
+
+Marks are stored with stable keys (item title + occurrence), so a guide update that moves items does not lose them. The app keeps up to 6 automatic copies of the progress (one per 6 hours, restore via Backup > "restaurar"), asks the browser for persistent storage, and "Backup" > "baixar" saves a file.
+
 ## Bundled guides
 
 Files listed in `guides/index.json` are imported automatically the first time the app opens (a guide you delete is not re-imported). The Witcher 3 text in `guides/` belongs to its author; it is included here by the repo owner's choice.

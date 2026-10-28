@@ -1,4 +1,5 @@
 [
   { "file": "witcher3.txt", "game": "The Witcher 3", "name": "100% Conquistas (Cynical Guides)", "rev": 3 },
-  { "file": "gwent.txt", "game": "The Witcher 3", "name": "Cartas de Gwent", "rev": 5 }
+  { "file": "gwent.txt", "game": "The Witcher 3", "name": "Cartas de Gwent", "rev": 5 },
+  { "file": "trofeus.txt", "game": "The Witcher 3", "name": "Troféus até a Platina", "rev": 1 }
 ]

@@ -1,0 +1,706 @@
+> Todos os troféus do jogo, do primeiro até a platina. 🔴 Perdível = o guia avisa que dá para perder o troféu. Marcar aqui também marca no guia principal.
+> 78 troféus (53 no jogo base, 12 em Hearts of Stone, 13 em Blood & Wine) + a platina. Perdíveis: 11.
+> Contagem do guia (Steam): 53 no jogo base, 12 em Hearts of Stone e 13 em Blood & Wine = 78. A PlayStation soma a platina. A divisão entre expansões segue as contagens do guia; confira na sua lista de troféus.
+# Jogo base – 53 troféus, 3 perdíveis
+[x] What Was That?
+> @ico 🏆
+> @link lib-witcher3.txt:1
+> @lt Achievement #1 – What Was That?
+> @tag #1
+> Attack, Counter, cast a Sign, & throw a Bomb (in any order) in under 4 seconds.
+> Ready your Training Bombs & a Sign like Quen. Open up with a Counterattack against Vesemir, attack him with your Sword, throw a Training Bomb, then immediately cast Quen to unlock the Achievement.
+> Keep attempting until the Achievement unlocks; we have unlimited Bombs at our disposal.
+> Aparece na Sequence 1: Nightmares On the Trail.
+[x] Kaer Morhen Trained
+> @ico 🏆
+> @link lib-witcher3.txt:2
+> @lt Achievement #2 – Kaer Morhen Trained
+> @tag #2
+> Perform 10 effective Counterattacks in a row without getting hit or parrying.
+> This is another ideal time to attempt this Achievement since we cannot be killed. Hone in on Vesemir’s attacks, & Counterattack him 10 times for the Achievement; this is good practice for Death March! Difficulty.
+> Vesemir is actually pretty difficult however, & has a wide variety of attacks; his Swift Attacks can be challenging to Counterattack. If you cannot seem to last long enough for 10, keep this Achievement in mind as we enter White Orchard & attempt it on a lone Bandit who has a much more limited move set.
+> Aparece na Sequence 1: Nightmares On the Trail.
+[x] Fist of the South Star
+> @ico 🏆
+> @link lib-witcher3.txt:4
+> @lt Achievement #3 – Fist of the South Star
+> @tag #3
+> Defeat an opponent in a Fist Fight without taking any damage.
+> Before we do anything inside the White Orchard Tavern once we reach it, make a Save, then exit outside the front entrance to be accosted by some ruffians. Be sure you Save before leaving as you may need to reload a few times…
+> Speak with the Peasants, & do not choose the Axii dialogue, & instead engage them in a Fist Fight. One will then come to fight us on his own; defeat them without taking a single hit to unlock this Achievement. As always, do not spam attack… but since these are fists, be a bit more aggressive them you normally would; this guy is not too hard.
+> Aparece na Sequence 1: Nightmares On the Trail.
+[x] Geralt & Friends
+> @ico 🏆
+> @link lib-witcher3.txt:5
+> @lt Achievement #4 – Geralt & Friends
+> @tag #4
+> Win a round of Gwent using only Neutral Cards.
+> This is the earliest we can unlock this Achievement. Our Neutral Cards are the Weather Cards, Zoltan Chivay, & our DLC Card Roach. For this Achievement, be sure you have Zoltan in your hand.
+> Use the first round to exhaust as many (if not all) of the Scholar’s cards in the first round & still win. On the final round, play only those Neutral Cards & win the game.
+> Aparece na Sequence 1: Nightmares On the Trail.
+[x] Power Overwhelming
+> @ico 🏆
+> @link lib-witcher3.txt:10
+> @lt Achievement #5 – Power Overwhelming
+> @tag #5
+> Have all 5 possible Place of Power bonuses active at the same time.
+> There are 6 Places of Power found in White Orchard; one is a double. Each bonus will last for 30 minutes, meaning we will have 30 minutes to ride around & visit all the Places of Power. This is easier than it sounds. I recommend starting from the Northmost Place of Power & visiting them in order South while riding Roach.
+> Beware the large Bear found at our final Place of Power; it is Level 6!
+> Aparece na Sequence 2: The Death of White Lilies.
+[x] Let’s Cook!
+> @ico 🏆
+> @link lib-witcher3.txt:11
+> @lt Achievement #6 – Let’s Cook!
+> @tag #6
+> Learn 12 Potion Formulae.
+> This Achievement can be earned here in White Orchard if you explore all of the ? on the World Map & find Potion Formulae as random loot. We can also buy Formulae from Herbalists & other Merchants in the area as well.
+> By looting White Orchard, we should also be halfway to reaching the Bombardier Achievement for collecting 6 different Bomb Formulae.
+> Aparece na Sequence 2: The Death of White Lilies.
+[x] Lilac & Gooseberries
+> @ico 🏆
+> @link lib-witcher3.txt:15
+> @lt Achievement #7 – Lilac & Gooseberries
+> @tag #7
+> Find Yennefer of Vengerberg.
+> Story Related. Instead of finding Yennefer, Yennefer will find us at the White Orchard Tavern & take us to Vizima, unlocking the Achievement.
+> Aparece na Sequence 2: The Death of White Lilies.
+[x] Bookworm
+> @ico 🏆
+> @link lib-witcher3.txt:17
+> @lt Achievement #8 – Bookworm
+> @tag #8
+> Read 30 Books, Journals, or other documents.
+> This Achievement will come naturally as we playthrough the game. If you are a looting fiend, you can unlock it by Vizima if you have been searching Bookshelves in White Orchard. Be sure to read the Books & Journals you collect too!
+> Aparece na Sequence 3: The Bloody Baron.
+[x] Triple Threat
+> @ico 🏆
+> @link lib-witcher3.txt:35
+> @lt Achievement #9 – Triple Threat
+> @tag #9
+> Kill 3 opponents in one fight using 3 different methods (Swords, Bombs, Crossbow, Signs, etc.).
+> As we explore Undiscovered Locations, keep your eyes open for Level 5 or lower areas guarded by human enemies (Pirates, Bandits, Cannibals, Renegades, etc.)
+> When you find a good bunch, Save your game & get ready. The easiest three methods are going to be your Steel Sword, Grapeshot, & Igni. The Steel Sword is obvious, but for Bombs & Signs, whittle down the enemies health as low as you can & finish them off with a different method; you do not have to do each new method in a row, just as long as they are all done over the course of a single fight.
+> Aparece na Sequence 6: Not Just Any Witch....
+[x] Bombardier
+> @ico 🏆
+> @link lib-witcher3.txt:36
+> @lt Achievement #10 – Bombardier
+> @tag #10
+> Collect the Formulae for 6 different Bomb types.
+> Bomb Formulae can be purchased from Herbalists when they have them in stock or earned as random loot when opening Chests. If you are diligent with your exploration, this is probably the earliest you will unlock this Achievement; there are 8 different types of Bombs in total.
+> If not, or you are not close yet, do not fret; we can purchase all of them from a specific Herbalist found close to Oxenfurt on the other side of the river. I will flag them down when we are in that neck of the woods…
+> Aparece na Sequence 6: Not Just Any Witch....
+[x] Even Odds
+> @ico 🏆
+> @link lib-witcher3.txt:48
+> @lt Achievement #11 – Even Odds
+> @tag 🔴 Perdível
+> @tag #11
+> Perdível, segundo o guia.
+> Kill 2 Monsters you have a Contract on without using Signs, Potions, Mutagens, Oils or Bombs.
+> Missable. This is a Missable Achievement as it is possible to complete all Witcher Contracts without unlocking this Achievement. There are many applicants to attempt this Achievement, however Contracts on Wraiths will not work as they are almost impossible to kill without Signs.
+> Not unequipping your Mutagens is the prime suspect for not unlocking/contributing to this Achievement. Remember to do so before engaging the Monster when working towards this Achievement… As we complete more Contracts, I will advise if they are good candidates or not for the Achievement.
+> Aparece na Sequence 8: Wind's Howling....
+- Butcher of Blaviken
+> @ico 🏆
+> @link lib-witcher3.txt:49
+> @lt Achievement #12 – Butcher of Blaviken
+> @tag #12
+> Kill at least 5 opponents in under 10 seconds.
+> With our business in the East complete, we can now begin making our way down South from Midcopse towards the Mage’s hideout. Along the way, there are multiple Undiscovered Locations immediately South of Midcopse that are full of Cannibals who are only Level 3.
+> At our Level, we should be able to blast through them without too much trouble. For this Achievement, we can use every advantage such as Oils, Bombs, & Signs. Save before attempting. If you cannot manage with your current equipment, do not worry. This Achievement does not expire & enemies will only get weaker & weaker as we get stronger; there is nothing stopping you from returning to White Orchard at Level 30 to fight Level 1 Deserters for this Achievement…
+> Aparece na Sequence 8: Wind's Howling....
+- Can’t Touch This!
+> @ico 🏆
+> @link lib-witcher3.txt:50
+> @lt Achievement #13 – Can’t Touch This!
+> @tag #13
+> Kill 5 foes in a fight without taking damage (except for Toxicity) & without using the Quen Sign.
+> This Achievement is a bit trickier but follows the same rationale; these Cannibals again being the perfect victims. This time, you want to take it slow & fight them one on one if you can. Anything goes, but you cannot use the Quen Sign for defence. If you take any damage, reload & try again.
+> Again, this Achievement can be earned at anytime when you are a higher Level with better gear…
+> Aparece na Sequence 8: Wind's Howling....
+[x] Friends With Benefits
+> @ico 🏆
+> @link lib-witcher3.txt:58
+> @lt Achievement #14 – Friends With Benefits
+> @tag #14
+> Complete the subplot involving Keira Metz.
+> This Achievement will be unlocked no matter what ending you pick to end Secondary Quest – For the Advancement of Learning.
+> Aparece na Sequence 9: Feminine Intuition.
+- That Is the Evilest Thing…
+> @ico 🏆
+> @link lib-witcher3.txt:59
+> @lt Achievement #15 – That Is the Evilest Thing…
+> @tag #15
+> Ignite the gas produced by a Dragon's Dream Bomb using a burning opponent. Do this 10 times.
+> By this point you should be around Level 8-10 if you have been exploring & completing other Secondary Quests. Before we continue on, we can do a little bit of clean up & get some extra loot. You should also have collected the Formulae for the Dragon’s Dream Bomb & hopefully crafted it. If not, be sure to check the inventory of Herbalists for the Formulae & the ingredients to make it.
+> Once you have it, make a point of working towards this Achievement; it is easiest done on lone enemies if you are worried about not having Quen active. Light an enemy on fire with Igni, & once they are ablaze flailing around, quickly throw a Dragon’s Dream Bomb at them so it explodes; you do not need to kill the enemy with it.
+> Aparece na Sequence 10: Oughta' Just Destroy It.
+[x] Fire In the Hole
+> @ico 🏆
+> @link lib-witcher3.txt:61
+> @lt Achievement #16 – Fire In the Hole
+> @tag #16
+> Destroy 10 Monster Nests using Bombs.
+> This will come naturally as we playthrough the game; there are well over 10 Monster Nests in the game for sure… You may have unlocked this Achievement sooner if you destroyed the three Monster Nests in White Orchard.
+> Aparece na Sequence 10: Oughta' Just Destroy It.
+- Shrieker
+> @ico 🏆
+> @link lib-witcher3.txt:63
+> @lt Achievement #17 – Shrieker
+> @tag #17
+> Complete the Contract on the Shrieker.
+> Slay the Shrieker, then return back to Chet in Crow’s Perch & turn in this Witcher Contract to unlock the Achievement.
+> Aparece na Sequence 10: Oughta' Just Destroy It.
+- Armed & Dangerous
+> @ico 🏆
+> @link lib-witcher3.txt:72
+> @lt Achievement #18 – Armed & Dangerous
+> @tag #18
+> Find & equip all the elements of one set of Witcher gear.
+> Follow through & locate all the pieces to the Griffon School set through Scavenger Hunt – Griffon School Gear; if you do not have the Quest, we can purchase the first & second maps from the Armorer in Midcopse. There are only three locations the Diagrams are found at; for the Silver Sword at Lornruk, we need to swim down into the sea below where the Place of Power is to find a hidden underwater entrance.
+> After the Diagrams are collected, we will then need to craft them; the Armorer & Blacksmith in Oxenfurt can do this. Lastly, we then need to be Level 11. Once we are, equip all four pieces of Armor & the two Witcher Swords to unlock the Achievement.
+> Aparece na Sequence 11: Height of Academia.
+- Family Counsellor
+> @ico 🏆
+> @link lib-witcher3.txt:81
+> @lt Achievement #19 – Family Counsellor
+> @tag #19
+> Find the Baron's wife & daughter.
+> Story Related. We will unlock this Achievement after completing Main Quest #9 – Family Matters.
+> Aparece na Sequence 12: An Impossible Redemption.
+- The Doppler Effect
+> @ico 🏆
+> @link lib-witcher3.txt:113
+> @lt Achievement #20 – The Doppler Effect
+> @tag #20
+> Resolve the Doppler problem in Novigrad.
+> Complete Witcher Contract – An Elusive Thief to unlock this Achievement.
+> Aparece na Sequence 17: Old Friends.
+- A Friend In Need
+> @ico 🏆
+> @link lib-witcher3.txt:131
+> @lt Achievement #21 – A Friend In Need
+> @tag #21
+> Find & free Dandelion.
+> Story Related. Kill the Witch Huner that took him & rescue Dandelion to complete Main Quest – A Poet Under Pressure & unlock this Achievement.
+> Aparece na Sequence 19: A Divine Comedy.
+- Globetrotter
+> @ico 🏆
+> @link lib-witcher3.txt:140
+> @lt Achievement #22 – Globetrotter
+> @tag #22
+> Discover 100 Fast Travel points.
+> Begin making your way North across the island to the Clan an Craite fortress, Kaer Trolde. Along the way, if you are following the main road, we can find a small camp with a Merchant in it that will sell us “Lonesome World Guides” to each of the Skellige Islands that will unlock new Signposts for us to Fast Travel to; these maps will unlock nine locations for us.
+> If you have not already unlocked this Achievement, these new locations will help; it is bound to unlock for us at some point during our travels across the Skellige Isles…
+> Aparece na Sequence 20: Castaway.
+- All In
+> @ico 🏆
+> @link lib-witcher3.txt:144
+> @lt Achievement #23 – All In
+> @tag #23
+> Play three Hero Cards in one round of Gwent & win the match.
+> By this point, we should have a slew of different Hero Cards across all the four Decks. As we play through our Gwent games on Skellige, keep this Achievement in mind; you can also deliberately try for the Achievement as random chance plays into it with the Cards you get in your hand.
+> For grinding, make a Save, & keep reloading until you get at least three Hero Cards in your hand; you need to play at least three Hero Cards in a single Round during a Gwent game & win that Round.
+> Aparece na Sequence 20: Castaway.
+- Moo-rderer
+> @ico 🏆
+> @link lib-witcher3.txt:149
+> @lt Achievement #24 – Moo-rderer
+> @tag #24
+> Kill 20 Cows.
+> Here in Blandare, we can also find at least 8 Cows that spawn in a pasture close to the Signpost. We can kill these Cows then Meditate for 24 hours to respawn them; do this three times to unlock the Achievement. Kills with Signs do not count & it must be done with Weapons.
+> This Achievement was introduced from the Hearts of Stone DLC. Cows spawn in White Orchard, the Eastern Expanse found East of Novigrad, & here in Skellige; you may have already killed a few Cows in your travels (or earned the Achievement).
+> Aparece na Sequence 21: Snow, Salt, & Cold Steel.
+- Rad Steez, Bro!
+> @ico 🏆
+> @link lib-witcher3.txt:154
+> @lt Achievement #25 – Rad Steez, Bro!
+> @tag #25
+> Slide downhill uninterrupted for at least 10 seconds.
+> This is another Hearts of Stone Achievement that can be unlocked easily in this area. Leave the Distillery cave, & walk up the longest/steepest mountain slope you can find here to the top & make a Save. Slide down the slope for at least 10 seconds to unlock the Achievement; it may take some trial & error finding your run which is why Saving beforehand is important.
+> Aparece na Sequence 21: Snow, Salt, & Cold Steel.
+- Dendrologist
+> @ico 🏆
+> @link lib-witcher3.txt:156
+> @lt Achievement #26 – Dendrologist
+> @tag #26
+> Acquire all the Abilities in one tree.
+> Gremist also sells a whopping 8 Potions of Clearance. Make a Save before attempting this. If you are at least Level 20, use a Potion of Clearance to reset your Ability Points, then pick any Ability Tree to purchase all 20 Abilities in it. It will cost a total of 23 Ability Points; Places of Power will make this guaranteed to unlock. You just need at least one Point in all 20 Abilities, not have them all fully Upgraded.
+> Aparece na Sequence 21: Snow, Salt, & Cold Steel.
+- Woodland Spirit
+> @ico 🏆
+> @link lib-witcher3.txt:164
+> @lt Achievement #27 – Woodland Spirit
+> @tag #27
+> Complete the Contract on the Woodland Spirit.
+> There are two ways of completing the Quest, renewing the villages pact with the spirit or destroying it. Unfortunately, the Achievement will only unlock if you destroy the spirit; renewing the pact, though does complete the quest, does not complete the Contract & will void our Achievement.
+> Aparece na Sequence 22: Kvitravn.
+- Environmentally Unfriendly
+> @ico 🏆
+> @link lib-witcher3.txt:167
+> @lt Achievement #28 – Environmentally Unfriendly
+> @tag #28
+> Kill 50 opponents using the environment (e.g. swamp gas, insects or objects).
+> This is a strange Achievement & the “e.g.” in the description accounts for a lot more than it describes. Chances are, you ideally earned this Achievement a while ago. If not, focus when possible killing enemies with Exploding Barrels, igniting swamp gas (or cave gas), poisoning enemies with swamp gas, using Bee Hives, knocking enemies down with Aard (killing with gravity).
+> Killing Bandits by knocking them off their horses with Aard is an instant kill & contributes to this Achievement; anytime you see them, & haven’t earned this Achievement, kill them this way for farming… Allegedly, knocking Harpies or Sirens out of the air with Aard & using a Finisher on them also counts.
+> Aparece na Sequence 23: Lilac & Gooseberry.
+- Fast & Furious
+> @ico 🏆
+> @link lib-witcher3.txt:178
+> @lt Achievement #29 – Fast & Furious
+> @tag #29
+> Win all 11 Horse Races in the game.
+> We will unlock this Achievement if we completed: Secondary Quest – Races Crow’s Perch, Secondary Quest – The Great Erasmus Vegelbud Memorial Derby, & the four Heroes’ Pursuits Secondary Quests.
+> Aparece na Sequence 24: Helvegen.
+- Necromancer
+> @ico 🏆
+> @link lib-witcher3.txt:183
+> @lt Achievement #30 – Necromancer
+> @tag #30
+> Help Yennefer extract information from Skjall's body.
+> Story Related. We will unlock this Achievement after we complete Ciri Quest – The Calm Before the Storm & we finish debriefing with Yennefer on what to do next in Freya’s Garden.
+> Aparece na Sequence 24: Helvegen.
+- Brawler
+> @ico 🏆
+> @link lib-witcher3.txt:186
+> @lt Achievement #31 – Brawler
+> @tag #31
+> Defeat Olaf, the Skellige champion of unarmed combat.
+> Defeat Olaf during Secondary Quest – Fists of Fury Skellige to unlock this Achievement.
+> We only have one more opponent to fight to become the new reining “Champion of Champions” of Skellige.
+> Aparece na Sequence 24: Helvegen.
+- Pest Control
+> @ico 🏆
+> @link lib-witcher3.txt:187
+> @lt Achievement #32 – Pest Control
+> @tag #32
+> Destroy all 29 Monster Nests in the Velen/Novigrad region, or all 5 in Skellige.
+> We will unlock this Achievement after we destroy the fifth & last Monster Nest here in Skellige; it is much easier doing it this way than in Velen/Novigrad.
+> Aparece na Sequence 24: Helvegen.
+- Brawl Master
+> @ico 🏆
+> @link lib-witcher3.txt:190
+> @lt Achievement #33 – Brawl Master
+> @tag #33
+> Complete all 12 Fist Fighting events in Velen, Skellige, & Novigrad.
+> If you have been following along with the guide, we will unlock this Achievement after completing the final Fist of Fury Quest.
+> Aparece na Sequence 25: Long Live an Craite!.
+- Kingmaker
+> @ico 🏆
+> @link lib-witcher3.txt:196
+> @lt Achievement #34 – Kingmaker
+> @tag #34
+> Complete the subplot about choosing Skellige's ruler.
+> Complete Secondary Quest – Coronation & help choose a new Ruler of Skellige to unlock this Achievement.
+> With that, we are officially finished our work in Skellige for now & completed Act I of the game.
+> Aparece na Sequence 25: Long Live an Craite!.
+- Fearless Vampire Slayer
+> @ico 🏆
+> @link lib-witcher3.txt:199
+> @lt Achievement #35 – Fearless Vampire Slayer
+> @tag #35
+> Complete the Contract on Sarasti.
+> We will unlock this Achievement during Witcher Contract – The Mystery of the Byways Murders after we slay Sarasti & speak with Bytomir in Byways.
+> Aparece na Sequence 26: Killing Monsters.
+- Mutant
+> @ico 🏆
+> @link lib-witcher3.txt:202
+> @lt Achievement #36 – Mutant
+> @tag #36
+> Fill all 4 Mutagen Slots.
+> We will gain access to our fourth & final Mutagen Slot at Level 28. If you have completed all Secondary Quests so far, explored everywhere, & killed most things, you potentially may be this Level by now.
+> If not, no rush, we still have two more Acts & two DLCs to go through… we need to be at least Level 35 to earn the Munchkin Achievement anyways.
+> Aparece na Sequence 26: Killing Monsters.
+- Ashes to Ashes
+> @ico 🏆
+> @link lib-witcher3.txt:204
+> @lt Achievement #37 – Ashes to Ashes
+> @tag #37
+> Complete the Contract on Therazane.
+> Complete the Witcher Contract – Doors Slamming Shut to unlock this Achievement.
+> Aparece na Sequence 26: Killing Monsters.
+- Killed It
+> @ico 🏆
+> @link lib-witcher3.txt:210
+> @lt Achievement #38 – Killed It
+> @tag #38
+> Win a round of Gwent with a total strength of at least 187.
+> This Random Player… sucks, but in a good way for us, as they have a pretty awful Deck. This makes them a prime candidate for this Achievement as they have no Scorch & rarely ever use Weather Cards.
+> This Achievement is tricky, but not too hard & can be earned with most Decks with ease except for the Scoia’tael Deck as it is not their strong suit; not impossible, but way harder compared to the other three Decks. We also do not actually have to win the game, just win a round with over 187 strength, so we can Forfeit the game immediately if we do not have the right Cards in our hand at the start.
+> Aparece na Sequence 27: Doing Just Gwent, Thanks.
+- Gwent Master
+> @ico 🏆
+> @link lib-witcher3.txt:213
+> @lt Achievement #39 – Gwent Master
+> @tag #39
+> Defeat Tybalt & win the Gwent Tournament held at the Passiflora.
+> We will unlock this Achievement as soon as we defeat Count Tybalt; there is still a bit more to complete during Secondary Quest – High Stakes, but it is well… secondary, now that we have what we really needed.
+> Aparece na Sequence 27: Doing Just Gwent, Thanks.
+- Card Collector
+> @ico 🏆
+> @link lib-witcher3.txt:214
+> @lt Achievement #40 – Card Collector
+> @tag #40
+> Acquire all 169 Gwent Cards available in the base version of the game.
+> If you have been following along with the guide, we will unlock this Achievement after earning our final four Cards during Secondary Quest – High Stakes.
+> If I am being completely honest… I am pretty sure some of the Cards included in the guide do not count. The problem is, there is no real way of knowing for sure with out so much proofing. I found it was just safest to collect every single non-stackable Card & call it unique; if nothing else, it helped you build the strongest Deck possible to win the tournament…
+> Aparece na Sequence 27: Doing Just Gwent, Thanks.
+- Full Crew
+> @ico 🏆
+> @link lib-witcher3.txt:229
+> @lt Achievement #41 – Full Crew
+> @tag 🔴 Perdível
+> @tag #41
+> Perdível, segundo o guia.
+> Bring all 6 possible allies to Kaer Morhen for the battle against the Hunt.
+> Missable. After we recruit Hjalmar, if we recruited the other five allies, we will unlock the Achievement. For the Achievement, we need to recruit: Keira Metz, Triss Marigold, Vernon Roche (with Ves), Zoltan Chivay, Ermion, & Hjalmar.
+> The mysterious (heavily spoiler ridden) character from Witcher 2 is optional & does not contribute to the Achievement.
+> Aparece na Sequence 29: The Battle of Kaer Morhen.
+- Something More
+> @ico 🏆
+> @link lib-witcher3.txt:232
+> @lt Achievement #42 – Something More
+> @tag #42
+> Find Ciri.
+> Story Related. Complete Main Quest – The Isles of Mists to unlock this Achievement; I am a big crybaby & this scene made me tear up a bit.
+> Aparece na Sequence 29: The Battle of Kaer Morhen.
+- Overkill
+> @ico 🏆
+> @link lib-witcher3.txt:238
+> @lt Achievement #43 – Overkill
+> @tag #43
+> Make an opponent suffer from Bleeding, Poisoning, & Burning simultaneously. Do this 10 times.
+> This is a simpler Achievement if you are using Witcher Swords equipped with Devana Runestones to cause Bleeding; Cat School Swords have permanent Bleed chance. Once you notice an enemy is Bleeding, quickly throw a Devil’s Puffball Bomb to cause Poison then a Dancing Star Bomb (or use Igni) to light them on Fire; do this 10 times on different enemies.
+> Alternatively, you can equip a Sword with three Rune Sockets a Devana, Morana, & Dazhbog Runestone but that is less guaranteed to work. Bleed is the best done with Runes or Sword effects while Poison & Fire is best done with Bombs & Signs. Work towards this Achievement as we complete Act 3.
+> Aparece na Sequence 30: The King Is Dead.
+- Assassin of Kings
+> @ico 🏆
+> @link lib-witcher3.txt:243
+> @lt Achievement #44 – Assassin of Kings
+> @tag 🔴 Perdível
+> @tag #44
+> Perdível, segundo o guia.
+> Take part in the assassination of King Radovid.
+> Missable. Complete Secondary Quest – Reason of State & go with Radovid to Phillipa’s hideout & turn the tabling tables against him to unlock the Achievement.
+> Though not tied to any Achievements, some troubling developments happen during the aftermath & you will need to make a decision about the future of the North & our friends.
+> Aparece na Sequence 30: The King Is Dead.
+- Xenonaut
+> @ico 🏆
+> @link lib-witcher3.txt:245
+> @lt Achievement #45 – Xenonaut
+> @tag #45
+> Visit Tir ná Lia & convince Ge'els to betray Eredin.
+> Story Related. Complete Main Quest – Through Time & Space to unlock this Achievement.
+> Aparece na Sequence 30: The King Is Dead.
+- Munchkin
+> @ico 🏆
+> @link lib-witcher3.txt:247
+> @lt Achievement #46 – Munchkin
+> @tag #46
+> Reach character development Level 35.
+> We will be earning lots of Xp over the last few Main Quests; if you have been busy with Secondary Quests, you are bound to unlock this Achievement soon.
+> Aparece na Sequence 30: The King Is Dead.
+- Hasta la Vista
+> @ico 🏆
+> @link lib-witcher3.txt:250
+> @lt Achievement #47 – Hasta la Vista
+> @tag #47
+> Kill a Frozen opponent with a Crossbow Bolt.
+> Before we continue on, head to the Village of Blandare & go to the pasture full of Cows. Equip a Northern Wind Bomb (or craft them if you somehow never have yet) & throw it into the Cows to Freeze them. Quickly equip your best Crossbow, then shoot a Frozen Cow to kill them, unlocking this Achievement.
+> If you have the Blood & Wine DLC, we will have access to this Achievement.
+> Aparece na Sequence 31: Ithlinne's Prophecy.
+- Fiend or Foe?
+> @ico 🏆
+> @link lib-witcher3.txt:253
+> @lt Achievement #48 – Fiend or Foe?
+> @tag #48
+> Complete the Contract on Morvudd.
+> Complete Witcher Contract – Missing Son to unlock this Achievement.
+> Aparece na Sequence 31: Ithlinne's Prophecy.
+- The King of the Dead
+> @ico 🏆
+> @link lib-witcher3.txt:261
+> @lt Achievement #49 – The King of the Dead
+> @tag #49
+> Defeat Eredin.
+> Story Related. Complete Main Quest – On Thin Ice & kill Eredin to unlock this Achievement.
+> Aparece na Sequence 31: Ithlinne's Prophecy.
+- Passed the Trial
+> @ico 🏆
+> @link lib-witcher3.txt:264
+> @lt Achievement #50 – Passed the Trial
+> @tag #50
+> Finish the game on any Difficulty.
+> Story Related. Complete Main Quest – Tedd Deirdeadh, The Final Age & beat the Base Game to unlock this Achievement.
+> Aparece na Sequence 31: Ithlinne's Prophecy.
+- Ran the Gauntlet
+> @ico 🏆
+> @link lib-witcher3.txt:265
+> @lt Achievement #51 – Ran the Gauntlet
+> @tag #51
+> Finish the game on the Blood & Broken Bones! or Death March! Difficulty levels.
+> Story Related. Beat the game on Blood & Broken Difficulty or higher to unlock the Achievement.
+> Aparece na Sequence 31: Ithlinne's Prophecy.
+- Walked the Path
+> @ico 🏆
+> @link lib-witcher3.txt:266
+> @lt Achievement #52 – Walked the Path
+> @tag #52
+> Finish the game on the Death March! Difficulty level.
+> Story Related. If you played the game on Death March! Difficulty from the start & beat the Base Game, we will unlock this Achievement.
+> As of now, we can lower the Difficulty without fear if you choose to; personally, especially if you are wearing Mastercraft Witcher Gear… the game would be too easy on anything less.
+> Aparece na Sequence 31: Ithlinne's Prophecy.
+- Geralt
+> @ico 🏆
+> @link lib-witcher3.txt:269
+> @lt Achievement #53 – Geralt
+> @tag #53
+> The Professional: Complete all 26 Witcher Contracts.
+> We will unlock this Achievement after we complete all 26 Witcher Contracts. According to the Wiki, Devil By the Well does not count anymore for some reason, but I left it in the guide to be on the safe side…
+> The three free DLC Witcher Contracts (The Beast of Honorton, Skellige’s Most Wanted, & Missing Miners) do not contribute to the Achievement.
+> Aparece na Sequence 32: Hearts of Stone.
+# Hearts of Stone (DLC) – 12 troféus, 4 perdíveis
+- Wild Rose Dethorned
+> @ico 🏆
+> @link lib-witcher3.txt:272
+> @lt Achievement #54 – Wild Rose Dethorned
+> @tag #54
+> Defeat all the Fallen Knights & loot their 8 Campsites.
+> After the last Fallen Knight is slain & you have gone & looted all 8 of their Campsites, we will unlock this Achievement. All their Bandit Camps should be faded out & not bold white otherwise you have not looted their Camp.
+> There is a Person(s) In Distress as well as an Abandoned Site that have Fallen Knights in them; these do not count towards the Achievement.
+> Aparece na Sequence 32: Hearts of Stone.
+- I Wore Ofieri Before It Was Cool
+> @ico 🏆
+> @link lib-witcher3.txt:273
+> @lt Achievement #55 – I Wore Ofieri Before It Was Cool
+> @tag #55
+> Collect all available Ofieri Armor, Horse Gear, & at least one Ofieri Sword.
+> With the Untranslated Diagrams in hand, return them to the Merchant then Meditate for a day for him to get our things ready. Return on the morrow to collect the Diagrams from him; we must now Craft our remaining pieces.
+> Go to a Blacksmith & have them Craft the Ofieri Boots, Ofieri Gauntlets, & the Ofieri Sharovary. If you bought the Ofieri Tunic, Ofieri Saber, & own all the Ofieri Horse gear we will unlock the Achievement.
+> Aparece na Sequence 32: Hearts of Stone.
+- I’m Not Kissing That
+> @ico 🏆
+> @link lib-witcher3.txt:276
+> @lt Achievement #56 – I’m Not Kissing That
+> @tag #56
+> Kill the prince cursed into a toad.
+> Story Related. We will unlock this Achievement as soon as we slay the Toad “Prince” in Hearts of Stone Quest – Evil’s Soft First Touches.
+> Aparece na Sequence 33: The Indentured Witcher.
+- Shopaholic
+> @ico 🏆
+> @link lib-witcher3.txt:280
+> @lt Achievement #57 – Shopaholic
+> @tag 🔴 Perdível
+> @tag #57
+> Perdível, segundo o guia.
+> Buy all 3 items put on the block at the Borsodis' Auction House.
+> Missable. When the auction begins, we must be prepared to bid on all three items that are put on the block; the total of all of them will be 680 Crowns. Be warned making a bid is a timed event, so be sure to be quick about it when prompted.
+> The first item we must buy is Count Romilly’s Figurine which is a bronze statue of a raven – keep on making bids until we can buy it for 300 Crowns.
+> Aparece na Sequence 33: The Indentured Witcher.
+- Let the Good Times Roll!
+> @ico 🏆
+> @link lib-witcher3.txt:285
+> @lt Achievement #58 – Let the Good Times Roll!
+> @tag 🔴 Perdível
+> @tag #58
+> Perdível, segundo o guia.
+> Participate in all 10 of the activities at the wedding.
+> Missable. Make your way over to where the wedding party is being held at Brunwich. Borrow some clothes, meet the newly weds, & we can then partake in some wedding activities. There are 10 different ones in total & for our Achievement we need to complete all of them. After we complete 7/10 we will drag Shani into the barn for a dance & Master Mirror will appear; speaking with him will end our free roam at the wedding & void our Achievement! Participate/complete all 10 activities before you go to speak with him.
+> Make a Save before you begin completing the activities just in case something goes awry so you can reload if the Achievement does not unlock!
+> Aparece na Sequence 34: Till Death Do Us Part.
+- Curator of Nightmares
+> @ico 🏆
+> @link lib-witcher3.txt:298
+> @lt Achievement #59 – Curator of Nightmares
+> @tag 🔴 Perdível
+> @tag #59
+> Perdível, segundo o guia.
+> Recreate all 8 of Iris' Nightmares in the Painted World.
+> Missable. This Achievement will unlock after the 8th Nightmare has been completed. The only reason it is Missable, is if you failed to complete the first Nightmare at the gazebo before venturing on into the manor.
+> Aparece na Sequence 34: Till Death Do Us Part.
+- When It’s Many Against One…
+> @ico 🏆
+> @link lib-witcher3.txt:299
+> @lt Achievement #60 – When It’s Many Against One…
+> @tag 🔴 Perdível
+> @tag #60
+> Perdível, segundo o guia.
+> Provoke all 6 of Iris von Everec's Nightmares into fighting you at the same time & defeat them.
+> Missable. With the Nightmares witnessed, we will enter the parlor & need to fight off Iris’ Greatest Fear… the many deaths of Olgierd. One will attack us, but there will be five others standing nearby waiting.
+> For this Achievement, you need to quickly rush around & attack the dormant five so that we are being attacked by all six Olgierds at the same time. Once they are all agrro’d we need to defeat them all! We will be auto-locked on to the main Olgierd & it can be challenging to attack the ones on standby. Try getting behind them & put them in front of us & the main Olgierd to strike them. The Achievement will unlock after they are all killed if we fought them all at the same time; we cannot kill any of the Olgierds before they are all aggro’d!
+> Aparece na Sequence 35: A Pact Undone.
+- Pacta Sunt Servanda
+> @ico 🏆
+> @link lib-witcher3.txt:303
+> @lt Achievement #61 – Pacta Sunt Servanda
+> @tag #61
+> Finish the Hearts of Stone expansion.
+> Story Related. We will unlock this Achievement after completing Hearts of Stone Quest – Whatsoever A Man Soweth.
+> Aparece na Sequence 35: A Pact Undone.
+- Return to Sender
+> @ico 🏆
+> @link lib-witcher3.txt:304
+> @lt Achievement #62 – Return to Sender
+> @tag #62
+> Kill 3 opponents with their own arrows.
+> To start, we will do the simple ones. The best place to farm this Achievement I found… is actually using the respawning Baron’s Henchmen beside the Crow’s Perch Signpost; we need the Arrow Deflection Ability equipped.
+> Kill the one wielding a polearm first then quickly back away from the crossbow wielder so he doesn’t switch to his sword. To redirect his bolts back at him, we need to perfectly time our Parry to essentially Riposte the projectile back at him. Once they are dead, simply Meditate to respawn them until we kill the crossbow wielder three times with his own bolts.
+> Aparece na Sequence 35: A Pact Undone.
+- Can Quit Anytime I Want
+> @ico 🏆
+> @link lib-witcher3.txt:305
+> @lt Achievement #63 – Can Quit Anytime I Want
+> @tag #63
+> Be under the influence of 7 Potions or Decoctions at the same time.
+> For this Achievement you will need the Metabolic Control, Acquired Tolerance & Heightened Tolerance Abilities maxed out to Level 3. Equip them & our current Toxicity Threshold should be at least 150-200. For this Achievement, drink as many low Toxicity inducing Potions as you can; Decoctions are less favourable as they have a minimum of 50 Toxicity.
+> There are many different combos of Potions we can drink for the Achievement. An example combo would be drinking: Swallow (20), Thunderbolt (25), Cat (15), Blizzard (20), Maribor Forest (20), Golden Oriole (25), & Petri’s Philter (25) for a total of 150 Toxicity.
+> Aparece na Sequence 35: A Pact Undone.
+- The Enemy of My Enemy
+> @ico 🏆
+> @link lib-witcher3.txt:306
+> @lt Achievement #64 – The Enemy of My Enemy
+> @tag #64
+> Use the Axii Sign to force one opponent to kill another. Do this 20 times.
+> For this Achievement, you will need the Puppet Ability equipped. Using our respawning Pirates, cast Puppet on one & have them kill their partner under the effects of the Sign. Rinse & repeat 20 times to unlock the Achievement. Drinking the Ancient Leshen Decoction as well as Tawny Owl Potions can make your Stamina regenerate faster so you don’t need to wait around.
+> Once the first Pirate is dead, look at the Humpty Dumpty Achievement below for what to do with the second Pirate… When the Pirates are dead, begin walking back up the road towards the West & they should instantly respawn. If they do not respawn immediately, you may need to run back & forth to the spawn point to eventually trigger them again…
+> Aparece na Sequence 36: Those Poor Pirates.
+- Humpty Dumpty
+> @ico 🏆
+> @link lib-witcher3.txt:307
+> @lt Achievement #65 – Humpty Dumpty
+> @tag #65
+> Kill 10 opponents by knocking them off somewhere high with the Aard Sign.
+> For this Achievement, we need to blast our respawning Pirates off the cliff edge with Aard & have them fall to their deaths. You can evade to dodge the Pirate to get his back to the cliff edge or just Parry/Counter their attacks to push them towards it, then blast them over the edge with Aard. Rinse & repeat to unlock the Achievement.
+> You can technically just use un-upgraded Aard for this Achievement, but having the Far-Reaching Aard & Aard Sweep Abilities makes it much easier.
+> Aparece na Sequence 36: Those Poor Pirates.
+# Blood & Wine (DLC) – 13 troféus, 4 perdíveis
+- Master Marksman
+> @ico 🏆
+> @link lib-witcher3.txt:308
+> @lt Achievement #66 – Master Marksman
+> @tag #66
+> Kill 50 human & nonhuman opponents by striking them in the head with a Crossbow Bolt.
+> Now for the grindiest of our farming Achievements. For this one, we will need the Lightning Reflexes, Anatomical Knowledge, & Steady Shot Abilities equipped. You can also equip the Trick Shot Ability as well to makes things a bit faster. Be sure the Difficulty is reduced down to Just the Story Difficulty. Equip your best Crossbow (Ursine Crossbow is one of the best, if not the actual best in the game). You can use speciality Crossbow Bolts if you want to, but with all this set up, regular bolts should be fine. Remove your Swords as well so we can only use our Fists for melee.
+> Go to our Pirates, & give them a punch or two to drop their health down to a third. Evade into a comfortable position, then manually aim your Crossbow point blank into their face to kill them. For me, two punches was too much but one punch was not enough. I had to punch the Pirate, shoot him with the Crossbow, THEN shoot him in the Head to kill him. A bit more tedious.
+> Aparece na Sequence 36: Those Poor Pirates.
+- The Witcher’s Gone South
+> @ico 🏆
+> @link lib-witcher3.txt:310
+> @lt Achievement #67 – The Witcher’s Gone South
+> @tag #67
+> Travel to the Duchy of Toussaint.
+> Story Related. We will arrive in Toussaint during a gorgeous panoramic cutscene that will almost immediately get interrupted by the Cyclops, Golyat. When we gain control of Geralt at the start of the Boss fight, we will unlock this Achievement.
+> Aparece na Sequence 37: Blood & Wine.
+- David & Golyat
+> @ico 🏆
+> @link lib-witcher3.txt:311
+> @lt Achievement #68 – David & Golyat
+> @tag 🔴 Perdível
+> @tag #68
+> Perdível, segundo o guia.
+> Kill Golyat with a Crossbow Bolt to his eye.
+> Missable. Now it is time for a bit of a stressful Achievement. You NEED to have all the Abilities we used during the Master Marksman Achievement equipped as well as have the game set to Just the Story Difficulty.
+> As the Achievement says, we need to kill Golyat by shooting him directly in the eye. Doing this will instantly kill him no matter his current health, so we do not have to worry about whittling him down at all. If Golyat is killed before you can perform this, either by yourself accidentally or from your allies, you must reload the last Autosave!
+> Aparece na Sequence 37: Blood & Wine.
+- The Grapes of Wrath Stomped
+> @ico 🏆
+> @link lib-witcher3.txt:323
+> @lt Achievement #69 – The Grapes of Wrath Stomped
+> @tag 🔴 Perdível
+> @tag #69
+> Perdível, segundo o guia.
+> Help unite the warring vineyards & have a wine named in your honor.
+> Missable. Once we have completed Secondary Quest – Belgraad, camp out at the vineyard & Meditate for a whole three days in imagined luxury drinking wine & enjoying the countryside. After three days have passed, speak to Matilda & Liam & apparently they will have produced an exceptional wine that is to be named in our honor (& of our choice). Choose the name, & we will unlock this Achievement upon completing the Quest.
+> If only Matilda or Liam (not both) acquired Belgraad, we would not have a wine named in our honor & not earned our Achievement.
+> Aparece na Sequence 38: Geralt the Sommelier.
+- I Have A Gwent Problem
+> @ico 🏆
+> @link lib-witcher3.txt:330
+> @lt Achievement #70 – I Have A Gwent Problem
+> @tag #70
+> Collect all 38 cards in the Skellige Deck.
+> If you have been following along with this guide, we will unlock this Achievement after acquiring the final 19 Cards to the Skellige Deck from speaking with Count Monnier.
+> After two days, we can complete the Tournament; doing this is a way to fulfil the Virtue of Wisdom, but it is optional & there are other ways we can do this as well.
+> Aparece na Sequence 40: From Rags to Riches.
+- Weapon “W”
+> @ico 🏆
+> @link lib-witcher3.txt:332
+> @lt Achievement #71 – Weapon “W”
+> @tag #71
+> Develop a Mutation.
+> With the Quest complete, make a Save as you may want to reload after unlocking the Achievement. Go into your Character tab & we can now see a glowing “Y” icon in the center of our equipped Abilities. Enter into it & we can see our Mutagen Development tab. There are many many Mutagens we can develop & explore, but for our purposes, select any of our three options of Magic Sensibilities, Deadly Counter, & Toxic Blood. We will need two free Ability Points & two Greater Mutagens to the corresponding colour; use a Potion of Clearance if you need the Points.
+> Researching any of the three starter Mutagens will unlock the Achievement. If you needed to use a Potion of Clearance, feel free to reload your Save afterwards.
+> Aparece na Sequence 40: From Rags to Riches.
+- Playing House
+> @ico 🏆
+> @link lib-witcher3.txt:337
+> @lt Achievement #72 – Playing House
+> @tag #72
+> Use all 9 available options for developing Corvo Bianco.
+> When we arrive at the estate at the end of the tour, we will be able to purchase upgrades for it from B.B. We can perform a general refurbishment to the estate for 5000 Crowns, then purchase an Armor Repair Table for 1000 Crowns, & a Grindstone for another 1000 Crowns.
+> Meditate for three full days for the upgrades to complete then return to B.B. for the next round. For the estate, purchase: a new bed for 1000 Crowns, another set of Weapon Racks for 500 Crowns, another set of Armor Racks for 500 Crowns, & refurbish the Guest Room for 1000 Crowns. Now for the vineyard grounds, purchase: the Stables for 2000 Crowns & lastly the Herb Garden for another 2000 Crowns.
+> Aparece na Sequence 40: From Rags to Riches.
+- A Knight to Remember
+> @ico 🏆
+> @link lib-witcher3.txt:340
+> @lt Achievement #73 – A Knight to Remember
+> @tag 🔴 Perdível
+> @tag #73
+> Perdível, segundo o guia.
+> Obtain a flawless victory in all three competitions during the knights' tourney.
+> Missable. We will unlock this Achievement upon defeating de Gorgan & receiving the final honor of tourney champion if we earned first place in all three events.
+> Complete the rest of Secondary Quest – The Warble of A Smitten Knight as you choose.
+> Aparece na Sequence 41: Rise, A Knight.
+- Embodiment of the Five Virtues
+> @ico 🏆
+> @link lib-witcher3.txt:341
+> @lt Achievement #74 – Embodiment of the Five Virtues
+> @tag 🔴 Perdível
+> @tag #74
+> Perdível, segundo o guia.
+> Be given Aerondight by the Lady of the Lake.
+> Missable. With all five Virtues complete, it is time for us to return to Merlin… I mean, the Hermit, back at Lac Célavy. If you are missing a Virtue, now is a time to acquire them. Use the Witcher Fandom Wiki for help if you are unsure of the requirements for the given Secondary Quests.
+> https://witcher.fandom.com/wiki/There_Can_Be_Only_One
+> Aparece na Sequence 41: Rise, A Knight.
+- Turned Every Stone
+> @ico 🏆
+> @link lib-witcher3.txt:342
+> @lt Achievement #75 – Turned Every Stone
+> @tag #75
+> Find all 30 Grandmaster Diagrams for each Witcher School.
+> So we can enjoy the Armor, let us go & painstakingly complete all five Scavenger Hunt Quests regarding the Wolf, Cat, Griffon, Bear, & Manticore Witcher Schools. We have Quest Markers leading us to each piece to make it easy; for the most part the six pieces of each set are lumped close together.
+> As a side note, getting the Feline Diagrams can be difficult as we will fight a literal army of Bandits at Arthach Palace. The pieces to the Manticore set, are the most spread out & we will need to individually find them all at different locations.
+> Aparece na Sequence 42: Let the Truth Speak.
+- Dressed to Kill
+> @ico 🏆
+> @link lib-witcher3.txt:343
+> @lt Achievement #76 – Dressed to Kill
+> @tag #76
+> Unlock the bonus for equipping all the Witcher gear elements from one School.
+> For the Achievement, you will need to craft the Chest, Gauntlets, Trousers, Boots, Steel Sword, & Silver Sword for a Grandmaster Witcher set & wear them all; we only need to craft one full set of Grandmaster Witcher gear, not all six. Depending on how up to date you are with your Witcher gear, this can either be a an expensive or very expensive Achievement for you to earn.
+> The easiest & cheapest by a long shot to make is the Manticore set. Though it does not say so in the name, the base Manticore set counts as Grandmaster.
+> Aparece na Sequence 42: Let the Truth Speak.
+- Last Action Hero
+> @ico 🏆
+> @link lib-witcher3.txt:353
+> @lt Achievement #77 – Last Action Hero
+> @tag #77
+> Be decorated with the Order of Vitis Vinifera.
+> Story Related. Once we escape Fable-Land, we are in the home stretch. Take Syanna to meet with the Beast, & because she has the Ribbon, the Beast will not be able to kill her. Defeat the Beast with the help of our old friend; phase 2 of the fight is the hardest in my opinion.
+> With that done, there will be a brief time jump. Complete B&W Quest #11A – Pomp & Strange Circumstance to unlock our Achievement… to get the most out of the Ending I highly recommend you accompany our old friend to see the Bootblack as it adds more to the Ending… but ultimately won’t change its outcome.
+> Aparece na Sequence 43: Fidelis et Mortem.
+- Kling of the Clink
+> @ico 🏆
+> @link lib-witcher3.txt:354
+> @lt Achievement #78 – Kling of the Clink
+> @tag #78
+> Serve time in Toussaint.
+> Story Related. For the “Good Ending”, reload our Save back in Fable-World before we spoke with the Girl Who Sells Flint & do not speak with her at all – leaving without obtaining the Ribbon. Complete the Quest as normal, but this time, the Beast will kill Syanna. You can now either kill the Beast for the same boss battle or let it go (it won’t change the Ending), &… we will time jump with us in prison two weeks later – unlocking our Achievement.
+> This Ending is bitter sweet… but also more ideal depending on how you felt about the first one. Worse for Geralt but ultimately better for the good of the Duchy.
+> Aparece na Sequence 43: Fidelis et Mortem.
+# Platina (só PlayStation)
+- The Limits of the Possible
+> @ico 🏆
+> @tag Platina
+> Platina da PlayStation, ganha ao concluir os demais troféus. Fontes consultadas dão esse nome para o jogo base; veja na sua lista de troféus se Hearts of Stone e Blood & Wine entram na sua versão. No Steam e no Xbox não existe platina (78 conquistas).

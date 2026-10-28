@@ -120,3 +120,7 @@ h2.sec{font-size:1rem;color:var(--gold);margin:22px 0 6px}
 .cardrow.done .ttl{color:var(--ok);text-decoration:line-through;text-decoration-color:var(--ok);text-decoration-thickness:2px}
 .cardrow.done .thumb{opacity:.55;border-color:#2f6b43}
 .dcopy{margin:6px 0}
+
+/* trofeus perdiveis */
+.tag.warn{color:#ff9b9b;border-color:#6b2a2e;background:#2a1215}
+.item.missable{border-left:3px solid #c4161f;padding-left:8px}

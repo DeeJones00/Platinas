@@ -315,6 +315,18 @@ function render() {
   ({ home, game: gameView, edit, read }[route.name])();
 }
 
+// Icones dos botoes (SVG de traco, herdam a cor do texto)
+const ICONS = {
+  search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
+  eye: '<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+  eyeoff: '<path d="M3 3l18 18"/><path d="M10.6 5.1A9.8 9.8 0 0 1 12 5c6 0 10 7 10 7a17 17 0 0 1-3.2 3.9M6.2 6.2C3.6 8 2 12 2 12s4 7 10 7c1.6 0 3-.4 4.3-1"/>',
+  edit: '<path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16z"/>',
+  trash: '<path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6"/>',
+  collapse: '<path d="M6 11l6-6 6 6M6 19l6-6 6 6"/>',
+  open: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
+  xcircle: '<circle cx="12" cy="12" r="9"/><path d="M15 9l-6 6M9 9l6 6"/>',
+};
+const svg = (n) => `<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n]}</svg>`;
 const bar = (p) => `<div class="bar${p >= 100 ? ' full' : ''}"><i style="width:${p}%"></i></div>`;
 
 // Icones so estetica: por tipo de item e por regiao do grupo.
@@ -433,7 +445,7 @@ function read() {
   if (!g) return go({ name: 'home' });
   const pr = (progress[g.id] ||= { done: {}, open: {} });
   title.textContent = g.name;
-  actions.innerHTML = '<button id="srch" aria-label="Buscar">🔍</button><button id="hide">Ocultar feitos</button><button id="clr">Limpar</button><button id="ed">Editar</button>';
+  actions.innerHTML = `<button class="ib" id="srch" title="Buscar" aria-label="Buscar">${svg('search')}</button><button class="ib" id="hide" title="Ocultar feitos" aria-label="Ocultar feitos">${svg('eye')}</button><button class="ib" id="clr" title="Limpar seleção" aria-label="Limpar seleção">${svg('trash')}</button><button class="ib" id="ed" title="Editar" aria-label="Editar">${svg('edit')}</button>`;
   $('#ed').onclick = () => go({ name: 'edit', id: g.id });
   // Limpar selecao: desmarca todos os itens deste guia (e os ligados em outros guias). Grupos abertos continuam.
   $('#clr').onclick = async () => {
@@ -449,7 +461,9 @@ function read() {
   view.classList.remove('hidedone');
   $('#hide').onclick = () => {
     const on = view.classList.toggle('hidedone');
-    $('#hide').textContent = on ? 'Mostrar feitos' : 'Ocultar feitos';
+    $('#hide').innerHTML = svg(on ? 'eyeoff' : 'eye');
+    $('#hide').title = $('#hide').ariaLabel = on ? 'Mostrar feitos' : 'Ocultar feitos';
+    $('#hide').classList.toggle('on', on);
     view.querySelectorAll('.item.just').forEach((x) => x.classList.remove('just'));
   };
 
@@ -458,8 +472,8 @@ function read() {
   const linked = {};
   Object.keys(linkAdj).filter((k) => k.startsWith(g.id + ':')).forEach((k) =>
     linkAdj[k].forEach((t) => { const tg = t.slice(0, t.lastIndexOf(':')); if (guides[tg]) (linked[tg] ||= []).push(k.slice(g.id.length + 1)); }));
-  $('#links').innerHTML = Object.keys(linked).map((tg) => `<div class="linkbar"><button class="chip" data-open="${esc(tg)}">↗ ${esc(guides[tg].name)}</button><button class="chip danger" data-clear="${esc(tg)}">Limpar só estes itens</button></div>`).join('');
-  $('#links').insertAdjacentHTML('beforeend', '<div class="linkbar"><button class="chip" id="collapse">⇡ Recolher tudo</button></div>');
+  $('#links').innerHTML = Object.keys(linked).map((tg) => `<div class="linkbar"><button class="chip" data-open="${esc(tg)}" title="Abrir ${esc(guides[tg].name)}">${svg('open')} ${esc(guides[tg].name)}</button><button class="ib danger" data-clear="${esc(tg)}" title="Limpar só os itens ligados a este guia" aria-label="Limpar só os itens ligados">${svg('xcircle')}</button></div>`).join('');
+  $('#links').insertAdjacentHTML('beforeend', `<div class="linkbar"><button class="ib" id="collapse" title="Recolher tudo" aria-label="Recolher tudo">${svg('collapse')}</button></div>`);
   $('#collapse').onclick = async () => {
     pr.open = {};
     await saveProgress(g.id);

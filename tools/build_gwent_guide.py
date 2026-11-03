@@ -252,15 +252,12 @@ def main(src, dst, main_path='guides/witcher3.txt'):
     order = ['Northern Realms', 'Nilfgaard', "Scoia'tael", 'Monsters', 'Skellige', 'Neutral', 'Outras cartas']
     n_entries = sum(len(r['entries']) for r in recs.values())
     n_copies = sum(r['total'] for r in recs.values())
-    out = ['> Baralho de Gwent completo, por facção. Cada carta mostra um quadradinho por cópia que existe no jogo: marque as que você já tem.',
-           '> Cartas e jogadores de Gwent são controlados só aqui (foram tirados do guia principal). Quests e conquistas de Gwent continuam no guia principal e estão ligadas a ele.',
-           '> %d cartas, %d cópias no total (%d delas estão no guia original; as outras não contam para o Card Collector).' % (len(recs), n_copies, n_entries)]
+    out = []  # sem textos de introducao: a tela abre direto nas facções
     for fac in order:
         lst = groups.get(fac)
         if not lst:
             continue
         out.append('# ' + fac)
-        out.append('> %d cartas, %d cópias.' % (len(lst), sum(r['total'] for r in lst)))
         for r in lst:
             inf, g = r['info'], slug(r['name'])
             for i in range(1, r['total'] + 1):
@@ -286,7 +283,6 @@ def main(src, dst, main_path='guides/witcher3.txt'):
                     out.append('> Cópia que não está no guia original.')
     # jogadores, quests e conquistas de Gwent (ligados ao guia principal)
     out.append('# Jogadores e quests de Gwent')
-    out.append('> Quem enfrentar, quests e conquistas de Gwent. Quests e conquistas estão ligadas ao guia principal; jogadores são controlados só aqui.')
     seq = None
     for o in others:
         if o['seq'] != seq:

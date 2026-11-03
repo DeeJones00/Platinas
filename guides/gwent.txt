@@ -1,8 +1,4 @@
-> Baralho de Gwent completo, por facção. Cada carta mostra um quadradinho por cópia que existe no jogo: marque as que você já tem.
-> Cartas e jogadores de Gwent são controlados só aqui (foram tirados do guia principal). Quests e conquistas de Gwent continuam no guia principal e estão ligadas a ele.
-> 181 cartas, 271 cópias no total (190 delas estão no guia original; as outras não contam para o Card Collector).
 # Northern Realms
-> 30 cartas, 41 cópias.
 [x] Foltest, King of Temeria (Leader)
 > @grp foltestkingoftemerialeader
 > @img https://static.wikia.nocookie.net/witcher/images/0/07/Tw3_cardart_northernrealms_foltest_gold.png/revision/latest/scale-to-width-down/200?cb=20170426195032
@@ -324,7 +320,6 @@
 > Habilidade: Destroy your enemy's strongest Ranged Combat unit(s) if the combined strength of all his or her Ranged Combat units is 10 or more.
 > Cópia que não está no guia original.
 # Nilfgaard
-> 34 cartas, 45 cópias.
 [x] Emhyr var Emreis, His Imperial Majesty (Leader)
 > @grp emhyrvaremreishisimperialmajestyleader
 > @img https://static.wikia.nocookie.net/witcher/images/e/eb/Tw3_cardart_nilfgaard_emhyr_gold.png/revision/latest/scale-to-width-down/200?cb=20170425182657
@@ -679,7 +674,6 @@
 > Habilidade: Invader of the North: Abilities that restore a unit to the battlefield restore a randomly-chosen unit. Affects both players.
 > Cópia que não está no guia original.
 # Scoia'tael
-> 28 cartas, 54 cópias.
 [x] Francesca Findabair, Pureblood Elf (Leader)
 > @grp francescafindabairpurebloodelfleader
 > @img https://static.wikia.nocookie.net/witcher/images/9/9b/Tw3_cardart_scoiatael_francesca_gold.png/revision/latest/scale-to-width-down/200?cb=20160409070652
@@ -1110,7 +1104,6 @@
 > Habilidade: Scorch - Siege: Destroys your enemy's strongest Siege Combat unit(s) if the combined strength of all his or her Siege Combat units is 10 or more.
 > Cópia que não está no guia original.
 # Monsters
-> 40 cartas, 49 cópias.
 [x] Eredin, King of the Wild Hunt (Leader)
 > @grp eredinkingofthewildhuntleader
 > @img https://static.wikia.nocookie.net/witcher/images/b/b3/Tw3_cardart_monsters_eredin_gold.png/revision/latest/scale-to-width-down/200?cb=20170425201321
@@ -1496,7 +1489,6 @@
 > Habilidade: Scorch - Ranged: Destroy your enemy's strongest Ranged Combat unit(s) if the combined strength of all his or her Ranged Combat units is 10 or more.
 > Cópia que não está no guia original.
 # Skellige
-> 26 cartas, 39 cópias.
 - Clan Drummond Shield Maiden (1)
 > @grp clandrummondshieldmaiden
 > @img https://static.wikia.nocookie.net/witcher/images/2/24/Tw3_cardart_skellige_clan_drummond_shieldmaiden.png/revision/latest/scale-to-width-down/200?cb=20160530180420
@@ -1799,7 +1791,6 @@
 > @tag Fora do guia
 > Cópia que não está no guia original.
 # Neutral
-> 23 cartas, 43 cópias.
 [x] Biting Frost
 > @grp bitingfrost
 > @img https://static.wikia.nocookie.net/witcher/images/e/e8/Tw3_cardart_neutral_frost.png/revision/latest/scale-to-width-down/200?cb=20170425193144
@@ -2119,7 +2110,6 @@
 > @tag Fora do guia
 > Cópia que não está no guia original.
 # Jogadores e quests de Gwent
-> Quem enfrentar, quests e conquistas de Gwent. Quests e conquistas estão ligadas ao guia principal; jogadores são controlados só aqui.
 ## Sequence 1: Nightmares On the Trail
 [x] Gwent Player – Scholar
 > Local: White Orchard

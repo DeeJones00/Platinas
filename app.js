@@ -321,6 +321,7 @@ const ICONS = {
   eye: '<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
   eyeoff: '<path d="M3 3l18 18"/><path d="M10.6 5.1A9.8 9.8 0 0 1 12 5c6 0 10 7 10 7a17 17 0 0 1-3.2 3.9M6.2 6.2C3.6 8 2 12 2 12s4 7 10 7c1.6 0 3-.4 4.3-1"/>',
   edit: '<path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16z"/>',
+  sort: '<path d="M7 4v16M3 16l4 4 4-4M17 20V4M13 8l4-4 4 4"/>',
   trash: '<path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6"/>',
   collapse: '<path d="M6 11l6-6 6 6M6 19l6-6 6 6"/>',
   open: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
@@ -459,6 +460,20 @@ function read() {
   };
   // Feitos continuam visiveis (so riscados). "Ocultar feitos" e opcional e comeca desligado a cada abertura.
   view.classList.remove('hidedone');
+  // Ordem das cartas por poder (so exibicao: a ordem do arquivo e as marcacoes nao mudam). desc -> asc -> guia.
+  const hasPower = (nodes) => nodes.some((x) => (x.g ? hasPower(x.c) : x.p));
+  const SORTS = ['desc', 'asc', 'orig'];
+  const SORT_LABEL = { desc: 'Poder: maior primeiro', asc: 'Poder: menor primeiro', orig: 'Ordem original do guia' };
+  let sortMode = 'desc';
+  try { const v = localStorage.getItem('sort:' + g.id); if (SORTS.includes(v)) sortMode = v; } catch { /* sem storage */ }
+  if (hasPower(g.tree)) {
+    $('#srch').insertAdjacentHTML('afterend', `<button class="ib${sortMode === 'orig' ? '' : ' on'}" id="sortb" title="${SORT_LABEL[sortMode]}" aria-label="Ordenar por poder">${svg('sort')}</button>`);
+    $('#sortb').onclick = () => {
+      sortMode = SORTS[(SORTS.indexOf(sortMode) + 1) % SORTS.length];
+      try { localStorage.setItem('sort:' + g.id, sortMode); } catch { /* sem storage */ }
+      render();
+    };
+  }
   $('#hide').onclick = () => {
     const on = view.classList.toggle('hidedone');
     $('#hide').innerHTML = svg(on ? 'eyeoff' : 'eye');
@@ -582,15 +597,30 @@ function read() {
     return el;
   };
   const appendNodes = (parent, nodes, depth) => {
+    // 1) monta as entradas: grupos, cartas (copias juntas) e itens soltos
+    const entries = [];
     for (let i = 0; i < nodes.length; i++) {
       const c = nodes[i];
-      if (c.g) { parent.appendChild(groupEl(c, depth)); continue; }
+      if (c.g) { entries.push({ g: c }); continue; }
       if (c.grp) {
         const run = [c];
         while (nodes[i + 1] && !nodes[i + 1].g && nodes[i + 1].grp === c.grp) run.push(nodes[++i]);
-        parent.appendChild(cardEl(run));
-      } else parent.appendChild(itemEl(c));
+        entries.push({ card: run });
+      } else entries.push({ it: c });
     }
+    // 2) ordena as cartas por poder (sem poder: no fim; empate: pelo nome), mantendo grupos e itens onde estao
+    if (sortMode !== 'orig') {
+      const slots = entries.map((e, i) => (e.card ? i : -1)).filter((i) => i >= 0);
+      const cards = slots.map((i) => entries[i]);
+      const pw = (e) => (e.card[0].p ? parseInt(e.card[0].p, 10) : null);
+      cards.sort((a, b) => {
+        const pa = pw(a), pb = pw(b);
+        if (pa === null || pb === null) return pa === pb ? 0 : pa === null ? 1 : -1;
+        return pa !== pb ? (sortMode === 'desc' ? pb - pa : pa - pb) : 0;
+      });
+      slots.forEach((i, k) => { entries[i] = cards[k]; });
+    }
+    entries.forEach((e) => parent.appendChild(e.g ? groupEl(e.g, depth) : e.card ? cardEl(e.card) : itemEl(e.it)));
   };
 
   const groupEl = (node, depth) => {
